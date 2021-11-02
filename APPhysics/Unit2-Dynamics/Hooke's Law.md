@@ -7,4 +7,3 @@
 - Once the spring reaches its limit, it would begin to experience plastic deformation, where the spring would not follow Hooke's Law
 ### Compression
 - The spring constant is the same for compression and extension
-- 
