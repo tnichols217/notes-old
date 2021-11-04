@@ -10,9 +10,22 @@
           "type": "markdown",
           "state": {
             "file": "APLang/Vocab.md",
+            "mode": "source"
+          }
+        },
+        "group": "20d90ebc57e5bf0f"
+      },
+      {
+        "id": "e7fe069379675093",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "APLang/Vocab.md",
             "mode": "preview"
           }
-        }
+        },
+        "group": "20d90ebc57e5bf0f"
       }
     ],
     "direction": "vertical"
@@ -174,12 +187,12 @@
   "active": "a74218f187f7e84a",
   "lastOpenFiles": [
     "APLang/Vocab.md",
-    "Biology/Ch8/Cellular Respiration.md",
-    "README.md",
     "APPhysics/Unit2-Dynamics/Hooke's Law.md",
+    "Biology/Ch8/Cellular Respiration.md",
+    "APLang/Q2.md",
+    "README.md",
     "Biology/Index.md",
     "Biology/Chemical Formulas.md",
-    "APLang/Q2.md",
     "APPhysics/Unit2-Dynamics/Worksheets/U2WS5.md",
     "APMusicTheory/Intervals in the bass.md"
   ]

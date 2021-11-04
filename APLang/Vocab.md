@@ -574,7 +574,7 @@
 	When he **rescinded** his support in the company, many bad things happened**:** the stock fell, other people also stopped supporting the company, and the company hated him.
 
 89.  **Quixotic**: foolishly impractical especially in the pursuit of ideals
-	His only three ideas were **quixotic**: give poor people money, give starving people food, and move people to areas with more water.
+	His only three ideas were **quixotic:** give poor people money, give starving people food, and move people to areas with more water.
 
 90.  **Precocious**: exceptionally early in development or occurrence
 	The **precocious** kid had quite a few misconceptions of the world**:** plastic came from the air, metal comes from melting bones, and people are actually robots.

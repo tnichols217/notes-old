@@ -17,7 +17,7 @@ Glucose + 2 ATP + 4 ADP + 2 NAD -> 2 Pyruvic Acid + 4 ATP + 2 ADP + 2 NADH
 >$C_6H_{12}O_6 \rightarrow 2C_3H_4O_3$
 >Glucose -> 2 Pyruvic Acid + energy
 - Happens **outside the Mitochondria**
-- Phosphrelates **2 ADP** to **2 ATP**
+- Phosphorelates **2 ADP** to **2 ATP**
 - Reduces **2 NAD**
 - The process requires two ATP to begin
 
