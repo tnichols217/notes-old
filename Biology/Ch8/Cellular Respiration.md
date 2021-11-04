@@ -1,5 +1,5 @@
 # Cellular Respiration
-#energy #cell #respiration #aerobic #anaerobic
+#energy #cell #respiration
 ## Aerobic respiration
 #aerobic
 $C_6H_{12}O_6 + 6O_2 + 36ADP \rightarrow 6CO_2 + 6H_2O + 36ATP$
@@ -32,6 +32,7 @@ Pyruvic Acid + 1 ADP + 4 NAD + 1 FAD -> 3 Carbon Dioxide + 1 ATP + 4 NADH + 1 FA
 - Reduces **4 NAD and 1 FAD** to **4 NADH and 1 FADH**
 
 ### Electron Transport Chain
+#etc
 |Carrier	|ATP produced|
 |---		|---|
 |NADH		|3 (or 2.5) ATP|
