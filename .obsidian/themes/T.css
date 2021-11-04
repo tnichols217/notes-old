@@ -1,0 +1,226 @@
+/* 1. Colours! Overriding both themes */
+.theme-dark {
+  --color-1: #FDF7CD;
+  --color-2: #00ECD8;
+  --color-3: #E92741;
+  --color-3-2: #ef6433;
+  --color-3-3: #f4b641;
+  --color-3-4: #eff84e;
+  --color-3-5: #b5fc5d;
+  --color-3-6: #83ff6c;
+  --color-4: #3EC840;
+  --color-5: #E1DC3F;
+  --color-6: #418FDD;
+  --color-7: #FF9900;
+  --color-8: #fff07e;
+  --color-9: #ffc17e;
+  --color-10: #ff8b7e;
+
+  --background-primary: #000000;
+  --background-primary-alt: #060606;
+  --background-secondary: #030303;
+  --background-secondary-alt: #090909;
+
+  --text-normal: var(--color-1);
+  --text-muted: var(--color-5);
+  --text-accent: var(--color-3);
+  --text-on-accent: var(--color-1);
+
+    /* obsidian dark defaults (overriding for light) */
+  --text-selection: rgba(0, 122, 255, 0.2);
+  --text-on-accent: rgba(0, 0, 0, 0.8);
+  --interactive-accent-rgb: 72, 54, 153;
+  --scrollbar-active-thumb-bg: rgba(255, 255, 255, 0.2);
+  --scrollbar-bg: rgba(255, 255, 255, 0.05);
+  --scrollbar-thumb-bg: rgba(255, 255, 255, 0.1);
+}
+
+.theme-light {
+  --color-1: #020832;
+  --color-2: #0066ff;
+  --color-3: #020832;
+  --color-3-2: #001b3f;
+  --color-3-3: #002842;
+  --color-3-4: #00333c;
+  --color-3-5: #003d30;
+  --color-3-6: #104523;
+  --color-4: #c137bf;
+  --color-5: #020832;
+  --color-6: #be7022;
+  --color-7: #0066ff;
+  --color-8: #00123f;
+  --color-9: #210031;
+  --color-10: #380022;
+
+  --text-normal: var(--color-1);
+  --text-muted: var(--color-5);
+  --text-accent: var(--color-3);
+  --text-on-accent: var(--color-1);
+
+}
+
+/* 2. UI */
+
+.titlebar-inner {
+color: var(--color-normal);
+}
+
+.titlebar-button {
+opacity: 1;
+}
+
+/* 3. Editor and preview */
+.cm-s-obsidian,
+.markdown-preview-view {
+color: var(--text-normal);
+}
+
+
+/* 3.1. Headers */
+.cm-s-obsidian .cm-header,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+font-weight: 600;
+overflow: visible;
+}
+
+h1,
+.cm-header-1 {
+  color: var(--color-3);
+}
+
+h2,
+.cm-header-2 {
+  color: var(--color-3-2);
+}
+
+h3,
+.cm-header-3 {
+  color: var(--color-3-3);
+}
+
+h4,
+.cm-header-4 {
+  color: var(--color-3-4);
+}
+
+h5,
+.cm-header-5 {
+  color: var(--color-3-5);
+}
+
+h6,
+.cm-header-6 {
+  color: var(--color-3-6);
+}
+
+
+/* 3.3. External links */
+.cm-s-obsidian span.cm-link ,
+a {
+color: var(--color-5);
+}
+
+.cm-s-obsidian .cm-formatting-link+.cm-formatting-link-string+.cm-url,
+.cm-s-obsidian .cm-string.cm-url,
+.cm-s-obsidian span.cm-url {
+color: var(--color-1);
+}
+
+.cm-s-obsidian .cm-string.cm-url.cm-hmd-footref2 {
+  color:var(--color-2);
+}
+
+/* 3.4. Internal links */
+.cm-s-obsidian span.cm-hashtag,
+.cm-s-obsidian span.cm-hmd-internal-link,
+a.internal-link,
+a.tag {
+color: var(--color-2);
+}
+
+/* 3.5. blockquotes, embeds, tables */
+.cm-s-obsidian span.cm-quote {
+  color: var(--color-1);
+}
+
+.cm-s-obsidian span.cm-builtin, 
+.cm-s-obsidian span.cm-hr {
+  color: var(--color-2);
+}
+
+/* 3.6. Code */
+.cm-s-obsidian span.cm-inline-code,
+code {
+color: var(--color-1);
+}
+
+.markdown-preview-view code {
+color: var(--color-1);
+}
+
+.cm-s-obsidian pre.HyperMD-codeblock {
+color: var(--color-1);
+}
+
+.graph-view.color-fill-unresolved {
+color: var(--color-1);
+opacity: 0.7;
+}
+
+.graph-view.color-arrow {
+color: var(--color-5);
+opacity: 1;
+}
+
+.graph-view.color-text {
+color: var(--color-1);
+}
+
+.graph-view.color-fill-highlight {
+color: var(--color-6);
+}
+
+.graph-view.color-line-highlight {
+color: var(--color-6);
+}
+
+.theme-light .graph-view.color-fill-attachment,
+.theme-dark .graph-view.color-fill-attachment {
+color: var(--color-6);
+}
+
+.theme-dark .graph-view.color-fill-tag,
+.theme-light .graph-view.color-fill-tag {
+color: var(--color-4);
+}
+
+/* Bold and Italics*/
+
+strong,
+.cm-formatting-strong,
+.cm-strong {
+  color: var(--color-8);
+}
+
+em,
+.cm-formatting-em,
+.cm-em {
+  color: var(--color-9);
+}
+
+del,
+.cm-formatting-strikethrough,
+.cm-strikethrough {
+  color: var(--color-3)
+}
+
+strong em,
+.cm-formatting-em .cm-formatting-strong,
+.cm-em .cm-strong {
+  color: var(--color-10);
+}
