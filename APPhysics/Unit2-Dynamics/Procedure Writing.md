@@ -14,4 +14,4 @@
 		1. Also ensure that these equipment are on the equipment list
 4. State how we are using the raw data
 	1. Graphing
-		1. State 
+		1. State how you are linearising the data if you are

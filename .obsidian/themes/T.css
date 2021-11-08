@@ -38,12 +38,12 @@
 .theme-light {
   --color-1: #020832;
   --color-2: #0066ff;
-  --color-3: #020832;
-  --color-3-2: #001b3f;
-  --color-3-3: #002842;
-  --color-3-4: #00333c;
-  --color-3-5: #003d30;
-  --color-3-6: #104523;
+  --color-3: #37009d;
+  --color-3-2: #0038a7;
+  --color-3-3: #004290;
+  --color-3-4: #004468;
+  --color-3-5: #004343;
+  --color-3-6: #00402d;
   --color-4: #c137bf;
   --color-5: #020832;
   --color-6: #be7022;
@@ -115,7 +115,7 @@ h5,
 
 h6,
 .cm-header-6 {
-  color: var(--color-3-6);
+  color: var(--color-3-6) !important;
 }
 
 
