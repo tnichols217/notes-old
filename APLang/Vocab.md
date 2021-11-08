@@ -467,10 +467,10 @@
 	The day was **torrid**, melting anyone who dared to sit outside.
 
 54.  **Taciturn**: tending not to speak much
-	The markeyer appeared to be quite **taciturn**, but 
+	The marketer appeared to be quite **taciturn**, but not during his work hours.
 
 55.  **Malediction**: words that are intended to bring bad luck to someone or that express the hope that someone will have bad luck
-	He ran away from the scene, yelling **maledictions** and his robbers.
+	He ran away from the scene, yelling **maledictions** at his robbers.
 
 56.  **Malevolent**: causing or wanting to cause harm or evil
 	The robbers yelled back, "You **malevolent** little b\*\*\*\*"
@@ -482,7 +482,7 @@
 	His **mawkish** personality was why his wife loved him.
 
 59. **Modicum**: a small amount of something good such as truth or honesty
-	Where was not even a **modicum** of water left in the well.
+	There was not even a **modicum** of water left in the well.
 
 60.  **Morose**: unhappy, annoyed, and unwilling to speak or smile
 	Ever since the car crash, he has been constantly **morose** all day long.
@@ -510,10 +510,10 @@
 	It was kind of odd to see the **inveterate** gambler give financial advice on stage**;** nobody here should believe it, in my opinion.
 
 68.  **Zephyr**: a light wind
-	Today was a terribly hot day**;** the cooling we got was a **zephyr**.
+	Today was a terribly hot day**;** the only cooling we got was a **zephyr**.
 
 69.  **Laconic**: using very few words to express what you mean
-	Although she was very imaginative, she was also **larconic;** often people would mistake her as vapid.
+	Although she was very imaginative, she was also **laconic;** often people would mistake her as vapid.
 
 70.  **Larceny**: stealing, especially (in the US) the crime of taking something that does not belong to you, without illegally entering a building to do so
 	The "businessman" managed to obtain the building through a "business deal"**;** this **larceny** was what got him caught.
@@ -556,7 +556,7 @@
 	People did not want to hire that man for several reasons: he was **obsterperous**, late, and too lax.
 
 83.  **Sycophant**: a servile self-seeking flatterer
-	There were several other reasons they didnt want to hire him as well**:** he was a **sycophant**, a lazy bum, and an alcoholic.
+	There were several other reasons they didn't want to hire him as well**:** he was a **sycophant**, a lazy bum, and an alcoholic.
 
 84.  **Strident**: characterized by harsh, insistent, and discordant sound
 	It was as if his teacher only knew one thing**:** how to be **Strident**.

@@ -14,6 +14,8 @@
 |#NADPH			|$C_{21}H_{30}N_7O_{17}P_3$|
 |#FAD			|$C_{27}H_{33}N_9O_{15}P_2$|
 |#FADH			|$C_{27}H_{35}N_9O_{15}P_2$|
+|#Ethanol		|$C_2H_6O$|
+|#Acetaldehyde	|$C_2H_4O$|
 
 # #ATP and #ADP
 - ATP is a Hydrogen and Oxygen carrier

@@ -50,6 +50,7 @@ Pyruvic Acid + 1 ADP + 4 NAD + 1 FAD -> 3 Carbon Dioxide + 1 ATP + 4 NADH + 1 FA
 
 ## Anaerobic respiration
 #anaerobic
+### Animal Cells
 $C_6H_{12}O_6 \rightarrow 2C_3H_6O_3 + 2ATP$
 Glucose -> Lactic acid + Chemical Energy
 - Very ineffecient, only produces 2 ATP
@@ -63,7 +64,7 @@ Lactic acid + Oxygen -> Carbon Dioxide + Water
 - Does not produce any energy at all
 - Aerobic process
 
-### Glycolysis (anaerobic)
+#### Glycolysis (anaerobic)
 #glycolysis
 - Part of Fermentation
 	- Fermentation is only part of anaerobic respiration
@@ -72,6 +73,8 @@ Glucose + 2 ATP + 4 ADP + 2 NAD -> 2 Pyruvic Acid + 4 ATP + 2 ADP + 2 NADH
 
 >$C_6H_{12}O_6 \rightarrow 2C_3H_4O_3$
 >Glucose -> 2 Pyruvic Acid + energy
+
+#### NADH+ regeneration
 
 $C_3H_4O_3 + 2NADH \rightarrow C_3H_6O_3 + 2NAD$
 Pyruvic Acid + 2 NADH -> Lactic Acid + 2NAD
@@ -83,7 +86,53 @@ Pyruvic Acid + 2 NADH -> Lactic Acid + 2NAD
 - Phosphrelates **2 ADP** to **2 ATP**
 - The process requires two ATP to begin
 
-### Anaerobic Respiration Summary
+#### Anaerobic Respiration Summary
+|-			|Number of ATP produced	|Number of H-carriers produced	|
+|-			|-						|-				|
+|-			|-						|NADH			|
+|Glycolysis	|2 ATP					|2 NADH			|
+|Further Fermentation|				|-2 NADH|
+|Grand Total|2 ATP					|				|
+
+### Yeast Cells
+#yeast
+$C_6H_{12}O_6 \rightarrow 2C_2H_6O + 2CO_2 + 2ATP$
+Glucose -> Ethanol + Carbon Dioxida + Chemical Energy
+- Very ineffecient, only produces 2 ATP
+- Ethanol is toxic to yeast
+- Is only used in emergencies to quickly make energy
+
+
+# TODO
+$C_3H_6O_3 + 3O_2 \rightarrow 3CO_2 + 3H_2O$
+Lactic acid + Oxygen -> Carbon Dioxide + Water
+- Break down lactic acid by adding oxygen
+- Does not produce any energy at all
+- Aerobic process
+
+#### Glycolysis (anaerobic)
+#glycolysis
+- Part of Fermentation
+	- Fermentation is only part of anaerobic respiration
+$C_6H_{12}O_6 + 2ADP + 2NAD \rightarrow 2C_3H_4O_3 + 2ATP + 2NADH$
+Glucose + 2 ATP + 4 ADP + 2 NAD -> 2 Pyruvic Acid + 4 ATP + 2 ADP + 2 NADH
+
+>$C_6H_{12}O_6 \rightarrow 2C_3H_4O_3$
+>Glucose -> 2 Pyruvic Acid + energy
+
+#### NADH+ Regeneration
+
+$C_3H_4O_3 + 2NADH \rightarrow C_3H_6O_3 + 2NAD$
+Pyruvic Acid + 2 NADH -> Lactic Acid + 2NAD
+
+>$C_3H_4O_3 \rightarrow C_3H_6O_3$
+>Pyruvic Acid -> Lactic Acid
+
+- Happens **outside the Mitochondria**
+- Phosphrelates **2 ADP** to **2 ATP**
+- The process requires two ATP to begin
+
+#### Anaerobic Respiration Summary
 |-			|Number of ATP produced	|Number of H-carriers produced	|
 |-			|-						|-				|
 |-			|-						|NADH			|
