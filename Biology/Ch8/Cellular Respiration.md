@@ -53,6 +53,7 @@
 >> Acetyl CoA -> CoA + 2 Carbon Dioxide + 4 NADH + 1 FADH
 
 - Happens inside the **Mitochondria**
+	- In the mitochondrial **Matrix**
 - Reduces **4 NAD and 1 FAD** to **4 NADH and 1 FADH**
 
 ##### Steps in the Kerbs Cycle (optional learning)
@@ -150,13 +151,25 @@ Overview
 
 #### 4) Electron Transport Chain
 
+The Hydrogen and electrons from the Hydrogen carriers (NADH + FASH) are released, which creates a **positive concentration gradient**, which forces the **ATP Synthase** to produce ATP from ADP.
+- Happens inside the Mitochondria
+	- In the inner mitochondrial membrane (crystae)
+- The 4 Complexes remove Hydrogen from the Hydrogen carriers
+	- Complex 1 converts NADH to NAD+
+	- Complex 2 converts FADH2 to FAD
+	- Complex 3 uses additional energy from complex 1 and 3 to pump additional protons (hydrogen ions) to the Intermembrane Space
+	- Complex 4 helps produce Water using Hydrogen and Oxygen
+- The positive proton gradient of the Intermembrane Space pushes the ATP synthase to produce ATP from ADP 
+	- The process of making ATP takes the Hydrogen from the Intermembrance space back into the Matrix
+- Additionally, Oxygen will bond with the uncharged Hydrogen to take away extra Hydrogen
+
 | Carrier	| ATP produced |
 |---		| --- |
 |NADH		|3 (or 2.5) ATP |
 |FADH		|2 (or 1.5) ATP |
 
 ### Aerobic Respiration Summary
-|-			|Number of ATP produced	|Number of H-carriers produced	||
+|-			|Number of ATP produced	|Number of NADH produced|Number of FADH produced|
 |-			|-						|-				|-|
 |-			|-						|NADH			|FADH|
 |Glycolysis	|2 ATP					|2 NADH			|0 FADH|
