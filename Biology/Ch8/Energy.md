@@ -5,7 +5,6 @@
 - When energy is "used" it is just being converted into other forms
 - Examples
 	- Light (Electrical -> Light)
-	- 
 
 
 ### 2) Energy can be converted, however into less useful forms
