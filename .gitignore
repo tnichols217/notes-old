@@ -1,0 +1,5 @@
+.obsidian/
+
+!.obsidian/themes/*
+!.obsidian/plugins/*
+!.obsidian/plugins/*/*
