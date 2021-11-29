@@ -152,6 +152,7 @@ Overview
 #### 4) Electron Transport Chain
 
 The Hydrogen and electrons from the Hydrogen carriers (NADH + FASH) are released, which creates a **positive concentration gradient**, which forces the **ATP Synthase** to produce ATP from ADP.
+
 - Happens inside the Mitochondria
 	- In the inner mitochondrial membrane (crystae)
 - The 4 Complexes remove Hydrogen from the Hydrogen carriers
