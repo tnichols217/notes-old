@@ -9,6 +9,8 @@
 - $v=r\omega$
 	- Velocity = radius * Angular Velocity
 - $a_c=\frac{v^2}{r}$
-	- Centripetal Acceleration = Velocity squared * radius
+	- Centripetal Acceleration = Velocity squared / radius
+- $a_c=r\omega^2$
+	- Centripetal Acceleration = omega squared * radius
 
 ## Centripetal Motion
