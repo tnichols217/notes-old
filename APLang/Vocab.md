@@ -578,3 +578,98 @@
 
 90.  **Precocious**: exceptionally early in development or occurrence
 	The **precocious** kid had quite a few misconceptions of the world**:** plastic came from the air, metal comes from melting bones, and people are actually robots.
+
+### December 3, 2021 
+
+- (15 + 15 emdash)
+
+91. **Elucidate**: to give a clarifying explanation
+	The second time the teacher tried to **elucidate** the topic covered in class, it just made sense; we don't know why, but it worked.
+
+92. **Indefatigable**: incapable of being fatigued
+	No matter how far the marathon runner went it appeared as if he was **indefatigable**.
+
+93. **Dogmatic**: characterized by or given to the expression of opinions very strongly or positively as if they were facts
+	Some of the people we watched on YouTube in Bible class were so **dogmatic** that it was impossible to reason with them logically.
+
+94. **Zephyr** (again): any of various lightweight fabrics and articles of clothing (different usage)
+	Nike's team worked long and hard to produce the world's lightest **zephr**.
+
+95. **Construe**: to analyze the arrangement and connection of words in (a sentence or sentence part)
+	The way people **construed** Shakespeare's writings have slowly changed over time.
+
+96. **Solipsism**: a theory in philosophy that your own existence is the only thing that is real or that can be known
+	After hanging out with the new kids for a while, he was unknowingly shifting his opinions to line more up with **solipsism**.
+
+97. **Enervate**: lacking physical, mental, or moral vigor
+	I have heard a lot about how computer scientists will quickly turn out to be **enervated** after a few years of working due to intense mental stresses.
+
+98. **Denigrate**: to attack the reputation of
+	Joe's **denigration** of Jane during the debate was not tolerated and he was deducted point accordingly.
+
+99. **Abscond**: to depart secretly and hide oneself
+	When he was a kid, he planned to one day **abscond** the home as a prank.
+
+100. **Impecunious**: having very little or no money usually habitually
+	The freshly graduated college students were so **imprcunious** that ten of them had to share an apartment.
+
+101. **Dirge**: a song or hymn of grief or lamentation especially meant for the dead
+	When the main character in the anime died a **dirge** started to play, seemingly out of nowhere.
+
+102. **Epistolary**: contained in or carried on by letters
+	The **epistolary** college marketing spam never seemed to end.
+
+103. **Protean**: displaying great diversity or variety
+	The **protean** programmer appeared as if he knew all languages; anything you asked him he had a response to.
+
+104. **Spurious**: of falsified or erroneously attributed origin
+	The **spurious** diamond ring passed off as real to his wife until one of those TikTokers came and tested it.
+
+105. **Legerdemain**: Sleight of hand
+	The magician's infailiable **legerdemain** made us truely believe the card had disappeared.
+
+#### Em dash Sentences
+106. **Blandishment**: something that tends to coax or cajole
+	The **blandishments** throughout the article led me to believe that this was not a reliable source -- it was written by a competing company.
+
+107. **Inveterate**: confirmed in a habit
+	He has an **inverterate** tendency to sway as he walked -- he used to be a sailor.
+
+108. **Recalcitrant**: obstinately defiant of authority or restraint
+	One of the lab rats -- the brown one -- was very **recalcitrant** to being tested on.
+
+109. **Emollient**: soothing especially to the skin or mucous membrane
+	The lotions the beautician used were cold and **emollient** -- they made her fall asleep swiftly.
+
+110. **Hemorrhage**: a rapid and uncontrollable loss or outflow
+	John saw Jones from across the field, with a dagger stuck in his stomach, hemorrhaging large amounts of blood; he ran over to help and looked down on Jones -- he was dead.
+
+111. **Fugacious**: lasting a short time
+	Joo -- not swallowing his spit -- tried to elongate the **fugacious** taste of the cookies in his mouth.
+
+112. **Diaphanous**: characterized by such fineness of texture as to permit seeing through
+	The expensive and intricate curtains were too **diaphanous** to use on a bright day -- too much light seeped through.
+
+113. **Fractious**: tending to be troublesome
+	The **fractious** little kid got scolded for the fifth time today -- he had broken a vase this time.
+
+114. **Antipode**: the exact opposite or contrary
+	Jane was always arguing with Jone every time I saw them -- they were **antipodes**
+
+115. **Circumspect**: careful to consider all circumstances and possible consequences
+	His paranoid friend was always **circumspect** when it came to flights -- his family had missed one and got stuck in the airport for days.
+
+116. **Pusillanimous**: lacking courage and resolution : marked by contemptible timidity
+	Every time someone asked Jone to ride the rollercoaster he would flatly object -- he was ever **pusillanimous**.
+
+117. **Animadversion**: a critical and usually censorious remark
+	Jill would never make eye contact with Jones -- Jones dropped an **animadversion** last week regarding her sanity.
+
+118. **Extemporaneous**: composed, performed, or uttered on the spur of the moment
+	One almost described his remark as agressive and **extemporaneous** -- he remembered he was in the 21st century and instead decided to use "oudda pocket".
+
+119. **Cognate**: of the same or similar nature : generically alike
+	His previous experience of abstract math was usefully **cognate** to his new job in computer science -- the rigid thinking and solid proofs were very similar.
+
+120. **Assay**: to analyze for one or more specific components
+	That annoying TikToker continued to **assay** people's rings every day -- he just wanted more views.
