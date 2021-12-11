@@ -227,7 +227,7 @@ Answers:
 			|$Y$|Hairy Male|Bald Male|
 
 		- 50% chance of Hairy Female, 25% of Hairy Male, 25% of Bald Male
-3. Envoronment and phenotopic changes
+3. Environment and phenotypic changes
 	- Your phenotype can be effected by the enironment
 		- Temperature and sunlight effects skin color
 		- Sunlight and water effect the color plants
