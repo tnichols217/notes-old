@@ -38,7 +38,7 @@
 	1. Describe the difference between an observation and an inference.
 		- Inference is an educated guess
 		- Observation is reading
-	2. Differentiate among control (positive and negative), independent variable, dependent variable and controlled/constant variable.   ^97b7c9
+	2. Differentiate among control (positive and negative), independent variable, dependent variable and controlled/constant variable. ^65c217
 		- Positive control: Expected to have results (like the current best medicine vs new medicine)
 		- Negative control: Not expected to have change (water pill vs new medicine)
 		- Independent variable: The thing you purposely change
@@ -52,7 +52,7 @@
 		- Hypothesis
 			- A potential answer to your question
 		- Variables (independent, dependent, controlled/constant)
-			- See above [[#^97b7c9]]
+			- See above [[#^65c217]]
 		- Data analysis
 			- Look at your data to see what it prooves
 		- Conclusion
