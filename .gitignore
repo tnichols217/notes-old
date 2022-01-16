@@ -1,4 +1,5 @@
 .obsidian/*
+test*
 
 !.obsidian/themes/*
 !.obsidian/plugins/*

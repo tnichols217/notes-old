@@ -40,7 +40,3 @@
 - Related to work
 - Work is the transfer of 
 - Conservation of energy
-
-```jupyter
-print("test")
-```
