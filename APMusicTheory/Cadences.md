@@ -1,23 +1,27 @@
 # Cadences
+- **Musical puntuation that marks the end of a phrase**
 - The second chord in a cadence should fall on a stronger note than the first
-## Perfect Authentic Cadence (PAC)
+## Authentic Cadences
+**Most final type of cadence**
+### Perfect Authentic Cadence (PAC)
 **Strongest, most resolute, and most basic cadence**
 - Can be:
 	- $V \rightarrow I$
 	- $V^7 \rightarrow I$
 - Most resolute
 - Always in root position
-- The melody also is the root of the chord
+- The melody also is the root of the chord for the $I$ Chord
 
-## Imperfect Authentic Cadence (IAC)
+### Imperfect Authentic Cadence (IAC)
 **Usually defined simply as any authentic cadence that is not a PAC**
-### Root Position IAC
+These Cadences are close to being an AC, but breaks one of the rules.
+#### Root Position IAC
 - Similar to a PAC, but the melody is not the root
 - Still:
 	- $V \rightarrow I$
 	- $V^7 \rightarrow I$
 
-### Inverted IAC
+#### Inverted IAC
 - Similar to a PAC, but one or both of the chords are inverted
 - Can be:
 	- $V^6 \rightarrow I^{inversion}$
@@ -31,23 +35,32 @@
 	- $V^{inversion} \rightarrow I^4_3$
 	- $V^{inversion} \rightarrow I^4_2$
 
-### Leading-tone IAC
+#### Leading-tone IAC
 - Similar to PAC, but instead of a $V$, you have a $vii^o$
 - Can be
 	- $vii^{o} \rightarrow I$
 	- $vii^{o7} \rightarrow I$
 	- $vii^{o6}_4 \rightarrow I$
 	- And other inversions of the $vii^{o}$ chord
+		```music-abc
+		X: 1
+		M: 4/4
+		L: 1/4A
+		K: C
+		|"vii*"[BDF]2 "I"[CEG]2|
+		```
 
 ## Deceptive Cadence (DC)
 **When the ear expects a $V\rightarrow I$ authentic cadence but hears $V\rightarrow X$ instead**
 - $X$ is usually a $vi$ chord
+- $vi$ because it has two notes in common with the $I$ chord
 - Usually not to end the phrase but to **prolong** it a few more measures
 
 ## Half Cadence (HC)
 **Very common type of unstable or “progressive” cadence**
 **$X\rightarrow V$**
 - $X$ is any other chord
+- $X$ is normally $IV$ or $I$
 
 ### Phrygian Half Cadence
 **Just the $iv^6\rightarrow V$ progression in a minor key**
