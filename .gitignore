@@ -1,6 +1,4 @@
-.obsidian/*
+.obsidian/graph.json
+.obsidian/hotkeys.json
+.obsidian/workspace
 test*
-
-!.obsidian/themes/*
-!.obsidian/plugins/*
-!.obsidian/plugins/*/*
