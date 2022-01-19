@@ -68,7 +68,7 @@ These Cadences are close to being an AC, but breaks one of the rules.
 ## Plagal Cadence (PC)
 **The $IV \rightarrow I$ progression**
 - Often tagged on after a PAC
-- Also known as the "Amen" Cadence
+- Also known as the "**Amen**" Cadence
 - Quite final sounding
 
 # Musical Ideas
