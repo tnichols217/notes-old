@@ -1,19 +1,4 @@
 {
-  "pdfExportSettings": {
-    "pageSize": "A4",
-    "landscape": false,
-    "margin": "0",
-    "downscalePercent": 100
-  },
-  "promptDelete": false,
   "legacyEditor": false,
-  "livePreview": false,
-  "foldHeading": true,
-  "foldIndent": true,
-  "showLineNumber": true,
-  "rightToLeft": false,
-  "vimMode": false,
-  "newFileLocation": "root",
-  "newFileFolderPath": "Images",
-  "attachmentFolderPath": "./attachments"
+  "livePreview": false
 }
