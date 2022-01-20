@@ -1,4 +1,5 @@
 # The importance of Modularity in techonolgy
+### Is 
 **Modularity is an essential part of making technology maintainable, sustainable, and optimized.**
 
 ---
@@ -11,6 +12,14 @@
 
 ## Modularity allows for greater sustainability in hardware
 
-because
+
+
+---
+
+## Sources
+- https://core.ac.uk/download/42630172.pdf
+- https://core.ac.uk/download/302382324.pdf
+- https://core.ac.uk/download/301349538.pdf
+- https://core.ac.uk/download/pdf/42821936.pdf
 
 ---

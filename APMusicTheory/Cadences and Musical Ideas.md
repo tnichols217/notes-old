@@ -74,8 +74,23 @@ These Cadences are close to being an AC, but breaks one of the rules.
 # Musical Ideas
 ## Motives
 - Motives are the **smallest identifiable musical idea**
-- Can consist of a **pitch pattern**, a **rhythmic pattern**, or both
+- Can consist of a **pitch pattern**, a **rhythmic pattern**, or **both**
 - Rythm tends to be more important
+		
+	```music-abc
+	X: 1
+	T: Motive
+	M: 2/4
+	L: 1/8
+	K: C
+	|zG GG|_E6|
+	T: Rythm
+	M: 2/4
+	|zG GG|G6|
+	T: Pitch
+	M: 2/4
+	|G8|_E8|
+	```
 
 ## Phrases
 - Phrases are **independent musical idea terminated by a cadence**
