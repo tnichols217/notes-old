@@ -76,6 +76,7 @@ These Cadences are close to being an AC, but breaks one of the rules.
 - Motives are the **smallest identifiable musical idea**
 - Can consist of a **pitch pattern**, a **rhythmic pattern**, or **both**
 - Rythm tends to be more important
+- **Light Motive** is a motive that represents something
 		
 	```music-abc
 	X: 1

@@ -13,7 +13,6 @@
 ## Modularity allows for greater sustainability in hardware
 
 
-
 ---
 
 ## Sources

@@ -21,6 +21,7 @@
 		- Must be a single picture + 1 sentence + 1 link
 - New Venture Club Cafe in StuCo and Distro Point
 
-| WWW(rong)            | EBI              |
-| -------------------- | ---------------- |
-| Finding time to work | Outsourcing jobs |
+| WWW(rong)                    | EBI              |
+| ---------------------------- | ---------------- |
+| Finding time to work         | Outsourcing jobs |
+| Not reaching financial goals |                  |
