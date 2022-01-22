@@ -2,5 +2,8 @@
   "legacyEditor": false,
   "livePreview": false,
   "attachmentFolderPath": "./attachments",
-  "promptDelete": false
+  "promptDelete": false,
+  "foldHeading": true,
+  "foldIndent": true,
+  "spellcheck": true
 }
