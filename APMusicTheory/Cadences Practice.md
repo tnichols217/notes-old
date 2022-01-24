@@ -16,4 +16,9 @@
 3. Half Cadence
 4. Plagal Cadence
 5. Deceptive Cadence
-6. 
+---
+1. Plagal Cadence
+2. Authentic Cadence
+3. Authentic Cadence
+4. Deceptive Cadence
+5. Half Cadence 

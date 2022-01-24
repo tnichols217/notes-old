@@ -110,13 +110,14 @@ These Cadences are close to being an AC, but breaks one of the rules.
 
 ### Types of Periods
 - **Parallel Period** are when multiple phrases begin with similar musical material
-- **Contrasting Period** are when they dont
+- **Contrasting Period** are when they don't
 
 ### Multiple Periods
 - A common way of expanding a two-phrase period is by repeating the antecedent phrase like **$aab$** or the consequent phrase like **$abb$** 
 	- can repeat both like **$aabb$**
 	- not the same as a repeated period **$abab$**
 - **Three-phase periods** are periods made of three phrases (aka **phrase groups**)
+	- Tends to be: **Strong, Weak, Strongest**, but can also be weak, strong, strongest
 - A **double period** consists typically of **four phrases in two pairs**, with ending cadences of the phrases following the same weak-strong pattern
 	- Like:
 		- $HC \rightarrow IAC\text{ or }PAC$
