@@ -3,7 +3,7 @@
 **Modularity is an essential part of making technology maintainable, sustainable, and optimized.**
 
 ## Definitions
-- A complex system is 
+- Complexit
 
 ---
 
