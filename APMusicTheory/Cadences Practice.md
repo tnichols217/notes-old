@@ -23,4 +23,4 @@
 4. Deceptive Cadence
 5. Half Cadence 
 ---
-1. Decptive
+1. Decep
