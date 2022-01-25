@@ -28,4 +28,5 @@
 3. Half Cadence
 ---
 1. Deceptive Cadence
-2. Plaga
+2. Plagal Cadence
+3. 
