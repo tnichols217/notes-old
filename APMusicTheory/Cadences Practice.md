@@ -32,4 +32,4 @@
 3. Plagal Cadence
 4. Half Cadence
 5. Authentic Cadence
-6. 
+
