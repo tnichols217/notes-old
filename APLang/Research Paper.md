@@ -3,7 +3,7 @@
 **Modularity is an essential part of making technology maintainable, sustainable, and optimized.**
 
 ## Definitions
-- Complexity can be defined as a function of the minimum number of imdividual parts needed in order for the system as a whole to function.
+- Complexity can be defined as a function of the minimum number of individua parts needed in order for the system as a whole to function.
 
 ---
 
