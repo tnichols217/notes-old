@@ -1,5 +1,19 @@
 {
-  "userAdmonitions": {},
+  "userAdmonitions": {
+    "definition": {
+      "type": "definition",
+      "color": "140, 0, 255",
+      "icon": {
+        "name": "newspaper",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "Defintion",
+      "injectColor": true,
+      "noTitle": false,
+      "copy": true
+    }
+  },
   "syntaxHighlight": true,
   "copyButton": true,
   "version": "6.9.5",
