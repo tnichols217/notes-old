@@ -5,7 +5,7 @@
 ## Definitions
 - Complexity can be defined as a function of the minimum number of individual parts needed in order for the system as a whole to function.
 	- It is made up of multiple parts that interact in a nonsimple way
-- Decomposabiliy may be part of 
+- Decomposabiliy may be part of the criterion of 
 
 ---
 
