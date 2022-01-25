@@ -2,7 +2,7 @@
   "userAdmonitions": {
     "definition": {
       "type": "definition",
-      "color": "140, 0, 255",
+      "color": "0, 179, 255",
       "icon": {
         "name": "newspaper",
         "type": "font-awesome"
