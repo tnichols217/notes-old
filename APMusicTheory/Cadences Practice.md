@@ -31,4 +31,4 @@
 2. Plagal Cadence
 3. Plagal Cadence
 4. Half Cadence
-5. Per
+5. Perfect Cad
