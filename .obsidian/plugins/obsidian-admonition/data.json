@@ -3,7 +3,7 @@
   "syntaxHighlight": true,
   "copyButton": false,
   "version": "6.9.5",
-  "autoCollapse": false,
+  "autoCollapse": true,
   "defaultCollapseType": "open",
   "syncLinks": false,
   "enableMarkdownProcessor": false,
