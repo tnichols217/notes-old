@@ -1,7 +1,7 @@
 {
   "userAdmonitions": {
-    "definition": {
-      "type": "definition",
+    "def": {
+      "type": "def",
       "color": "0, 179, 255",
       "icon": {
         "name": "newspaper",
