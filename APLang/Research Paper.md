@@ -25,6 +25,8 @@
 ## Sources
 - https://core.ac.uk/download/42630172.pdf
 - https://core.ac.uk/download/302382324.pdf
+	- a decomposable system may be able to limp along even if some subsystems are damaged
+or incomplete. 
 - https://core.ac.uk/download/301349538.pdf
 - https://core.ac.uk/download/pdf/42821936.pdf
 
