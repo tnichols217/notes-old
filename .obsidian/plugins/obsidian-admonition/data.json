@@ -7,7 +7,7 @@
         "name": "newspaper",
         "type": "font-awesome"
       },
-      "command": false,
+      "command": true,
       "title": "Defintion",
       "injectColor": true,
       "noTitle": false,
