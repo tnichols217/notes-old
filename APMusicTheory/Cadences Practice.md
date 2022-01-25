@@ -25,4 +25,4 @@
 ---
 1. Deceptive Cadence
 2. Plagal Cadence
-3. Half 
+3. Half C
