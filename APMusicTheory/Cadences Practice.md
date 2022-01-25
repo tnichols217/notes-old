@@ -24,4 +24,5 @@
 5. Half Cadence 
 ---
 1. Deceptive Cadence
-2. Plagal Ca
+2. Plagal Cadence
+3. 
