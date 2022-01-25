@@ -30,4 +30,5 @@
 1. Deceptive Cadence
 2. Plagal Cadence
 3. Plagal Cadence
-4. 
+4. Half Cadence
+5. 
