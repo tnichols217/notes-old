@@ -99,7 +99,7 @@ These Cadences are close to being an AC, but breaks one of the rules.
 - A **subphrase is a melodic** event, whereas a **phrase is a harmonic** event
 - Phrases are usually labeled with lowercase letters
 	- Parallel relationship (in a parallel period) between phrases are labeled with a prime **'**
-- A repeated phrase is a phrase that is repeated phr
+- A repeated phrase is a phrase that is repeated phrase
 
 ## Periods
 - A period typically consists of **two phrases**
