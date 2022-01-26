@@ -29,7 +29,7 @@ These Cadences are close to being an AC, but breaks one of the rules.
 	- $V^6_5 \rightarrow I^{inversion}$
 	- $V^4_3 \rightarrow I^{inversion}$
 	- $V^4_2 \rightarrow I^{inversion}$
-	- $V^{inversion} \rightarrow I^6$
+	- $V^{inversion} \rightarro I^6$
 	- $V^{inversion} \rightarrow I^6_4$
 	- $V^{inversion} \rightarrow I^6_5$
 	- $V^{inversion} \rightarrow I^4_3$
