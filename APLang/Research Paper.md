@@ -29,7 +29,7 @@
 	- Example: development of OS/360, having nondecomposible systems and a maintainence nightmare
 	- Clearly, modularity is a design structure with a great many advantages. By reducing the degree of interdependency among, and thus the costs of communicating across, the parts of a system, it gives full rein to the many benefits of the division of labor among components. As usual, however, there is no free lunch. It turns out that modular systems are much more difficult to design than comparable interconnected systems. The designers of modular systems must know a great deal about the inner workings of the overall product or process in order to develop the visible design rules necessary to make the modules function as a whole. They have to specify those rules in advance. And while designs at the modular level are proceeding independently, it may seem that all is going well; problems with incomplete or imperfect modularization tend to appear only when the modules come together and work poorly as an integrated whole (Baldwin and Clark 1997, p. 86).
 	- nondecomposability would dominate those of modularity only for some kinds of relatively stable systems where frequent change isn’t important (10)
-	- 
+	- In a world of change, modularity is generally worth the costs. The real issue is normally not whether to be modular but how to be modular. ()
 - https://core.ac.uk/download/301349538.pdf
 - https://core.ac.uk/download/pdf/42821936.pdf
 
