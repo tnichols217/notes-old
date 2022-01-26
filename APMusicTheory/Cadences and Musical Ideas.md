@@ -100,7 +100,7 @@ These Cadences are close to being an AC, but breaks one of the rules.
 - Phrases are usually labeled with lowercase letters
 	- Parallel relationship (in a parallel period) between phrases are labeled with a prime **'**
 - A **repeated phrase** is a phrase that is repeated, and may have slight modifications
-- An **allision** is a p
+- An **allision** is when the 
 
 ## Periods
 - A period typically consists of **two phrases**
