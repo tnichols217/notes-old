@@ -32,6 +32,10 @@
 	- In a world of change, modularity is generally worth the costs. The real issue is normally not whether to be modular but how to be modular. (11)
 	- 
 - https://core.ac.uk/download/301349538.pdf
-- https://core.ac.uk/download/pdf/42821936.pdf
+- https://core.ac.uk/download/pdf/42821936.pdf (**MODULARITY IN ROBOTIC SYSTEMS**)
+	- The standardized modules would decrease the cost of a new robotic manipulator and eliminate the possibility of obsolescence - the module can be upgraded when a better model becomes available. The small, standardized modules could be improved less expensively than a whole new robot arm, allowing the robotic industry to make "tech mods" rapidly and take advantage of the most advanced technology. The final result would be a rapidly growing, efficient industry whose impact on manufacturing would rival the impact of the microchip on the field of electronics.
+	- Portability of a robotic system implies that it can be broken down into pieces (or modules) small enough to be carried to the work place by a human operator and quickly assembled.
+	- Failure in a robotic system might mean the high cost of total replacement. This maintenance objective would best be met by using robots made up of modules which could be easily replaced. Redundancy in some of the hardware components (sensors, encoders, local microprocessors, etc.) can be helpful.
+	- The modularity approach will allow aggressive upgrading programs to be pursued in almost all major areas.
 
 ---

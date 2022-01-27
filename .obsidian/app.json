@@ -6,5 +6,11 @@
   "foldHeading": true,
   "foldIndent": true,
   "spellcheck": true,
-  "vimMode": true
+  "vimMode": false,
+  "pdfExportSettings": {
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
 }
