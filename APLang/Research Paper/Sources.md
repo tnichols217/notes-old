@@ -1,6 +1,9 @@
 # The importance of Modularity in techonolgy
-### Is 
-**Modularity is an essential part of making technology maintainable, sustainable, and optimized.**
+
+### Thesis 
+**Although modularity may introduce slight added complexity overall, its benefits greatly outweight its costs, not only in individual complexity but in sustainability, progressivity, and reusability as a whole.**
+
+
 
 ## Definitions
 - Complexity can be defined as a function of the minimum number of individual parts needed in order for the system as a whole to function.
