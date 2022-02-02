@@ -14,4 +14,3 @@ It may be argued that modularity is just adding to the problem of overall projec
 **Progessivity**
 
 **Conclusion**
-```
