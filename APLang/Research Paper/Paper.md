@@ -9,7 +9,7 @@ It may be argued that modularity is just adding to the problem of overall projec
 
 > If modularity brings so many advantages, why aren’t all products (and processes) fully modular? It turns out that modular systems are much more difficult to design than comparable interconnected systems. The designers of modular systems must know a great deal about the inner workings of the overall product or process in order to develop the visible design rules necessary to make the modules function as a whole. They have to specify those rules in advance. And while designs at the modular level are proceeding independently, it may seem that all is going well; problems with incomplete or imperfect modularization tend to appear only when the modules come together and work poorly as an integrated whole. (man in age)
 
-The process to initially create a modular system may be quite complex. However, 
+The process to initially create a modular system may be quite complex. However, once it ha
 
 
 **Maintainability**
