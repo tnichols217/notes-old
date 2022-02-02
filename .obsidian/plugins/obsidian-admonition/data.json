@@ -12,6 +12,18 @@
       "injectColor": true,
       "noTitle": false,
       "copy": true
+    },
+    "para": {
+      "type": "para",
+      "color": "#7d7d7d",
+      "icon": {
+        "name": "align-justify",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": null,
+      "injectColor": false,
+      "noTitle": true
     }
   },
   "syntaxHighlight": true,
