@@ -14,7 +14,7 @@ The process to initially create a modular system may be quite complex. However, 
 
 **Maintainability**
 
-Another great call for modularity is in the maintainability of such systems. With the example of NASA's robots again, modularity allowed these robot
+Another great call for modularity is in the maintainability of such systems. With the example of NASA's robots again, modularity allowed these robots to be
 
 **Progessivity**
 
