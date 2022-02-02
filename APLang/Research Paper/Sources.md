@@ -26,8 +26,6 @@
 ---
 
 ## Sources
-- https://core.ac.uk/download/42630172.pdf (**From Business Model to Business Modeling: Modularity and Manipulation**)
-	- 
 - https://core.ac.uk/download/35339553.pdf (**TEACHING MODULAR SOFTWARE ARCHITECTURES**)
 	- The usage of the modern object-oriented software architectures and modularity as concept in the information technology industry is inevitable due to the great cost cut advantages. [costs] ✔
 	- modularization allows the processing to be done in parallel by more than one processing core because the functionalities of the software application are from scratch designed to communicate in loosely coupled mode. [progress]
