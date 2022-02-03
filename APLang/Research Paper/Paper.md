@@ -17,4 +17,4 @@ Another great call for modularity is in the maintainability of such systems. Wit
 
 **Conclusion**
 
-Modularity can mean a few things to different people. But with many 
+Modularity can mean a few things to different people. But with many reasons, modularity 
