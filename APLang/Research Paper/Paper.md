@@ -13,7 +13,7 @@ The process to initially create a modular system may be quite complex. However, 
 
 **Maintainability**
 
-Another great call for modularity is in the maintainability of such systems. With the example of NASA's robots again, modularity allowed these robots to be easily transportable, quickly assembled, and easily repaired and upgraded (mod in robots). The modularity of systems allows it to be easily disassembled into smaller modules, facilitating transportability and reassembly. On top of being 
+Another great call for modularity is in the maintainability of such systems. With the example of NASA's robots again, modularity allowed these robots to be easily transportable, quickly assembled, and easily repaired and upgraded (mod in robots). The modularity of systems allows it to be easily disassembled into smaller modules, facilitating transportability and reassembly. On top of being easy to repair
 
 **Progessivity**
 
