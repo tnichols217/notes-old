@@ -17,4 +17,4 @@ Another great call for modularity is in the maintainability of such systems. Wit
 
 **Conclusion**
 
-Modularity can mean a few things to several different people. With many reasons, modularity definitely means better module and team management; simple maintainability and easy progressivity; and immediate cost savings due to ease in development and greater oppurtunity for features. Although modularity may have several benefits, it does not fit for every problem out there, such as space sensitive products or small simple 
+Modularity can mean a few things to several different people. With many reasons, modularity definitely means better module and team management; simple maintainability and easy progressivity; and immediate cost savings due to ease in development and greater oppurtunity for features. Although modularity may have several benefits, it does not fit for every problem out there, such as space sensitive products or small simple projects
