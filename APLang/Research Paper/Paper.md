@@ -11,9 +11,6 @@ It may be argued that modularity is just adding to the problem of overall projec
 
 The process to initially create a modular system may be quite complex. However, once it has been laid out, it becomes trivially complicated in comparison, as it has now been modularized into multiple small uncomplex issues. In comparison to an integrated system, once you have set it up, it still is one large complex issue as a whole. Every team member needs to understand the system as a whole in order to properly develop it, as contrasted to only the initial starters of a modular project.
 
-**Size and integration**
-
-
 **Maintainability**
 
 Another great call for modularity is in the maintainability of such systems. With the example of NASA's robots again, modularity allowed these robots to be easily transportable, quickly assembled, and easily repaired and upgraded (mod in robots). The modularity of systems allows it to be easily disassembled into smaller modules, facilitating transportability and reassembly. 
