@@ -17,4 +17,4 @@ Another great call for modularity is in the maintainability of such systems. Wit
 
 **Conclusion**
 
-After all these differences of modular systems
+After all these differences in modul
