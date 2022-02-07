@@ -7,9 +7,6 @@
 3. Can create dissonance (**tension**) then resolution
 ```
 
-[!WARNING]
-> aaa
-
 | Abbrev. | Name             | Approached by | Left by                            | Picture  |
 | ------- | ---------------- | ------------- | ---------------------------------- | -------- |
 | PT      | Passing Tone     | Step          | Step in the **same** direction     | / or  \\ |
