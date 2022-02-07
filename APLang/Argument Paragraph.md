@@ -1,1 +1,1 @@
-Exploring the Unknown is an essential part of growth 
+Exploring the Unknown is an essential part of growth and learning. Without exploring 
