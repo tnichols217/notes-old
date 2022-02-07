@@ -53,8 +53,3 @@ V: T2 clef=treble
 [V:T2]
 [E]2-[E]2|[D]4
 ```
-
-:::row:::
-	:::column:::
-	sasd
-	:
