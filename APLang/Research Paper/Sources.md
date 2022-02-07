@@ -32,7 +32,7 @@
 - https://core.ac.uk/download/302382324.pdf **(Modularity in Technology, Organization, and Society)**
 	- a decomposable system may be able to limp along even if some subsystems are damaged or incomplete. [maintain] ✔
 	- Clearly, modularity is a design structure with a great many advantages. By reducing the degree of interdependency among, and thus the costs of communicating across, the parts of a system, it gives full rein to the many benefits of the division of labor among components. As usual, however, there is no free lunch. It turns out that modular systems are much more difficult to design than comparable interconnected systems. The designers of modular systems must know a great deal about the inner workings of the overall product or process in order to develop the visible design rules necessary to make the modules function as a whole. They have to specify those rules in advance. And while designs at the modular level are proceeding independently, it may seem that all is going well; problems with incomplete or imperfect modularization tend to appear only when the modules come together and work poorly as an integrated whole (Baldwin and Clark 1997, p. 86). [complexity] ✖
-	- In a world of change, modularity is generally worth the costs. The real issue is normally not whether to be modular but how to be modular. (11) [conclusion]
+	- In a world of change, modularity is generally worth the costs. The real issue is normally not whether to be modular but how to be modular. (11) [conclusion] ✔
 	- For example, the development of the OS/360 operating system for the original IBM 360 line of computers was evidently organized in a relatively nondecomposable way. The manager of the project, Frederick Brooks, insisted on a conscious attention to interdependencies and a high level of communication among all participants. This included the creation and maintenance of a formal project workbook that documented every aspect of the system so that, in principle at least, every worker could determine how changes elsewhere would affect his or her part of the project. Brooks decided “that each programmer should see all the material, i.e., should have a copy of the workbook in his own office” (Brooks 1975, p. 76). But within six months there was one small problem. “The workbook was about five feet thick! If we had stacked up the 100 copies serving programmers in our offices in Manhattan’s Time-Life Building, they would have towered above the building itself. [maintain] ✔
 - https://core.ac.uk/download/301349538.pdf (**MODULARITY, INFORMATION TECHNOLOGY OUTSOURCING SUCCESS, AND BUSINESS PERFORMANCE**)
 	- As shown in Table 7, we found support for the hypotheses, with additional presence of mediation. Although some relationships showed weak significance levels, nonetheless the sign indicated directional support. [about correlation of modularity and business performance] [costs] ✔
@@ -49,3 +49,18 @@
 - https://www.jstor.org/stable/j.ctt5hhfnj (**Transforming Global Information and Communication Markets: The Political Economy of Innovation**) (Chapter 4)
 	- Modularity makes it possible for the system designer to mix and match where functionality resides. [maintain] ✔
 ---
+
+## Citation
+Baldwin, Carliss Y., and Kim B. Clark. “Managing in an Age of Modularity.” Harvard Business Review, 1 Aug. 2014, https://hbr.org/1997/09/managing-in-an-age-of-modularity.
+
+Bashovski, Vasko, and Saso Koceski. “Teaching Modular Software Architectures.” UGD Academic Repository, 21 May 2016, https://core.ac.uk/download/35339553.pdf.
+
+Cowhey, Peter F., et al. “Transforming Global Information and Communication Markets: The Political Economy of Innovation.” The MIT Press, 2009, http://www.jstor.org/stable/j.ctt5hhfnj.
+
+Langlois, Richard N., “Modularity in Technology, Organization, and Society.” Economics Working Papers. https://opencommons.uconn.edu/econ_wpapers/199905.
+
+“Modularity Definition & Meaning.” Dictionary.com, 2022, https://www.dictionary.com/browse/modularity.
+
+Nagpal, Pankaj and Lyytinen, Kalle, “MODULARITY, INFORMATION TECHNOLOGY OUTSOURCING SUCCESS, AND BUSINESS PERFORMANCE.” ICIS 2010 Proceedings. 64. http://aisel.aisnet.org/icis2010_submissions/64.
+
+Tesar, Delbert, et al., “MODULARITY IN ROBOTIC SYSTEMS.” NASA Technical Reports Server, 3 Aug. 2016, https://core.ac.uk/download/pdf/42821936.pdf.
