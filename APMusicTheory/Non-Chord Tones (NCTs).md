@@ -13,7 +13,7 @@
 | PT      | Passing Tone     | Step          | Step in the **same** direction     | / or  \\ |
 | NT      | Neighboring Tone | Step          | Step in the **opposite** direction | ^ or v   |
 | Sus     | Suspension       | Same tone     | Step **down**                      | --\\     |
-| Ret     | Retardation      | Same tone     | Step **up**                        | --/      |
+| Ret     | Retardation      | Same tone     | Step **up**                        | __/      |
 | App     | Appoggiatura     | Leap          | Step                               |          |
 | ET      | Escape Tone      | Step          | Leap in the opposite direction     |          |
 | NGr     | Neighbor Group   |               |                                    |          |
