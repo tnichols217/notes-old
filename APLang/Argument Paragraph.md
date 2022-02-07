@@ -1,1 +1,1 @@
-Exploring the U
+Exploring the Unknown is an essential part of growth 
