@@ -2,4 +2,4 @@ Exploring the Unknown is an essential part of growth and learning. Without explo
 
 1. Finding new hobbies
 2. Having fun
-3. 
+3. Discovering be
