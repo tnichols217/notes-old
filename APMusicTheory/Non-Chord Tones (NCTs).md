@@ -7,8 +7,8 @@
 3. Can create dissonance (**tension**) then resolution
 ```
 
-[!WARNING]
-aaa
+>[!WARNING]
+> aaa
 
 | Abbrev. | Name             | Approached by | Left by                            | Picture  |
 | ------- | ---------------- | ------------- | ---------------------------------- | -------- |
