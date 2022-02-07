@@ -1,1 +1,1 @@
-Exploring the Unknown is an essential part of growth and learning. Without exploring unseen things, you will never explore and find new things you will like. Even though when you explore the unknown it may come with certain cons
+Exploring the Unknown is an essential part of growth and learning. Without exploring unseen things, you will never explore and find new things you will like. Even though when you explore the unknown it may come with certain consequences and you m
