@@ -683,86 +683,85 @@
 	The Police Integrity Unit's sole purpose is to uncover **maleasance** in ine Police Force.
 
 123. **Cogitation**: attentive consideration and thought
-	Jones poured a lot of **cogitation** into his thesis
+	Jones poured a lot of **cogitation** into his master thesis.
 
-124. **indomitable**: impossible to subdue
-	
+124. **Indomitable**: impossible to subdue
+	The main character of the novel was unrealistically **indomitable**, undefeatable in every circumstance.
 
 125. **Spleen**: a feeling of resentful anger
-	
+	The only reason the two parties did not get along was solely because of historical **spleen**.
 
-126. **Keen**: intense or sharp
-	
+126. **Keen**: having or characteristic of a quick penetrating mind
+	Jack's **keen** ears heard the rustling in the forest from 600 meters out.
 
 127. **Perdition**: the place or state in which one suffers eternal punishment
-	
+	He believed that if he ever disobeyed his boss, he would be sent to **perdition** eternally.
 
 128. **Portentous**: of momentous or ominous significance
-	
+	The **portentous** silence after the concert scared the audience, making them think that something went wrong.
 
-129. **Farrago**: a motley assortment of things
-	
+129. **Farrago**: a confused mixture
+	Fujiyama is less of a **farrago** than most thrift stores in Georgetown; they have organized sections.
 
-130. **Nonplussed**: filled with bewilderment
-	
+130. **Nonplussed**: unsure about what to say, think, or do
+	After the surprise outburst from Trump, the **nonplussed** Chinese ambassador sat still for a whole five minutes.
 
 131. **Expostulation**: an exclamation of protest, opposition, or criticism
-	
+	Because of the **expostulation** in the streets, the government actually made a change to their spending policy.
 
 132. **Ablution**: the act of washing oneself, as for ritual purposes
-	
+	Once a month, Jones goes through an **ablution** because his parents say that it helps him focus in school.
 
 133. **Stalwart**: having rugged physical strength
-	
+	All the students returning from the army were oddly **stalwart**. 
 
 134. **Patrician**: a person of refined upbringing and manners
-	
+	The **patricians** of the city don't associate with the normal people, they are too high class for them.
 
 135. **Cenotaph**: monument to honor those whose remains are interred elsewhere
-	
+	Every year, he would go and visit his aunt's **cenotaph**, originally mistaking it for her original grave.
 
 136. **Descry**: catch sight of
-	
+	The titanic just couldn't **descry** the iceberg in its path.
 
 137. **Inexorable**: impossible to persuade by means of pleas or reason
-	
+	The **inexorable** prime minister could not be convinced to change his mind even after 20 minutes of debate.
 
 138. **Sublime**: inspiring awe
-	
+	The **sublime** art in the gallery encouraged the students to work harder on their own work.
 
-139. **Vitiate**: corrupt morally or by intemperance or sensuality
-	
+139. **Vitiate**: to make faulty or defective
+	After several years without maintenance, the lack of oil **vitiated** the internal gears.
 
 140. **Ignominy**: a state of dishonor
-	
+	As soon as the students' favorite coach was fired, the team descended into **ignominy**.
 
-141. **punctilious**: marked by precise accordance with details
-	
+141. **Punctilious**: marked by precise accordance with details
+	The **punctilious** watchmaker had unbelievably steady hands, something I always longed for.
 
 142. **Stultify**: cause to appear foolish
-	
+	The defendant accidentally **stultified** himself in court when he said that he was currently drunk.
 
 143. **Sagacity**: the trait of having wisdom and good judgment
-	
+	Jane was elected for her shining **sagacity**, something not all runners in the election have.
 
 144. **Sanguinary**: marked by eagerness to resort to violence and bloodshed
-	
+	His **sanguinary** wasn't his best trait when he asked for a raise to become General.
 
 145. **Incorrigible**: impervious to correction by punishment
-	
+	The **incorrigible** boy would not stop shaving people's heads no matter how many times he went to detention.
 
 146. **Apoplexy**: a loss of consciousness from the lack of oxygen in the brain
-	
+	After the diver took off his diving mask, he fell into **apoplexy**.
 
 147. **Austral**: of the south or coming from the south
-	
+	The **austral** wind brought the warmness of the equator into the city.
 
 148. **Empyrean**: of or relating to the sky or heavens
-	
+	The glorious **empyrean** clouds began falling on this bright day, soaking the ground in water and sunshine.
 
 149. **Quondam**: belonging to some prior time
-	
+	The **quondam** gas car was in a large box in the museum, a relic of the past.
 
 150. **Ululation**: a long, loud emotional howl or cry
-	
-
+	When the owl's brother died, he let out a large **ululation**.
