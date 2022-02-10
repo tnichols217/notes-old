@@ -673,3 +673,96 @@
 
 120. **Assay**: to analyze for one or more specific components
 	That annoying TikToker continued to **assay** people's rings every day -- he just wanted more views.
+
+### Feb 11, 2022
+
+121. **Cynic**: someone who is critical of the motives of others
+	Jane was a **cynic**; she analysed every move the prime minister made.
+	
+122. **Malfeasance**: wrongful conduct by a public official
+	The Police Integrity Unit's sole purpose is to uncover **maleasance** in ine Police Force.
+
+123. **Cogitation**: attentive consideration and thought
+	Jones poured a lot of **cogitation** into his thesis
+
+124. **indomitable**: impossible to subdue
+	
+
+125. **Spleen**: a feeling of resentful anger
+	
+
+126. **Keen**: intense or sharp
+	
+
+127. **Perdition**: the place or state in which one suffers eternal punishment
+	
+
+128. **Portentous**: of momentous or ominous significance
+	
+
+129. **Farrago**: a motley assortment of things
+	
+
+130. **Nonplussed**: filled with bewilderment
+	
+
+131. **Expostulation**: an exclamation of protest, opposition, or criticism
+	
+
+132. **Ablution**: the act of washing oneself, as for ritual purposes
+	
+
+133. **Stalwart**: having rugged physical strength
+	
+
+134. **Patrician**: a person of refined upbringing and manners
+	
+
+135. **Cenotaph**: monument to honor those whose remains are interred elsewhere
+	
+
+136. **Descry**: catch sight of
+	
+
+137. **Inexorable**: impossible to persuade by means of pleas or reason
+	
+
+138. **Sublime**: inspiring awe
+	
+
+139. **Vitiate**: corrupt morally or by intemperance or sensuality
+	
+
+140. **Ignominy**: a state of dishonor
+	
+
+141. **punctilious**: marked by precise accordance with details
+	
+
+142. **Stultify**: cause to appear foolish
+	
+
+143. **Sagacity**: the trait of having wisdom and good judgment
+	
+
+144. **Sanguinary**: marked by eagerness to resort to violence and bloodshed
+	
+
+145. **Incorrigible**: impervious to correction by punishment
+	
+
+146. **Apoplexy**: a loss of consciousness from the lack of oxygen in the brain
+	
+
+147. **Austral**: of the south or coming from the south
+	
+
+148. **Empyrean**: of or relating to the sky or heavens
+	
+
+149. **Quondam**: belonging to some prior time
+	
+
+150. **Ululation**: a long, loud emotional howl or cry
+	
+
