@@ -24,6 +24,18 @@
       "title": null,
       "injectColor": false,
       "noTitle": true
+    },
+    "source": {
+      "type": "source",
+      "color": "#7d7d7d",
+      "icon": {
+        "name": "align-justify",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "injectColor": false,
+      "noTitle": true,
+      "copy": true
     }
   },
   "syntaxHighlight": true,

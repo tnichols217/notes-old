@@ -680,7 +680,7 @@
 	Jane was a **cynic**; she analysed every move the prime minister made.
 	
 122. **Malfeasance**: wrongful conduct by a public official
-	The Police Integrity Unit's sole purpose is to uncover **maleasance** in ine Police Force.
+	The Police Integrity Unit's sole purpose is to uncover **maleasance** in the Police Force.
 
 123. **Cogitation**: attentive consideration and thought
 	Jones poured a lot of **cogitation** into his master thesis.

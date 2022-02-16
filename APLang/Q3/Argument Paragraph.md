@@ -16,13 +16,20 @@ title:Thesis
 
 Entertainment has the capability to ruin our society though slowly changing the general population's mindset as a whole, and influencing our own thoughts and ideas.
 ```
-
 ```ad-para
-title: **Intro**
+title: Practice Essay
+
 Entertainment has many effects on the human society as a whole. For one, it helps spread new opinions and ideas and spread new discoveries. However, this ease of communication does come at a cost. Entertainment in general may often portray subethical things as fine for the sake of entertainment, leading the consumers to take on some of these traits. Entertainment has the capability to ruin our society though slowly changing the general population's mindset as a whole, and influencing our own thoughts and ideas.
+
+Several good things have came out of entertainment, such as movies that raise awareness like "Megan was missing" or even something more simple like "Hidden Figures". This communication of ideas is definitely a good thing, but as it has great power to grant awareness and change your view on things, it also has the ability to change youre view the other way. For example, I find a lot of cool things through an entertainment-styled news channel, and I do get relevant things going on in the world. There are definitely benefits of having entertainment, but it does not mean we do not need to be careful with it.
+
+Entertainment does come at a large cost. Modern entertainment does seek to make things more enjoyable, no matter the topic, whether it it serious or not. This lightheartedness sometimes leads people to believe that immoral things are not as horrible as they really are. One such example could be almost any modern TV show *i dont watch tv so idk*. Another very real things is the spread of less than fully factual ideas. Some entertainment does seek to make things more easily understood by the consumers, but also sometimes misinforms them. One thing would be the facebook riots in South Africa, spread of misinformation, mixed with high visibility on the facebook platform led many people to riot against the government. This is a very real example of what could happen when entertainment goes suboptimal. Entertainment has the chance to give us fun while doing something else, but the essence of fun and informative media do not often mix very well.
+
+Throughout the years, entertainment has changed dramatically, from merely something to do to have fun, to something we are constantly seeing everyday. From our breaktime at work to right before we sleep, we are consuming some kinda of entertainment. Scrolling tiktok, watching youtube, reading articles are all forms of entertainment for people. Entertainment in the modern age is something important that we all have to deal with, and its ability to change people's opinions so easily should be feared. Entertainment is no joke anymore and there are real world consequences when something does not go 100% correctly. Entertainment does still have its place to give us enjoyment, but we do need to watch closely anything else it attempts to accomplish.
 ```
 
 ```ad-para
-title: **Body 1**
-Several good things have came out of entertainment, such as movies that raise awareness like "Megan was missing" or even something more simple like "Hidden Figures". This communication of ideas is definitely a good thing, but as it has great power to grant awareness and change your view on things, it also has the ability to change youre view the other way. For example, I find a lot of cool things through an entertainment-styled news channel, and I do get relevant things going on in the world
+title: Practice Paragraph (prepositional phrases)
+
+After the volleyball game, 
 ```

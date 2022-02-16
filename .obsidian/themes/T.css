@@ -224,3 +224,51 @@ strong em,
 .cm-em .cm-strong {
   color: var(--color-10);
 }
+
+
+.admonition.admonition-para, .admonition.admonition-source {
+  background-color: var(--background-primary);
+  border-left: 0rem;
+  border-radius: 0rem;
+  box-shadow: 0 0 0 var(--background-modifier-box-shadow);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.admonition.admonition-para .handle, .admonition.admonition-source .handle, .admonition.admonition-para .admonition-title.no-title, .admonition.admonition-source .admonition-title.no-title {
+  display: none !important;
+}
+
+.admonition.admonition-para > .admonition-title.no-title + .admonition-content-holder, .admonition.admonition-para > .admonition-title.no-title + .admonition-content-holder > .admonition-content, .admonition.admonition-source > .admonition-title.no-title + .admonition-content-holder, .admonition.admonition-source > .admonition-title.no-title + .admonition-content-holder > .admonition-content {
+  margin: 0;
+}
+
+.admonition-para p {
+  text-indent: 1.27cm;
+  font-family: 'Times New Roman', 'Times';
+  font-size: 11pt;
+  line-height: 2;
+  margin-bottom: 0cm;
+  margin-top: 0cm;
+}
+
+.admonition-para h1, .admonition-para h2, .admonition-para h3, .admonition-para h4, .admonition-para h5, .admonition-para h6 {
+  color: var(--test-normal);
+  font-weight: normal;
+  text-align: center;
+  font-family: 'Times New Roman', 'Times';
+  font-size: 11pt;
+  line-height: 2;
+  margin-bottom: 0cm;
+  margin-top: 0cm;
+}
+
+.admonition-source p {
+  padding-left: 1.27cm;
+  text-indent: -1.27cm;
+  font-family: 'Times New Roman', 'Times';
+  font-size: 11pt;
+  line-height: 2;
+  margin-bottom: 0cm;
+  margin-top: 0cm;
+}

@@ -15,5 +15,6 @@
   "convert-url-to-iframe",
   "emoji-shortcodes",
   "obsidian-open-link-with",
-  "better-word-count"
+  "better-word-count",
+  "obsidian-pandoc"
 ]

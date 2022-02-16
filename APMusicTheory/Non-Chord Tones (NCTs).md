@@ -116,7 +116,7 @@ The tenor anticipates the next chord before it moves
 color: 20, 125, 0
 **Free anticipation**
 
-A note anticipates a note in the next chord, but does not actually stay on that note when the chord changes
+A note anticipates a note in the next chord, but does not actually stay on that note when the chord changes, although it does have to continue to move in the same direction
 
 ```
 
@@ -138,4 +138,18 @@ V: T2 clef=treble
 [EGC']2[DFB]2|[EGC']4
 [V:T2]
 [C]-4|C4|
+```
+## NCT Inception
+
+```ad-important 
+NCTs can have NCTs inside them, and when this happens, you have to classify the NCT using the big picture, not only the local notes.
+```
+
+```music-abc
+X: 1
+M: 3/4
+L: 1/4
+K: Eb
+E3| A3| G3||
+E=EF| ^FG^G| A
 ```
