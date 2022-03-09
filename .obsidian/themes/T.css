@@ -252,8 +252,8 @@ strong em,
   margin-top: 0cm;
 }
 
-.admonition-para h1, .admonition-para h2, .admonition-para h3, .admonition-para h4, .admonition-para h5, .admonition-para h6 {
-  color: var(--test-normal);
+.admonition-para h1, .admonition-para h2, .admonition-para h3, .admonition-para h4, .admonition-para h5 {
+  color: var(--text-normal);
   font-weight: normal;
   text-align: center;
   font-family: 'Times New Roman', 'Times';
@@ -263,7 +263,9 @@ strong em,
   margin-top: 0cm;
 }
 
-.admonition-source p {
+.admonition-source p, .admonition-para h6 {
+  color: var(--text-normal) !important;
+  font-weight: normal;
   padding-left: 1.27cm;
   text-indent: -1.27cm;
   font-family: 'Times New Roman', 'Times';

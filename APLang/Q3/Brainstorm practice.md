@@ -1,4 +1,9 @@
-1. My trip to sweden, america
-2. International trade, columbian exchange
-3. alpha series from bible
-4. 
+# How to brainstorm
+## Use CHORES
+
+- Current Events
+- History
+- Outside Knowledge / Personal Experiences
+- Reading
+- Entertainment
+- Sports / Science

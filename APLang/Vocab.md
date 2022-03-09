@@ -732,7 +732,7 @@
 
 139. **Vitiate**: to make faulty or defective
 	After several years without maintenance, the lack of oil **vitiated** the internal gears.
-
+Sagacity
 140. **Ignominy**: a state of dishonor
 	As soon as the students' favorite coach was fired, the team descended into **ignominy**.
 
