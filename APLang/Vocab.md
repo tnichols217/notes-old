@@ -732,7 +732,7 @@
 
 139. **Vitiate**: to make faulty or defective
 	After several years without maintenance, the lack of oil **vitiated** the internal gears.
-Sagacity
+
 140. **Ignominy**: a state of dishonor
 	As soon as the students' favorite coach was fired, the team descended into **ignominy**.
 
@@ -765,3 +765,96 @@ Sagacity
 
 150. **Ululation**: a long, loud emotional howl or cry
 	When the owl's brother died, he let out a large **ululation**.
+
+### Mar 16, 2022
+
+151. **Jounce**: move up and down repeatedly
+	
+
+152. **Rheumatism**: any painful disorder of the joints or muscles
+
+
+153. 
+
+
+154. 
+
+
+155. 
+
+
+156. 
+
+
+157. 
+
+
+158. 
+
+
+159. 
+
+
+160. 
+
+
+161. 
+
+
+162. 
+
+
+163. 
+
+
+164. 
+
+
+165. 
+
+
+166. 
+
+
+167. 
+
+
+168. 
+
+
+169. 
+
+
+170. 
+
+
+171. 
+
+
+172. 
+
+
+173. 
+
+
+174. 
+
+
+175. 
+
+
+176. 
+
+
+177. 
+
+
+178. 
+
+
+179. 
+
+
+180. 
+
+

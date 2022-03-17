@@ -36,6 +36,44 @@
       "injectColor": false,
       "noTitle": true,
       "copy": true
+    },
+    "discuss": {
+      "type": "discuss",
+      "color": "140, 52, 173",
+      "icon": {
+        "name": "wave-square",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "Discuss",
+      "injectColor": true,
+      "noTitle": false
+    },
+    "consider": {
+      "type": "consider",
+      "color": "216, 170, 44",
+      "icon": {
+        "name": "think-peaks",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "Consider",
+      "injectColor": true,
+      "noTitle": false,
+      "copy": true
+    },
+    "explain": {
+      "type": "explain",
+      "color": "85, 213, 68",
+      "icon": {
+        "name": "explosive-materials",
+        "type": "rpg"
+      },
+      "command": false,
+      "title": "Explain",
+      "injectColor": true,
+      "noTitle": false,
+      "copy": true
     }
   },
   "syntaxHighlight": true,
