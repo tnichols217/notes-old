@@ -766,95 +766,94 @@
 150. **Ululation**: a long, loud emotional howl or cry
 	When the owl's brother died, he let out a large **ululation**.
 
-### Mar 16, 2022
+### Mar 18, 2022
 
 151. **Jounce**: move up and down repeatedly
-	
+	The dog **jounced** up and down when he saw the treats in his owner's hand.
 
 152. **Rheumatism**: any painful disorder of the joints or muscles
+	Jane had a bad **rheumatism** in her forearm, making it painful to write.
 
+153. **Tote**: to carry with difficuty
+	Jack **toted** the barrel with extreme pain, bumping on rocks and beathing heavily.
 
-153. 
+154. **Moribund**: not growing or changing; without force or vitality
+	The old tree looked to be very **moribund**, appearing the same as years passed.
 
+155. **Indomitable**: impossible to subdue
+	The city was **indomitable**; over the centuries no one was able to capture it.
 
-154. 
+156. **Somnolent**: inclined to or marked by drowsiness
+	Jones was heavily **somnolent** after pulling an all-nighter.
 
+157. **Fatalistic**: accepting that everything that happens is inevitable
+	Jack's **fatalistic** nature made him very lazy, believing nothing he did could change any outcome.
 
-155. 
+158. **Lustrous**: made smooth and bright by or as if by rubbing
+	Jane held the **lustrous** saddle that she spent the last few hours sanding.
 
+159. **Evince**: give expression to
+	The small black pen **evinced** the large watercolor people, adding minute details to their faces.
 
-156. 
+160. **Profundity**: intellectual depth; penetrating knowledge
+	The **profundity** of the lecturer impressed the students.
 
+161. **Burgeon**: grow and flourish
+	The rose **burgeoned** after three long months of tender loving care.
 
-157. 
+162. **Staid**: characterized by dignity and propriety
+	The **staid** leader appared as if he was better than the others, having an eeiry sense of calm.
 
+163. **Sibilant**: of speech sounds forcing air through a constricted passage
+	The weak **sibilant** noises escaped the dying man's mouth, nonsensical and quiet.
 
-158. 
+164. **Magisterial**: of, relating to, or having the characteristics of a master or teacher
+	Confusias was a **magisterial** leader, having many teachings and ideologies.
 
+165. **Unction**: An ointment or oil; a salve
+	I rubbed the **unction** on her arm, passing over the bumps and red spots.
 
-159. 
+166. **Immure**: lock up or confine, in or as in a jail
+	Georde did not want to **immure** Lenny, he decided instead to kill him outright.
 
+167. **Wimple**: a headdress of cloth
+	She wore a simple **wimple** wherever she went, collecting her hair within it.
 
-160. 
+168. **Reconnoiter**: explore, often with the goal of finding something
+	John **recommoitered** his room, looking over every item for a small shiny sphere.
 
+169. **Chary**: characterized by great caution
+	Jane was a very **chary** girl, watching her every step.
 
-161. 
+170. **Crass**: so unrefined as to be offensive or insensitive
+	The **crass** sketch did not even convey the main idea of the piece, it looked like something completely different.
 
+171. **Usury**: the act of lending money at an exorbitant rate of interest
+	The shark lent the kid a **usury**, telling him if he didnt return the 100RM with interest of 300RM by tomorrow, he would take his car.
 
-162. 
+172. **Bedlam**: a state of extreme confusion and disorder
+	When he got out of bed, he was in a **bedlam**, his head spinning and his eyes barely open.
 
+173. **Cuirass**: medieval body armor that covers the chest and back
+	The king wore a **cuirass** as he sat on his horse, watching the battle.
 
-163. 
+174. **Subterfuge**: something intended to misrepresent the nature of an activity
+	The **subterfuge** news source neglected to report that the explosion was indeed part of the testing of the rocket engine.
 
+175. **Garrulous**: full of trivial conversation
+	Jane stayed away from that part of town, there was one particular **garrulous** man there that would draw you into a useless conversation for hours.
 
-164. 
+176. **Raiment**: especially fine or decorative clothing
+	Jack wore a single **raiment** amongst his regular clothes, showing it off and juxtaposing it against the simple garments below
 
+177. **Peripatetic**: traveling especially on foot
+	Back before there were more modern modes of transport, most people were **peripatetic**.
 
-165. 
+178. **Grotto**: a small cave, usually with attractive features
+	For my previous art piece, i set the scuplture in a **grotto**, for its moody lighting and intricate rocks.
 
+179. **Fecundity**: the quality of something that causes healthy growth
+	The **fecundity** of the hamburger could not be found, it was arguable about how much positive growth it actually ensured.
 
-166. 
-
-
-167. 
-
-
-168. 
-
-
-169. 
-
-
-170. 
-
-
-171. 
-
-
-172. 
-
-
-173. 
-
-
-174. 
-
-
-175. 
-
-
-176. 
-
-
-177. 
-
-
-178. 
-
-
-179. 
-
-
-180. 
-
-
+180. **Apotheosis**: An exalted or glorified example
+	Bob and Alice's original **apotheosis** on asymmetric cryptographic key systems will forever be remembered by cryptologists all over the world.
