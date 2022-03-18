@@ -814,7 +814,7 @@
 	I rubbed the **unction** on her arm, passing over the bumps and red spots.
 
 166. **Immure**: lock up or confine, in or as in a jail
-	Georde did not want to **immure** Lenny, he decided instead to kill him outright.
+	George did not want to **immure** Lenny; he decided instead to kill him outright.
 
 167. **Wimple**: a headdress of cloth
 	She wore a simple **wimple** wherever she went, collecting her hair within it.

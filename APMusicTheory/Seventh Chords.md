@@ -10,7 +10,7 @@ K:C
 X: 1
 L:1/1
 K:C
-"i""m7"[A,CEG]"iio""ø7"[B,DFA]"III""M7"[CEGB]"iv""m7"[DFAc]"V""7"[E^GBd]"VI""M7"[FAce]"viio""o7"[GBdf]
+"i""m7"[A,CEG]"iio""ø7"[B,DFA]"III""M7"[CEGB]"iv""m7"[DFAc]"V""7"[E^GBd]"VI""M7"[FAce]"viio""o7"[^GBdf]
 ```
 ## Major 7th ($X^{M7}$)
 ```music-abc
