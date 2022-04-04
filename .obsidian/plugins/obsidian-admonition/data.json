@@ -78,13 +78,29 @@
   },
   "syntaxHighlight": true,
   "copyButton": true,
-  "version": "6.9.7",
+  "version": "9.0.0",
   "autoCollapse": true,
   "defaultCollapseType": "open",
-  "syncLinks": false,
-  "enableMarkdownProcessor": false,
   "injectColor": true,
   "parseTitles": true,
+  "dropShadow": true,
+  "hideEmpty": false,
+  "open": {
+    "admonitions": true,
+    "icons": true,
+    "other": true,
+    "advanced": false
+  },
+  "icons": [
+    "rpg"
+  ],
+  "useFontAwesome": true,
+  "rpgDownloadedOnce": true,
+  "msDocConverted": false,
+  "useSnippet": false,
+  "snippetPath": "custom-admonitions.6d7b0b",
+  "syncLinks": false,
+  "enableMarkdownProcessor": false,
   "allowMSSyntax": true,
   "livePreviewMS": true
 }
