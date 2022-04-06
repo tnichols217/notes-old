@@ -18,5 +18,6 @@
   "better-word-count",
   "obsidian-pandoc",
   "obsidian-plotly",
-  "obsidian-git"
+  "obsidian-git",
+  "obsidian-icon-shortcodes"
 ]
