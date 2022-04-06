@@ -12,10 +12,10 @@ F,|G,|B,|A,|G,|F,|G,|F,|^E,|F,||
 ```music-abc
 X: 1
 L:1/4
-K:G
+K:Bm
 M:2/4
 V:1 clef: treble
-g
+dcBB|ABBA|B4
 V:2 clef: bass
-E,
+B,,
 ```
