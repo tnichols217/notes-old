@@ -15,7 +15,7 @@ L:1/4
 K:Bm
 M:2/4
 V:1 clef: treble
-dcBB|ABBA|B4
+dcBB|^ABB^A|B4|
 V:2 clef: bass
-B,,
+B,,C,D,E,|F,D,E,F,|B,,4|
 ```
