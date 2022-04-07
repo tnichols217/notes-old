@@ -13,7 +13,7 @@ F,|G,|B,|A,|G,|F,|G,|F,|^E,|F,||
 X: 1
 L:1/4
 K:Bm
-M:2/4
+M:4/4
 V:1 clef: treble
 dcBB|^ABB^A|B4|
 V:2 clef: bass
