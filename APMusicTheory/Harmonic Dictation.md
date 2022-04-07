@@ -39,7 +39,7 @@ M:2/4
 V:1 clef: treble
 c2dd|c2cB|c2B2|c
 V:2 clef: bass
-A,2
+A,2F,G,|A,2
 ```
 
 MM7M7M
