@@ -33,11 +33,11 @@ G,,^F,,|G,,D,|C,B,,|C,D,|G,,2||
 
 ```music-abc
 X: 1
-L:1/4
-K:Gm
+L:2/4
+K:A
 M:2/4
 V:1 clef: treble
-
+C
 V:2 clef: bass
-
+A,
 ```
