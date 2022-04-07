@@ -28,5 +28,5 @@ M:2/4
 V:1 clef: treble
 GA|BA|^FG|AA|B2||
 V:2 clef: bass
-G,,^F,,|G,,D,|C,B,,|C,C,|G,,2||
+G,,^F,,|G,,D,|C,B,,|C,D,|G,,2||
 ```
