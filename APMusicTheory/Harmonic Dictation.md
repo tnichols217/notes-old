@@ -30,3 +30,14 @@ GA|BA|^FG|AA|B2||
 V:2 clef: bass
 G,,^F,,|G,,D,|C,B,,|C,D,|G,,2||
 ```
+
+```music-abc
+X: 1
+L:1/4
+K:Gm
+M:2/4
+V:1 clef: treble
+
+V:2 clef: bass
+
+```
