@@ -50,5 +50,5 @@ M:2/4
 V:1 clef: treble
 c2dd|c2BA|B2G2|A4
 V:2 clef: bass
-A,2F,G,|A,2G,F,|D,2G,2|A,,4
+A,2F,G,|A,2G,F,|D,2D,2|A,,4
 ```
