@@ -48,7 +48,7 @@ L:1/4
 K:A
 M:2/4
 V:1 clef: treble
-c
+c2
 V:2 clef: bass
 
 ```
