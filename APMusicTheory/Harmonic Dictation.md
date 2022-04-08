@@ -59,7 +59,7 @@ L:1/4
 K:F
 M:2/4
 V:1 clef: treble
-"I"c"V6"c|"I"c"IV"B|"I64"A"V"G|"vi"F"V"G|"I"A2||
+"I"c"V6"c|"I"c"V7"B|"I64"A"V"G|"vi"F"V"G|"I"A2||
 V:2 clef: bass
 F,E,|F,B,,|C,C,|D,C,|F,2||
 ```
