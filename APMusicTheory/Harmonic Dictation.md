@@ -50,7 +50,7 @@ M:2/4
 V:1 clef: treble
 c2dd|c2BA|B2E2|A4||
 V:2 clef: bass
-A,2F,G,|A,2G,F,|D,2E,2|A,,4
+A,2F,G,|A,2G,F,|D,2E,2|A,,4||
 ```
 
 ```music-abc
