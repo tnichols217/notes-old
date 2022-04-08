@@ -59,7 +59,7 @@ L:1/4
 K:F
 M:2/4
 V:1 clef: treble
-cd|cB|c
+cd|cB|
 V:2 clef: bass
 F,
 ```
