@@ -10838,6 +10838,7 @@ var SimpleGit = class extends GitManager {
             body += chunk.toString("utf8");
           });
           y.on("end", () => {
+            console.log(body);
             let l = body.split("\n").map((x2) => {
               let a = x2.match(/'([^']*)'/);
               if (a) {
