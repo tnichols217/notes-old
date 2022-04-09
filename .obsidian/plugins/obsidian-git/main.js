@@ -10840,6 +10840,8 @@ var SimpleGit = class extends GitManager {
             console.log(body);
           });
         }).subModule(["foreach", "--recursive", ""]);
+        this.git.outputHandler(() => {
+        });
       }
       this.plugin.setState(PluginState.add);
       yield this.git.add("-A", (err) => this.onError(err));
