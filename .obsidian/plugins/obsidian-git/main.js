@@ -10844,7 +10844,7 @@ var SimpleGit = class extends GitManager {
               console.log(a);
               if (a != void 0) {
                 console.log(a[1]);
-                if (a[1].startsWith("Entering")) {
+                if (x2.startsWith("Entering")) {
                   console.log(a[1]);
                   return a[1];
                 }
