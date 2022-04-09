@@ -10849,7 +10849,7 @@ var SimpleGit = class extends GitManager {
             });
             l.reverse();
             console.log(l);
-            for (let a in l) {
+            for (const a in l) {
               console.log(a);
               if (a != void 0) {
                 console.log(a);
