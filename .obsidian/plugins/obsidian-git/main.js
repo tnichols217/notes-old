@@ -10831,20 +10831,9 @@ var SimpleGit = class extends GitManager {
     return __async(this, null, function* () {
       if (this.plugin.settings.updateSubmodules) {
         this.plugin.setState(PluginState.commit);
-        this.git.outputHandler((x, y, z) => {
-          let body = "";
-          y.on("data", (chunk) => {
-            body += chunk.toString("utf8");
-          });
-          y.on("end", () => {
-            console.log(body);
-          });
-        });
         console.log("calling submod");
         yield this.git.subModule(["foreach", "--recursive", ""]);
         console.log("called submod");
-        this.git.outputHandler(() => {
-        });
       }
       this.plugin.setState(PluginState.add);
       yield this.git.add("-A", (err) => this.onError(err));
