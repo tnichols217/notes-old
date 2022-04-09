@@ -10832,8 +10832,12 @@ var SimpleGit = class extends GitManager {
       if (this.plugin.settings.updateSubmodules) {
         this.plugin.setState(PluginState.commit);
         yield this.git.outputHandler((x, y, z) => {
+          let body = "";
           y.on("data", (chunk) => {
-            console.log(chunk.toString("utf8"));
+            body += chunk.toString("utf8");
+          });
+          y.on("end", () => {
+            console.log(body);
           });
         }).subModule(["foreach", "--recursive"]);
         yield this.git.subModule(["foreach", "--recursive", `git add -A && if [ ! -z "$(git status --porcelain)" ]; then git commit -m "${yield this.formatCommitMessage(message)}"; fi`], (err) => this.onError(err));
