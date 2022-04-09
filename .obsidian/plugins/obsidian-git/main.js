@@ -10853,8 +10853,8 @@ var SimpleGit = class extends GitManager {
               console.log(x2);
               if (x2 != void 0) {
                 console.log(x2);
-                yield this.git.raw(`-C ${x2} add -A`);
-                yield this.git.raw(`-C ${x2} commit -m "${yield this.formatCommitMessage(message)}`);
+                yield this.git.cwd({ path: x2, root: false }).add("-A", (err) => this.onError(err));
+                yield this.git.cwd({ path: x2, root: false }).commit(yield this.formatCommitMessage(message), (err) => this.onError(err));
               }
             }));
             console.log(l);
