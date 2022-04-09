@@ -10843,7 +10843,7 @@ var SimpleGit = class extends GitManager {
               let a = x2.match(/'([^']*)'/);
               if (a != void 0) {
                 if (x2.startsWith("Entering")) {
-                  return a[1];
+                  return "./" + a[1] + "/";
                 }
               }
             });
