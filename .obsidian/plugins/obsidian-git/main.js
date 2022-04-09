@@ -10833,10 +10833,8 @@ var SimpleGit = class extends GitManager {
         this.plugin.setState(PluginState.commit);
         this.git.outputHandler((x, y, z) => __async(this, null, function* () {
           let body = "";
-          let root = (yield this.git.revparse(["--show-toplevel"])).toString();
           y.on("data", (chunk) => {
             body += chunk.toString("utf8");
-            console.log(body);
           });
           y.on("end", () => __async(this, null, function* () {
             console.log(body);
@@ -10845,7 +10843,7 @@ var SimpleGit = class extends GitManager {
               let a = x2.match(/'([^']*)'/);
               if (a != void 0) {
                 if (x2.startsWith("Entering")) {
-                  return root + "/" + a[1] + "/";
+                  return this.git.revparse(["--show-toplevel"]) + "./" + a[1] + "/";
                 }
               }
             });
@@ -10855,6 +10853,8 @@ var SimpleGit = class extends GitManager {
               console.log(x2);
               if (x2 != void 0) {
                 console.log(x2);
+                yield this.git.cwd({ path: x2, root: false }).add("-A", (err) => this.onError(err));
+                yield this.git.cwd({ path: x2, root: false }).commit(yield this.formatCommitMessage(message), (err) => this.onError(err));
               }
             }));
             console.log(l);
