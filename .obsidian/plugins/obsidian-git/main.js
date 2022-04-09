@@ -10841,11 +10841,8 @@ var SimpleGit = class extends GitManager {
             let m = body.split("\n");
             let l = m.map((x2) => {
               let a = x2.match(/'([^']*)'/);
-              console.log(a);
               if (a != void 0) {
-                console.log(a[1]);
                 if (x2.startsWith("Entering")) {
-                  console.log(a[1]);
                   return a[1];
                 }
               }
@@ -10853,8 +10850,8 @@ var SimpleGit = class extends GitManager {
             l.reverse();
             console.log(l);
             for (let a in l) {
-              if (a) {
-                console.log(body, a);
+              if (a != void 0) {
+                console.log(a);
                 yield this.git.raw(` -C ${a} add -A`);
                 yield this.git.raw(` -C ${a} commit -m "${yield this.formatCommitMessage(message)}`);
               }
