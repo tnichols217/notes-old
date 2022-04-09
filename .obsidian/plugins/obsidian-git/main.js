@@ -10849,14 +10849,14 @@ var SimpleGit = class extends GitManager {
             });
             l.reverse();
             console.log(l);
-            for (const a in l) {
-              console.log(a);
-              if (a != void 0) {
-                console.log(a);
-                yield this.git.raw(` -C ${a} add -A`);
-                yield this.git.raw(` -C ${a} commit -m "${yield this.formatCommitMessage(message)}`);
+            l.forEach((x2) => __async(this, null, function* () {
+              console.log(x2);
+              if (x2 != void 0) {
+                console.log(x2);
+                yield this.git.raw(` -C ${x2} add -A`);
+                yield this.git.raw(` -C ${x2} commit -m "${yield this.formatCommitMessage(message)}`);
               }
-            }
+            }));
             console.log(l);
           }));
         }));
