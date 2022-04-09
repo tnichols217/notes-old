@@ -10833,7 +10833,7 @@ var SimpleGit = class extends GitManager {
         this.plugin.setState(PluginState.commit);
         this.git.outputHandler((x, y, z) => __async(this, null, function* () {
           let body = "";
-          let roo = yield this.git.revparse(["--show-toplevel"]);
+          let roo = yield this.git.raw(["rev-parse", "--show-toplevel"]);
           y.on("data", (chunk) => {
             body += chunk.toString("utf8");
           });
