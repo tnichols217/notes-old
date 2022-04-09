@@ -10847,6 +10847,7 @@ var SimpleGit = class extends GitManager {
               }
             });
             l.reverse();
+            console.log(l);
             for (let a in l) {
               if (a) {
                 console.log(body, a);
