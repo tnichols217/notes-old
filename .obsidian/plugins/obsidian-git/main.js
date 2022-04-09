@@ -10850,6 +10850,7 @@ var SimpleGit = class extends GitManager {
             l.reverse();
             console.log(l);
             for (let a in l) {
+              console.log(a);
               if (a != void 0) {
                 console.log(a);
                 yield this.git.raw(` -C ${a} add -A`);
