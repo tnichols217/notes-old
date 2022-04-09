@@ -10837,7 +10837,7 @@ var SimpleGit = class extends GitManager {
             body += chunk.toString("utf8");
           });
           y.on("end", () => {
-            let l = body.split("\n").map((x2) => x2.match(/"([^"]*)"/)[1]);
+            let l = body.split("\n");
             console.log(l);
           });
         });
