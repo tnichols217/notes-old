@@ -10847,6 +10847,7 @@ var SimpleGit = class extends GitManager {
             l.reverse();
             for (let a in l) {
               if (a) {
+                console.log(body, a);
                 yield this.git.raw(` -C ${a} add -A`);
                 yield this.git.raw(` -C ${a} commit -m "${yield this.formatCommitMessage(message)}`);
               }
