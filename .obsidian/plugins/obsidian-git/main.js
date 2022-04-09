@@ -10841,7 +10841,9 @@ var SimpleGit = class extends GitManager {
             let l = body.split("\n").map((x2) => {
               let a = x2.match(/'([^']*)'/);
               if (a) {
-                return a[1];
+                if (a[1].startsWith("Entering")) {
+                  return a[1];
+                }
               }
             });
             l.reverse();
