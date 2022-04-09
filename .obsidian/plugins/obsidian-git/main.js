@@ -10838,7 +10838,17 @@ var SimpleGit = class extends GitManager {
           });
           y.on("end", () => __async(this, null, function* () {
             console.log(body);
-            let l = body.split("\n");
+            let m = body.split("\n");
+            let l = m.map((x2) => {
+              let a = x2.match(/'([^']*)'/);
+              console.log(a);
+              if (a) {
+                if (a[1].startsWith("Entering")) {
+                  console.log(a[1]);
+                  return a[1];
+                }
+              }
+            });
             l.reverse();
             console.log(l);
             for (let a in l) {
