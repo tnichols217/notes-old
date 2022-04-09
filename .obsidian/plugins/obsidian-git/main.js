@@ -10836,6 +10836,7 @@ var SimpleGit = class extends GitManager {
           let root = (yield this.git.revparse(["--show-toplevel"])).toString();
           y.on("data", (chunk) => {
             body += chunk.toString("utf8");
+            console.log(body);
           });
           y.on("end", () => __async(this, null, function* () {
             console.log(body);
