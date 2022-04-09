@@ -10842,7 +10842,8 @@ var SimpleGit = class extends GitManager {
             let l = m.map((x2) => {
               let a = x2.match(/'([^']*)'/);
               console.log(a);
-              if (a) {
+              if (a != void 0) {
+                console.log(a[1]);
                 if (a[1].startsWith("Entering")) {
                   console.log(a[1]);
                   return a[1];
