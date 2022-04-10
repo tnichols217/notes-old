@@ -10834,6 +10834,7 @@ var SimpleGit = class extends GitManager {
         this.plugin.setState(PluginState.commit);
         this.git.outputHandler((x, y, z) => __async(this, null, function* () {
           let body = "";
+          console.log(obsidian.Vault);
           let roo = obsidian.Vault.getRoot();
           console.log(roo);
           y.on("data", (chunk) => {
