@@ -10761,7 +10761,6 @@ var GitManager = class {
 };
 
 // src/simpleGit.ts
-var obsidian = require("obsidian");
 var SimpleGit = class extends GitManager {
   constructor(plugin) {
     super(plugin);
@@ -10839,7 +10838,6 @@ var SimpleGit = class extends GitManager {
             body += chunk.toString("utf8");
           });
           y.on("end", () => __async(this, null, function* () {
-            console.log(body);
             let m = body.split("\n");
             let l = m.map((x2) => {
               let a = x2.match(/'([^']*)'/);
@@ -10850,21 +10848,15 @@ var SimpleGit = class extends GitManager {
               }
             });
             l.reverse();
-            console.log(l);
             l.forEach((x2) => __async(this, null, function* () {
-              console.log(x2);
               if (x2 != void 0) {
-                console.log(x2);
                 yield this.git.cwd({ path: x2, root: false }).add("-A", (err) => this.onError(err));
                 yield this.git.cwd({ path: x2, root: false }).commit(yield this.formatCommitMessage(message), (err) => this.onError(err));
               }
             }));
-            console.log(l);
           }));
         }));
-        console.log("calling submod");
         yield this.git.subModule(["foreach", "--recursive", ""]);
-        console.log("called submod");
         this.git.outputHandler(() => {
         });
       }
