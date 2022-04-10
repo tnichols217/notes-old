@@ -47,7 +47,7 @@ var __toModule = (module2) => {
   return __reExport(__markAsModule(__defProp(module2 != null ? __create(__getProtoOf(module2)) : {}, "default", module2 && module2.__esModule && "default" in module2 ? { get: () => module2.default, enumerable: true } : { value: module2, enumerable: true })), module2);
 };
 var __async = (__this, __arguments, generator) => {
-  return new Promise((resolve2, reject) => {
+  return new Promise((resolve, reject) => {
     var fulfilled = (value) => {
       try {
         step(generator.next(value));
@@ -62,7 +62,7 @@ var __async = (__this, __arguments, generator) => {
         reject(e);
       }
     };
-    var step = (x) => x.done ? resolve2(x.value) : Promise.resolve(x.value).then(fulfilled, rejected);
+    var step = (x) => x.done ? resolve(x.value) : Promise.resolve(x.value).then(fulfilled, rejected);
     step((generator = generator.apply(__this, __arguments)).next());
   });
 };
@@ -4983,11 +4983,11 @@ var require_tslib = __commonJS({
       };
       __awaiter2 = function(thisArg, _arguments, P, generator) {
         function adopt(value) {
-          return value instanceof P ? value : new P(function(resolve2) {
-            resolve2(value);
+          return value instanceof P ? value : new P(function(resolve) {
+            resolve(value);
           });
         }
-        return new (P || (P = Promise))(function(resolve2, reject) {
+        return new (P || (P = Promise))(function(resolve, reject) {
           function fulfilled(value) {
             try {
               step(generator.next(value));
@@ -5003,7 +5003,7 @@ var require_tslib = __commonJS({
             }
           }
           function step(result) {
-            result.done ? resolve2(result.value) : adopt(result.value).then(fulfilled, rejected);
+            result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected);
           }
           step((generator = generator.apply(thisArg, _arguments || [])).next());
         });
@@ -5220,14 +5220,14 @@ var require_tslib = __commonJS({
         }, i);
         function verb(n) {
           i[n] = o[n] && function(v) {
-            return new Promise(function(resolve2, reject) {
-              v = o[n](v), settle(resolve2, reject, v.done, v.value);
+            return new Promise(function(resolve, reject) {
+              v = o[n](v), settle(resolve, reject, v.done, v.value);
             });
           };
         }
-        function settle(resolve2, reject, d, v) {
+        function settle(resolve, reject, d, v) {
           Promise.resolve(v).then(function(v2) {
-            resolve2({ value: v2, done: d });
+            resolve({ value: v2, done: d });
           }, reject);
         }
       };
@@ -7062,8 +7062,8 @@ var CustomMessageModal = class extends import_obsidian4.SuggestModal {
   }
   open() {
     super.open();
-    return new Promise((resolve2) => {
-      this.resolve = resolve2;
+    return new Promise((resolve) => {
+      this.resolve = resolve;
     });
   }
   onClose() {
@@ -7224,7 +7224,7 @@ var __toCommonJS = /* @__PURE__ */ ((cache) => {
   };
 })(typeof WeakMap !== "undefined" ? /* @__PURE__ */ new WeakMap() : 0);
 var __async2 = (__this, __arguments, generator) => {
-  return new Promise((resolve2, reject) => {
+  return new Promise((resolve, reject) => {
     var fulfilled = (value) => {
       try {
         step(generator.next(value));
@@ -7239,7 +7239,7 @@ var __async2 = (__this, __arguments, generator) => {
         reject(e);
       }
     };
-    var step = (x) => x.done ? resolve2(x.value) : Promise.resolve(x.value).then(fulfilled, rejected);
+    var step = (x) => x.done ? resolve(x.value) : Promise.resolve(x.value).then(fulfilled, rejected);
     step((generator = generator.apply(__this, __arguments)).next());
   });
 };
@@ -10761,6 +10761,7 @@ var GitManager = class {
 };
 
 // src/simpleGit.ts
+var obsidian = require("obsidian");
 var SimpleGit = class extends GitManager {
   constructor(plugin) {
     super(plugin);
@@ -10833,8 +10834,8 @@ var SimpleGit = class extends GitManager {
         this.plugin.setState(PluginState.commit);
         this.git.outputHandler((x, y, z) => __async(this, null, function* () {
           let body = "";
-          console.log(path.resolve("Public"));
-          let roo = __dirname;
+          let roo = obsidian.Vault.getRoot();
+          console.log(roo);
           y.on("data", (chunk) => {
             body += chunk.toString("utf8");
           });
@@ -11205,8 +11206,8 @@ var GeneralModal = class extends import_obsidian7.SuggestModal {
   }
   open() {
     super.open();
-    return new Promise((resolve2) => {
-      this.resolve = resolve2;
+    return new Promise((resolve) => {
+      this.resolve = resolve;
     });
   }
   selectSuggestion(value, evt) {
@@ -11960,8 +11961,8 @@ var DiscardModal = class extends import_obsidian9.Modal {
   }
   myOpen() {
     this.open();
-    return new Promise((resolve2) => {
-      this.resolve = resolve2;
+    return new Promise((resolve) => {
+      this.resolve = resolve;
     });
   }
   onOpen() {
