@@ -10833,7 +10833,7 @@ var SimpleGit = class extends GitManager {
         this.plugin.setState(PluginState.commit);
         this.git.outputHandler((x, y, z) => __async(this, null, function* () {
           let body = "";
-          let root = this.app.vault.adapter.basePath;
+          let root = this.app.vault.adapter.basePath + (import_path.sep + this.plugin.settings.basePath ? this.plugin.settings.basePath : "");
           y.on("data", (chunk) => {
             body += chunk.toString("utf8");
           });
@@ -10842,7 +10842,7 @@ var SimpleGit = class extends GitManager {
             let l = m.map((x2) => {
               let a = x2.match(/'([^']*)'/);
               if (a != void 0) {
-                return root + "/" + a[1] + "/";
+                return root + import_path.sep + a[1] + import_path.sep;
               }
             });
             l.reverse();
