@@ -10842,9 +10842,7 @@ var SimpleGit = class extends GitManager {
             let l = m.map((x2) => {
               let a = x2.match(/'([^']*)'/);
               if (a != void 0) {
-                if (x2.startsWith("Entering")) {
-                  return root + "/" + a[1] + "/";
-                }
+                return root + "/" + a[1] + "/";
               }
             });
             l.reverse();
