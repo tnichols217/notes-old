@@ -58,15 +58,6 @@ There’s a 100-character limit for images, including spaces. When naming images
 
 The image sizes below are recommendations. Your image sizes may be different.
 
--   Maximum size: 530 × 780 pixels
--   Minimum size: 480 × 480 pixels
-
-Portrait orientation (h × w):
-
--   Maximum size: 780 × 530 pixels
--   Minimum size: 480 × 480 pixels
-
-Square images (h x w):
-
+-   530 × 780 pixels
 -   Maximum size: 642 × 642 pixels
--   Minimum size: 480 × 480 pixels
+
