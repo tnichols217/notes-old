@@ -11,15 +11,9 @@ For the AP 3-D Art and Design portfolio:
 -   Your work should focus on the use of three-dimensional (3-D) skills of art and design, including **point, line, shape, plane, layer, form, volume, mass, occupied/unoccupied space, texture, color, value, opacity, transparency, time, unity, variety, rhythm, movement, proportion, scale, balance, emphasis, contrast, repetition, connection, juxtaposition, and hierarchy**.
     
 -   Think about how materials, processes, and ideas can be used to make work that involves **space and form**, whether physical or virtual.
-    
 -   There’s no preferred or unacceptable content or style.
-    
 -   Here are some formats you can submit: figurative or nonfigurative sculpture, architectural models, metal work, ceramics, glasswork, installation, performance, assemblage, and 3-D fabric/fiber arts.
-    
 -   Don’t submit video clips—they’re not allowed. You may submit still images from videos or film and composite images.
-    
-
-  
 
 ### Section 1: Sustained Investigation
 
