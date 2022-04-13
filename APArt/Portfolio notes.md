@@ -1,4 +1,3 @@
-**
 ## About the Portfolio
 
 You’ll submit a portfolio of artwork for evaluation at the end of the school year. You’ll upload digital images of your work and commentary online.
@@ -107,6 +106,3 @@ Square images (h x w):
     
 -   3-D Art and Design Portfolio Exams: Based on the maximum file size of 3 MB and a total of 25 digital images, each student needs a maximum of 75 MB of free disk space.
     
-
-  
-**
