@@ -60,8 +60,8 @@ The image sizes below are recommendations. Your image sizes may be different.
 
 Landscape orientation (h x w):
 
--   Maximum size: 530 x 780 pixels
--   Minimum size: 480 x 480 pixels
+-   Maximum size: 530 × 780 pixels
+-   Minimum size: 480 × 480 pixels
 
 Portrait orientation (h x w):
 
