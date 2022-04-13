@@ -38,9 +38,7 @@ Images of 5 works, 2 views each, for a total of 10 images 40% of Score
 You’ll choose works that demonstrate:
 
 -   3-D design skills
-    
 -   synthesis of materials, processes, and ideas
-    
 
 For each work, you’ll have to describe in writing:
 
