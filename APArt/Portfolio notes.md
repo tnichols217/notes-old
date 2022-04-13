@@ -48,8 +48,6 @@ For each work, you’ll have to describe in writing:
 
 Works may come from the Sustained Investigation section, but they do not have to. They may be a group of related works, unrelated works, or a combination of related and unrelated works.
 
-  
-
 ## Requirements and Recommendations for Digital Images
 
 All images must be submitted in JPEG format (file name extension .jpg) and RGB color mode. We recommend that you keep copies of your original images.
