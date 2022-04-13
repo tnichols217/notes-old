@@ -78,6 +78,4 @@ Square images (h x w):
 ### Free Disk Space
 
 -   2-D Art and Design and Drawing Portfolio Exams: Based on the maximum file size of 3 MB and a total of 20 digital images, each student needs a maximum of 60 MB of free disk space per portfolio.
-    
 -   3-D Art and Design Portfolio Exams: Based on the maximum file size of 3 MB and a total of 25 digital images, each student needs a maximum of 75 MB of free disk space.
-    
