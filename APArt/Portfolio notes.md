@@ -33,7 +33,7 @@ You’ll have to document in writing:
 
 ### Section 2: Selected Works
 
-Images of 5 works, 2 views each, for a total of 10 images 40% of Score
+Images of **5 works**, **2 views** each, for a total of **10 images** **40% of Score**
 
 You’ll choose works that demonstrate:
 
