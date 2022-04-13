@@ -69,14 +69,11 @@ Portrait orientation (h x w):
 
 -   Maximum size: 780 x 530 pixels (10.83 x 7.36 inches or 27.51 x 18.69 cm)
 -   Minimum size: 480 x 480 pixels (6.67 x 6.67 inches or 16.94 x 16.94 cm)
-    
 
 Square images (h x w):
 
 -   Maximum size: 642 x 642 pixels (8.91 x 8.91 inches or 22.64 x 22.64 cm)
-    
 -   Minimum size: 480 x 480 pixels (6.67 x 6.67 inches or 16.94 x 16.94 cm)
-    
 
 ### Free Disk Space
 
