@@ -28,9 +28,7 @@ For the AP 3-D Art and Design portfolio:
 You’ll create a body of work that demonstrates:
 
 -   sustained investigation through practice, experimentation, and revision
-    
 -   sustained investigation of materials, processes, and ideas
-    
 -   synthesis of materials, processes, and ideas
     
 -   3-D design skills
