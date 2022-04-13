@@ -100,7 +100,7 @@ Square images (h x w):
 -   Minimum size: 480 x 480 pixels (6.67 x 6.67 inches or 16.94 x 16.94 cm)
     
 
-## Free Disk Space
+### Free Disk Space
 
 -   2-D Art and Design and Drawing Portfolio Exams: Based on the maximum file size of 3 MB and a total of 20 digital images, each student needs a maximum of 60 MB of free disk space per portfolio.
     
