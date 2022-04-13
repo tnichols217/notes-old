@@ -30,18 +30,12 @@ You’ll create a body of work that demonstrates:
 -   sustained investigation through practice, experimentation, and revision
 -   sustained investigation of materials, processes, and ideas
 -   synthesis of materials, processes, and ideas
-    
 -   3-D design skills
-    
 
 You’ll have to document in writing:
 
 -   the questions that guided your sustained investigation
-    
 -   how your sustained investigation shows evidence of practice, experimentation, and revision guided by your questions
-    
-
-  
 
 ### Section 2: Selected Works
 
