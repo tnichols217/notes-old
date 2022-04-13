@@ -43,11 +43,8 @@ You’ll choose works that demonstrate:
 For each work, you’ll have to describe in writing:
 
 -   your ideas
-    
 -   the materials you used
-    
 -   the processes you used
-    
 
 Works may come from the Sustained Investigation section, but they do not have to. They may be a group of related works, unrelated works, or a combination of related and unrelated works.
 
