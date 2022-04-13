@@ -10831,25 +10831,25 @@ var SimpleGit = class extends GitManager {
     return __async(this, null, function* () {
       if (this.plugin.settings.updateSubmodules) {
         this.plugin.setState(PluginState.commit);
-        this.git.outputHandler((x, y, z) => __async(this, null, function* () {
+        this.git.outputHandler((cmd, stdout, stderr) => __async(this, null, function* () {
           let body = "";
           let root = this.app.vault.adapter.basePath + (this.plugin.settings.basePath ? import_path.sep + this.plugin.settings.basePath : "");
-          y.on("data", (chunk) => {
+          stdout.on("data", (chunk) => {
             body += chunk.toString("utf8");
           });
-          y.on("end", () => __async(this, null, function* () {
-            let m = body.split("\n");
-            let l = m.map((x2) => {
-              let a = x2.match(/'([^']*)'/);
-              if (a != void 0) {
-                return root + import_path.sep + a[1] + import_path.sep;
+          stdout.on("end", () => __async(this, null, function* () {
+            let submods = body.split("\n");
+            submods = submods.map((i) => {
+              let submod = i.match(/'([^']*)'/);
+              if (submod != void 0) {
+                return root + import_path.sep + submod[1] + import_path.sep;
               }
             });
-            l.reverse();
-            l.forEach((x2) => __async(this, null, function* () {
-              if (x2 != void 0) {
-                yield this.git.cwd({ path: x2, root: false }).add("-A", (err) => this.onError(err));
-                yield this.git.cwd({ path: x2, root: false }).commit(yield this.formatCommitMessage(message), (err) => this.onError(err));
+            submods.reverse();
+            submods.forEach((i) => __async(this, null, function* () {
+              if (i != void 0) {
+                yield this.git.cwd({ path: i, root: false }).add("-A", (err) => this.onError(err));
+                yield this.git.cwd({ path: i, root: false }).commit(yield this.formatCommitMessage(message), (err) => this.onError(err));
               }
             }));
           }));
