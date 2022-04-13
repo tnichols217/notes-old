@@ -60,4 +60,3 @@ The image sizes below are recommendations. Your image sizes may be different.
 
 -   Non-square: 530 × 780 pixels
 -   Square: 642 × 642 pixels
-
