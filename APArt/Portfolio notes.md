@@ -17,7 +17,7 @@ For the AP 3-D Art and Design portfolio:
 
 ### Section 1: Sustained Investigation
 
-15 digital images 60% of Score
+**15 digital images** *60% of Score*
 
 You’ll create a body of work that demonstrates:
 
