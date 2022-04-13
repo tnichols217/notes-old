@@ -274,3 +274,27 @@ strong em,
   margin-bottom: 0cm;
   margin-top: 0cm;
 }
+
+ul {
+  list-style-type: disc;
+}
+
+ul > li > ul {
+  list-style-type: circle;
+}
+
+ul > li > ul > li > ul {
+  list-style-type: square;
+}
+
+ul > li > ul > li > ul > li > ul {
+  list-style-type: disc;
+}
+
+ul > li > ul > li > ul > li > ul > li > ul {
+  list-style-type: circle;
+}
+
+ul > li > ul > li > ul > li > ul > li > ul > li > ul {
+  list-style-type: square;
+}
