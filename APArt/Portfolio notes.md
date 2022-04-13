@@ -58,6 +58,6 @@ There’s a 100-character limit for images, including spaces. When naming images
 
 The image sizes below are recommendations. Your image sizes may be different.
 
--   530 × 780 pixels
--   Maximum size: 642 × 642 pixels
+-   Non-square: 530 × 780 pixels
+-   Square: 642 × 642 pixels
 
