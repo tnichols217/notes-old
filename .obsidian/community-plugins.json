@@ -19,5 +19,6 @@
   "obsidian-pandoc",
   "obsidian-plotly",
   "obsidian-git",
-  "obsidian-icon-shortcodes"
+  "obsidian-icon-shortcodes",
+  "obsidian-columns"
 ]
