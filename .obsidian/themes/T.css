@@ -204,28 +204,28 @@ color: var(--color-4);
 strong,
 .cm-formatting-strong,
 .cm-strong,
-.cm-s-obsidian span.cm-quote .cm-strong {
+.cm-s-obsidian span.cm-quote.cm-strong {
   color: var(--color-8);
 }
 
 em,
 .cm-formatting-em,
 .cm-em,
-.cm-s-obsidian span.cm-quote .cm-em {
+.cm-s-obsidian span.cm-quote.cm-em {
   color: var(--color-9);
 }
 
 del,
 .cm-formatting-strikethrough,
 .cm-strikethrough,
-.cm-s-obsidian span.cm-quote .cm-strikethrough {
+.cm-s-obsidian span.cm-quote.cm-strikethrough {
   color: var(--color-3)
 }
 
 strong em,
 .cm-formatting-em .cm-formatting-strong,
 .cm-em .cm-strong,
-.cm-s-obsidian span.cm-quote .cm-em .cm-strong {
+.cm-s-obsidian span.cm-quote.cm-em .cm-strong {
   color: var(--color-10);
 }
 
