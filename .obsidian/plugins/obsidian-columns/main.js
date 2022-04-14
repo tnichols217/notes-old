@@ -59,6 +59,10 @@ var MyPlugin = class extends import_obsidian.Plugin {
   onload() {
     return __async(this, null, function* () {
       yield this.loadSettings();
+      this.registerMarkdownPostProcessor((element, context) => {
+        const p = element.querySelectorAll("p");
+        console.log(p);
+      });
       const ribbonIconEl = this.addRibbonIcon("dice", "Sample Plugin", (evt) => {
         new import_obsidian.Notice("This is a notice!");
       });
