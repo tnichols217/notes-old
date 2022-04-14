@@ -1,11 +1,10 @@
 # Non-Chord Tones
-```ad-def
-**Non-Chord Tones**: Notes that are not in the given chord
-
-1. They can be used to **embellish**
-2. Make the melody **easier to sing** (PT)
-3. Can create dissonance (**tension**) then resolution
-```
+> [!def]
+> **Non-Chord Tones**: Notes that are not in the given chord
+> 
+> 1. They can be used to **embellish**
+> 2. Make the melody **easier to sing** (PT)
+> 3. Can create dissonance (**tension**) then resolution
 
 | Abbrev. | Name             | Approached by                                  | Left by                            | Picture     |
 | ------- | ---------------- | ---------------------------------------------- | ---------------------------------- | ----------- |
@@ -20,11 +19,10 @@
 | Ped     | Pedal point      | Same tone                                      | Same tone                          | --          |
 
 
-```ad-important
-If a non-chord tone **resolves to a weaker accentation**, the NCT is called **accented**.
-
-If not, it is unaccented.
-```
+> [!important]
+> If a non-chord tone **resolves to a weaker accentation**, the NCT is called **accented**.
+> 
+> If not, it is unaccented.
 
 ## Neighbor Tones and Passing Tones (NT & PT)
 Can be:
@@ -32,9 +30,8 @@ Can be:
 - Diatonic (part of the key)
 
 ## Suspensions and Retardations (Sus & Ret)
-```ad-def
-When one note of the chord is suspended, delaying its switch to the next chord
-```
+> [!def]
+> When one note of the chord is suspended, delaying its switch to the next chord
 1. Starts with the **preparation**
 2. Then it gets **suspended** (or retarded)
 	- A note stays on the old chord while the rest move to the new chord
@@ -44,22 +41,21 @@ When one note of the chord is suspended, delaying its switch to the next chord
 	- Compounds do not matter: do not put Sus 11-10
 	- Exception is **Sus 9-8**
 - Both are **always** accented
-````ad-example
-```music-abc
-X: 1
-M: 4/4
-L: 1/4A
-K: C
-%%score (T1 T2)
-V: T1 clef=treble
-V: T2 clef=treble
-[V:T1]
-"Prep" [CGC']2 "Sus 6-5" [G,BD']2|"Res"[G,BD']4
-[V:T2]
-[E]2-[E]2|[D]4
-```
-Starts with a prep, moves into Sus, then ends with the resolution
-````
+> [!example]
+> ```music-abc
+> X: 1
+> M: 4/4
+> L: 1/4A
+> K: C
+> %%score (T1 T2)
+> V: T1 clef=treble
+> V: T2 clef=treble
+> [V:T1]
+> "Prep" [CGC']2 "Sus 6-5" [G,BD']2|"Res"[G,BD']4
+> [V:T2]
+> [E]2-[E]2|[D]4
+> ```
+> Starts with a prep, moves into Sus, then ends with the resolution
 
 ## Appoggiaturas and Escape tones (App and ET)
 
@@ -70,61 +66,56 @@ Starts with a prep, moves into Sus, then ends with the resolution
 
 - Normally go up first
 
-````ad-example
-```music-abc
-X: 1
-M: 2/4
-L: 1/4A
-K: C
-%%score (T1 T2)
-V: T1 clef=treble
-V: T2 clef=treble
-[V:T1]
-C'/"NGr"D'//B//C'||C'/"NGr"B//D'//C'||C'/"NGr"[D'B]/C'||
-[V:T2]
-E2||E2||E2||
-```
-The sixteenth notes are neighbors of the note before, creating a NGr
-````
+> [!example]
+> ```music-abc
+> X: 1
+> M: 2/4
+> L: 1/4A
+> K: C
+> %%score (T1 T2)
+> V: T1 clef=treble
+> V: T2 clef=treble
+> [V:T1]
+> C'/"NGr"D'//B//C'||C'/"NGr"B//D'//C'||C'/"NGr"[D'B]/C'||
+> [V:T2]
+> E2||E2||E2||
+> ```
+> The sixteenth notes are neighbors of the note before, creating a NGr
 
 ## Anticipation
 
-```ad-def
-The opposite of a suspension or retardation, where the note moves on to the new chord before the rest of the notes
-```
+> [!def]
+> The opposite of a suspension or retardation, where the note moves on to the new chord before the rest of the notes
 
 - Will always be unaccented because it leads to a new chord
 
-````ad-example
-```music-abc
-X: 1
-M: 4/4
-L: 1/4A
-K: C
-%%score (T1 T2)
-V: T1 clef=treble
-V: T2 clef=treble
-[V:T1]
-[G,BD']4|[CGC']4|
-[V:T2]
-[D]2"Ant"[E]2-|[E]4|
-```
-The tenor anticipates the next chord before it moves
-````
+> [!example]
+> ```music-abc
+> X: 1
+> M: 4/4
+> L: 1/4A
+> K: C
+> %%score (T1 T2)
+> V: T1 clef=treble
+> V: T2 clef=treble
+> [V:T1]
+> [G,BD']4|[CGC']4|
+> [V:T2]
+> [D]2"Ant"[E]2-|[E]4|
+> ```
+> The tenor anticipates the next chord before it moves
 
-```ad-def
-color: 20, 125, 0
-**Free anticipation**
-
-A note anticipates a note in the next chord, but does not actually stay on that note when the chord changes, although it does have to continue to move in the same direction
-
-```
+> [!def]
+> color: 20, 125, 0
+> **Free anticipation**
+> 
+> A note anticipates a note in the next chord, but does not actually stay on that note when the chord changes, although it does have to continue to move in the same direction
+> 
 
 ## Pedal point
 
-```ad-def
-When you keep a note the same through a chord, even if its not part of the chord.
-```
+> [!def]
+> When you keep a note the same through a chord, even if its not part of the chord.
 
 ```music-abc
 X: 1
@@ -141,9 +132,8 @@ V: T2 clef=treble
 ```
 ## NCT Inception
 
-```ad-important 
-NCTs can have NCTs inside them, and when this happens, you have to classify the NCT using the big picture, not only the local notes.
-```
+> [!important]
+> NCTs can have NCTs inside them, and when this happens, you have to classify the NCT using the big picture, not only the local notes.
 
 ```music-abc
 X: 1

@@ -1,8 +1,7 @@
 # Rhetorical Modes
 
-```ad-def
-A way of organizing the structure of you text.
-```
+> [!def]
+> A way of organizing the structure of you text.
 
 ## Examples
 1. Narration
