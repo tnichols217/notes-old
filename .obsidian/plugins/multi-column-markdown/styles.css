@@ -5,5 +5,5 @@
 .columnChild {
     flex-grow: 1;
     flex-basis: 0px;
-    border: 1px
+    padding: 10px
 }
