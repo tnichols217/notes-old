@@ -1,4 +1,9 @@
-/* Sets all the text color to red! */
-body {
-    color: red;
+.columnParent {
+    display: flex
+}
+
+.columnChild {
+    flex-grow: 1;
+    flex-basis: 0px;
+    padding: 10px
 }
