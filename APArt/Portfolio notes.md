@@ -29,7 +29,7 @@ You’ll create a body of work that demonstrates:
 You’ll have to document in writing:
 
 -   the questions that guided your sustained investigation
--   how your sustained investigation shows evidence of practice, experimentation, and revision guided by your questions
+-   how your sustained investigation shows evidence of **practice, experimentation, and revision** guided by your questions
 
 ### Section 2: Selected Works
 
