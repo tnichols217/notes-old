@@ -49,27 +49,21 @@ var __async = (__this, __arguments, generator) => {
 
 // main.ts
 __export(exports, {
-  default: () => MyPlugin
+  default: () => ObsidianColumns
 });
 var import_obsidian = __toModule(require("obsidian"));
-var DEFAULT_SETTINGS = {
-  mySetting: "default"
-};
-var MyPlugin = class extends import_obsidian.Plugin {
+var ObsidianColumns = class extends import_obsidian.Plugin {
   onload() {
     return __async(this, null, function* () {
-      yield this.loadSettings();
       this.registerMarkdownCodeBlockProcessor("md", (source, el, ctx) => {
         const sourcePath = ctx.sourcePath;
         let child = el.createDiv();
-        let markdownRenderChild = new import_obsidian.MarkdownRenderChild(child);
         import_obsidian.MarkdownRenderer.renderMarkdown(source, child, sourcePath, null);
       });
       this.registerMarkdownCodeBlockProcessor("col", (source, el, ctx) => {
         const sourcePath = ctx.sourcePath;
         let rows = source.split("\n");
         let child = createDiv();
-        let markdownRenderChild = new import_obsidian.MarkdownRenderChild(child);
         import_obsidian.MarkdownRenderer.renderMarkdown(source, child, sourcePath, null);
         console.log(child.children);
         let parent = el.createEl("div", { cls: "columnParent" });
@@ -82,15 +76,5 @@ var MyPlugin = class extends import_obsidian.Plugin {
     });
   }
   onunload() {
-  }
-  loadSettings() {
-    return __async(this, null, function* () {
-      this.settings = Object.assign({}, DEFAULT_SETTINGS, yield this.loadData());
-    });
-  }
-  saveSettings() {
-    return __async(this, null, function* () {
-      yield this.saveData(this.settings);
-    });
   }
 };
