@@ -14,4 +14,4 @@
 - dude at oscars slapped
 - riots at celebrity meetups
 - personal time management
-- 
+- ji yreovor i want tot suck
