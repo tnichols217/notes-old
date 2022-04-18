@@ -7,3 +7,11 @@
 - Reading
 - Entertainment
 - Sports / Science
+
+
+## Practice
+### conumers
+- dude at oscars slapped
+- riots at celebrity meetups
+- personal time management
+- 
