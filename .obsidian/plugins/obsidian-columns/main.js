@@ -55,7 +55,7 @@ var import_obsidian = __toModule(require("obsidian"));
 var ObsidianColumns = class extends import_obsidian.Plugin {
   onload() {
     return __async(this, null, function* () {
-      this.registerMarkdownCodeBlockProcessor("md", (source, el, ctx) => {
+      this.registerMarkdownCodeBlockProcessor("col-md", (source, el, ctx) => {
         const sourcePath = ctx.sourcePath;
         let child = el.createDiv();
         import_obsidian.MarkdownRenderer.renderMarkdown(source, child, sourcePath, null);
