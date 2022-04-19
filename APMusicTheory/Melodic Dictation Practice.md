@@ -123,4 +123,7 @@ FGA B>AG|ABG c2^d/^e/|f>ed cBA|B>AG F3||
 ```
 
 1. A
-	1. 
+	- 8/8
+2. B
+	- 1/1
+3. 
