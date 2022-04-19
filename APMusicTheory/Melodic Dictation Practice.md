@@ -93,3 +93,22 @@ M:6/8
 V:1 clef: treble
 F>GA G>AB|cfe/d/ c2 A|B>AG cAB|c>^d^ef
 ```
+```
+1 2 3 4 5 6
+.  .. .  ..
+1 2 3 4 5 6
+. . ...   .
+1 2 3 4 5 6
+. ..  . . .
+1 2 3 4 5 6
+.  .. .
+```
+
+```music-abc
+X: 1
+L:1/8
+K:F#m
+M:6/8
+V:1 clef: treble
+F>GA G>AB|cfe/d/ c2 A|B>AG cAB|c>^d^ef
+```
