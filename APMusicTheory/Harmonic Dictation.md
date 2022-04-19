@@ -76,6 +76,6 @@ E,C,xB,,|xxB,,B,,|E,4
 ```
 
 1. A
-	- 15/18xxxzxxxx
+	- 15/18xxxzxxxxxx
 2. B
 3. C
