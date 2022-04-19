@@ -72,5 +72,10 @@ M:4/4
 V:1 clef: treble
 GABf|gedc|B4
 V:2 clef: bass
-E,D,xB,,|xxB,,B,,|E,4
+E,C,xB,,|xxB,,B,,|E,4
 ```
+
+1. A
+	- 15/18
+2. B
+3. C
