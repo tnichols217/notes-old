@@ -70,7 +70,7 @@ L:1/4
 K:Eb
 M:4/4
 V:1 clef: treble
-G
+GABf|gcBA|G4
 V:2 clef: bass
 E,
 ```
