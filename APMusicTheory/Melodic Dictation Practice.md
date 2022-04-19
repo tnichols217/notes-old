@@ -110,5 +110,5 @@ L:1/8
 K:F#m
 M:6/8
 V:1 clef: treble
-FGA B>AG|ABG c2d/e/|
+FGA B>AG|ABG c2d/e/|f>ed cBA|G>AE F3||
 ```
