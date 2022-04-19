@@ -63,3 +63,14 @@ V:1 clef: treble
 V:2 clef: bass
 F,E,|F,B,,|C,C,|D,C,|F,2||
 ```
+
+```music-abc
+X: 1
+L:1/4
+K:Eb
+M:4/4
+V:1 clef: treble
+G
+V:2 clef: bass
+E,
+```
