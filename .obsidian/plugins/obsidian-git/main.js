@@ -10831,32 +10831,37 @@ var SimpleGit = class extends GitManager {
     return __async(this, null, function* () {
       if (this.plugin.settings.updateSubmodules) {
         this.plugin.setState(PluginState.commit);
-        this.git.outputHandler((cmd, stdout, stderr) => __async(this, null, function* () {
-          let body = "";
-          let root = this.app.vault.adapter.basePath + (this.plugin.settings.basePath ? import_path.sep + this.plugin.settings.basePath : "");
-          stdout.on("data", (chunk) => {
-            body += chunk.toString("utf8");
-          });
-          stdout.on("end", () => __async(this, null, function* () {
-            let submods = body.split("\n");
-            submods = submods.map((i) => {
-              let submod = i.match(/'([^']*)'/);
-              if (submod != void 0) {
-                return root + import_path.sep + submod[1] + import_path.sep;
-              }
+        yield new Promise((resolve, reject) => __async(this, null, function* () {
+          this.git.outputHandler((cmd, stdout, stderr, args) => __async(this, null, function* () {
+            if (!(args.contains("submodule") && args.contains("foreach")))
+              return;
+            let body = "";
+            let root = this.app.vault.adapter.getBasePath() + (this.plugin.settings.basePath ? import_path.sep + this.plugin.settings.basePath : "");
+            stdout.on("data", (chunk) => {
+              body += chunk.toString("utf8");
             });
-            submods.reverse();
-            submods.forEach((i) => __async(this, null, function* () {
-              if (i != void 0) {
-                yield this.git.cwd({ path: i, root: false }).add("-A", (err) => this.onError(err));
-                yield this.git.cwd({ path: i, root: false }).commit(yield this.formatCommitMessage(message), (err) => this.onError(err));
+            stdout.on("end", () => __async(this, null, function* () {
+              let submods = body.split("\n");
+              submods = submods.map((i) => {
+                let submod = i.match(/'([^']*)'/);
+                if (submod != void 0) {
+                  return root + import_path.sep + submod[1] + import_path.sep;
+                }
+              });
+              submods.reverse();
+              for (const item of submods) {
+                if (item != void 0) {
+                  yield this.git.cwd({ path: item, root: false }).add("-A", (err) => this.onError(err));
+                  yield this.git.cwd({ path: item, root: false }).commit(yield this.formatCommitMessage(message), (err) => this.onError(err));
+                }
               }
+              resolve();
             }));
           }));
+          yield this.git.subModule(["foreach", "--recursive", ""]);
+          this.git.outputHandler(() => {
+          });
         }));
-        yield this.git.subModule(["foreach", "--recursive", ""]);
-        this.git.outputHandler(() => {
-        });
       }
       this.plugin.setState(PluginState.add);
       yield this.git.add("-A", (err) => this.onError(err));
