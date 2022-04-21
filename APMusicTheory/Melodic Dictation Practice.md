@@ -162,4 +162,4 @@ GBA Gce|d>ef gd|e>d^c dBG|Ac/B/A/F/ G3
 2. B
 	- 1/1
 
-9/9
+7/9
