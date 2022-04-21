@@ -1,3 +1,3 @@
-1. minor 7
+1. major 6
 2. perfect 4
 3. 
