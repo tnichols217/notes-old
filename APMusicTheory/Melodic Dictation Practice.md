@@ -126,3 +126,23 @@ FGA B>AG|ABG c2^d/^e/|f>ed cBA|B>AG F3||
 	- 6/8
 2. B
 	- 1/1
+
+```
+1 2 3 4 5 6
+
+1 2 3 4 5 6
+
+1 2 3 4 5 6
+
+1 2 3 4 5 6
+
+```
+
+```music-abc
+X: 1
+L:1/8
+K:F#m
+M:6/8
+V:1 clef: treble
+G
+```
