@@ -144,5 +144,15 @@ L:1/8
 K:G
 M:6/8
 V:1 clef: treble
-GBA Gce|c>BA GF|Ac/B/A/F/ G3
+GBA Gce|d>ef gd||Ac/B/A/F/ G3
+```
+
+
+```music-abc
+X: 1
+L:1/8
+K:G
+M:6/8
+V:1 clef: treble
+GBA Gce|d>ef gd||Ac/B/A/F/ G3
 ```
