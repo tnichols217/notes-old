@@ -144,5 +144,5 @@ L:1/8
 K:G
 M:6/8
 V:1 clef: treble
-GBA GB|Ac/B/A/F/ G3
+GBA GBd|c<|Ac/B/A/F/ G3
 ```
