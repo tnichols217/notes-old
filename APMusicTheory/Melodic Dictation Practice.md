@@ -135,7 +135,7 @@ FGA B>AG|ABG c2^d/^e/|f>ed cBA|B>AG F3||
 1 2 3 4 5 6
 
 1 2 3 4 5 6
-
+. .....
 ```
 
 ```music-abc
