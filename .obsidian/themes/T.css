@@ -230,7 +230,7 @@ strong em,
 }
 
 
-.callout[data-callout="para"] .admonition.admonition-para, .admonition.admonition-source {
+.callout[data-callout="para"], .admonition.admonition-para, .admonition.admonition-source {
   background-color: var(--background-primary);
   border-left: 0rem;
   border-radius: 0rem;
