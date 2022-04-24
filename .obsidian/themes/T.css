@@ -230,7 +230,7 @@ strong em,
 }
 
 
-.admonition.admonition-para, .admonition.admonition-source {
+.callout[data-callout="para"] .admonition.admonition-para, .admonition.admonition-source {
   background-color: var(--background-primary);
   border-left: 0rem;
   border-radius: 0rem;
@@ -247,7 +247,7 @@ strong em,
   margin: 0;
 }
 
-.admonition-para p {
+.callout[data-callout="para"] p, .admonition-para p {
   text-indent: 1.27cm;
   font-family: 'Times New Roman', 'Times';
   font-size: 11pt;
@@ -256,7 +256,7 @@ strong em,
   margin-top: 0cm;
 }
 
-.admonition-para h1, .admonition-para h2, .admonition-para h3, .admonition-para h4, .admonition-para h5 {
+.callout[data-callout="para"] h1, .callout[data-callout="para"] h2, .callout[data-callout="para"] h3, .callout[data-callout="para"] h4, .callout[data-callout="para"]  h5, .admonition-para h1, .admonition-para h2, .admonition-para h3, .admonition-para h4, .admonition-para h5 {
   color: var(--text-normal);
   font-weight: normal;
   text-align: center;
@@ -267,7 +267,7 @@ strong em,
   margin-top: 0cm;
 }
 
-.admonition-source p, .admonition-para h6 {
+.callout[data-callout="para"] h6, .admonition-source p, .admonition-para h6 {
   color: var(--text-normal) !important;
   font-weight: normal;
   padding-left: 1.27cm;
