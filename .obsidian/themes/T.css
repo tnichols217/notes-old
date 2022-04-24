@@ -234,7 +234,7 @@ strong em,
   background-color: var(--background-primary);
   border-left: 0rem;
   border-radius: 0rem;
-  box-shadow: 0 0 0 var(--background-modifier-box-shadow);
+  box-shadow: 0 0 0 var(--background-modifier-box-shadow) !important;
   margin-top: 0;
   margin-bottom: 0;
 }
