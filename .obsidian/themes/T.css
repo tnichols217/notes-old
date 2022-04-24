@@ -237,6 +237,7 @@ strong em,
   box-shadow: 0 0 0 var(--background-modifier-box-shadow);
   margin-top: 0;
   margin-bottom: 0;
+  box-shadow: 0
 }
 
 .admonition.admonition-para .handle, .admonition.admonition-source .handle, .admonition.admonition-para .admonition-title.no-title, .admonition.admonition-source .admonition-title.no-title {
