@@ -157,14 +157,9 @@
 | tendency tone | note that tends to move in one direction or another |
 | unresolved leading tone | when the leading tone isn't resolved up to the tonic |
 | unresolved seventh | when the seven in a chord isn't resolved down by step |
-| voice exchange | the repetition of a contrapuntal passage with the voices' parts exchanged.
-EX:
-Voice 1: a b
-voice 2: b a |
+| voice exchange | the repetition of a contrapuntal passage with the voices' parts exchanged. EX: Voice 1: a b voice 2: b a |
 | arpeggio | broken chord |
-| chormatic | not in the key 
-
-a scale that moves by half steps |
+| chormatic | not in the key a scale that moves by half steps |
 | common practice style | obeys two different kinds of musical norms: first, it uses conventionalized sequences of chords, such as I-IV-V-I. Second, it obeys specific contrapuntal norms, such as the avoidance of parallel fifths and octaves. |
 | consonance | pleasing to the ear |
 | diatonic | in the key |
@@ -180,10 +175,8 @@ a scale that moves by half steps |
 | inversion of an interval | to turn an interval upside down |
 | perfect interval | unison, fourth, fifth |
 | major interval | second, third, sixth, seventh |
-| minor interval | second, third, sixth, seventh.
-Lowers them by one half step. |
-| diminished interval | second, third, sixth, and seventh are lowered another half step from minor.
-unison, fourth, fifth are lowered from their perfect form |
+| minor interval | second, third, sixth, seventh. Lowers them by one half step. |
+| diminished interval | second, third, sixth, and seventh are lowered another half step from minor. unison, fourth, fifth are lowered from their perfect form |
 | augmented interval | when any interval is raised from its original form |
 | Tritone | augmented fourth, or diminished fifth |
 | unison | one note is played/sung |
@@ -202,18 +195,12 @@ unison, fourth, fifth are lowered from their perfect form |
 | crescendo | gradually louder |
 | diminuendo/decrescendo | gradually softer |
 | terrace dynamics | volume levels shift quickly |
-| pianissimo | pp
-very soft |
-| piano | p
-soft |
-| mezzo piano | mp
-medium soft |
-| mezzo forte | mf
-medium loud |
-| forte | f
-loud |
-| fortissimo | ff
-very loud |
+| pianissimo | pp very soft |
+| piano | p soft |
+| mezzo piano | mp medium soft |
+| mezzo forte | mf medium loud |
+| forte | f loud |
+| fortissimo | ff very loud |
 | phrasing | a division of a composition, commonly a passage of four or eight measures, forming part of a period. |
 | tempo | the speed of the piece |
 | adagio | slow and stately |
