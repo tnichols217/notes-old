@@ -5,4 +5,5 @@
 | Alberti bass     | Low high middle high           |
 | Bass pedal point | Bass stays the same            |
 | Anacrusis        | Pickup note                    |
-| Terrace dynamic  |                                |
+| Terrace dynamic  | Sudden change in dynamics      |
+|                  |                                |
