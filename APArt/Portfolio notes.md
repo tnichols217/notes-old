@@ -34,7 +34,8 @@ You’ll have to document in writing:
 Description:
 
 - Height, Width, Depth
-- 
+- Materials: Name, Materials and why
+- Processes: Process, how, and why
 
 ### Section 2: Selected Works
 
