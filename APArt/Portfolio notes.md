@@ -31,6 +31,11 @@ You’ll have to document in writing:
 -   the questions that guided your sustained investigation
 -   how your sustained investigation shows evidence of **practice, experimentation, and revision** guided by your questions
 
+Description:
+
+- Height, Width, Depth
+- 
+
 ### Section 2: Selected Works
 
 Images of **5 works**, **2 views** each, for a total of **10 images** ***40% of Score***
