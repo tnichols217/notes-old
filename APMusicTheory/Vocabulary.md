@@ -243,16 +243,12 @@
 | syncopation | the accenting of musical beats not normally accented; notes that aren't played on the beat. |
 | tempo | the rate at which music is played |
 | tie | when a note in one measure is held into the next |
-| time signature | the top number is the number of beats in the measure.
-the bottom number is the note that gets the beat. |
+| time signature | the top number is the number of beats in the measure. the bottom number is the note that gets the beat. |
 | triplet | three notes played in the space of one or two. |
 | accidental | alters a note up or down a half step |
-| major scale | In the key of C (up and down):
-C D E F G A B C B A G F E D C |
-| harmonic minor scale | In the key of a (up and down):
-a b c d e f g# a g# f e d c b a |
-| Melodic minor scale | in the key of a (up and down):
-a b c d e f# g# a g f e d c b a |
+| major scale | In the key of C (up and down): C D E F G A B C B A G F E D C |
+| harmonic minor scale | In the key of a (up and down): a b c d e f g# a g# f e d c b a |
+| Melodic minor scale | in the key of a (up and down): a b c d e f# g# a g f e d c b a |
 | Ionian scale | A major scale |
 | Dorian scale | natural minor with a raised 6 |
 | phrygian scale | natural minor with a flat 2 |
