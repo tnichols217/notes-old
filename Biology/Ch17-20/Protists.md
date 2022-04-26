@@ -7,7 +7,7 @@
 ## Protozoans - animal like - heterotrophs
 
 - Organized by type of movement
-- 
+	- 
 
 ## Algae - plant like - photoautotrophs
 
