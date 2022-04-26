@@ -80,7 +80,7 @@ var ObsidianColumns = class extends import_obsidian.Plugin {
           return;
         }
         let els = Array.from(el.children);
-        els.map((i) => {
+        let mappedEls = els.map((i) => {
           if (i.textContent.startsWith(TOKEN + COLUMNNAME)) {
             let subel = Array.from(i.children);
             for (let j of subel) {
@@ -96,9 +96,9 @@ var ObsidianColumns = class extends import_obsidian.Plugin {
             }
             console.log(subel);
           }
-          return null;
+          return;
         });
-        console.log(els);
+        console.log(mappedEls);
       });
     });
   }
