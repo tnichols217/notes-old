@@ -69,7 +69,7 @@
 ##### Anaerobes
 - Respirates anaerobically
 - Less effecient
-- Does not requre
+- Does not requre Oxygen
 ```
 ````
 
