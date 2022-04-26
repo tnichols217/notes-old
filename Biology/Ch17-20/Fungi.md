@@ -22,3 +22,4 @@
 	- Relies on quality over probability of reproducing
 	- Lightweight so they can fly away
 
+## Types
