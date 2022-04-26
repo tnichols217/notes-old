@@ -34,6 +34,7 @@
 - Photosynthsize
 - No roots or leaves
 - Multiple colors
+- Some unicellular some multicellular
 - 
 
 ## Fungus like - absorbtion
