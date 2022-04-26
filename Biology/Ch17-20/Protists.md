@@ -38,6 +38,7 @@
 - Alternate between spore producing and gemette-producing
 
 ### Bacillariophyta (diatoms)
-- 
+- Component of phytoplankton
+
 
 ## Fungus like - absorbtion
