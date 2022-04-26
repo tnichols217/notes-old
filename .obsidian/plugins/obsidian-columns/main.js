@@ -65,15 +65,14 @@ var ObsidianColumns = class extends import_obsidian.Plugin {
         let rows = source.split("\n");
         let child = createDiv();
         import_obsidian.MarkdownRenderer.renderMarkdown(source, child, sourcePath, null);
-        console.log(child.children);
         let parent = el.createEl("div", { cls: "columnParent" });
         Array.from(child.children).forEach((c) => {
           let cc = parent.createEl("div", { cls: "columnChild" });
           cc.appendChild(c);
         });
-        console.log(parent);
       });
       this.registerMarkdownPostProcessor((element, context) => {
+        console.log(element.querySelector("ul"));
       });
     });
   }
