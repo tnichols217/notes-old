@@ -52,5 +52,5 @@
 ### Conjugation
 > [!def] Conjugation
 > 
-> **Conju**
+> **Conjugation**: Two cells attach and exchange g
 - Two cells attach and exchange genetic information
