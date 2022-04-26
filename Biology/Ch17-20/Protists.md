@@ -16,7 +16,9 @@
 
 ### Sarcodina
 - Pseudopods (fake feet) to move
-- Diffusion through the membrea
+- Diffusion through the membrance
+- Some are paracitic
+- 
 
 ## Algae - plant like - photoautotrophs
 
