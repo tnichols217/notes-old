@@ -44,3 +44,5 @@
 
 ## Reproduction
 ### Binary Fission
+- Similar to cell division
+- Gets larger then spli
