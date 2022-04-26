@@ -43,7 +43,7 @@
 ````
 
 ### Metabolism
-````col
+`````col
 ````col-md
 #### Flagellum
 - Use a whip shaped tail to move around
