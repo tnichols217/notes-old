@@ -44,6 +44,8 @@
 
 ## Reproduction
 ### Binary Fission
+> [!def]
+> 
 > 
 - Similar to cell division
 - Gets larger then splits into two identical smaller cells
