@@ -90,7 +90,7 @@ var ObsidianColumns = class extends import_obsidian.Plugin {
               let li = Array.from(j.children);
               li.forEach((k) => {
                 let span = parseFloat(k.textContent.split("\n")[0]);
-                span = span == NaN ? 1 : span;
+                span = isNaN(span) ? 1 : 1;
                 console.log(span);
               });
             });
