@@ -20,4 +20,5 @@
 - **Spore Reproduction**: Asexual and sexual where a spore(haploid) is created and can continue to mature into a hyphae without gamettes.
 	- May have sporangium (a case to protect the spore)
 	- Relies on quality over probability of reproducing
-	- 
+	- Lightweight so they can fly away
+
