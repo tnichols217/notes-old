@@ -108,4 +108,6 @@
 - Medical uses to fight disease
 
 ### Diseases
-- Choler
+- Cholera
+- Typhoid
+- 
