@@ -49,7 +49,7 @@
 ````col
 ```col-md
 ##### Photoautotrophs
-- 
+- Exercise photosynthesi
 ```
 ```col-md
 ##### Chemoautotrophs
