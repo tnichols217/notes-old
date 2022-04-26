@@ -89,4 +89,5 @@
 
 ## Functionality
 ### Environment
-- Helps decompose harmful org
+- Helps decompose harmful organic materials
+- Nitrogen fixa
