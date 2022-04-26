@@ -1,4 +1,4 @@
 # Viruses
-> [!def] Virus
+> [!def] Definition
 > 
-> 
+> **Virus**
