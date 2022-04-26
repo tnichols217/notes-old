@@ -30,4 +30,4 @@
 - **Common mold** (Zygomycota)
 	- Mostly terrestrial
 	- Some are mutualistic
-	- 
+	- Form hyphae called **sto**
