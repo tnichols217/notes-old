@@ -12,4 +12,6 @@
 - The capsid is defines as the outer layer that holds the genetic material
 - The genetic material can be DNA or RNA
 
-## Vir
+## Viral Infection
+````col
+````
