@@ -1,2 +1,3 @@
 # Fungi
-- Most are multidf
+- Most are multicellular
+- Cell wall 
