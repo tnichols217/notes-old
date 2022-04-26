@@ -26,4 +26,4 @@
 - **Chytrids** (Chytridiomycota)
 	- Aquatic
 	- Some paracitic
-	- 
+	- Have Flagellated
