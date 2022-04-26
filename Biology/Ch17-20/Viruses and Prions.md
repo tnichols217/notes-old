@@ -47,4 +47,5 @@
 4. DNA gets integrated into the chromosomal DNA
 5. New viral RNA is produced
 6. Viral RNA produces proteins
-7. New RNA and proteins move to the edge of the cell 
+7. New RNA and proteins move to the edge of the cell and exits
+8. 
