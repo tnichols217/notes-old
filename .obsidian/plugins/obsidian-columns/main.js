@@ -96,7 +96,7 @@ var ObsidianColumns = class extends import_obsidian.Plugin {
             }
             console.log(subel);
           }
-          return;
+          return null;
         });
         console.log(els);
       });
