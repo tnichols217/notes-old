@@ -11,6 +11,7 @@
 ### Ciliophora
 - Cilia to move
 - Eats bacteria
+- Has contractile vacuole
 - 
 
 ## Algae - plant like - photoautotrophs
