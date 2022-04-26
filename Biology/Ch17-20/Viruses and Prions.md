@@ -16,8 +16,9 @@
 ````col
 ```col-md
 ### Lytic Cycle
+
 ```
 ```col-md
-### 
+### Lysogenic Cycle
 ```
 ````
