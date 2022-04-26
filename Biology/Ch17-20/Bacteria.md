@@ -34,6 +34,7 @@
 #### Flagellum
 - Use a whip shaped tail to move around
 - Tend to want to move towards light and oxygen
+	- or amino acids and s
 ```
 ```col-md
 #### Stationary
