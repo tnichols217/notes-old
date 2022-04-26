@@ -69,4 +69,4 @@
 - Spores to reproduce
 - Feel on decaying biomaterial
 - No chitin
-- 
+- Multiple oclo
