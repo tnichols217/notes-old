@@ -59,7 +59,7 @@
 #### Oxygen
 ````col
 ```col-md
-##### Photoautotrophs
+##### Ae
 ```
 ```col-md
 ##### Chemoautotrophs
