@@ -45,4 +45,5 @@
 2. Merges with cell wall in order to enter
 3. RNA gets transcribed into DNA
 4. DNA gets integrated into the chromosomal DNA
-5. New viral RNA is produced 
+5. New viral RNA is produced
+6. Viral RNA produces proteins
