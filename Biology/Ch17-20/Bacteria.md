@@ -49,7 +49,8 @@
 ````col
 ```col-md
 ##### Photoautotrophs
-- Exercise photosynthesi
+- Exercise photosynthesis
+- Use synlig
 ```
 ```col-md
 ##### Chemoautotrophs
