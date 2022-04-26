@@ -39,4 +39,5 @@
 - **Club Fungi** (Basidiomycota)
 	- Includes mushrooms
 	- Can be paracitic, mutualistic, or Saprophyic
-	- Decompose woo
+	- Decompose wood
+	- 
