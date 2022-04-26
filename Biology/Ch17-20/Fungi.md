@@ -7,4 +7,5 @@
 - **Mycelium**- Netlike mass of hyphae
 - **Fruiting body**- Reproductive structure (visible to us above ground)
 - **Cross walls**- hyphae can be dived into cells by walls called septa
-	- Have hole to a
+	- Have hole to allow transport along th hyphae
+
