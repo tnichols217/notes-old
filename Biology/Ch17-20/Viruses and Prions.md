@@ -53,4 +53,4 @@
 # Prions
 > [!def] Prions
 > 
-> **Pr**
+> **Prions**: Proteins that cause diseases
