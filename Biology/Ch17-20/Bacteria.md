@@ -91,4 +91,4 @@
 ### Environment
 - Helps decompose harmful organic materials
 - Nitrogen fixation
-- 
+- Compete with harmful fungi 
