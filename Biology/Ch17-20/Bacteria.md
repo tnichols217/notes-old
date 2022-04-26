@@ -29,3 +29,16 @@
 ````
 
 ### Movement
+````col
+```col-md
+#### Flagellum
+```
+```col-md
+#### Bacilli
+- rod-shaped
+```
+```col-md
+#### Spirilli
+- Spiral-shaped
+```
+````
