@@ -1,2 +1,4 @@
 # Protists
-- Very divers
+- Very diverse
+- All Eukaryotes
+- 
