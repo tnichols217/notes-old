@@ -2,4 +2,5 @@
 - Very diverse
 - All Eukaryotes
 - Damp or aquatic environments
-- Organized by method o
+- Organized by method of nutrition
+	- 
