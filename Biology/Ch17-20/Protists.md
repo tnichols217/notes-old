@@ -14,13 +14,13 @@
 - Has contractile vacuole
 - Binary fission, conjugation
 
-### Sarcodina
+### Sarcodina 
 - Pseudopods (fake feet) to move
 - Diffusion through the membrance
 - Some are parasitic
 - Asexual
 
-### Apicomplexa
+### Apicomplexa (sporozoans)
 - Produce spores
 - Parasitic
 - Can cause fatal diseases
