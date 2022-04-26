@@ -35,6 +35,6 @@
 - No roots or leaves
 - Multiple colors
 - Some unicellular some multicellular
-- 
+- Alternate bet
 
 ## Fungus like - absorbtion
