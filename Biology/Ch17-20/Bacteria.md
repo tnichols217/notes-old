@@ -54,7 +54,7 @@
 ##### Chemoautotrophs
 - Make energy by breaking down organic compounds
 - Cant use sunlight
-- Energy is from 
+- Energy is from oxidation
 ```
 ````
 #### Oxygen
