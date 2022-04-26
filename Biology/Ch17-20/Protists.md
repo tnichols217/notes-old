@@ -72,3 +72,6 @@
 - Multiple colors
 - Can be cellular or acellular
 
+### Myxomycota
+- acellular slime molds
+- 
