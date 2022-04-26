@@ -30,8 +30,7 @@
 - Some are parasites
 - Some cause disease
 
-### 
-
 ## Algae - plant like - photoautotrophs
+
 
 ## Fungus like - absorbtion
