@@ -50,4 +50,5 @@
 - **Decomposers**
 - **Medicinal**: Penicillin
 - **Foods**: Mushrooms, cheese
--  Kill plants
+-  **Kill** plants
+- 
