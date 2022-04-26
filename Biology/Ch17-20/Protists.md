@@ -23,7 +23,8 @@
 ### Apicomplexa
 - Produce spores
 - Parasitic
-- 
+- Can cause fatal diseases
+
 
 ## Algae - plant like - photoautotrophs
 
