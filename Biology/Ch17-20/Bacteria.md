@@ -32,7 +32,8 @@
 ````col
 ```col-md
 #### Flagellum
-- Use a whip shaped 
+- Use a whip shaped tail to move around
+- Tend to wan
 ```
 ```col-md
 #### Stationary
