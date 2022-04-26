@@ -6,3 +6,4 @@
 	- animal-like (heterotrophs)
 	- plant-like (photoautotrophs)
 	- fungus-like (absorption)
+	- 
