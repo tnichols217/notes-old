@@ -15,7 +15,7 @@
 - Binary fission, conjugation
 
 ### Sarcodina
-- 
+- Pseudopods (fake feet)
 
 ## Algae - plant like - photoautotrophs
 
