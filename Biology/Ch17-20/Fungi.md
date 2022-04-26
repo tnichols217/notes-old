@@ -35,4 +35,5 @@
 	- Produce asexually (**sporangia**) or sexually (**gametangium**)
 - **Sac Fungi** (Ascomycota)
 	- Yeast is the only unicellular
-	- Reproduce asexual
+	- Reproduce asexually through spores then sexually
+- 
