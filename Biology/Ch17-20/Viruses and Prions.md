@@ -6,4 +6,5 @@
 - Viruses dont have all the characteristics of human life
 - They are very small (5-300nm)
 - Unknown origins
-- 
+- Cause disease in humans
+
