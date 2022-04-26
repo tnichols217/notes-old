@@ -61,7 +61,7 @@
 ````col
 ```col-md
 ##### Aerobes
-
+- Respirates aerobica
 ```
 ```col-md
 ##### Anaerobes
