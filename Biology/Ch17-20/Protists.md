@@ -60,6 +60,7 @@
 ### Rhodophyta
 - Red
 - Food for humans
+- Thickener in cooking
 - 
 
 ## Fungus like - absorbtion
