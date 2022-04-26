@@ -15,4 +15,5 @@
 -  **Mutualistic**: Work with another organism to help each other out
 
 ## Reproduction
-- **Budding**: Asexual reproduction where a daughter cell grows while attached to the parent ce
+- **Budding**: Asexual reproduction where a daughter cell grows while attached to the parent cell
+- **Fragmentation**: 
