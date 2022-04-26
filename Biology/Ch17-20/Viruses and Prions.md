@@ -14,4 +14,8 @@
 
 ## Viral Infection
 ````col
+```col-md
+```
+```
+```
 ````
