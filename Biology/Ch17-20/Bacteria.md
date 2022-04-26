@@ -50,5 +50,7 @@
 - Similar to cell division
 
 ### Conjugation
+> [!def] Conjugation
 > 
+> **Conju**
 - Two cells attach and exchange genetic information
