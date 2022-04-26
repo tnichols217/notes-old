@@ -82,7 +82,8 @@ var ObsidianColumns = class extends import_obsidian.Plugin {
         let els = Array.from(el.children);
         els.forEach((i) => {
           if (i.textContent.startsWith(TOKEN + COLUMNNAME)) {
-            console.log(i);
+            let subel = Array.from(i.children);
+            console.log(subel);
           }
         });
       });
