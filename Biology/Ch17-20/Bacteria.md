@@ -110,4 +110,5 @@
 ### Diseases
 - Cholera
 - Typhoid
-- 
+- Pneumonia
+- etc.
