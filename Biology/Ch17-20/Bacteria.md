@@ -89,4 +89,4 @@
 
 ## Functionality
 ### Environment
-- Hel
+- Helps decompose harmful org
