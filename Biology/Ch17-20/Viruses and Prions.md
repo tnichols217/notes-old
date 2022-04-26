@@ -42,4 +42,4 @@
 
 ### Infection
 1. Viral cell sticks to the cell surface
-2. 
+2. Merges with cell 
