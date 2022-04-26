@@ -27,7 +27,10 @@
 
 ### Zoomastigina
 - Flagellum to move
-- Some are parasit
+- Some are parasites
+- Some cause disease
+
+### 
 
 ## Algae - plant like - photoautotrophs
 
