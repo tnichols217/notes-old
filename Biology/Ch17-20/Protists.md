@@ -14,7 +14,8 @@
 - Has contractile vacuole
 - Binary fission, conjugation
 
-### 
+### Sarcodina
+- 
 
 ## Algae - plant like - photoautotrophs
 
