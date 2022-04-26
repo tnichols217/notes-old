@@ -15,8 +15,9 @@
 ## Viral Infection
 ````col
 ```col-md
-### 
+### Lytic Cycle
 ```
 ```col-md
+### 
 ```
 ````
