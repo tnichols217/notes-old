@@ -20,7 +20,7 @@
    (for a phage, it injects DNA)
 2. DNA circularizes
 3. Enters the Lytic Cycle
-4. 
+4. New DNA is manufactures
 ```
 ```col-md
 ### Lysogenic Cycle
