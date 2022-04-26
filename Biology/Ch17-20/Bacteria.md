@@ -50,7 +50,8 @@
 ```col-md
 ##### Photoautotrophs
 - Exercise photosynthesis
-- Use synlig
+- Use sunlight as main source of energy
+- 
 ```
 ```col-md
 ##### Chemoautotrophs
