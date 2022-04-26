@@ -14,7 +14,7 @@
 - Has contractile vacuole
 - Binary fission, conjugation
 
-### Sarcodina 
+### Sarcodina
 - Pseudopods (fake feet) to move
 - Diffusion through the membrance
 - Some are parasitic
