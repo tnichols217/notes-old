@@ -26,4 +26,5 @@
 - **Chytrids** (Chytridiomycota)
 	- Aquatic
 	- Some paracitic
-	- Have Flagellated
+	- Have Flagellated spores
+- 
