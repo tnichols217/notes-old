@@ -95,3 +95,6 @@
 ### Human impact
 - Compete with harmful fungi
 - Help humans produce Vitamin K
+
+### Industrial Uses
+- 
