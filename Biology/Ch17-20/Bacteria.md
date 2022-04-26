@@ -44,7 +44,7 @@
 
 ### Metabolism
 ````col
-```col-md
+````col-md
 #### Flagellum
 - Use a whip shaped tail to move around
 - Tend to want to move towards light and oxygen
