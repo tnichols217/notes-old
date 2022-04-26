@@ -52,6 +52,11 @@
 
 ### Phaeophyta
 - Brown
-- 
+- Largest
+
+### Chlorophyta
+- Green
+
+###
 
 ## Fungus like - absorbtion
