@@ -39,8 +39,7 @@
 
 ### Bacillariophyta (diatoms)
 - Component of phytoplankton
-- Filtering and separation processes
-- 
+- Filtering, separation processes, abrasives
 
 ### Pyrrophyta (dinoflagellates)
 - Component of phytoplankton
