@@ -63,10 +63,12 @@
 ##### Aerobes
 - Respirates aerobically
 - More effecient
-- Uses 
+- Uses Oxygen
 ```
 ```col-md
 ##### Anaerobes
+- Respirates anaerobically
+- l
 ```
 ````
 
