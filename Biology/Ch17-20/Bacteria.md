@@ -68,7 +68,8 @@
 ```col-md
 ##### Anaerobes
 - Respirates anaerobically
-- l
+- Less effecient
+- Does not requre
 ```
 ````
 
