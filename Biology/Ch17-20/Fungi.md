@@ -2,4 +2,4 @@
 - Most are multicellular
 - Cell wall has *chitin*
 
-## St
+## Structure
