@@ -76,13 +76,20 @@ var ObsidianColumns = class extends import_obsidian.Plugin {
       });
       this.registerMarkdownPostProcessor((element, context) => {
         let el = element.children[0];
-        if (el.nodeName != "UL") {
+        if (el.nodeName != "UL" && el.nodeName != "OL") {
           return;
         }
         let els = Array.from(el.children);
         els.forEach((i) => {
           if (i.textContent.startsWith(TOKEN + COLUMNNAME)) {
             let subel = Array.from(i.children);
+            subel.forEach((j) => {
+              if (j.nodeName != "UL" && el.nodeName != "OL") {
+                return;
+              }
+              let span = parseFloat(j.textContent.split("\n")[0]);
+              console.log(span);
+            });
             console.log(subel);
           }
         });
