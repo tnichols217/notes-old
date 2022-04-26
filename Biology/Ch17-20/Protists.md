@@ -12,7 +12,7 @@
 - Cilia to move
 - Eats bacteria
 - Has contractile vacuole
-- 
+- Binary fission, 
 
 ## Algae - plant like - photoautotrophs
 
