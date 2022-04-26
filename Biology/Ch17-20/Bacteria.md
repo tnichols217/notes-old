@@ -19,7 +19,7 @@
 - spherical
 ```
 ```col-md
-#### Baccili
+#### Bacilli
 
 ```
 ````
