@@ -8,4 +8,5 @@
 	- Helps protect cell
 	- Prevents drying out
 	- Helps attach to other cells
-- Some have 
+- Some have *pili* (hair)
+
