@@ -21,7 +21,7 @@
 2. DNA circularizes
 3. Enters the Lytic Cycle
 4. New DNA is manufactured as well as proteins
-   
+5. 
 ```
 ```col-md
 ### Lysogenic Cycle
