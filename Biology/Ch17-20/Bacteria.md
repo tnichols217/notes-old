@@ -45,13 +45,14 @@
 ### Metabolism
 ``````col
 `````col-md
-```col
-``col-md
+````col
+```
+```col-md
 
 ```
 ```col-md
 
-`````
+````
 ``````
 `````
 `````col-md
