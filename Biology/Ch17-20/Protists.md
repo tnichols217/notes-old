@@ -32,7 +32,6 @@
 
 ## Algae - plant like - photoautotrophs
 - Photosynthsize
-- 
-
+- No roots or
 
 ## Fungus like - absorbtion
