@@ -48,10 +48,10 @@
 #### Food Production
 ````col
 ```col-md
-##### Phototrophs
+##### Photoautotrophs
 ```
 ```col-md
-##### 
+##### Chemoautotrophs
 ```
 ````
 `````
