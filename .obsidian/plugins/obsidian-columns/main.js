@@ -54,6 +54,7 @@ __export(exports, {
 var import_obsidian = __toModule(require("obsidian"));
 var COLUMNNAME = "col";
 var COLUMNMD = COLUMNNAME + "-md";
+var TOKEN = "!!!";
 var ObsidianColumns = class extends import_obsidian.Plugin {
   onload() {
     return __async(this, null, function* () {
@@ -80,7 +81,9 @@ var ObsidianColumns = class extends import_obsidian.Plugin {
         }
         let els = Array.from(el.children);
         els.forEach((i) => {
-          console.log(i);
+          if (i.textContent.startsWith(TOKEN + COLUMNNAME)) {
+            console.log(i);
+          }
         });
       });
     });
