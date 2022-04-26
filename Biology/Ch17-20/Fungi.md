@@ -12,7 +12,6 @@
 ## Nutrition
 - Saprophytic: decomposers that recycle nutrients
 - Parasitic: absorb nutrients from the living cells of hosts
--  Mutualistic: work with another organism to help
-each other out (soybean: fungus gets sugar from
+-  Mutualistic: work with another organism to help each other out (soybean: fungus gets sugar from
 the plant, while providing more surface area for
 absorption on the plant roots)
