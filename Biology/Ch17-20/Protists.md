@@ -9,7 +9,8 @@
 - Organized by type of movement
 
 ### Ciliophora
-
+- Cilia to move
+- Eats bacter
 
 ## Algae - plant like - photoautotrophs
 
