@@ -44,4 +44,4 @@
 1. Viral cell sticks to the cell surface
 2. Merges with cell wall in order to enter
 3. RNA gets transcripted into DNA
-4. 
+4. DNA gets integrated into the chromosomal DNA
