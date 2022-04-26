@@ -87,4 +87,4 @@
 > **Conjugation**: Two cells attach and exchange genetic information
 - increases genetic diversity
 
-## Functionali
+## Functionality
