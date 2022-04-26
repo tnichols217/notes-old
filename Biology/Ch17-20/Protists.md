@@ -6,6 +6,8 @@
 
 ## Protozoans - animal like - heterotrophs
 
+
+
 ## Algae - plant like - photoautotrophs
 
 ## Fungus like - absorbtion
