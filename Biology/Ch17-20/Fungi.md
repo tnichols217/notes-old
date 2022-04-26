@@ -28,4 +28,4 @@
 	- Some paracitic
 	- Have Flagellated spores
 - **Common mold** (Zygomycota)
-	- 
+	- Mostly terr
