@@ -10,4 +10,5 @@
 
 ![[Pasted image 20220426205727.png]]
 - The capsid is defines as the outer layer that holds the genetic material
-- The genetic mat
+- The genetic material can be DNA or RNA
+- 
