@@ -31,4 +31,5 @@
 	- Mostly terrestrial
 	- Some are mutualistic
 	- Form hyphae called **stolons**
-	- Hyphae **rhizoids**
+	- Hyphae **rhizoids** penetrate the food
+	- 
