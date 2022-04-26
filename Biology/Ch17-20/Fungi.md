@@ -42,4 +42,4 @@
 	- Decompose wood
 	- Mostly sexual reproduction through its **basidiocarp**
 - **Imperfect fungi** (Deuteromycota)
-	- 
+	- Sexual 
