@@ -50,4 +50,4 @@
 7. New RNA and proteins move to the edge of the cell and exits
 8. Viron matures
 
-# P
+# Prions
