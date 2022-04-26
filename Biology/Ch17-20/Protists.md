@@ -45,6 +45,6 @@
 - Cause algal blooms
 
 ### Euglenoids
-- Plantlike 
+- Plantlike that have character
 
 ## Fungus like - absorbtion
