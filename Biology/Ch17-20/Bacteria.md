@@ -14,14 +14,7 @@
 ### Shape
 ````col
 ```col-md
-### Lytic Cycle
-1. A cell is infected
-   (for a phage, it injects DNA)
-2. DNA circularizes
-3. Enters the **Lytic Cycle**
-4. New DNA is manufactured as well as proteins
-5. Virons are assembled from the DNA and proteins
-6. The Cell lyses (explodes) releasing the new Virons
+#### 
 ```
 ```col-md
 ### Lysogenic Cycle
