@@ -17,12 +17,12 @@
 ### Sarcodina
 - Pseudopods (fake feet) to move
 - Diffusion through the membrance
-- Some are paracitic
+- Some are parasitic
 - Asexual
 
 ### Apicomplexa
 - Produce spores
-- Paracitic
+- Parasitic
 - 
 
 ## Algae - plant like - photoautotrophs
