@@ -16,4 +16,4 @@
 
 ## Reproduction
 - **Budding**: Asexual reproduction where a daughter cell grows while attached to the parent cell
-- **Fragmentation**: 
+- **Fragmentation**: The mycelium gets disconnected, creating two
