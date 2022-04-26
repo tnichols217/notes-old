@@ -42,6 +42,8 @@
 
 ### Pyrrophyta (dinoflagellates)
 - Component of phytoplankton
-- 
+- Cause algal blooms
+
+### 
 
 ## Fungus like - absorbtion
