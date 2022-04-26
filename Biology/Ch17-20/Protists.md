@@ -67,4 +67,4 @@
 
 ## Fungus like - absorbtion
 - Spores to reproduce
-- 
+- Feel on decaying bio
