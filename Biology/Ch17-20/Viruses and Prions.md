@@ -40,4 +40,4 @@
 - Have RNA instead of DNA
 - Quite complex
 
-### Infec
+### Infection
