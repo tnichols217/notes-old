@@ -81,5 +81,3 @@
 ### Oomycota
 - water molds
 - downy mildew
-
-### 
