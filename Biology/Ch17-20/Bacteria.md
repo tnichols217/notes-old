@@ -46,7 +46,7 @@
 ### Binary Fission
 > [!def] Binary Fission
 > 
-> **Binary**
+> **Binary Fission**: 
 - Similar to cell division
 - Gets larger then splits into two identical smaller cells
 
