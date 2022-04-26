@@ -31,6 +31,8 @@
 - Some cause disease
 
 ## Algae - plant like - photoautotrophs
+- Photosynthsize
+- 
 
 
 ## Fungus like - absorbtion
