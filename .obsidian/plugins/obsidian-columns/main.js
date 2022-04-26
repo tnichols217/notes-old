@@ -87,8 +87,11 @@ var ObsidianColumns = class extends import_obsidian.Plugin {
               if (j.nodeName != "UL" && el.nodeName != "OL") {
                 return;
               }
-              let span = j.textContent;
-              console.log(span);
+              let li = Array.from(j.children);
+              li.forEach((k) => {
+                let span = k.textContent;
+                console.log(span);
+              });
             });
             console.log(subel);
           }
