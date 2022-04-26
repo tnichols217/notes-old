@@ -79,4 +79,7 @@
 - cellular slime molds
 
 ### Oomycota
-- water molds and downy mildew
+- water molds
+- downy mildew
+
+### 
