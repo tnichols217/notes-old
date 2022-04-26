@@ -67,4 +67,6 @@
 
 ## Fungus like - absorbtion
 - Spores to reproduce
-- Feel on decaying bio
+- Feel on decaying biomaterial
+- No chitin
+- 
