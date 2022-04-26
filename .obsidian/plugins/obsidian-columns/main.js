@@ -52,15 +52,17 @@ __export(exports, {
   default: () => ObsidianColumns
 });
 var import_obsidian = __toModule(require("obsidian"));
+var COLUMNNAME = "col";
+var COLUMNMD = COLUMNNAME + "-md";
 var ObsidianColumns = class extends import_obsidian.Plugin {
   onload() {
     return __async(this, null, function* () {
-      this.registerMarkdownCodeBlockProcessor("col-md", (source, el, ctx) => {
+      this.registerMarkdownCodeBlockProcessor(COLUMNMD, (source, el, ctx) => {
         const sourcePath = ctx.sourcePath;
         let child = el.createDiv();
         import_obsidian.MarkdownRenderer.renderMarkdown(source, child, sourcePath, null);
       });
-      this.registerMarkdownCodeBlockProcessor("col", (source, el, ctx) => {
+      this.registerMarkdownCodeBlockProcessor(COLUMNNAME, (source, el, ctx) => {
         const sourcePath = ctx.sourcePath;
         let rows = source.split("\n");
         let child = createDiv();
@@ -73,12 +75,13 @@ var ObsidianColumns = class extends import_obsidian.Plugin {
       });
       this.registerMarkdownPostProcessor((element, context) => {
         let el = element.children[0];
-        console.log(el.nodeName);
         if (el.nodeName != "UL") {
           return;
         }
-        console.log(el);
-        console.log(Array.from(el.children));
+        let els = Array.from(el.children);
+        els.forEach((i) => {
+          console.log(i);
+        });
       });
     });
   }
