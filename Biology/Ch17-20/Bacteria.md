@@ -92,6 +92,6 @@
 - Helps decompose harmful organic materials
 - Nitrogen fixation
 
-### 
+### Human impact
 - Compete with harmful fungi
 - Help humans produce Vitamin K
