@@ -20,6 +20,8 @@
 ```
 ```col-md
 #### Bacilli
-
+- rod-shaped
+```
+```col-md
 ```
 ````
