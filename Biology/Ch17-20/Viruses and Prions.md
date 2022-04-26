@@ -16,7 +16,7 @@
 ````col
 ```col-md
 ### Lytic Cycle
-1. 
+1. Pha
 ```
 ```col-md
 ### Lysogenic Cycle
