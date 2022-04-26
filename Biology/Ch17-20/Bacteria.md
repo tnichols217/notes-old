@@ -34,7 +34,7 @@
 #### Flagellum
 ```
 ```col-md
-#### Bacilli
+#### Stationary
 - rod-shaped
 ```
 ```col-md
