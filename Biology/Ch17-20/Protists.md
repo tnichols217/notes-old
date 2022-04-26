@@ -25,7 +25,8 @@
 - Parasitic
 - Can cause fatal diseases
 
-### Zoomastigin
+### Zoomastigina
+- Fla
 
 ## Algae - plant like - photoautotrophs
 
