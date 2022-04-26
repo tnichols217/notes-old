@@ -18,7 +18,9 @@
 - Pseudopods (fake feet) to move
 - Diffusion through the membrance
 - Some are paracitic
-- 
+- Asexual
+
+### Apicomple
 
 ## Algae - plant like - photoautotrophs
 
