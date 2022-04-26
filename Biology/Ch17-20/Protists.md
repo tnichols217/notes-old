@@ -26,7 +26,8 @@
 - Can cause fatal diseases
 
 ### Zoomastigina
-- Fla
+- Flagellum to move
+- Some are parasit
 
 ## Algae - plant like - photoautotrophs
 
