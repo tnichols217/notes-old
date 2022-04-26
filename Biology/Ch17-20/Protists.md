@@ -4,4 +4,4 @@
 - Damp or aquatic environments
 - Organized by nutrition type
 
-## Protozoans - animal like - 
+## Protozoans - animal like - hetero
