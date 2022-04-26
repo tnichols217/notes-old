@@ -17,6 +17,7 @@
 ```col-md
 ### Lytic Cycle
 1. A cell is infected
+   (for a phage, it injects D)
 2. 
 ```
 ```col-md
