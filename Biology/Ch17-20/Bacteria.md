@@ -54,7 +54,7 @@
 ```
 ```col-md
 ##### Chemoautotrophs
-- 
+- Make energy by breaking down organic compounds
 ```
 ````
 `````
