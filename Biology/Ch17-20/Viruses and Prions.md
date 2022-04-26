@@ -16,10 +16,10 @@
 ````col
 ```col-md
 ### Lytic Cycle
-
+1. 
 ```
 ```col-md
 ### Lysogenic Cycle
-
+1. 
 ```
 ````
