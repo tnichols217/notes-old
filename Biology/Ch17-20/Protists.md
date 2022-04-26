@@ -2,4 +2,6 @@
 - Very diverse
 - All Eukaryotes
 - Damp or aquatic environments
-- Organized by nutrition
+- Organized by nutrition type
+
+## Protozoans
