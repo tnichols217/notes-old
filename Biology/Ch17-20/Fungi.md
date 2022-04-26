@@ -37,4 +37,5 @@
 	- Yeast is the only unicellular
 	- Reproduce asexually through spores then sexually
 - **Club Fungi** (Basidiomycota)
-	- Include
+	- Includes mushrooms
+	- Can e
