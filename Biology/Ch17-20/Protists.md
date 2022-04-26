@@ -40,6 +40,6 @@
 ### Bacillariophyta (diatoms)
 - Component of phytoplankton
 
-### 
+### Pyrrophyta (dinoflagellates)
 
 ## Fungus like - absorbtion
