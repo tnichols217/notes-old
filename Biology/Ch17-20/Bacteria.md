@@ -55,8 +55,6 @@
 - Make energy by breaking down organic compounds
 ```
 ````
-`````
-`````col-md
 #### Oxygen
 ````col
 ```col-md
@@ -66,8 +64,6 @@
 ##### Anaerobes
 ```
 ````
-`````
-``````
 
 ## Reproduction
 ### Binary Fission
