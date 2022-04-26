@@ -8,4 +8,4 @@
 	- Helps protect cell
 	- Prevents drying out
 	- Helps attach to other cells
-
+- Some have 
