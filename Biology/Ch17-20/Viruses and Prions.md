@@ -1,4 +1,4 @@
 # Viruses
 > [!def] Definition
 > 
-> **Virus**
+> **Virus**: Nonliving strand of genetic material within a protein coat
