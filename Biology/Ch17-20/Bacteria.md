@@ -51,10 +51,10 @@
 ##### Photoautotrophs
 - Exercise photosynthesis
 - Use sunlight as main source of energy
-- 
 ```
 ```col-md
 ##### Chemoautotrophs
+ -
 ```
 ````
 `````
