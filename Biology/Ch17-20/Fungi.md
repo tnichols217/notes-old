@@ -32,4 +32,4 @@
 	- Some are mutualistic
 	- Form hyphae called **stolons**
 	- Hyphae **rhizoids** penetrate the food
-	- 
+	- Produce asexually (**sporangia**) or sexually (gametangium)
