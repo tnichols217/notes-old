@@ -69,4 +69,6 @@
 - Spores to reproduce
 - Feel on decaying biomaterial
 - No chitin
-- Multiple oclo
+- Multiple colors
+- Can be cellular or acellular
+
