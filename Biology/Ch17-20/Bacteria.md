@@ -24,6 +24,6 @@
 ```
 ```col-md
 #### Spirilli
-- 
+- Spiral-shaped
 ```
 ````
