@@ -1,4 +1,5 @@
 # Bacteria
 
 ## Prokaryotes
-- Microscop
+- Microscopic
+- 
