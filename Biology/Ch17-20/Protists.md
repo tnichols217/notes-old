@@ -50,6 +50,8 @@
 ### Chyrsophyta
 - Golden brown
 
-### 
+### Phaeophyta
+- Brown
+- 
 
 ## Fungus like - absorbtion
