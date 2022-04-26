@@ -23,4 +23,6 @@
 	- Lightweight so they can fly away
 
 ## Types
-- **Chytrids** (Chytridiomycota): 
+- **Chytrids** (Chytridiomycota)
+	- Aquatic
+	- 
