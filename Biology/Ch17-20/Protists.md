@@ -20,7 +20,9 @@
 - Some are paracitic
 - Asexual
 
-### Apicomple
+### Apicomplexa
+- Produce spores
+- 
 
 ## Algae - plant like - photoautotrophs
 
