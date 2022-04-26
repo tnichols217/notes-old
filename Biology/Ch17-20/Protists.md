@@ -78,4 +78,5 @@
 ### Acrasiomycota
 - cellular slime molds
 
-### 
+### Oomycota
+- water molds and downy mildew
