@@ -20,5 +20,6 @@
 ```
 ```col-md
 ### Lysogenic Cycle
+
 ```
 ````
