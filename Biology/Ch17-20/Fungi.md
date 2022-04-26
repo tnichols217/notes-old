@@ -38,4 +38,4 @@
 	- Reproduce asexually through spores then sexually
 - **Club Fungi** (Basidiomycota)
 	- Includes mushrooms
-	- Can e
+	- Can be paracitic, mutualistic, or
