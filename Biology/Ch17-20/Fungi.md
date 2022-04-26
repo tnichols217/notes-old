@@ -25,4 +25,5 @@
 ## Types
 - **Chytrids** (Chytridiomycota)
 	- Aquatic
-	- Some parac
+	- Some paracitic
+	- 
