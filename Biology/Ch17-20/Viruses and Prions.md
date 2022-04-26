@@ -41,4 +41,5 @@
 - Quite complex
 
 ### Infection
-1. Viral cell 
+1. Viral cell sticks to the cell surface
+2. 
