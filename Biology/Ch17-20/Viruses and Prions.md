@@ -9,4 +9,4 @@
 - Cause disease in humans
 
 ![[Pasted image 20220426205727.png]]
-- The capsid is d
+- The capsid is defines as the outer layer that hold 
