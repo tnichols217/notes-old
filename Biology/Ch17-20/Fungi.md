@@ -44,7 +44,7 @@
 - **Imperfect fungi** (Deuteromycota)
 	- Sexual reproduction has never been observed
 
-## Examples
+## Uses
 - **Lichen**: symbiotic relationship between a fungus and an algae
 - **Mycorrhizae**: mutualistic relationship between a specialized fungus and plant roots
 - 
