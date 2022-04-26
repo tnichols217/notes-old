@@ -61,7 +61,9 @@
 ````col
 ```col-md
 ##### Aerobes
-- Respirates aerobica
+- Respirates aerobically
+- More effecient
+- Uses 
 ```
 ```col-md
 ##### Anaerobes
