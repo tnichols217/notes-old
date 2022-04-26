@@ -10,8 +10,8 @@
 	- Have hole to allow transport along th hyphae
 
 ## Nutrition
-- • 1. Saprophytic: decomposers that recycle nutrients
-• 2. Parasitic: absorb nutrients from the living cells of
+-  1. Saprophytic: decomposers that recycle nutrients
+-  2. Parasitic: absorb nutrients from the living cells of
 hosts
 • 3. Mutualistic: work with another organism to help
 each other out (soybean: fungus gets sugar from
