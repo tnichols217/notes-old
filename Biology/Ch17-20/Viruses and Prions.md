@@ -2,3 +2,5 @@
 > [!def] Definition
 > 
 > **Virus**: Nonliving strand of genetic material within a protein coat
+
+- Viruses dont have all the cha
