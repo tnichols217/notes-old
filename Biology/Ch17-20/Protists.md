@@ -25,7 +25,7 @@
 - Parasitic
 - Can cause fatal diseases
 
-### Zoomastigina
+### Zoomastigina (zooflagellates)
 - Flagellum to move
 - Some are parasites
 - Some cause disease
