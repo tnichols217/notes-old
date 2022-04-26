@@ -51,4 +51,4 @@
 - **Medicinal**: Penicillin
 - **Foods**: Mushrooms, cheese
 -  **Kill** plants
--  **Parasitize**: 
+-  **Parasitize**: athletes foot, ringworm, yeast infections
