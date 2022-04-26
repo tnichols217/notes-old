@@ -66,3 +66,5 @@
 - Syrup and shampoo
 
 ## Fungus like - absorbtion
+- Spores to reproduce
+- 
