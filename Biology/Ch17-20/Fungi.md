@@ -28,4 +28,6 @@
 	- Some paracitic
 	- Have Flagellated spores
 - **Common mold** (Zygomycota)
-	- Mostly terr
+	- Mostly terrestrial
+	- Some are mutualistic
+	- 
