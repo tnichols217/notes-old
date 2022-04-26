@@ -32,7 +32,7 @@
 ````col
 ```col-md
 #### Flagellum
-- Use a 
+- Use a whip shaped 
 ```
 ```col-md
 #### Stationary
