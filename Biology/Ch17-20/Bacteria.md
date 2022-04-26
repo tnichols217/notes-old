@@ -14,7 +14,9 @@
 ### Shape
 ````col
 ```col-md
-#### 
+#### Cocci
+- round
+- spherical
 ```
 ```col-md
 ### Lysogenic Cycle
