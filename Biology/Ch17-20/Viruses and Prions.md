@@ -16,7 +16,8 @@
 ````col
 ```col-md
 ### Lytic Cycle
-1. A c
+1. A cell is infected
+2. 
 ```
 ```col-md
 ### Lysogenic Cycle
