@@ -1,2 +1,2 @@
 # Viruses
-> [!def] 
+> [!def] Virus
