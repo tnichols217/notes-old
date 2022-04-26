@@ -27,7 +27,4 @@
 ```col-md
 # 8 - Horn
 ```
-```col-md
-# 3 - Drums
-```
 ````
