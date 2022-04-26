@@ -49,6 +49,7 @@
 ````col
 ```col-md
 ##### Photoautotrophs
+- 
 ```
 ```col-md
 ##### Chemoautotrophs
@@ -62,7 +63,7 @@
 ##### Aerobes
 ```
 ```col-md
-##### Chemoautotrophs
+##### Anaerobes
 ```
 ````
 `````
