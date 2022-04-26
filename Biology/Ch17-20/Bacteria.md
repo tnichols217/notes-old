@@ -48,4 +48,4 @@
 - Gets larger then splits into two identical smaller cells
 
 ### Conjugation
-- 
+- Two cells attach and exchange genetic information
