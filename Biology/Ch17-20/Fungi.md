@@ -40,4 +40,5 @@
 	- Includes mushrooms
 	- Can be paracitic, mutualistic, or Saprophyic
 	- Decompose wood
-	- Mostly sexual reproduction through its ****
+	- Mostly sexual reproduction through its **basidiocarp**
+- 
