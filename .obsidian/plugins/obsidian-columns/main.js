@@ -73,7 +73,8 @@ var ObsidianColumns = class extends import_obsidian.Plugin {
       });
       this.registerMarkdownPostProcessor((element, context) => {
         let el = element.children[0];
-        if (el.nodeName != "ul") {
+        console.log(el.nodeName);
+        if (el.nodeName != "UL") {
           return;
         }
         console.log(el);
