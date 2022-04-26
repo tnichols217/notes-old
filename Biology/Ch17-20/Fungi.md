@@ -45,5 +45,5 @@
 	- Sexual reproduction has never been observed
 
 ## Examples
-- Lichen: symbiotic relationship between a fungus and an algae
+- **Lichen**: symbiotic relationship between a fungus and an algae
 - 
