@@ -17,4 +17,4 @@
 ## Reproduction
 - **Budding**: Asexual reproduction where a daughter cell grows while attached to the parent cell
 - **Fragmentation**: The mycelium gets disconnected, creating two
-- **Spore Reproduction**: Asexual and sexual where a spore is created
+- **Spore Reproduction**: Asexual and sexual where a spore(haploid) is created
