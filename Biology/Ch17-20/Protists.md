@@ -6,4 +6,4 @@
 
 ## Protozoans - animal like - heterotrophs
 
-## Spicomplexa - sporozoan
+## Spicomplexa -  - sporozoans
