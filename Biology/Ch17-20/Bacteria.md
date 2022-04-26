@@ -2,4 +2,5 @@
 
 ## Prokaryotes
 - Microscopic
+- Unicellular
 - 
