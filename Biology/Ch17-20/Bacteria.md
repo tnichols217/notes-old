@@ -54,4 +54,4 @@
 > [!def] Conjugation
 > 
 > **Conjugation**: Two cells attach and exchange genetic information
-
+- incre
