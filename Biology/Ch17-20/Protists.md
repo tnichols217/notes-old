@@ -53,7 +53,7 @@
 ### Phaeophyta
 - Brown
 - Largest
-- Ice cream
+- Ice cream, paint
 
 ### Chlorophyta
 - Green
