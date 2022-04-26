@@ -18,7 +18,7 @@
 ### Lytic Cycle
 1. A cell is infected
    (for a phage, it injects DNA)
-2. 
+2. DNA circularizes
 ```
 ```col-md
 ### Lysogenic Cycle
