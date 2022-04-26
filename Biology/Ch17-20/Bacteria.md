@@ -103,4 +103,6 @@
 	- Buttermilk
 	- Pickles
 	- Chocolate
-- Production of Vit
+- Production of Vitamin B12
+- Production of Riboflavin
+- 
