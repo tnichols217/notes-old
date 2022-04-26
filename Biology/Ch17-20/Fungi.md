@@ -45,4 +45,6 @@
 	- Sexual reproduction has never been observed
 
 ## Examples
-- 
+- Lichen: symbiotic relationship between a fungusand an algae
+- Fungus- provides habitat, algae- provides food for
+both organisms
