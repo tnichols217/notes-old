@@ -22,6 +22,7 @@
 
 ### Apicomplexa
 - Produce spores
+- Paracitic
 - 
 
 ## Algae - plant like - photoautotrophs
