@@ -37,4 +37,4 @@
 ````
 
 ## Retroviruses
--
+- Have RNA instead
