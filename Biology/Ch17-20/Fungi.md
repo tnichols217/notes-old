@@ -48,4 +48,4 @@
 - **Lichen**: symbiotic relationship between a fungus and an algae
 - **Mycorrhizae**: mutualistic relationship between a specialized fungus and plant roots
 - **Decomposers**
-- 
+- Medicinal uses: penicillin
