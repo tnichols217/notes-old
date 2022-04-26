@@ -42,6 +42,8 @@
 ```
 ````
 
+
+
 ## Reproduction
 ### Binary Fission
 > [!def] Binary Fission
