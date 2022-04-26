@@ -1,3 +1,4 @@
 # Fungi
 - Most are multicellular
-- Cell wall 
+- Cell wall has *chitin*
+- 
