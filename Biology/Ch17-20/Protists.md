@@ -47,6 +47,7 @@
 ### Euglenoids
 - Plantlike that have characteristics of plants
 
-### 
+### Chyrsophyta
+- 
 
 ## Fungus like - absorbtion
