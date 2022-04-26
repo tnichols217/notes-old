@@ -32,13 +32,10 @@
 ````col
 ```col-md
 #### Flagellum
+- Use a 
 ```
 ```col-md
 #### Stationary
 - rod-shaped
-```
-```col-md
-#### Spirilli
-- Spiral-shaped
 ```
 ````
