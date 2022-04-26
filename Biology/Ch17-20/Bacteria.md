@@ -59,7 +59,7 @@
 #### Oxygen
 ````col
 ```col-md
-##### Ae
+##### Aerobes
 ```
 ```col-md
 ##### Chemoautotrophs
