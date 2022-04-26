@@ -10,7 +10,8 @@
 
 ### Ciliophora
 - Cilia to move
-- Eats bacter
+- Eats bacteria
+- 
 
 ## Algae - plant like - photoautotrophs
 
