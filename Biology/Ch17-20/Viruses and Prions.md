@@ -35,3 +35,6 @@
 6. After some time, the infected DNA will separate again and enact its function later (could be months to decades)
 ```
 ````
+
+## Retroviruses
+-
