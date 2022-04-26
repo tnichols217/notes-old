@@ -48,6 +48,7 @@
 > 
 > **Binary Fission**: Division by getting larger then separating into two identical cells.
 - Similar to cell division
+- Can happen a
 
 ### Conjugation
 > [!def] Conjugation
