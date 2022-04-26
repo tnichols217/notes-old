@@ -29,7 +29,7 @@
 1. A cell is infected
    (for a phage, it injects DNA)
 2. DNA circularizes
-3. Enters the Lysogenic Cycle
+3. Enters the **Lysogenic Cycle**
 4. DNA integrates with the chromosomal DNA
 5. When cell division occurs, the modified DNA gets replicated as well
 ```
