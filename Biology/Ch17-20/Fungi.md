@@ -49,4 +49,5 @@
 - **Mycorrhizae**: mutualistic relationship between a specialized fungus and plant roots
 - **Decomposers**
 - **Medicinal**: Penicillin
-- Foods: Mushrooms, cheese
+- **Foods**: Mushrooms, cheese
+- 
