@@ -107,4 +107,5 @@
 - Production of Riboflavin
 - Medical uses to fight disease
 
-### 
+### Diseases
+- Choler
