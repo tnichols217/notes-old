@@ -48,6 +48,8 @@
 - Plantlike that have characteristics of plants
 
 ### Chyrsophyta
-- 
+- Golden brown
+
+### 
 
 ## Fungus like - absorbtion
