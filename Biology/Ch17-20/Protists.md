@@ -61,6 +61,6 @@
 - Red
 - Food for humans
 - Thickener in cooking
-- 
+- Syrup and shampoo
 
 ## Fungus like - absorbtion
