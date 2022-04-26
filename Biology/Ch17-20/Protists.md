@@ -6,4 +6,6 @@
 
 ## Protozoans - animal like - heterotrophs
 
-## Algae - plant like - 
+## Algae - plant like - photoautotrophs
+
+## - 
