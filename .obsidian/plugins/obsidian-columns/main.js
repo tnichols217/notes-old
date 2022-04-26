@@ -72,12 +72,12 @@ var ObsidianColumns = class extends import_obsidian.Plugin {
         });
       });
       this.registerMarkdownPostProcessor((element, context) => {
-        let els = element.querySelector("ul");
-        if (els == null) {
+        let el = element.children[0];
+        if (el == null) {
           return;
         }
-        console.log(els);
-        console.log(Array.from(els.children));
+        console.log(el);
+        console.log(Array.from(el.children));
       });
     });
   }
