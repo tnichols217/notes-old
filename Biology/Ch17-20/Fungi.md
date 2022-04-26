@@ -15,4 +15,4 @@
 -  **Mutualistic**: Work with another organism to help each other out
 
 ## Reproduction
-- **Budding**e
+- **Budding**: Asexual rep
