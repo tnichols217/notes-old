@@ -37,4 +37,6 @@
 ````
 
 ## Retroviruses
-- Have RNA instead
+- Have RNA instead of DNA
+- Quite complex
+- 
