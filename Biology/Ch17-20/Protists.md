@@ -75,4 +75,7 @@
 ### Myxomycota
 - acellular slime molds
 
-### Acrasiomycota: cellular slime molds
+### Acrasiomycota
+- cellular slime molds
+
+### 
