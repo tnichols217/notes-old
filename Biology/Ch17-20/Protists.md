@@ -8,4 +8,4 @@
 
 ## Algae - plant like - photoautotrophs
 
-## - fungus like - absorbtion
+##  - fungus like - absorbtion
