@@ -9,4 +9,5 @@
 - **Cross walls**- hyphae can be dived into cells by walls called septa
 	- Have hole to allow transport along th hyphae
 
-## Nutri
+## Nutrition
+- 
