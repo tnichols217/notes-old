@@ -31,4 +31,4 @@
 	- Mostly terrestrial
 	- Some are mutualistic
 	- Form hyphae called **stolons**
-	- Hy
+	- Hyphae **rhizoids**
