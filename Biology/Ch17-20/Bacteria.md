@@ -11,7 +11,7 @@
 - Some have *pili* (hair)
 
 ## Identification
-### 
+### Shape
 ````col
 ```col-md
 ### Lytic Cycle
