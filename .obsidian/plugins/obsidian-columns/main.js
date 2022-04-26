@@ -72,7 +72,8 @@ var ObsidianColumns = class extends import_obsidian.Plugin {
         });
       });
       this.registerMarkdownPostProcessor((element, context) => {
-        console.log(element.querySelector("ul"));
+        let els = element.querySelector("ul");
+        console.log(els);
       });
     });
   }
