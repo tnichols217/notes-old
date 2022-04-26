@@ -6,8 +6,6 @@ Width:
 Length: 
 Materials: 
 ```col-md
-\```col-md
-\```
 - 
 ```
 Processes: 
