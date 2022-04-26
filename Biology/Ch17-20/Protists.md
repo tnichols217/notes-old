@@ -6,7 +6,7 @@
 
 ## Protozoans - animal like - heterotrophs
 
-
+-Organized by type of 
 
 ## Algae - plant like - photoautotrophs
 
