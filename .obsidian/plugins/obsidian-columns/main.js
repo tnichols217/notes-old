@@ -88,6 +88,8 @@ var ObsidianColumns = class extends import_obsidian.Plugin {
             let itemList = listItem.querySelector("ul, ol");
             for (let itemListItem of Array.from(itemList.children)) {
               let childDiv = colParent.createEl("div", { cls: "columnChild" });
+              let span = parseFloat(itemListItem.textContent.split("\n")[0].split(" ")[0]);
+              console.log(span);
               console.log([itemListItem.textContent]);
               let afterText = false;
               for (let itemListItemChild of Array.from(itemListItem.childNodes)) {
