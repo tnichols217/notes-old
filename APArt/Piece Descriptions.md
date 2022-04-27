@@ -9,7 +9,7 @@ Materials:
 - Blender
 	- Object
 		- Create the general shape
-		- Used interpolated curve
+		- Used interpolated curves to make 
 	- Edit
 		- 
 	- Sculpting
