@@ -1,5 +1,6 @@
 .columnParent {
-    display: flex
+    display: flex;
+    padding: 0
 }
 
 .columnChild {
