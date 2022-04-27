@@ -78,10 +78,3 @@ Materials:
 Processes: 
 ````
 `````
-
-- a
-	- !!!col
-		- 1
-		  a
-		- 2
-		  v
