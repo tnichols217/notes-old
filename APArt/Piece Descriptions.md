@@ -7,6 +7,8 @@ Length:
 Materials: 
 
 - Blender
+	- Object mode
+	- Edit mode
 	- 
 - Camera
 	- 
