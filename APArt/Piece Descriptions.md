@@ -7,9 +7,9 @@ Length:
 Materials: 
 
 - Blender
-	- Object mode
-	- Edit mode
-	- Sculptings
+	- Object
+	- Edit
+	- Sculpting
 	- Shader nodes
 - Camera
 	- 
