@@ -12,7 +12,7 @@ Used interpolated curves to make organic shapes
 Used sculpting mode to create texture and detail
 Procedurally designed textures with shader nodes to add color and minute details
 - Camera
-Used a camera
+Used a camera mounted on a panohead in order to creat
 
 
 Processes: 
