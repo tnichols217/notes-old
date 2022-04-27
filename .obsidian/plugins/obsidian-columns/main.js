@@ -93,7 +93,6 @@ var ObsidianColumns = class extends import_obsidian.Plugin {
                   childDiv.appendChild(itemListItemChild);
                 }
               }
-              console.log([itemListItem]);
             }
           }
         }
