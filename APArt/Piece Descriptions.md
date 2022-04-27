@@ -4,8 +4,7 @@
 Height: 
 Width: 
 Length: 
-Materials: 
-
+Materials:
 - Blender
 Used object mode to create the general shape
 Used interpolated curves to make organic shapes
