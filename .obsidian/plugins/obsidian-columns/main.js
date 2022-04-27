@@ -85,6 +85,8 @@ var ObsidianColumns = class extends import_obsidian.Plugin {
             }
             child.removeChild(listItem);
             let colParent = element.createEl("div", { cls: "columnParent" });
+            console.log(listItem);
+            console.log(listItem.querySelector("ul"));
           }
         }
       });
