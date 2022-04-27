@@ -75,30 +75,18 @@ var ObsidianColumns = class extends import_obsidian.Plugin {
         });
       });
       this.registerMarkdownPostProcessor((element, context) => {
-        let el = element.children[0];
-        if (el.nodeName != "UL" && el.nodeName != "OL") {
-          return;
-        }
-        let els = Array.from(el.children);
-        let mappedEls = els.map((i) => {
-          if (i.textContent.startsWith(TOKEN + COLUMNNAME)) {
-            let subel = Array.from(i.children);
-            for (let j of subel) {
-              if (j.nodeName == "UL" || el.nodeName == "OL") {
-                let li = Array.from(j.children);
-                let lis = li.map((k) => {
-                  let span = parseFloat(k.textContent.split("\n")[0]);
-                  span = isNaN(span) ? 1 : span;
-                  return { HTML: k.innerHTML, span };
-                });
-                return lis;
-              }
-            }
-            console.log(subel);
+        for (let child of Array.from(element.children)) {
+          if (child.nodeName != "UL" && child.nodeName != "OL") {
+            continue;
           }
-          return;
-        });
-        console.log(mappedEls);
+          for (let listItem of Array.from(child.children)) {
+            if (!listItem.textContent.startsWith(TOKEN + COLUMNNAME)) {
+              continue;
+            }
+            child.removeChild(listItem);
+            let colParent = element.createEl("div", { cls: "columnParent" });
+          }
+        }
       });
     });
   }
