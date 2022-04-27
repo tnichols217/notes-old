@@ -11,7 +11,7 @@ Materials:
 	- Edit
 	- Sculpting
 	- Shader nodes
-	- 
+	- Geometry nodes
 - Camera
 	- 
 - Tri-pod
