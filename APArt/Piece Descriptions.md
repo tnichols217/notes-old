@@ -14,8 +14,8 @@ Procedurally designed textures with shader nodes to add color and minute details
 - Camera
 Used a camera mounted on a panohead in order to create a panoramic background for the piece
 
+Processes:
 
-Processes: 
 ````
 ````col-md
 # 2 - Guitar
