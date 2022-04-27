@@ -7,6 +7,9 @@ Length:
 Materials: 
 
 - Blender
+	- 
+- Camera
+- Tri-pod
 - 
 
 
