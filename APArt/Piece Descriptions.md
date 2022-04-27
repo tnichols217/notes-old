@@ -14,7 +14,7 @@ Procedurally designed textures with shader nodes to add color and minute details
 Used a camera mounted on a panohead in order to create a panoramic background for the piece
 
 Processes:
-Scouted for an abandoned building
+Scouted for an abandoned building, took the pho
 ````
 ````col-md
 # 2 - Guitar
