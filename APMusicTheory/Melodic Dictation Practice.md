@@ -168,7 +168,7 @@ GBA Gce|d>ef gd|e>d^c dBG|Ac/B/A/F/ G3
 X: 1
 L:1/4
 K:Cm
-M:c
+M:C
 V:1 clef: bass
 C,
 ```
