@@ -89,7 +89,7 @@ var ObsidianColumns = class extends import_obsidian.Plugin {
             for (let itemListItem of Array.from(itemList.children)) {
               let childDiv = colParent.createEl("div", { cls: "columnChild" });
               childDiv.innerHTML = itemListItem.innerHTML;
-              console.log(itemListItem);
+              console.log([itemListItem]);
             }
           }
         }
