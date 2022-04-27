@@ -88,7 +88,11 @@ var ObsidianColumns = class extends import_obsidian.Plugin {
             let itemList = listItem.querySelector("ul, ol");
             for (let itemListItem of Array.from(itemList.children)) {
               let childDiv = colParent.createEl("div", { cls: "columnChild" });
-              console.log(itemListItem.querySelectorAll("*:not(div)"));
+              for (let itemListItemChild of Array.from(itemListItem.children)) {
+                if (itemListItemChild.nodeName != "DIV") {
+                  childDiv.appendChild(itemListItemChild);
+                }
+              }
               console.log([itemListItem]);
             }
           }
