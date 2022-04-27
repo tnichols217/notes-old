@@ -93,10 +93,7 @@ var ObsidianColumns = class extends import_obsidian.Plugin {
               if (!isNaN(span)) {
                 childDiv.setAttribute("style", "flex-grow:" + span.toString());
               }
-              console.log(span);
-              console.log([itemListItem.textContent]);
               let afterText = false;
-              console.log(Array.from(itemListItem.children));
               processList(itemListItem);
               for (let itemListItemChild of Array.from(itemListItem.childNodes)) {
                 if (afterText) {
