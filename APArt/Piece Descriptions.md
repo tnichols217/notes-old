@@ -8,8 +8,9 @@ Materials:
 
 - Blender
 	- Object
-		- 
+		- Create the general shape
 	- Edit
+		- 
 	- Sculpting
 	- Shader nodes
 	- Geometry nodes/Modifier stack
