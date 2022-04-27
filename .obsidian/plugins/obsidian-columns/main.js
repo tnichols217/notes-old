@@ -76,10 +76,16 @@ var ObsidianColumns = class extends import_obsidian.Plugin {
       });
       let processList = (element) => {
         for (let child of Array.from(element.children)) {
+          if (child == null) {
+            continue;
+          }
           if (child.nodeName != "UL" && child.nodeName != "OL") {
             continue;
           }
           for (let listItem of Array.from(child.children)) {
+            if (listItem == null) {
+              continue;
+            }
             if (!listItem.textContent.startsWith(TOKEN + COLUMNNAME)) {
               processList(listItem);
               continue;
