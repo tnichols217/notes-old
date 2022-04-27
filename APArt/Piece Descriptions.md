@@ -11,7 +11,7 @@ Materials:
 		- Create the general shape
 		- Used interpolated curves to make organic shapes
 	- Sculpting
-		- Used sculpting mode to create te
+		- Used sculpting mode to create texture and detail
 	- Shader nodes
 	- Geometry nodes/Modifier stack
 - Camera
