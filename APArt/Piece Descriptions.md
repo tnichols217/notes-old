@@ -11,7 +11,7 @@ Materials:
 		- Create the general shape
 		- Used interpolated curves to make organic shapes
 	- Sculpting
-		- 
+		- Sculpted wood-like textur
 	- Shader nodes
 	- Geometry nodes/Modifier stack
 - Camera
