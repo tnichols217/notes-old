@@ -13,8 +13,7 @@ Materials:
 	- Sculpting
 		- Used sculpting mode to create texture and detail
 	- Shader nodes
-		- Procedurally designed textures 
-	- Geometry nodes/Modifier stack
+		- Procedurally designed textures to 
 - Camera
 	- 
 - Tri-pod
