@@ -13,6 +13,7 @@ Materials:
 	- Sculpting
 		- Used sculpting mode to create texture and detail
 	- Shader nodes
+		- 
 	- Geometry nodes/Modifier stack
 - Camera
 	- 
