@@ -9,8 +9,8 @@ Materials:
 - Blender
 	- Object mode
 	- Edit mode
-	- Sculpting mode
-	- 
+	- Sculptings
+	- Shader nodes
 - Camera
 	- 
 - Tri-pod
