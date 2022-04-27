@@ -1,10 +1,10 @@
 .columnParent {
     display: flex;
-    padding: 0
+    padding: 5px 5px
 }
 
 .columnChild {
     flex-grow: 1;
     flex-basis: 0px;
-    padding: 10px
+    padding: 0px 10px
 }
