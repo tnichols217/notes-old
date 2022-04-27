@@ -7,12 +7,9 @@ Length:
 Materials: 
 
 - Blender
-Used object mode to create the general
-	- Object
-		- Create the general shape
-		- Used interpolated curves to make organic shapes
-	- Sculpting
-		- Used sculpting mode to create texture and detail
+Used object mode to create the general shape
+Used interpolated curves to make organic shapes
+- Used sculpting mode to create texture and detail
 	- Shader nodes
 		- Procedurally designed textures to add color and minute details
 - Camera
