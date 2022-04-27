@@ -10,7 +10,7 @@ Materials:
 Used object mode to create the general shape
 Used interpolated curves to make organic shapes
 Used sculpting mode to create texture and detail
-Procedurally designed textures with shader nodesto add color and minute details
+Procedurally designed textures with shader nodes to add color and minute details
 - Camera
 	- 
 - Tri-pod
