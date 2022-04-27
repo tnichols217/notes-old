@@ -170,5 +170,5 @@ L:1/4
 K:Cm
 M:C
 V:1 clef: bass
-C,
+C,BDFA
 ```
