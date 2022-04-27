@@ -10,9 +10,8 @@ Materials:
 	- Object
 		- Create the general shape
 		- Used interpolated curves to make organic shapes
-	- Edit
-		- 
 	- Sculpting
+		- 
 	- Shader nodes
 	- Geometry nodes/Modifier stack
 - Camera
