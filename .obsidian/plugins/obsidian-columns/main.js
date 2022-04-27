@@ -74,13 +74,14 @@ var ObsidianColumns = class extends import_obsidian.Plugin {
           cc.appendChild(c);
         });
       });
-      this.registerMarkdownPostProcessor((element, context) => {
+      let processList = (element) => {
         for (let child of Array.from(element.children)) {
           if (child.nodeName != "UL" && child.nodeName != "OL") {
             continue;
           }
           for (let listItem of Array.from(child.children)) {
             if (!listItem.textContent.startsWith(TOKEN + COLUMNNAME)) {
+              processList(listItem);
               continue;
             }
             child.removeChild(listItem);
@@ -95,6 +96,7 @@ var ObsidianColumns = class extends import_obsidian.Plugin {
               console.log(span);
               console.log([itemListItem.textContent]);
               let afterText = false;
+              Array.from(itemListItem.children).forEach(processList);
               for (let itemListItemChild of Array.from(itemListItem.childNodes)) {
                 if (afterText) {
                   childDiv.appendChild(itemListItemChild);
@@ -106,6 +108,9 @@ var ObsidianColumns = class extends import_obsidian.Plugin {
             }
           }
         }
+      };
+      this.registerMarkdownPostProcessor((element, context) => {
+        processList(element);
       });
     });
   }
