@@ -7,7 +7,7 @@ Length:
 Materials: 
 
 - Blender
-
+Used object mode to create the general
 	- Object
 		- Create the general shape
 		- Used interpolated curves to make organic shapes
