@@ -9,8 +9,11 @@ Materials:
 - Blender
 	- 
 - Camera
+	- 
 - Tri-pod
-- 
+	- 
+- Pano-head
+	- 
 
 
 Processes: 
