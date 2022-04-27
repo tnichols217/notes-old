@@ -97,7 +97,7 @@ var ObsidianColumns = class extends import_obsidian.Plugin {
               console.log([itemListItem.textContent]);
               let afterText = false;
               console.log(Array.from(itemListItem.children));
-              Array.from(itemListItem.children).forEach(processList);
+              processList(itemListItem);
               for (let itemListItemChild of Array.from(itemListItem.childNodes)) {
                 if (afterText) {
                   childDiv.appendChild(itemListItemChild);
