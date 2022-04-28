@@ -40,7 +40,8 @@ Displacement nodes to add shape details
 Shader nodes to add color and bump
 
 Processes: 
-Looked at trees to figue out how bra
+Looked at trees to figue out how branches are structured.
+
 ````
 ````col-md
 # 3 - Drums
