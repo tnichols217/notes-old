@@ -59,7 +59,16 @@ var MyPlugin = class extends import_obsidian.Plugin {
         let iframes = element.querySelectorAll("iframe");
         for (let child of Array.from(iframes)) {
           let src = child.getAttribute("src");
-          console.log(child.getAttribute("src"));
+          if (!src.contains("://")) {
+            child.setAttribute("src", src);
+          }
+          if (src.startsWith("/")) {
+            console.log(import_obsidian.Vault);
+          } else if (src.startsWith("./")) {
+            console.log();
+          } else {
+          }
+          console.log(src);
         }
       };
       this.registerMarkdownPostProcessor((element, context) => {
