@@ -1,5 +1,5 @@
 - !!!col
 	- 1
-		# a
-		more
+		# Column 1
+		Some example text in 
 	- 1
