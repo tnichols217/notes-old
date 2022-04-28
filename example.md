@@ -1,6 +1,5 @@
 ````col
-```do
-```
+```col-md
 First column!
 
 - List in column 2
@@ -9,6 +8,7 @@ First column!
 	3. Item 3
 - Random list items
 - Extra things
+```
 
 > [!info] Callouts
 >  Stuff inside the callout
