@@ -60,11 +60,14 @@ var MyPlugin = class extends import_obsidian.Plugin {
         for (let child of Array.from(iframes)) {
           let src = child.getAttribute("src");
           if (!src.contains("://")) {
+            let root = this.app.vault.adapter.getBasePath();
             if (src.startsWith("/")) {
-              let root = this.app.vault.adapter.getBasePath();
               child.setAttribute("src", root + src);
             } else if (src.startsWith("./")) {
-              let root = context.sourcePath;
+              let source = context.sourcePath;
+              let index = source.lastIndexOf("/");
+              source = source.substring(0, index);
+              let path = root + "/" + context.sourcePath;
               console.log(root);
             } else {
             }
