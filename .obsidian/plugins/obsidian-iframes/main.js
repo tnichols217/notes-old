@@ -55,7 +55,7 @@ var import_obsidian = __toModule(require("obsidian"));
 var MyPlugin = class extends import_obsidian.Plugin {
   onload() {
     return __async(this, null, function* () {
-      let processList = (element) => {
+      let processList = (element, context) => {
         let iframes = element.querySelectorAll("iframe");
         for (let child of Array.from(iframes)) {
           let src = child.getAttribute("src");
@@ -64,16 +64,17 @@ var MyPlugin = class extends import_obsidian.Plugin {
           }
           if (src.startsWith("/")) {
             let root = this.app.vault.adapter.getBasePath();
-            console.log(root);
+            child.setAttribute("src", root + src);
           } else if (src.startsWith("./")) {
-            console.log();
+            let root = context.sourcePath;
+            console.log(root);
           } else {
           }
           console.log(src);
         }
       };
       this.registerMarkdownPostProcessor((element, context) => {
-        processList(element);
+        processList(element, context);
       });
     });
   }
