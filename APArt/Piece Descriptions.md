@@ -37,7 +37,7 @@ Object mode to create the general shape
 Recursive curves to make the strings
 Sculpt mode to fine tune the shape
 Displacement nodes to add shape details
-Shad
+Shader nodes to add color and bump
 Processes: 
 ````
 ````col-md
