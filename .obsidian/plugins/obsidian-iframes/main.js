@@ -58,6 +58,7 @@ var MyPlugin = class extends import_obsidian.Plugin {
       let processList = (element) => {
         let iframes = element.querySelectorAll("iframe");
         for (let child of Array.from(iframes)) {
+          let src = child.getAttribute("src");
           console.log(child.getAttribute("src"));
         }
       };
