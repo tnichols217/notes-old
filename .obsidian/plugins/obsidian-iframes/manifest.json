@@ -3,8 +3,8 @@
 	"name": "Sample Plugin",
 	"version": "1.0.1",
 	"minAppVersion": "0.12.0",
-	"description": "This is a sample plugin for Obsidian. This plugin demonstrates some of the capabilities of the Obsidian API.",
+	"description": "Fixes iframes in Obsidian because they dont work properly when referring to local files",
 	"author": "Trevor Nichols",
-	"authorUrl": "https://obsidian.md",
+	"authorUrl": "https://github.com/tnichols217/",
 	"isDesktopOnly": false
 }
