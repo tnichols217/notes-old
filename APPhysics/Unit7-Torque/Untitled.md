@@ -5,5 +5,5 @@
 4. $lF_{w_p}+0.5lF_{g_p}=0$
 
 
-<iframe src="./dist/index.html"></iframe>
+<iframe src="/dist/index.html"></iframe>
 <iframe src="https://google.com"></iframe>
