@@ -1,3 +1,3 @@
 - questridge
 
-<iframe src="./dist/index.html"></iframe>
+<iframe src="dist/index.html"></iframe>
