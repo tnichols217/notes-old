@@ -35,7 +35,8 @@ Materials:
 - Blender
 Object mode to create the general shape
 Recursive curves to make the strings
-Sculpt mode 
+Sculpt mode to fine tune the shape
+
 Processes: 
 ````
 ````col-md
