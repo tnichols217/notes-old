@@ -1,4 +1,4 @@
-````col
+``````col
 First column!
 
 - List in column 2
@@ -13,6 +13,7 @@ First column!
 >  More stuff inside.
 >> [!ERROR] Error description
 >>  Nested callout
+>>  `
 
 ```js
   let msg = "Hello, world!";
