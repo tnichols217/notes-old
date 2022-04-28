@@ -52,93 +52,20 @@ __export(exports, {
   default: () => MyPlugin
 });
 var import_obsidian = __toModule(require("obsidian"));
-var DEFAULT_SETTINGS = {
-  mySetting: "default"
-};
 var MyPlugin = class extends import_obsidian.Plugin {
   onload() {
     return __async(this, null, function* () {
-      yield this.loadSettings();
-      const ribbonIconEl = this.addRibbonIcon("dice", "Sample Plugin", (evt) => {
-        new import_obsidian.Notice("This is a notice!");
-      });
-      ribbonIconEl.addClass("my-plugin-ribbon-class");
-      const statusBarItemEl = this.addStatusBarItem();
-      statusBarItemEl.setText("Status Bar Text");
-      this.addCommand({
-        id: "open-sample-modal-simple",
-        name: "Open sample modal (simple)",
-        callback: () => {
-          new SampleModal(this.app).open();
+      let processList = (element) => {
+        let iframes = element.querySelectorAll("iframe");
+        for (let child of Array.from(iframes)) {
+          console.log(child.getAttribute("src"));
         }
+      };
+      this.registerMarkdownPostProcessor((element, context) => {
+        processList(element);
       });
-      this.addCommand({
-        id: "sample-editor-command",
-        name: "Sample editor command",
-        editorCallback: (editor, view) => {
-          console.log(editor.getSelection());
-          editor.replaceSelection("Sample Editor Command");
-        }
-      });
-      this.addCommand({
-        id: "open-sample-modal-complex",
-        name: "Open sample modal (complex)",
-        checkCallback: (checking) => {
-          const markdownView = this.app.workspace.getActiveViewOfType(import_obsidian.MarkdownView);
-          if (markdownView) {
-            if (!checking) {
-              new SampleModal(this.app).open();
-            }
-            return true;
-          }
-        }
-      });
-      this.addSettingTab(new SampleSettingTab(this.app, this));
-      this.registerDomEvent(document, "click", (evt) => {
-        console.log("click", evt);
-      });
-      this.registerInterval(window.setInterval(() => console.log("setInterval"), 5 * 60 * 1e3));
     });
   }
   onunload() {
-  }
-  loadSettings() {
-    return __async(this, null, function* () {
-      this.settings = Object.assign({}, DEFAULT_SETTINGS, yield this.loadData());
-    });
-  }
-  saveSettings() {
-    return __async(this, null, function* () {
-      yield this.saveData(this.settings);
-    });
-  }
-};
-var SampleModal = class extends import_obsidian.Modal {
-  constructor(app) {
-    super(app);
-  }
-  onOpen() {
-    const { contentEl } = this;
-    contentEl.setText("Woah!");
-  }
-  onClose() {
-    const { contentEl } = this;
-    contentEl.empty();
-  }
-};
-var SampleSettingTab = class extends import_obsidian.PluginSettingTab {
-  constructor(app, plugin) {
-    super(app, plugin);
-    this.plugin = plugin;
-  }
-  display() {
-    const { containerEl } = this;
-    containerEl.empty();
-    containerEl.createEl("h2", { text: "Settings for my awesome plugin." });
-    new import_obsidian.Setting(containerEl).setName("Setting #1").setDesc("It's a secret").addText((text) => text.setPlaceholder("Enter your secret").setValue(this.plugin.settings.mySetting).onChange((value) => __async(this, null, function* () {
-      console.log("Secret: " + value);
-      this.plugin.settings.mySetting = value;
-      yield this.plugin.saveSettings();
-    })));
   }
 };
