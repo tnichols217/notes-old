@@ -33,6 +33,7 @@ Width:
 Length: 
 Materials: 
 - Blender
+Object mode to create the general shape
 
 Processes: 
 ````
