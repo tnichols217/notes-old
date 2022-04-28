@@ -78,7 +78,6 @@ var MyPlugin = class extends import_obsidian.Plugin {
               child.setAttribute("src", path);
             }
           }
-          console.log(child.getAttribute("src"));
         }
       };
       this.registerMarkdownPostProcessor((element, context) => {
