@@ -1,4 +1,6 @@
 ````col
+```do
+```
 First column!
 
 - List in column 2
@@ -21,9 +23,5 @@ First column!
 ```js
   let msg = "Hello, world!";
   console.log(msg)
-```
-
-```col-md
-
 ```
 ````
