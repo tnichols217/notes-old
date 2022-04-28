@@ -66,7 +66,7 @@ var MyPlugin = class extends import_obsidian.Plugin {
             } else if (src.startsWith("./")) {
               let source = context.sourcePath;
               let index = source.lastIndexOf("/");
-              source = source.substring(0, index);
+              source = source.substring(0, index + 1);
               console.log(source);
               let path = root + "/" + context.sourcePath;
               console.log(root);
