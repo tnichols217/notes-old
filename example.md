@@ -6,9 +6,9 @@ First column!
 	2. Item 2
 	3. Item 3
 - Random list items
-- 
+- Extra things
 
-> [!INFO] Callouts
+> [!info] Callouts
 >  column 3-1
 >  column 3-2
 >> [!ERROR] Error description
