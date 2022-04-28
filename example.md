@@ -10,7 +10,7 @@ First column!
 
 > [!info] Callouts
 >  Stuff inside the callout
->  More stuff ins
+>  More stuff inside.
 >> [!ERROR] Error description
 >>  Nested callout
 
