@@ -4,4 +4,4 @@
 2. $F_{f_x}+F_{w_x}$
 4. $lF_{w_p}+0.5lF_{g_p}=0$
 
-<iframe src="../"></iframe>
+<iframe src="../../example.md"></iframe>
