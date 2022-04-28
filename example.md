@@ -1,6 +1,5 @@
 ````col
-Column 1-1
-Column 1-2
+First column!
 
 - column 2-1
 	1. Item 1
