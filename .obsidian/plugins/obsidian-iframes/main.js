@@ -63,7 +63,7 @@ var MyPlugin = class extends import_obsidian.Plugin {
             child.setAttribute("src", src);
           }
           if (src.startsWith("/")) {
-            let root = this.app.vault.getRoot();
+            let root = this.app.vault.adapter.getBasePath();
             console.log(root);
           } else if (src.startsWith("./")) {
             console.log();
