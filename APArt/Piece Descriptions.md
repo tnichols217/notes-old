@@ -41,7 +41,7 @@ Shader nodes to add color and bump
 
 Processes: 
 Looked at trees to figue out how branches are structured.
-
+Measured a real guitar to get an idea of what size a
 ````
 ````col-md
 # 3 - Drums
