@@ -2,7 +2,7 @@
 ```col-md
 First column!
 
-- List in column 2
+- List in column 1
 	1. Item 1
 	2. Item 2
 	3. Item 3
