@@ -13,7 +13,7 @@ First column!
 >  More stuff inside.
 >> [!ERROR] Error description
 >>  Nested callout
->>  `
+>>  ```md
 
 ```js
   let msg = "Hello, world!";
