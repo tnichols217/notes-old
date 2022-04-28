@@ -36,7 +36,8 @@ Materials:
 Object mode to create the general shape
 Recursive curves to make the strings
 Sculpt mode to fine tune the shape
-Displacement
+Displacement nodes to add shape details
+Shad
 Processes: 
 ````
 ````col-md
