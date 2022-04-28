@@ -20,8 +20,10 @@ First column!
 
 ```js
   let msg = "Hello, world!";
-  console.log(m)
+  console.log(msg)
 ```
 
+```col-md
 
+```
 ````
