@@ -52,6 +52,7 @@ __export(exports, {
   default: () => MyPlugin
 });
 var import_obsidian = __toModule(require("obsidian"));
+var URISCHEME = "file://";
 var MyPlugin = class extends import_obsidian.Plugin {
   onload() {
     return __async(this, null, function* () {
@@ -66,10 +67,10 @@ var MyPlugin = class extends import_obsidian.Plugin {
             } else if (src.startsWith("./")) {
               let source = context.sourcePath;
               let index = source.lastIndexOf("/");
-              source = source.substring(0, index + 1);
+              source = source.substring(0, index);
               console.log(source);
-              let path = root + "/" + context.sourcePath;
-              console.log(root);
+              let path = URISCHEME + root + "/" + source + src.substring(1);
+              console.log(path);
             } else {
             }
           }
