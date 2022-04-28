@@ -1,10 +1,10 @@
 ````col
 First column!
 
-- column 2-1
+- List in column 2
 	1. Item 1
-	1. Item 2
-	1. Item 3
+	2. Item 2
+	3. Item 3
 - column 2-2
 - column 2-3
 
