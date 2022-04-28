@@ -63,15 +63,19 @@ var MyPlugin = class extends import_obsidian.Plugin {
           if (!src.contains("://")) {
             let root = this.app.vault.adapter.getBasePath();
             if (src.startsWith("/")) {
-              child.setAttribute("src", root + src);
+              child.setAttribute("src", URISCHEME + root + src);
             } else if (src.startsWith("./")) {
               let source = context.sourcePath;
               let index = source.lastIndexOf("/");
               source = source.substring(0, index);
-              console.log(source);
               let path = URISCHEME + root + "/" + source + src.substring(1);
-              console.log(path);
+              child.setAttribute("src", path);
             } else {
+              let source = context.sourcePath;
+              let index = source.lastIndexOf("/");
+              source = source.substring(0, index);
+              let path = URISCHEME + root + "/" + source + "/" + src;
+              child.setAttribute("src", path);
             }
           }
           console.log(src);
