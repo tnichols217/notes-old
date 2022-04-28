@@ -6,4 +6,4 @@
 			- more list items
 	- 2
 		# Column 2
-		
+		This column is twice as wide because it has the value 
