@@ -1,3 +1,3 @@
 - questridge
 
-<iframe src="/home/tev/Documents/obsidWidgets/neu-times/dist/index.html"></iframe>
+<iframe src="file:///home/tev/Documents/obsidWidgets/neu-times/dist/index.html"></iframe>
