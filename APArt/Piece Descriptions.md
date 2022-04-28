@@ -49,7 +49,7 @@ Height:
 Width: 
 Length: 
 Materials: 
-Object mode 
+Edit mode for creating the shape of everything
 Processes: 
 ````
 `````
