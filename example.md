@@ -13,4 +13,4 @@
 			  You can even have columns inside columns!
 			- 1
 			  ## Column 2-2
-			  More exm
+			  More example text inside this column
