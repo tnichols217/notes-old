@@ -1,10 +1,6 @@
 - !!!col
 	- 1
-	- 1
-	- 1
-`````col
-````col-md
-# 1 - Piano
+	  # 1 - Piano
 Height: 
 Width: 
 Length: 
@@ -20,6 +16,11 @@ Used a camera mounted on a panohead in order to create a panoramic background fo
 Processes:
 Scouted for an abandoned building, took the photos to make a panoramic.
 Researched size and shape of keys, learned the internal mechanism. s
+	- 1
+	- 1
+`````col
+````col-md
+
 ````
 ````col-md
 # 2 - Guitar
