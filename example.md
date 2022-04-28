@@ -9,8 +9,8 @@ First column!
 - Extra things
 
 > [!info] Callouts
->  column 3-1
->  column 3-2
+>  
+>  
 >> [!ERROR] Error description
 >>  Nested callout
 
