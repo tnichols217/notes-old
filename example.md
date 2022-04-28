@@ -3,5 +3,5 @@
 		# Column 1
 		Some example text in column 1
 		- some lists inside as well
-			- more l
+			- more list items
 	- 1
