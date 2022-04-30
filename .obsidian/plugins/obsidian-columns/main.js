@@ -148,9 +148,8 @@ var SampleSettingTab = class extends import_obsidian.PluginSettingTab {
     const { containerEl } = this;
     containerEl.empty();
     containerEl.createEl("h2", { text: "Settings for obsidian-columns" });
-    let colSet = typeof this.plugin.settings;
-    for (let key of Object.keys(colSet)) {
-      console.log(key);
-    }
+    let keys = Object.keys(this.plugin.settings);
+    let vals = Object.values(this.plugin.settings);
+    console.log(keys, vals);
   }
 };
