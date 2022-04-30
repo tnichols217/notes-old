@@ -1,6 +1,6 @@
 {
   "mobileWrap": {
-    "value": true,
+    "value": false,
     "name": "Wrap columns on mobile",
     "desc": ""
   }
