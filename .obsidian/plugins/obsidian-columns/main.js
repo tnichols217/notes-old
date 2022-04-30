@@ -56,7 +56,7 @@ var COLUMNNAME = "col";
 var COLUMNMD = COLUMNNAME + "-md";
 var TOKEN = "!!!";
 var DEFAULT_SETTINGS = {
-  mobileWrap: { value: "no", name: "Wrap columns on mobile", desc: "" }
+  mobileWrap: { value: false, name: "Wrap columns on mobile", desc: "" }
 };
 var ObsidianColumns = class extends import_obsidian.Plugin {
   onload() {
