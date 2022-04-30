@@ -118,9 +118,10 @@ var ObsidianColumns = class extends import_obsidian.Plugin {
             for (let itemListItem of Array.from(itemList.children)) {
               let childDiv = colParent.createEl("div", { cls: "columnChild" });
               let span = parseFloat(itemListItem.textContent.split("\n")[0].split(" ")[0]);
-              if (!isNaN(span)) {
-                childDiv.setAttribute("style", "flex-grow:" + span.toString() + "; flex-basis:" + (this.settings.wrapSize.value * span).toString() + "px");
+              if (isNaN(span)) {
+                span = 1;
               }
+              childDiv.setAttribute("style", "flex-grow:" + span.toString() + "; flex-basis:" + (this.settings.wrapSize.value * span).toString() + "px");
               let afterText = false;
               processList(itemListItem);
               for (let itemListItemChild of Array.from(itemListItem.childNodes)) {
