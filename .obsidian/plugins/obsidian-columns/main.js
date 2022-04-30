@@ -119,7 +119,7 @@ var ObsidianColumns = class extends import_obsidian.Plugin {
               let childDiv = colParent.createEl("div", { cls: "columnChild" });
               let span = parseFloat(itemListItem.textContent.split("\n")[0].split(" ")[0]);
               if (!isNaN(span)) {
-                childDiv.setAttribute("style", "flex-grow:" + span.toString() + "; flex-basis:" + (this.settings.wrapSize.value * span).toString());
+                childDiv.setAttribute("style", "flex-grow:" + span.toString() + "; flex-basis:" + (this.settings.wrapSize.value * span).toString() + "px");
               }
               let afterText = false;
               processList(itemListItem);
