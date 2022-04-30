@@ -157,7 +157,8 @@ var SampleSettingTab = class extends import_obsidian.PluginSettingTab {
     console.log(keyvals);
     for (let keyval of keyvals) {
       console.log(keyval);
-      new import_obsidian.Setting(containerEl).setName(keyval[1].name).setDesc(keyval[1].desc).addText((text) => text.setValue(this.plugin.settings[keyval[0]].value).onChange((value) => __async(this, null, function* () {
+      console.log(this.plugin.settings[keyval[0]].value);
+      new import_obsidian.Setting(containerEl).setName(keyval[1].name).setDesc(keyval[1].desc).addText((text) => text.setPlaceholder(DEFAULT_SETTINGS[keyval[0]].value).setValue(this.plugin.settings[keyval[0]].value).onChange((value) => __async(this, null, function* () {
         console.log(keyval);
         this.plugin.settings[keyval[0]].value = parseBoolean(value);
         yield this.plugin.saveSettings();
