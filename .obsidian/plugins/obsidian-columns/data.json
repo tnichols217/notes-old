@@ -5,7 +5,7 @@
     "desc": "Allows columns to be stacked as rows instead of columns when viewed on a smaller device"
   },
   "wrapSize": {
-    "value": null,
+    "value": 10,
     "name": "Minimum width of column",
     "desc": "When wrap mode is active, columns will have this minimum width before wrapping to a new row"
   }
