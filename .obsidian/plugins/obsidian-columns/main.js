@@ -55,9 +55,14 @@ var import_obsidian = __toModule(require("obsidian"));
 var COLUMNNAME = "col";
 var COLUMNMD = COLUMNNAME + "-md";
 var TOKEN = "!!!";
+var DEFAULT_SETTINGS = {
+  mobileWrap: { value: false, name: "Wrap columns on mobile", desc: "" }
+};
 var ObsidianColumns = class extends import_obsidian.Plugin {
   onload() {
     return __async(this, null, function* () {
+      yield this.loadSettings();
+      this.addSettingTab(new SampleSettingTab(this.app, this));
       this.registerMarkdownCodeBlockProcessor(COLUMNMD, (source, el, ctx) => {
         const sourcePath = ctx.sourcePath;
         let child = el.createDiv();
@@ -122,5 +127,30 @@ var ObsidianColumns = class extends import_obsidian.Plugin {
     });
   }
   onunload() {
+  }
+  loadSettings() {
+    return __async(this, null, function* () {
+      this.settings = Object.assign({}, DEFAULT_SETTINGS, yield this.loadData());
+    });
+  }
+  saveSettings() {
+    return __async(this, null, function* () {
+      yield this.saveData(this.settings);
+    });
+  }
+};
+var SampleSettingTab = class extends import_obsidian.PluginSettingTab {
+  constructor(app, plugin) {
+    super(app, plugin);
+    this.plugin = plugin;
+  }
+  display() {
+    const { containerEl } = this;
+    containerEl.empty();
+    containerEl.createEl("h2", { text: "Settings for obsidian-columns" });
+    let colSet = typeof this.plugin.settings;
+    for (let key of Object.keys(colSet)) {
+      console.log(key);
+    }
   }
 };
