@@ -1,6 +1,6 @@
 {
   "mobileWrap": {
-    "value": false,
+    "value": true,
     "name": "Wrap columns on mobile",
     "desc": "Allows columns to be stacked as rows instead of columns when viewed on a smaller device"
   },
