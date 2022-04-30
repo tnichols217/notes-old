@@ -164,13 +164,9 @@ var SampleSettingTab = class extends import_obsidian.PluginSettingTab {
     const { containerEl } = this;
     containerEl.empty();
     containerEl.createEl("h2", { text: "Settings for obsidian-columns" });
-    let keys = Object.keys(this.plugin.settings);
-    let vals = Object.values(this.plugin.settings);
     let keyvals = Object.entries(DEFAULT_SETTINGS);
     console.log(keyvals);
     for (let keyval of keyvals) {
-      console.log(keyval);
-      console.log(keyval[1].value);
       new import_obsidian.Setting(containerEl).setName(keyval[1].name).setDesc(keyval[1].desc).addText((text) => text.setPlaceholder(String(keyval[1].value)).setValue(String(this.plugin.settings[keyval[0]].value)).onChange((value) => {
         keyval[1].value = parseObject(value, typeof keyval[1].value);
         this.plugin.saveSettings();
