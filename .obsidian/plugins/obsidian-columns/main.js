@@ -90,6 +90,7 @@ var ObsidianColumns = class extends import_obsidian.Plugin {
         let parent = el.createEl("div", { cls: "columnParent" });
         Array.from(child.children).forEach((c) => {
           let cc = parent.createEl("div", { cls: "columnChild" });
+          cc.setAttribute("style", "flex-grow:1; flex-basis:" + this.settings.wrapSize.value.toString() + "px");
           cc.appendChild(c);
         });
       });
