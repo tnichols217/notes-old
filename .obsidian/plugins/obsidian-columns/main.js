@@ -62,6 +62,17 @@ var DEFAULT_SETTINGS = {
 var parseBoolean = (value) => {
   return value == "yes" || value == "true";
 };
+var parseObject = (value, typ) => {
+  if (typ == "string") {
+    return value;
+  }
+  if (typ == "boolean") {
+    return parseBoolean(value);
+  }
+  if (typ == "number") {
+    return parseFloat(value);
+  }
+};
 var ObsidianColumns = class extends import_obsidian.Plugin {
   onload() {
     return __async(this, null, function* () {
@@ -160,7 +171,7 @@ var SampleSettingTab = class extends import_obsidian.PluginSettingTab {
       console.log(keyval);
       console.log(this.plugin.settings[keyval[0]].value);
       new import_obsidian.Setting(containerEl).setName(DEFAULT_SETTINGS[keyval[0]].name).setDesc(DEFAULT_SETTINGS[keyval[0]].desc).addText((text) => text.setPlaceholder(String(DEFAULT_SETTINGS[keyval[0]].value)).setValue(String(this.plugin.settings[keyval[0]].value)).onChange((value) => {
-        keyval[1].value = parseBoolean(value);
+        keyval[1].value = parseObject(value, typeof DEFAULT_SETTINGS[keyval[0]].value);
         this.plugin.saveSettings();
       }));
     }
