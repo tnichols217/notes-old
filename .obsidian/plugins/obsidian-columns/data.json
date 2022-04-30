@@ -1,0 +1,7 @@
+{
+  "mobileWrap": {
+    "value": true,
+    "name": "Wrap columns on mobile",
+    "desc": ""
+  }
+}
