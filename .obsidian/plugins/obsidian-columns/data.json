@@ -1,6 +1,6 @@
 {
   "wrapSize": {
-    "value": 400,
+    "value": 300,
     "name": "Minimum width of column",
     "desc": "When wrap mode is active, columns will have this minimum width before wrapping to a new row"
   },
