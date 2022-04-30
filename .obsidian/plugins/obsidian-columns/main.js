@@ -56,8 +56,7 @@ var COLUMNNAME = "col";
 var COLUMNMD = COLUMNNAME + "-md";
 var TOKEN = "!!!";
 var DEFAULT_SETTINGS = {
-  mobileWrap: { value: false, name: "Wrap columns on mobile", desc: "Allows columns to be stacked as rows instead of columns when viewed on a smaller device" },
-  wrapSize: { value: 100, name: "Minimum width of column", desc: "When wrap mode is active, columns will have this minimum width before wrapping to a new row" }
+  wrapSize: { value: 100, name: "Minimum width of column", desc: "Columns will have this minimum width before wrapping to a new row. 0 disables column wrapping. Useful for smaller devices" }
 };
 var parseBoolean = (value) => {
   return value == "yes" || value == "true";
