@@ -73,6 +73,12 @@ var parseObject = (value, typ) => {
   }
 };
 var ObsidianColumns = class extends import_obsidian.Plugin {
+  constructor() {
+    super(...arguments);
+    this.generateCssString = (span) => {
+      return "flex-grow:" + span.toString() + "; flex-basis:" + (this.settings.wrapSize.value * span).toString() + "px; width:" + (this.settings.wrapSize.value * span).toString() + "px";
+    };
+  }
   onload() {
     return __async(this, null, function* () {
       yield this.loadSettings();
@@ -90,7 +96,7 @@ var ObsidianColumns = class extends import_obsidian.Plugin {
         let parent = el.createEl("div", { cls: "columnParent" });
         Array.from(child.children).forEach((c) => {
           let cc = parent.createEl("div", { cls: "columnChild" });
-          cc.setAttribute("style", "flex-grow:1; flex-basis:" + this.settings.wrapSize.value.toString() + "px");
+          cc.setAttribute("style", this.generateCssString(1));
           cc.appendChild(c);
         });
       });
@@ -122,7 +128,7 @@ var ObsidianColumns = class extends import_obsidian.Plugin {
               if (isNaN(span)) {
                 span = 1;
               }
-              childDiv.setAttribute("style", "flex-grow:" + span.toString() + "; flex-basis:" + (this.settings.wrapSize.value * span).toString() + "px; width:" + (this.settings.wrapSize.value * span).toString() + "px");
+              childDiv.setAttribute("style", this.generateCssString(span));
               let afterText = false;
               processList(itemListItem);
               for (let itemListItemChild of Array.from(itemListItem.childNodes)) {
