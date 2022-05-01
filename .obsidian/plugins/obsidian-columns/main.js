@@ -56,7 +56,8 @@ var COLUMNNAME = "col";
 var COLUMNMD = COLUMNNAME + "-md";
 var TOKEN = "!!!";
 var DEFAULT_SETTINGS = {
-  wrapSize: { value: 100, name: "Minimum width of column", desc: "Columns will have this minimum width before wrapping to a new row. 0 disables column wrapping. Useful for smaller devices" }
+  wrapSize: { value: 100, name: "Minimum width of column", desc: "Columns will have this minimum width before wrapping to a new row. 0 disables column wrapping. Useful for smaller devices" },
+  defaultSpan: { value: 1, name: "The default span of an item", desc: "The default width of a column. If the minimum width is specified, the width of the column will be multiplied by this setting." }
 };
 var parseBoolean = (value) => {
   return value == "yes" || value == "true";
@@ -96,7 +97,7 @@ var ObsidianColumns = class extends import_obsidian.Plugin {
         let parent = el.createEl("div", { cls: "columnParent" });
         Array.from(child.children).forEach((c) => {
           let cc = parent.createEl("div", { cls: "columnChild" });
-          cc.setAttribute("style", this.generateCssString(1));
+          cc.setAttribute("style", this.generateCssString(this.settings.defaultSpan.value));
           cc.appendChild(c);
         });
       });
@@ -126,7 +127,7 @@ var ObsidianColumns = class extends import_obsidian.Plugin {
               let childDiv = colParent.createEl("div", { cls: "columnChild" });
               let span = parseFloat(itemListItem.textContent.split("\n")[0].split(" ")[0]);
               if (isNaN(span)) {
-                span = 1;
+                span = this.settings.defaultSpan.value;
               }
               childDiv.setAttribute("style", this.generateCssString(span));
               let afterText = false;
