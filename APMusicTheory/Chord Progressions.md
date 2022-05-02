@@ -1,5 +1,5 @@
 ## Circle of fifths chord progression diagram
-#$iii\rightarrow vi \rightarrow {}^{IV}_{ii} \rightarrow {}^{vii^o}_{V}\rightarrow I$
+## $iii\rightarrow vi \rightarrow {}^{IV}_{ii} \rightarrow {}^{vii^o}_{V}\rightarrow I$
 ## $III\rightarrow VI \rightarrow {}^{iv}_{ii^o} \rightarrow {}^{VII}_{V}\rightarrow i$
 
 ### Deceptive cadence
