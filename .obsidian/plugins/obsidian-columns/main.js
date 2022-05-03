@@ -161,6 +161,10 @@ var ObsidianColumns = class extends import_obsidian.Plugin {
       this.registerMarkdownPostProcessor((element, context) => {
         processList(element);
       });
+      this.registerCodeMirror((cm) => {
+        console.log("cm");
+        console.log(cm);
+      });
     });
   }
   onunload() {
