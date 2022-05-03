@@ -147,6 +147,7 @@ var ObsidianColumns = class extends import_obsidian.Plugin {
             }
             const activeView = this.app.workspace.getActiveViewOfType(import_obsidian.MarkdownView);
             if (activeView) {
+              console.log(activeView);
               this.registerCodeMirror((cm) => {
                 widget = cm.addLineWidget(1, colParent);
               });
