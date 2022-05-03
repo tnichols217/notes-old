@@ -101,6 +101,8 @@ var ObsidianColumns = class extends import_obsidian.Plugin {
           cc.appendChild(c);
         });
       });
+      let createColumns = () => {
+      };
       let processList = (element) => {
         for (let child of Array.from(element.children)) {
           if (child == null) {
@@ -149,6 +151,7 @@ var ObsidianColumns = class extends import_obsidian.Plugin {
             if (activeView) {
               console.log(activeView);
               this.registerCodeMirror((cm) => {
+                console.log(cm);
                 return cm.addLineWidget(2, colParent);
               });
             }
