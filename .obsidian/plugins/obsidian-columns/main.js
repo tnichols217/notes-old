@@ -149,7 +149,7 @@ var ObsidianColumns = class extends import_obsidian.Plugin {
             if (activeView) {
               console.log(activeView);
               this.registerCodeMirror((cm) => {
-                widget = cm.addLineWidget(1, colParent);
+                return cm.addLineWidget(2, colParent);
               });
             }
           }
