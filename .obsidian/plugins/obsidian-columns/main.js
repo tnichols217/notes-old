@@ -150,10 +150,6 @@ var ObsidianColumns = class extends import_obsidian.Plugin {
             const activeView = this.app.workspace.getActiveViewOfType(import_obsidian.MarkdownView);
             if (activeView) {
               console.log("av" + activeView);
-              this.registerCodeMirror((cm) => {
-                console.log("cm", cm);
-                return cm.addLineWidget(2, colParent);
-              });
             }
           }
         }
