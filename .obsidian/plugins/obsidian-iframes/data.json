@@ -1,0 +1,7 @@
+{
+  "allowInet": {
+    "value": true,
+    "name": "Access Internet",
+    "desc": "Allows this plugin to access the internet to render remote MD files."
+  }
+}
