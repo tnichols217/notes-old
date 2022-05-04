@@ -1540,7 +1540,7 @@ var MyPlugin = class extends import_obsidian.Plugin {
                 fileContentCallback(d.toString());
               });
             } else {
-              (0, import_axios.default)(url.href).then(console.log).catch(console.error);
+              (0, import_axios.default)(url.href).then((a) => fileContentCallback(a.data)).catch(console.error);
             }
           }
         }
