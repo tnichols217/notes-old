@@ -44145,23 +44145,24 @@ var MyPlugin = class extends import_obsidian.Plugin {
               child.setAttribute("src", path);
             }
           }
-          src = child.getAttribute("src");
-          var url = new URL("https://google.com");
-          let fileContentCallback = (a) => {
-            console.log(a);
-          };
-          if (url.protocol == "file:") {
-            (0, import_fs.readFile)(url.pathname, (e, d) => {
-              if (e)
-                console.error(e);
-              fileContentCallback(d.toString());
-            });
-          } else {
-            request(url.href, (e, c, b) => {
-              if (e)
-                console.error(e);
-              fileContentCallback(b.toString());
-            });
+          if (src.endsWith(".md")) {
+            let url = new URL(child.getAttribute("src"));
+            let fileContentCallback = (a) => {
+              console.log(a);
+            };
+            if (url.protocol == "file:") {
+              (0, import_fs.readFile)(url.pathname, (e, d) => {
+                if (e)
+                  console.error(e);
+                fileContentCallback(d.toString());
+              });
+            } else {
+              request(url.href, (e, c, b) => {
+                if (e)
+                  console.error(e);
+                fileContentCallback(b.toString());
+              });
+            }
           }
         }
       };
