@@ -4526,7 +4526,7 @@ var ObsidianIframes = class extends import_obsidian.Plugin {
           };
           let convertHTML = CONVERTMD in child.getAttribute("class").split(" ");
           console.log(convertHTML);
-          console.log(child.getAttribute("class"));
+          console.log(child.getAttribute("class").split(" "));
           console.log(child);
           if (src.endsWith(".md") || convertHTML) {
             let url = new URL(child.getAttribute("src"));
