@@ -44120,6 +44120,7 @@ var import_obsidian = __toModule(require("obsidian"));
 var import_fs = __toModule(require("fs"));
 var request = __toModule(require_request3());
 var URISCHEME = "file://";
+var MDDIVCLASS = "obsidian-iframe-md";
 var MyPlugin = class extends import_obsidian.Plugin {
   onload() {
     return __async(this, null, function* () {
@@ -44151,7 +44152,7 @@ var MyPlugin = class extends import_obsidian.Plugin {
               Array.from(element.children).forEach((i) => {
                 element.removeChild(i);
               });
-              let div = element.createEl("div", { cls: "obsidian-iframe-md" });
+              let div = element.createEl("div", { cls: MDDIVCLASS });
               const sourcePath = context.sourcePath;
               import_obsidian.MarkdownRenderer.renderMarkdown(source, div, sourcePath, null);
             };
