@@ -1491,14 +1491,18 @@ var require_axios2 = __commonJS({
 
 // main.ts
 __export(exports, {
-  default: () => MyPlugin
+  default: () => ObsidianIframes
 });
 var import_obsidian = __toModule(require("obsidian"));
 var import_fs = __toModule(require("fs"));
 var import_axios = __toModule(require_axios2());
 var URISCHEME = "file://";
 var MDDIVCLASS = "obsidian-iframe-md";
-var MyPlugin = class extends import_obsidian.Plugin {
+var ERRORMD = "# Obsidian-iframes cannot access the internet";
+var DEFAULT_SETTINGS = {
+  allowInet: { value: false, name: "Access Internet", desc: "Allows this plugin to access the internet to render remote MD files." }
+};
+var ObsidianIframes = class extends import_obsidian.Plugin {
   onload() {
     return __async(this, null, function* () {
       let processIframe = (element, context) => {
@@ -1545,7 +1549,11 @@ var MyPlugin = class extends import_obsidian.Plugin {
                 fileContentCallback(d.toString());
               });
             } else {
-              (0, import_axios.default)(url.href).then((a) => fileContentCallback(a.data)).catch(console.error);
+              if (this.settings.allowInet.value) {
+                (0, import_axios.default)(url.href).then((a) => fileContentCallback(a.data)).catch(console.error);
+              } else {
+                fileContentCallback(ERRORMD);
+              }
             }
           }
         }
@@ -1556,5 +1564,15 @@ var MyPlugin = class extends import_obsidian.Plugin {
     });
   }
   onunload() {
+  }
+  loadSettings() {
+    return __async(this, null, function* () {
+      this.settings = Object.assign({}, DEFAULT_SETTINGS, yield this.loadData());
+    });
+  }
+  saveSettings() {
+    return __async(this, null, function* () {
+      yield this.saveData(this.settings);
+    });
   }
 };
