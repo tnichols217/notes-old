@@ -4465,7 +4465,8 @@ var html2md = require_dist();
 var URISCHEME = "file://";
 var MDDIVCLASS = "obsidian-iframe-md";
 var ERRORMD = "# Obsidian-iframes cannot access the internet";
-var IGNOREDTAGS = ["src", "sandbox", "md"];
+var CONVERTMD = "iframe-md";
+var IGNOREDTAGS = [CONVERTMD, "src", "sandbox"];
 var DEFAULT_SETTINGS = {
   allowInet: { value: false, name: "Access Internet", desc: "Allows this plugin to access the internet to render remote MD files." }
 };
@@ -4523,9 +4524,9 @@ var ObsidianIframes = class extends import_obsidian.Plugin {
             const sourcePath = context.sourcePath;
             import_obsidian.MarkdownRenderer.renderMarkdown(source, div, sourcePath, null);
           };
-          let convertHTML = parseBoolean(child.getAttribute("md"));
+          let convertHTML = CONVERTMD in child.getAttribute("class").split(" ");
           console.log(convertHTML);
-          console.log(child.getAttribute("md"));
+          console.log(CONVERTMD in child.getAttribute("class").split(" "));
           console.log(child);
           if (src.endsWith(".md") || convertHTML) {
             let url = new URL(child.getAttribute("src"));
