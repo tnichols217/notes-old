@@ -44153,7 +44153,6 @@ var MyPlugin = class extends import_obsidian.Plugin {
               });
               let div = element.createEl("div");
               const sourcePath = context.sourcePath;
-              let child2 = createDiv();
               import_obsidian.MarkdownRenderer.renderMarkdown(source, div, sourcePath, null);
             };
             if (url.protocol == "file:") {
