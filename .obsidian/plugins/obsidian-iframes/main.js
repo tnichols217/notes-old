@@ -44118,7 +44118,7 @@ __export(exports, {
 });
 var import_obsidian = __toModule(require("obsidian"));
 var import_fs = __toModule(require("fs"));
-var request = require_request3();
+var request = __toModule(require_request3());
 var URISCHEME = "file://";
 var MyPlugin = class extends import_obsidian.Plugin {
   onload() {
