@@ -1502,9 +1502,25 @@ var ERRORMD = "# Obsidian-iframes cannot access the internet";
 var DEFAULT_SETTINGS = {
   allowInet: { value: false, name: "Access Internet", desc: "Allows this plugin to access the internet to render remote MD files." }
 };
+var parseBoolean = (value) => {
+  return value == "yes" || value == "true";
+};
+var parseObject = (value, typ) => {
+  if (typ == "string") {
+    return value;
+  }
+  if (typ == "boolean") {
+    return parseBoolean(value);
+  }
+  if (typ == "number") {
+    return parseFloat(value);
+  }
+};
 var ObsidianIframes = class extends import_obsidian.Plugin {
   onload() {
     return __async(this, null, function* () {
+      yield this.loadSettings();
+      this.addSettingTab(new ObsidianColumnsSettings(this.app, this));
       let processIframe = (element, context) => {
         let iframes = element.querySelectorAll("iframe");
         for (let child of Array.from(iframes)) {
@@ -1574,5 +1590,24 @@ var ObsidianIframes = class extends import_obsidian.Plugin {
     return __async(this, null, function* () {
       yield this.saveData(this.settings);
     });
+  }
+};
+var ObsidianColumnsSettings = class extends import_obsidian.PluginSettingTab {
+  constructor(app, plugin) {
+    super(app, plugin);
+    this.plugin = plugin;
+  }
+  display() {
+    const { containerEl } = this;
+    containerEl.empty();
+    containerEl.createEl("h2", { text: "Settings for obsidian-columns" });
+    let keyvals = Object.entries(DEFAULT_SETTINGS);
+    console.log(keyvals);
+    for (let keyval of keyvals) {
+      new import_obsidian.Setting(containerEl).setName(keyval[1].name).setDesc(keyval[1].desc).addText((text) => text.setPlaceholder(String(keyval[1].value)).setValue(String(this.plugin.settings[keyval[0]].value)).onChange((value) => {
+        keyval[1].value = parseObject(value, typeof keyval[1].value);
+        this.plugin.saveSettings();
+      }));
+    }
   }
 };
