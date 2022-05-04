@@ -44147,12 +44147,14 @@ var MyPlugin = class extends import_obsidian.Plugin {
           }
           if (src.endsWith(".md")) {
             let url = new URL(child.getAttribute("src"));
-            let fileContentCallback = (a) => {
-              console.log(a);
+            let fileContentCallback = (source) => {
               Array.from(element.children).forEach((i) => {
                 element.removeChild(i);
               });
               let div = element.createEl("div");
+              const sourcePath = context.sourcePath;
+              let child2 = createDiv();
+              import_obsidian.MarkdownRenderer.renderMarkdown(source, div, sourcePath, null);
             };
             if (url.protocol == "file:") {
               (0, import_fs.readFile)(url.pathname, (e, d) => {
