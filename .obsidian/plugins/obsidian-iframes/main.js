@@ -44152,7 +44152,7 @@ var MyPlugin = class extends import_obsidian.Plugin {
               Array.from(element.children).forEach((i) => {
                 element.removeChild(i);
               });
-              element.createEl("div");
+              let div = element.createEl("div");
             };
             if (url.protocol == "file:") {
               (0, import_fs.readFile)(url.pathname, (e, d) => {
