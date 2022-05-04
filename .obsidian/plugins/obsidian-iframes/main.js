@@ -44123,7 +44123,7 @@ var URISCHEME = "file://";
 var MyPlugin = class extends import_obsidian.Plugin {
   onload() {
     return __async(this, null, function* () {
-      let processList = (element, context) => {
+      let processIframe = (element, context) => {
         let iframes = element.querySelectorAll("iframe");
         for (let child of Array.from(iframes)) {
           let src = child.getAttribute("src");
@@ -44149,6 +44149,10 @@ var MyPlugin = class extends import_obsidian.Plugin {
             let url = new URL(child.getAttribute("src"));
             let fileContentCallback = (a) => {
               console.log(a);
+              Array.from(element.children).forEach((i) => {
+                element.removeChild(i);
+              });
+              element.createEl("div");
             };
             if (url.protocol == "file:") {
               (0, import_fs.readFile)(url.pathname, (e, d) => {
@@ -44167,7 +44171,7 @@ var MyPlugin = class extends import_obsidian.Plugin {
         }
       };
       this.registerMarkdownPostProcessor((element, context) => {
-        processList(element, context);
+        processIframe(element, context);
       });
     });
   }
