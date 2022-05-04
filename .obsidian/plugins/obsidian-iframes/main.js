@@ -44151,7 +44151,7 @@ var MyPlugin = class extends import_obsidian.Plugin {
               Array.from(element.children).forEach((i) => {
                 element.removeChild(i);
               });
-              let div = element.createEl("div");
+              let div = element.createEl("div", { cls: "obsidian-iframe-md" });
               const sourcePath = context.sourcePath;
               import_obsidian.MarkdownRenderer.renderMarkdown(source, div, sourcePath, null);
             };
