@@ -1530,6 +1530,7 @@ var MyPlugin = class extends import_obsidian.Plugin {
                 element.removeChild(i);
               });
               let div = element.createEl("div", { cls: MDDIVCLASS });
+              console.log(child.attributes);
               const sourcePath = context.sourcePath;
               import_obsidian.MarkdownRenderer.renderMarkdown(source, div, sourcePath, null);
             };
