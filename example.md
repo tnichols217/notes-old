@@ -1,4 +1,10 @@
-# Stuff outside the iframe
-- Example list
+# This is file exmaple.md
+## The current time is: !!!inline clock.md 
 
-<iframe src="https://google.com/" class="iframe-md">a</iframe>
+You can even put it in the middle **(!!!!inline clock.md )** of a paragraph:
+
+- !!!col
+	- 1
+	  a
+	- 1
+	  a

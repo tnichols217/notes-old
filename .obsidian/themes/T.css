@@ -303,3 +303,14 @@ ul > li > ul > li > ul > li > ul > li > ul > li > ul {
   list-style-type: square;
 }
 
+.cm-indent {
+  font-family: var(--font-monospace)
+}
+
+.cm-s-obsidian .HyperMD-codeblock .cm-indent {
+  font-size: var(--font-text-size)
+}
+
+.cm-s-obsidian div.HyperMD-codeblock-begin-bg, .cm-s-obsidian div.HyperMD-codeblock-bg {
+  border-left: 0px
+}
