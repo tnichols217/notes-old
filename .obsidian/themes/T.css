@@ -33,8 +33,6 @@
   --scrollbar-active-thumb-bg: rgba(255, 255, 255, 0.2);
   --scrollbar-bg: rgba(255, 255, 255, 0.05);
   --scrollbar-thumb-bg: rgba(255, 255, 255, 0.1);
-
-  --font-text-size: 11px;
 }
 
 .theme-light {
@@ -58,12 +56,6 @@
   --text-muted: var(--color-5);
   --text-accent: var(--color-3);
   --text-on-accent: var(--color-1);
-
-  --font-text-size: 11px;
-}
-
-body {
-  --font-text-size: 11px;
 }
 
 /* 2. UI */
