@@ -62,6 +62,10 @@
   --font-text-size: 11px;
 }
 
+body {
+  --font-text-size: 11px;
+}
+
 /* 2. UI */
 
 .titlebar-inner {
