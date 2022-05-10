@@ -1,4 +1,4 @@
-# This is file exmaple.md
+# This is file example.md
 ## The current time is: !!!inline clock.md 
 
 You can even put it in the middle **(!!!!inline clock.md )** of a paragraph:
