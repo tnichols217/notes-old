@@ -3315,7 +3315,7 @@ var ObsidianExternalEmbed = class extends import_obsidian.Plugin {
         processCustomCommands(element, context, MDtext, recursion);
       };
       this.registerMarkdownPostProcessor(markdownPostProcessor);
-      this.registerMarkdownCodeBlockProcessor(IFRAMENAME, (source, el, ctx) => {
+      this.registerMarkdownCodeBlockProcessor(IMPORTNAME, (source, el, ctx) => {
         let split = source.replace("\n", " ").split(" ");
         let src = this.processURI(split[0], ctx.sourcePath, this.app.vault.adapter.getBasePath());
         console.log(src);
@@ -3326,6 +3326,8 @@ var ObsidianExternalEmbed = class extends import_obsidian.Plugin {
           convert = this.parseBoolean(split[1]);
         }
         this.renderURI(src, el, ctx, 1, this.app.vault.adapter, div.attributes, convert, false, markdownPostProcessor);
+      });
+      this.registerMarkdownCodeBlockProcessor(IMPORTNAME, (source, el, ctx) => {
       });
       this.addCommand({
         id: "clear_cache",
