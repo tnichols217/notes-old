@@ -3028,7 +3028,6 @@ var IFRAMECLASS = "obsidian-external-embed-iframe";
 var INLINECLASS = "obsidian-external-embed-inline";
 var ERRORMD = "# Obsidian-external-embed cannot access the internet";
 var ERRORINLINE = "Obsidian-external-embed cannot use the inline command";
-var CONVERTMD = "iframe-md";
 var IGNOREDTAGS = ["src", "sandbox"];
 var PREFIX = "!!!";
 var IMPORTNAME = "import";
@@ -3195,21 +3194,6 @@ var ObsidianExternalEmbed = class extends import_obsidian.Plugin {
     return __async(this, null, function* () {
       yield this.loadSettings();
       this.addSettingTab(new ObsidianExternalEmbedSettings(this.app, this));
-      let processIframe = (element, context, recursionDepth = 0) => {
-        let iframes = element.querySelectorAll("iframe");
-        for (let child of Array.from(iframes)) {
-          let attr = child.getAttribute("src");
-          if (attr != null) {
-            let src = this.processURI(attr, context.sourcePath, this.app.vault.adapter.getBasePath());
-            let classAttrib = child.getAttribute("class");
-            let convertHTML = classAttrib ? classAttrib.split(" ").contains(CONVERTMD) : false;
-            this.renderURI(src, element, context, recursionDepth + 1, this.app.vault.adapter, child.attributes, convertHTML, false, markdownPostProcessor).then((iframe) => {
-              let src2 = new URL(iframe.src);
-              iframe.src = "app://local" + src2.pathname;
-            });
-          }
-        }
-      };
       let processCustomCommands = (element, context, MDtextString, recursionDepth = 0) => __async(this, null, function* () {
         let textContent = element.textContent;
         let MDtext;
@@ -3254,37 +3238,6 @@ var ObsidianExternalEmbed = class extends import_obsidian.Plugin {
                   if (!contains) {
                     continue;
                   }
-                }
-              }
-              words[words.length - 1] = words[words.length - 1].replace(PREFIX + IMPORTNAME, "").replace(PREFIX + IFRAMENAME, "").replace(PREFIX + PASTENAME, "");
-              line = words.join(" ");
-              let strings = [];
-              for (let [index, word] of Array.from(words).slice(1).entries()) {
-                word = word.trim();
-                let commandname = (words[index].endsWith(PREFIX + IMPORTNAME) ? PREFIX + IMPORTNAME : "") || (words[index].endsWith(PREFIX + IFRAMENAME) ? PREFIX + IFRAMENAME : "") || (words[index].endsWith(PREFIX + INLINENAME) ? PREFIX + INLINENAME : "");
-                if (commandname) {
-                  strings.push({ string: commandname + " " + word, URI: this.processURI(word, context.sourcePath, this.app.vault.adapter.getBasePath()), type: commandname });
-                }
-              }
-              for (let promiseString of strings) {
-                if (promiseString.type == PREFIX + INLINENAME) {
-                  let inlineTempDiv = createEl("div");
-                  if (line.contains(promiseString.string[0] + promiseString.string)) {
-                    line = line.replace(promiseString.string[0] + promiseString.string + " ", promiseString.string);
-                  }
-                  yield this.renderURI(promiseString.URI, inlineTempDiv, context, recursionDepth + 1, this.app.vault.adapter, inlineTempDiv.attributes, false, true, markdownPostProcessor);
-                  let replaceString = inlineTempDiv.innerHTML.replace("\n", "");
-                  inlines.push({ string: replaceString, URI: promiseString.string });
-                } else {
-                  let replaceString = "";
-                  let div = createEl("div");
-                  if (promiseString.type == PREFIX + IMPORTNAME) {
-                    yield this.renderURI(promiseString.URI, div, context, recursionDepth + 1, this.app.vault.adapter, div.attributes, !promiseString.URI.toLocaleLowerCase().endsWith(".md"), false, markdownPostProcessor);
-                  } else if (promiseString.type == PREFIX + IFRAMENAME) {
-                    yield this.renderURI(promiseString.URI, div, context, recursionDepth + 1, this.app.vault.adapter, div.attributes, false, false, markdownPostProcessor);
-                  }
-                  replaceString = div.innerHTML.replace("\n", "");
-                  line = line.replace(promiseString.string, replaceString);
                 }
               }
             }
