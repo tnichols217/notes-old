@@ -3280,8 +3280,6 @@ var ObsidianExternalEmbed = class extends import_obsidian.Plugin {
         }
         this.renderURI(src, el, ctx, 1, this.app.vault.adapter, div.attributes, convert, false, markdownPostProcessor);
       });
-      this.registerMarkdownCodeBlockProcessor(IMPORTNAME, (source, el, ctx) => {
-      });
       this.addCommand({
         id: "clear_cache",
         name: "Clear Iframe Cache",
