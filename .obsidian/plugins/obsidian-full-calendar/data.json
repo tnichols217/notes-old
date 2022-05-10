@@ -1,5 +1,11 @@
 {
-  "calendarSources": [],
+  "calendarSources": [
+    {
+      "type": "local",
+      "color": "#483699",
+      "directory": "Private/duo/calendar"
+    }
+  ],
   "defaultCalendar": 0,
   "recursiveLocal": false,
   "firstDay": 0
