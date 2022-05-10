@@ -3299,7 +3299,7 @@ var ObsidianExternalEmbed = class extends import_obsidian.Plugin {
         processCustomCommands(element, context, MDtext, recursion);
       };
       this.registerMarkdownPostProcessor(markdownPostProcessor);
-      this.registerMarkdownCodeBlockProcessor(IMPORTNAME, (source, el, ctx) => {
+      this.registerMarkdownCodeBlockProcessor(IFRAMENAME, (source, el, ctx) => {
         let split = source.replace("\n", " ").split(" ");
         let src = this.processURI(split[0], ctx.sourcePath, this.app.vault.adapter.getBasePath());
         console.log(src);
