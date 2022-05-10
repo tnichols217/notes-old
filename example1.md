@@ -2,5 +2,5 @@
 - more random things to see
 
 ```iframe
-!!!paste fileToLoad.md
+!!!!paste fileToLoad.md .md
 ```
