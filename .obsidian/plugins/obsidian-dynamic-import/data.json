@@ -1,27 +1,7 @@
 {
-  "allowInet": {
-    "value": true,
-    "name": "Access Internet",
-    "desc": "Allows this plugin to access the internet to render remote MD files."
-  },
-  "allowInline": {
-    "value": true,
-    "name": "Allows access to the inline command",
-    "desc": "Enables the !!!inline command, which allows arbitrary HTML code to run (insecure)"
-  },
-  "recursionDepth": {
-    "value": 10,
-    "name": "Recusion Depth",
-    "desc": "Sets the amount of nested imports that can be called."
-  },
-  "useCacheForFiles": {
-    "value": false,
-    "name": "Cache Local Files",
-    "desc": "Cache files instead of loading them on every rerender. (Remote Files will always be cached)"
-  },
-  "cacheRefreshTime": {
-    "value": 30000,
-    "name": "Cache Refresh Time (miliseconds)",
-    "desc": "Cached filed called over this time ago will be refreshed when rendered."
-  }
+  "allowInet": false,
+  "allowInline": true,
+  "recursionDepth": 20,
+  "useCacheForFiles": false,
+  "cacheRefreshTime": 30000
 }
