@@ -3076,7 +3076,7 @@ var ObsidianExternalEmbed = class extends import_obsidian.Plugin {
     this.processFullURI = (URI, FSAdapter) => __async(this, null, function* () {
       let url = new URL(URI);
       if (url.protocol == "file:" && (yield FSAdapter.exists(url.pathname))) {
-        url = new URL("file://local/" + FSAdapter.getBasePath() + url.pathname);
+        url = new URL("app://local/" + FSAdapter.getBasePath() + url.pathname);
       }
       return url.toString();
     });
