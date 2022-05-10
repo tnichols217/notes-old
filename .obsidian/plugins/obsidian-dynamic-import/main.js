@@ -3315,6 +3315,15 @@ var ObsidianExternalEmbed = class extends import_obsidian.Plugin {
         processCustomCommands(element, context, MDtext, recursion);
       };
       this.registerMarkdownPostProcessor(markdownPostProcessor);
+      this.registerMarkdownCodeBlockProcessor(IFRAMENAME, (source, el, ctx) => {
+        let src = this.processURI(source.split(" ")[0], ctx.sourcePath, this.app.vault.adapter.getBasePath());
+        let div = el.createEl("div");
+        ctx.addChild(new import_obsidian.MarkdownRenderChild(div));
+        this.renderURI(src, el, ctx, 1, this.app.vault.adapter, div.attributes, false, false, markdownPostProcessor).then((iframe) => {
+          let src2 = new URL(iframe.src);
+          iframe.src = "app://local" + src2.pathname;
+        });
+      });
       this.addCommand({
         id: "clear_cache",
         name: "Clear Iframe Cache",
@@ -3330,10 +3339,12 @@ var ObsidianExternalEmbed = class extends import_obsidian.Plugin {
     return __async(this, null, function* () {
       this.settings = DEFAULT_SETTINGS;
       this.loadData().then((data) => {
-        let items = Object.entries(data);
-        items.forEach((item) => {
-          this.settings[item[0]].value = item[1];
-        });
+        if (data) {
+          let items = Object.entries(data);
+          items.forEach((item) => {
+            this.settings[item[0]].value = item[1];
+          });
+        }
       });
     });
   }
