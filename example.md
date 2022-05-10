@@ -9,7 +9,3 @@
 	  a
 
 !!!paste fileToLoad.md
-
-(O)
-\========>
-(O)
