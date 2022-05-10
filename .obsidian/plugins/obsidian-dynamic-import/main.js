@@ -3316,11 +3316,16 @@ var ObsidianExternalEmbed = class extends import_obsidian.Plugin {
       };
       this.registerMarkdownPostProcessor(markdownPostProcessor);
       this.registerMarkdownCodeBlockProcessor(IFRAMENAME, (source, el, ctx) => {
-        let src = this.processURI(source.split(" ")[0], ctx.sourcePath, this.app.vault.adapter.getBasePath());
+        let split = source.replace("\n", " ").split(" ");
+        let src = this.processURI(split[0], ctx.sourcePath, this.app.vault.adapter.getBasePath());
         console.log(src);
         let div = el.createEl("div");
         ctx.addChild(new import_obsidian.MarkdownRenderChild(div));
-        this.renderURI(src, el, ctx, 1, this.app.vault.adapter, div.attributes, true, false, markdownPostProcessor);
+        let convert = false;
+        if (split.length > 1) {
+          convert = this.parseBoolean(split[1]);
+        }
+        this.renderURI(src, el, ctx, 1, this.app.vault.adapter, div.attributes, convert, false, markdownPostProcessor);
       });
       this.addCommand({
         id: "clear_cache",
