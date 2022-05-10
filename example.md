@@ -9,7 +9,6 @@ You can even put it in the middle **(!!!!inline clock.md )** of a paragraph:
 	- 1
 	  a
 
-!!!import example1.md
 
 
 `aa`
