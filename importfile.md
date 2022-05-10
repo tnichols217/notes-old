@@ -16,4 +16,4 @@
 		this.innerText=time;
 		setTimeout(updateTime, 100);
 	};
-	updateTime()'></span>
+	this.innerTe'></span>
