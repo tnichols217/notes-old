@@ -8,3 +8,8 @@ You can even put it in the middle **(!!!!inline clock.md )** of a paragraph:
 	  a
 	- 1
 	  a
+
+```col-md
+!!!inline clock.md
+```
+`aa`
