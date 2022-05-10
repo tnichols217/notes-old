@@ -4,7 +4,6 @@
 
 - !!!col
 	- 1
-	  !!!inline importfile.md
 	- 1
 	  a
 

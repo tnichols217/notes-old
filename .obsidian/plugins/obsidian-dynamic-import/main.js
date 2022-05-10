@@ -3033,7 +3033,6 @@ var IGNOREDTAGS = ["src", "sandbox"];
 var PREFIX = "!!!";
 var IFRAMENAME = "iframe";
 var INLINENAME = "inline";
-var HTMLNAME = "html";
 var PASTENAME = "paste";
 var EMPTYCACHE = { value: { "true": {}, "false": {} }, time: { "true": {}, "false": {} } };
 var DEFAULT_SETTINGS = {
@@ -3308,7 +3307,7 @@ var ObsidianExternalEmbed = class extends import_obsidian.Plugin {
         }
         this.renderURI(src, el, ctx, 1, this.app.vault.adapter, div.attributes, convert, false, markdownPostProcessor);
       });
-      this.registerMarkdownCodeBlockProcessor(HTMLNAME, (source, el, ctx) => {
+      this.registerMarkdownCodeBlockProcessor(INLINENAME, (source, el, ctx) => {
         let div = el.createEl("div");
         ctx.addChild(new import_obsidian.MarkdownRenderChild(div));
         div.innerHTML = source;
