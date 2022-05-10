@@ -4,7 +4,7 @@
 
 - !!!col
 	- 1
-	  !!!inline clock.m
+	  !!!inline clock.md
 	- 1
 	  a
 
