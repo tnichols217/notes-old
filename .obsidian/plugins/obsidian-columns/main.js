@@ -185,10 +185,12 @@ var ObsidianColumns = class extends import_obsidian.Plugin {
     return __async(this, null, function* () {
       this.settings = DEFAULT_SETTINGS;
       this.loadData().then((data) => {
-        let items = Object.entries(data);
-        items.forEach((item) => {
-          this.settings[item[0]].value = item[1];
-        });
+        if (data) {
+          let items = Object.entries(data);
+          items.forEach((item) => {
+            this.settings[item[0]].value = item[1];
+          });
+        }
       });
     });
   }
