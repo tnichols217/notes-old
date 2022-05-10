@@ -59,44 +59,44 @@ var DEFAULT_SETTINGS = {
   wrapSize: { value: 100, name: "Minimum width of column", desc: "Columns will have this minimum width before wrapping to a new row. 0 disables column wrapping. Useful for smaller devices" },
   defaultSpan: { value: 1, name: "The default span of an item", desc: "The default width of a column. If the minimum width is specified, the width of the column will be multiplied by this setting." }
 };
-var parseBoolean = (value) => {
-  return value == "yes" || value == "true";
-};
-var parseObject = (value, typ) => {
-  if (typ == "string") {
-    return value;
-  }
-  if (typ == "boolean") {
-    return parseBoolean(value);
-  }
-  if (typ == "number") {
-    return parseFloat(value);
-  }
-};
-var processChild = (c) => {
-  if (c.firstChild != null && "tagName" in c.firstChild && c.firstChild.tagName == "BR") {
-    c.removeChild(c.firstChild);
-  }
-  let firstChild = c;
-  while (firstChild != null) {
-    if ("style" in firstChild) {
-      firstChild.style.marginTop = "0px";
-    }
-    firstChild = firstChild.firstChild;
-  }
-  let lastChild = c;
-  while (lastChild != null) {
-    if ("style" in lastChild) {
-      lastChild.style.marginBottom = "0px";
-    }
-    lastChild = lastChild.lastChild;
-  }
-};
 var ObsidianColumns = class extends import_obsidian.Plugin {
   constructor() {
     super(...arguments);
     this.generateCssString = (span) => {
       return "flex-grow:" + span.toString() + "; flex-basis:" + (this.settings.wrapSize.value * span).toString() + "px; width:" + (this.settings.wrapSize.value * span).toString() + "px";
+    };
+    this.parseBoolean = (value) => {
+      return value == "yes" || value == "true";
+    };
+    this.parseObject = (value, typ) => {
+      if (typ == "string") {
+        return value;
+      }
+      if (typ == "boolean") {
+        return this.parseBoolean(value);
+      }
+      if (typ == "number") {
+        return parseFloat(value);
+      }
+    };
+    this.processChild = (c) => {
+      if (c.firstChild != null && "tagName" in c.firstChild && c.firstChild.tagName == "BR") {
+        c.removeChild(c.firstChild);
+      }
+      let firstChild = c;
+      while (firstChild != null) {
+        if ("style" in firstChild) {
+          firstChild.style.marginTop = "0px";
+        }
+        firstChild = firstChild.firstChild;
+      }
+      let lastChild = c;
+      while (lastChild != null) {
+        if ("style" in lastChild) {
+          lastChild.style.marginBottom = "0px";
+        }
+        lastChild = lastChild.lastChild;
+      }
     };
   }
   onload() {
@@ -123,7 +123,7 @@ var ObsidianColumns = class extends import_obsidian.Plugin {
           ctx.addChild(renderCc);
           cc.setAttribute("style", this.generateCssString(this.settings.defaultSpan.value));
           cc.appendChild(c);
-          processChild(c);
+          this.processChild(c);
         });
       });
       let processList = (element, context) => {
@@ -169,7 +169,7 @@ var ObsidianColumns = class extends import_obsidian.Plugin {
                   afterText = true;
                 }
               }
-              processChild(childDiv);
+              this.processChild(childDiv);
             }
           }
         }
@@ -183,12 +183,22 @@ var ObsidianColumns = class extends import_obsidian.Plugin {
   }
   loadSettings() {
     return __async(this, null, function* () {
-      this.settings = Object.assign({}, DEFAULT_SETTINGS, yield this.loadData());
+      this.settings = DEFAULT_SETTINGS;
+      this.loadData().then((data) => {
+        let items = Object.entries(data);
+        items.forEach((item) => {
+          this.settings[item[0]].value = item[1];
+        });
+      });
     });
   }
   saveSettings() {
     return __async(this, null, function* () {
-      yield this.saveData(this.settings);
+      let saveData = {};
+      Object.entries(this.settings).forEach((i) => {
+        saveData[i[0]] = i[1].value;
+      });
+      yield this.saveData(saveData);
     });
   }
 };
@@ -204,10 +214,18 @@ var ObsidianColumnsSettings = class extends import_obsidian.PluginSettingTab {
     let keyvals = Object.entries(DEFAULT_SETTINGS);
     console.log(keyvals);
     for (let keyval of keyvals) {
-      new import_obsidian.Setting(containerEl).setName(keyval[1].name).setDesc(keyval[1].desc).addText((text) => text.setPlaceholder(String(keyval[1].value)).setValue(String(this.plugin.settings[keyval[0]].value)).onChange((value) => {
-        keyval[1].value = parseObject(value, typeof keyval[1].value);
-        this.plugin.saveSettings();
-      }));
+      let setting = new import_obsidian.Setting(containerEl).setName(keyval[1].name).setDesc(keyval[1].desc);
+      if (typeof keyval[1].value == "boolean") {
+        setting.addToggle((toggle) => toggle.setValue(this.plugin.settings[keyval[0]].value).onChange((bool) => {
+          this.plugin.settings[keyval[0]].value = bool;
+          this.plugin.saveSettings();
+        }));
+      } else {
+        setting.addText((text) => text.setPlaceholder(String(keyval[1].value)).setValue(String(this.plugin.settings[keyval[0]].value)).onChange((value) => {
+          this.plugin.settings[keyval[0]].value = this.plugin.parseObject(value, typeof keyval[1].value);
+          this.plugin.saveSettings();
+        }));
+      }
     }
   }
 };
