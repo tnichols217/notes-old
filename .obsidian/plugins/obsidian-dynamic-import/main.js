@@ -3088,17 +3088,19 @@ var ObsidianExternalEmbed = class extends import_obsidian.Plugin {
             resolve(this.cache.value[c][URI]);
             return;
           }
-          FSAdapter.read(url.pathname).then((d) => {
-            let dString = d.toString();
-            if (convert) {
-              dString = (0, import_html_to_md.default)(dString);
-            }
-            if (this.settings.useCacheForFiles.value) {
-              this.cache.value[c][URI] = dString;
-              this.cache.time[c][URI] = new Date();
-            }
-            resolve(dString);
-          }).catch(console.error);
+          FSAdapter.exists(url.pathname).then((e) => {
+            FSAdapter.read(url.pathname).then((d) => {
+              let dString = d.toString();
+              if (convert) {
+                dString = (0, import_html_to_md.default)(dString);
+              }
+              if (this.settings.useCacheForFiles.value) {
+                this.cache.value[c][URI] = dString;
+                this.cache.time[c][URI] = new Date();
+              }
+              resolve(dString);
+            }).catch(reject);
+          }).catch(reject);
         } else {
           if (this.cache.value[c].hasOwnProperty(URI) && new Date().getTime() - this.cache.time[c][URI].getTime() < this.settings.cacheRefreshTime.value) {
             resolve(this.cache.value[c][URI]);
