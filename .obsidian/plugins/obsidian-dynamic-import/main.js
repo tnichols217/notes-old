@@ -3030,7 +3030,6 @@ var ERRORMD = "# Obsidian-external-embed cannot access the internet";
 var ERRORINLINE = "Obsidian-external-embed cannot use the inline command";
 var IGNOREDTAGS = ["src", "sandbox"];
 var PREFIX = "!!!";
-var IMPORTNAME = "import";
 var IFRAMENAME = "iframe";
 var INLINENAME = "inline";
 var PASTENAME = "paste";
@@ -3206,7 +3205,7 @@ var ObsidianExternalEmbed = class extends import_obsidian.Plugin {
         } else {
           MDtext = MDtextString.split("\n");
         }
-        if (textContent.contains(PREFIX + IMPORTNAME) || textContent.contains(PREFIX + IFRAMENAME) || textContent.contains(PREFIX + INLINENAME) || textContent.contains(PREFIX + PASTENAME)) {
+        if (textContent.contains(PREFIX + INLINENAME) || textContent.contains(PREFIX + PASTENAME)) {
           let inlines = [];
           let mappedMD = MDtext.map((line) => __async(this, null, function* () {
             if (line.contains(PREFIX + INLINENAME) || line.contains(PREFIX + PASTENAME)) {
@@ -3240,12 +3239,12 @@ var ObsidianExternalEmbed = class extends import_obsidian.Plugin {
                   }
                 }
               }
-              words[words.length - 1] = words[words.length - 1].replace(PREFIX + IMPORTNAME, "").replace(PREFIX + IFRAMENAME, "").replace(PREFIX + PASTENAME, "");
+              words[words.length - 1] = words[words.length - 1].replace(PREFIX + PASTENAME, "");
               line = words.join(" ");
               let strings = [];
               for (let [index, word] of Array.from(words).slice(1).entries()) {
                 word = word.trim();
-                let commandname = (words[index].endsWith(PREFIX + IMPORTNAME) ? PREFIX + IMPORTNAME : "") || (words[index].endsWith(PREFIX + IFRAMENAME) ? PREFIX + IFRAMENAME : "") || (words[index].endsWith(PREFIX + INLINENAME) ? PREFIX + INLINENAME : "");
+                let commandname = words[index].endsWith(PREFIX + INLINENAME) ? PREFIX + INLINENAME : "";
                 if (commandname) {
                   strings.push({ string: commandname + " " + word, URI: this.processURI(word, context.sourcePath, this.app.vault.adapter.getBasePath()), type: commandname });
                 }
