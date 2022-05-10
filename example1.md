@@ -4,3 +4,6 @@
 ```iframe
 !!!!paste fileToLoad.md .md
 ```
+```iframe
+/dist/index.html
+```
