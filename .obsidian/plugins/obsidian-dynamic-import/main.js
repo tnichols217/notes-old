@@ -3209,7 +3209,7 @@ var ObsidianExternalEmbed = class extends import_obsidian.Plugin {
         if (textContent.contains(PREFIX + IMPORTNAME) || textContent.contains(PREFIX + IFRAMENAME) || textContent.contains(PREFIX + INLINENAME) || textContent.contains(PREFIX + PASTENAME)) {
           let inlines = [];
           let mappedMD = MDtext.map((line) => __async(this, null, function* () {
-            if (line.contains(PREFIX + IMPORTNAME) || line.contains(PREFIX + IFRAMENAME) || line.contains(PREFIX + INLINENAME) || line.contains(PREFIX + PASTENAME)) {
+            if (line.contains(PREFIX + INLINENAME) || line.contains(PREFIX + PASTENAME)) {
               let words = line.split(" ");
               {
                 let contains;
@@ -3238,6 +3238,27 @@ var ObsidianExternalEmbed = class extends import_obsidian.Plugin {
                   if (!contains) {
                     continue;
                   }
+                }
+              }
+              words[words.length - 1] = words[words.length - 1].replace(PREFIX + IMPORTNAME, "").replace(PREFIX + IFRAMENAME, "").replace(PREFIX + PASTENAME, "");
+              line = words.join(" ");
+              let strings = [];
+              for (let [index, word] of Array.from(words).slice(1).entries()) {
+                word = word.trim();
+                let commandname = (words[index].endsWith(PREFIX + IMPORTNAME) ? PREFIX + IMPORTNAME : "") || (words[index].endsWith(PREFIX + IFRAMENAME) ? PREFIX + IFRAMENAME : "") || (words[index].endsWith(PREFIX + INLINENAME) ? PREFIX + INLINENAME : "");
+                if (commandname) {
+                  strings.push({ string: commandname + " " + word, URI: this.processURI(word, context.sourcePath, this.app.vault.adapter.getBasePath()), type: commandname });
+                }
+              }
+              for (let promiseString of strings) {
+                if (promiseString.type == PREFIX + INLINENAME) {
+                  let inlineTempDiv = createEl("div");
+                  if (line.contains(promiseString.string[0] + promiseString.string)) {
+                    line = line.replace(promiseString.string[0] + promiseString.string + " ", promiseString.string);
+                  }
+                  yield this.renderURI(promiseString.URI, inlineTempDiv, context, recursionDepth + 1, this.app.vault.adapter, inlineTempDiv.attributes, false, true, markdownPostProcessor);
+                  let replaceString = inlineTempDiv.innerHTML.replace("\n", "");
+                  inlines.push({ string: replaceString, URI: promiseString.string });
                 }
               }
             }
