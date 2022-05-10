@@ -3261,7 +3261,7 @@ var ObsidianExternalEmbed = class extends import_obsidian.Plugin {
                   if (line.contains(promiseString.string[0] + promiseString.string)) {
                     line = line.replace(promiseString.string[0] + promiseString.string + " ", promiseString.string);
                   }
-                  yield this.renderURI(promiseString.URI, inlineTempDiv, context, recursionDepth + 1, this.app.vault.adapter, inlineTempDiv.attributes, false, true, markdownPostProcessor);
+                  yield this.renderURI(promiseString.URI, inlineTempDiv, context, recursionDepth + 1, this.app.vault.adapter, inlineTempDiv.attributes, false, true, markdownPostProcessor).catch();
                   let replaceString = inlineTempDiv.innerHTML.replace("\n", "");
                   inlines.push({ string: replaceString, URI: promiseString.string });
                 }
