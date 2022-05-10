@@ -3334,8 +3334,8 @@ var ObsidianDynamicImport = class extends import_obsidian.Plugin {
       this.settings = DEFAULT_SETTINGS;
       this.loadData().then((data) => {
         let items = Object.entries(data);
-        data.ForEach((items2) => {
-          this.settings[items2[0]].value = items2[1];
+        items.forEach((item) => {
+          this.settings[item[0]].value = item[1];
           console.log(this.settings);
         });
       });
