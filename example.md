@@ -16,7 +16,7 @@ You can even put it in the middle **(!!!!inline clock.md )** of a paragraph:
 !!!import example1.md
 
 ```iframe
-!!!paste fileToLoad.md
+example1.md
 ```
 
 `aa`
