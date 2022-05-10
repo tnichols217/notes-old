@@ -3259,16 +3259,6 @@ var ObsidianExternalEmbed = class extends import_obsidian.Plugin {
                   yield this.renderURI(promiseString.URI, inlineTempDiv, context, recursionDepth + 1, this.app.vault.adapter, inlineTempDiv.attributes, false, true, markdownPostProcessor);
                   let replaceString = inlineTempDiv.innerHTML.replace("\n", "");
                   inlines.push({ string: replaceString, URI: promiseString.string });
-                } else {
-                  let replaceString = "";
-                  let div = createEl("div");
-                  if (promiseString.type == PREFIX + IMPORTNAME) {
-                    yield this.renderURI(promiseString.URI, div, context, recursionDepth + 1, this.app.vault.adapter, div.attributes, !promiseString.URI.toLocaleLowerCase().endsWith(".md"), false, markdownPostProcessor);
-                  } else if (promiseString.type == PREFIX + IFRAMENAME) {
-                    yield this.renderURI(promiseString.URI, div, context, recursionDepth + 1, this.app.vault.adapter, div.attributes, false, false, markdownPostProcessor);
-                  }
-                  replaceString = div.innerHTML.replace("\n", "");
-                  line = line.replace(promiseString.string, replaceString);
                 }
               }
             }
