@@ -3167,7 +3167,7 @@ var ObsidianExternalEmbed = class extends import_obsidian.Plugin {
             }
             setInline(span);
             resolve(span);
-          });
+          }).catch(reject);
         } else if (endsMD || convertHTML) {
           let fileContentCallback = (source) => __async(this, null, function* () {
             let div = element.createEl("div");
