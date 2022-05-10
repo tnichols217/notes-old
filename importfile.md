@@ -16,4 +16,4 @@
 		this.innerText=time;
 		setTimeout(updateTime, 100);
 	};
-	this.innerTe'></span>
+	this.innerText="I LOVE ISABEL"'></span>
