@@ -3317,7 +3317,7 @@ var ObsidianExternalEmbed = class extends import_obsidian.Plugin {
       this.registerMarkdownPostProcessor(markdownPostProcessor);
       this.registerMarkdownCodeBlockProcessor(IFRAMENAME, (source, el, ctx) => {
         let src = this.processURI(source.split(" ")[0], ctx.sourcePath, this.app.vault.adapter.getBasePath());
-        console.log(source.split(" ")[0]);
+        console.log(src);
         let div = el.createEl("div");
         ctx.addChild(new import_obsidian.MarkdownRenderChild(div));
         this.renderURI(src, el, ctx, 1, this.app.vault.adapter, div.attributes, false, false, markdownPostProcessor);
