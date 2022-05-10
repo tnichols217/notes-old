@@ -3127,9 +3127,7 @@ var ObsidianDynamicImport = class extends import_obsidian.Plugin {
       context.addChild(renderDiv);
       if (recursiveDepth > this.settings.recursionDepth.value) {
         div.createEl("p", source);
-        return new Promise((resolve, reject) => {
-          resolve;
-        });
+        return Promise.resolve();
       }
       return import_obsidian.MarkdownRenderer.renderMarkdown(source, div, sourcePath, renderDiv).then(() => {
         if (additionalCallback) {
