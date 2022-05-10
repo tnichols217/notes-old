@@ -3031,6 +3031,7 @@ var ERRORINLINE = "Obsidian-external-embed cannot use the inline command";
 var ERRORFILE = "This file does not exist";
 var IGNOREDTAGS = ["src", "sandbox"];
 var PREFIX = "!!!";
+var IMPORTNAME = "import";
 var IFRAMENAME = "iframe";
 var INLINENAME = "inline";
 var PASTENAME = "paste";
@@ -3306,6 +3307,11 @@ var ObsidianExternalEmbed = class extends import_obsidian.Plugin {
           convert = this.parseBoolean(split[1]);
         }
         this.renderURI(src, el, ctx, 1, this.app.vault.adapter, div.attributes, convert, false, markdownPostProcessor);
+      });
+      this.registerMarkdownCodeBlockProcessor(IMPORTNAME, (source, el, ctx) => {
+        let div = el.createEl("div");
+        ctx.addChild(new import_obsidian.MarkdownRenderChild(div));
+        div.innerHTML = source;
       });
       this.addCommand({
         id: "clear_cache",
