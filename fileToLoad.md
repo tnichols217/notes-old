@@ -1,1 +1,1 @@
-example.md
+example
