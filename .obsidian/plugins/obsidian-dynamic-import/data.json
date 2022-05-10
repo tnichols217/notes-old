@@ -1,5 +1,5 @@
 {
-  "allowInet": true,
+  "allowInet": false,
   "allowInline": true,
   "recursionDepth": 20,
   "useCacheForFiles": false,

@@ -3361,10 +3361,18 @@ var ObsidianDynamicImportSettings = class extends import_obsidian.PluginSettingT
     containerEl.createEl("h2", { text: "Settings for Obsidian Dynamic Import" });
     let keyvals = Object.entries(DEFAULT_SETTINGS);
     for (let keyval of keyvals) {
-      new import_obsidian.Setting(containerEl).setName(keyval[1].name).setDesc(keyval[1].desc).addText((text) => text.setPlaceholder(String(keyval[1].value)).setValue(String(this.plugin.settings[keyval[0]].value)).onChange((value) => {
-        this.plugin.settings[keyval[0]].value = this.plugin.parseObject(value, typeof keyval[1].value);
-        this.plugin.saveSettings();
-      }));
+      let setting = new import_obsidian.Setting(containerEl).setName(keyval[1].name).setDesc(keyval[1].desc);
+      if (typeof keyval[1].value == "boolean") {
+        setting.addToggle((toggle) => toggle.setValue(this.plugin.settings[keyval[0]].value).onChange((bool) => {
+          this.plugin.settings[keyval[0]].value = bool;
+          this.plugin.saveSettings();
+        }));
+      } else {
+        setting.addText((text) => text.setPlaceholder(String(keyval[1].value)).setValue(String(this.plugin.settings[keyval[0]].value)).onChange((value) => {
+          this.plugin.settings[keyval[0]].value = this.plugin.parseObject(value, typeof keyval[1].value);
+          this.plugin.saveSettings();
+        }));
+      }
     }
   }
 };
