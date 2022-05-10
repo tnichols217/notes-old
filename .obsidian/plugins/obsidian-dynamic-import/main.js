@@ -3313,7 +3313,6 @@ var ObsidianDynamicImport = class extends import_obsidian.Plugin {
       });
       let markdownPostProcessor = (element, context, MDtext, recursion = 0) => {
         processCustomCommands(element, context, MDtext, recursion);
-        processIframe(element, context, recursion);
       };
       this.registerMarkdownPostProcessor(markdownPostProcessor);
       this.addCommand({
