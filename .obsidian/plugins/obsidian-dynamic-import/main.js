@@ -3320,10 +3320,7 @@ var ObsidianExternalEmbed = class extends import_obsidian.Plugin {
         console.log(source.split(" ")[0]);
         let div = el.createEl("div");
         ctx.addChild(new import_obsidian.MarkdownRenderChild(div));
-        this.renderURI(src, el, ctx, 1, this.app.vault.adapter, div.attributes, false, false, markdownPostProcessor).then((iframe) => {
-          let src2 = new URL(iframe.src);
-          iframe.src = "app://local" + src2.pathname;
-        });
+        this.renderURI(src, el, ctx, 1, this.app.vault.adapter, div.attributes, false, false, markdownPostProcessor);
       });
       this.addCommand({
         id: "clear_cache",
