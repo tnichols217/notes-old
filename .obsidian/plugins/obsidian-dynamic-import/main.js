@@ -3331,12 +3331,22 @@ var ObsidianDynamicImport = class extends import_obsidian.Plugin {
   }
   loadSettings() {
     return __async(this, null, function* () {
-      this.settings = Object.assign({}, DEFAULT_SETTINGS, yield this.loadData());
+      this.settings = DEFAULT_SETTINGS;
+      this.loadData().then((data) => {
+        let items = Object.entries(data);
+        data.ForEach((items2) => {
+          this.settings[items2[0]].value = items2[1];
+        });
+      });
     });
   }
   saveSettings() {
     return __async(this, null, function* () {
-      yield this.saveData(this.settings);
+      let saveData = {};
+      Object.entries(this.settings).forEach((i) => {
+        saveData[i[0]] = i[1].value;
+      });
+      yield this.saveData(saveData);
     });
   }
 };
