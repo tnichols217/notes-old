@@ -3017,17 +3017,17 @@ var require_dist = __commonJS({
 
 // main.ts
 __export(exports, {
-  default: () => ObsidianDynamicImport
+  default: () => ObsidianExternalEmbed
 });
 var import_obsidian = __toModule(require("obsidian"));
 var import_html_to_md = __toModule(require_dist());
 var URISCHEME = "file://";
-var DIVCLASS = "obsidian-dynamic-import";
-var MDDIVCLASS = "obsidian-dynamic-import-markdown";
-var IFRAMECLASS = "obsidian-dynamic-import-iframe";
-var INLINECLASS = "obsidian-dynamic-import-inline";
-var ERRORMD = "# Obsidian-dynamic-import cannot access the internet";
-var ERRORINLINE = "Obsidian-dynamic-import cannot use the inline command";
+var DIVCLASS = "obsidian-external-embed";
+var MDDIVCLASS = "obsidian-external-embed-markdown";
+var IFRAMECLASS = "obsidian-external-embed-iframe";
+var INLINECLASS = "obsidian-external-embed-inline";
+var ERRORMD = "# Obsidian-external-embed cannot access the internet";
+var ERRORINLINE = "Obsidian-external-embed cannot use the inline command";
 var CONVERTMD = "iframe-md";
 var IGNOREDTAGS = ["src", "sandbox"];
 var PREFIX = "!!!";
@@ -3043,7 +3043,7 @@ var DEFAULT_SETTINGS = {
   useCacheForFiles: { value: false, name: "Cache Local Files", desc: "Cache files instead of loading them on every rerender. (Remote Files will always be cached)" },
   cacheRefreshTime: { value: 3e4, name: "Cache Refresh Time (miliseconds)", desc: "Cached filed called over this time ago will be refreshed when rendered." }
 };
-var ObsidianDynamicImport = class extends import_obsidian.Plugin {
+var ObsidianExternalEmbed = class extends import_obsidian.Plugin {
   constructor() {
     super(...arguments);
     this.cache = EMPTYCACHE;
@@ -3194,7 +3194,7 @@ var ObsidianDynamicImport = class extends import_obsidian.Plugin {
   onload() {
     return __async(this, null, function* () {
       yield this.loadSettings();
-      this.addSettingTab(new ObsidianDynamicImportSettings(this.app, this));
+      this.addSettingTab(new ObsidianExternalEmbedSettings(this.app, this));
       let processIframe = (element, context, recursionDepth = 0) => {
         let iframes = element.querySelectorAll("iframe");
         for (let child of Array.from(iframes)) {
@@ -3347,7 +3347,7 @@ var ObsidianDynamicImport = class extends import_obsidian.Plugin {
     });
   }
 };
-var ObsidianDynamicImportSettings = class extends import_obsidian.PluginSettingTab {
+var ObsidianExternalEmbedSettings = class extends import_obsidian.PluginSettingTab {
   constructor(app, plugin) {
     super(app, plugin);
     this.plugin = plugin;
@@ -3355,7 +3355,7 @@ var ObsidianDynamicImportSettings = class extends import_obsidian.PluginSettingT
   display() {
     const { containerEl } = this;
     containerEl.empty();
-    containerEl.createEl("h2", { text: "Settings for Obsidian Dynamic Import" });
+    containerEl.createEl("h2", { text: "Settings for Obsidian External Embed" });
     let keyvals = Object.entries(DEFAULT_SETTINGS);
     for (let keyval of keyvals) {
       let setting = new import_obsidian.Setting(containerEl).setName(keyval[1].name).setDesc(keyval[1].desc);
