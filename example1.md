@@ -1,5 +1,5 @@
 ## This is example1.md
-- more random things to see !!!im
+- more random things to see
 
 ```iframe
 !!!paste fileToLoad.md
