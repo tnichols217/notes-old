@@ -11,5 +11,5 @@
 !!!paste fileToLoad.md
 
 ```iframe
-/dist
+/dist/
 ```
