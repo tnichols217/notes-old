@@ -13,7 +13,7 @@ You can even put it in the middle **(!!!!inline clock.md )** of a paragraph:
 !!!inline clock.md
 ```
 
-!!!import clock.md
+!!!import 
 
 ```iframe
 !!!paste fileToLoad.md
