@@ -9,7 +9,3 @@
 	  a
 
 !!!paste fileToLoad.md
-
-```iframe
-/dist/index.html
-```
