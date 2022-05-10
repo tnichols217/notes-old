@@ -3028,6 +3028,7 @@ var IFRAMECLASS = "obsidian-external-embed-iframe";
 var INLINECLASS = "obsidian-external-embed-inline";
 var ERRORMD = "# Obsidian-external-embed cannot access the internet";
 var ERRORINLINE = "Obsidian-external-embed cannot use the inline command";
+var ERRORFILE = "This file does not exist";
 var IGNOREDTAGS = ["src", "sandbox"];
 var PREFIX = "!!!";
 var IFRAMENAME = "iframe";
@@ -3102,7 +3103,7 @@ var ObsidianExternalEmbed = class extends import_obsidian.Plugin {
                 resolve(dString);
               }).catch(reject);
             } else {
-              reject();
+              resolve([url.pathname, ERRORFILE].join(": "));
             }
           }).catch(reject);
         } else {
