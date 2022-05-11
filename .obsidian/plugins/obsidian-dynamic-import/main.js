@@ -3062,7 +3062,7 @@ var ObsidianExternalEmbed = class extends import_obsidian.Plugin {
     };
     this.processURI = (URI, source, root) => {
       URI = URI.split("<")[0];
-      console.log(URI, source, root);
+      console.log(URI, source.substring(0, source.lastIndexOf("/")), root);
       if (!URI.contains("://")) {
         if (URI.startsWith("/")) {
           return [URISCHEME, URI].join("");
