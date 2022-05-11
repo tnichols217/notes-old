@@ -3066,9 +3066,9 @@ var ObsidianExternalEmbed = class extends import_obsidian.Plugin {
         if (URI.startsWith("/")) {
           return [URISCHEME, URI].join("");
         } else if (URI.startsWith("./")) {
-          return [URISCHEME, "/", source.substring(0, source.lastIndexOf("/")), URI.substring(2)].join("");
+          return [URISCHEME, source.substring(0, source.lastIndexOf("/")), "/", URI.substring(2)].join("");
         } else {
-          return [URISCHEME, "/", source.substring(0, source.lastIndexOf("/")), URI].join("");
+          return [URISCHEME, source.substring(0, source.lastIndexOf("/")), "/", URI].join("");
         }
       }
       return URI;

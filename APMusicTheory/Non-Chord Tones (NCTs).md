@@ -110,7 +110,6 @@ Can be:
 > **Free anticipation**
 > 
 > A note anticipates a note in the next chord, but does not actually stay on that note when the chord changes, although it does have to continue to move in the same direction
-> 
 
 ## Pedal point
 

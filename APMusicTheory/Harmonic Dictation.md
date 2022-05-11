@@ -79,3 +79,14 @@ E,C,xB,,|xxB,,B,,|E,4
 	- 15/18
 2. B
 3. C
+
+```music-abc
+X: 1
+L:1/4
+K:F
+M:2/4
+V:1 clef: treble
+Ac|dd|cA|xx|xx||
+V:2 clef: bass
+F,,A,,|B,,B,,|G,,C,|F,,G,,|G,,2||
+```
