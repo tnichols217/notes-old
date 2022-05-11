@@ -24,5 +24,6 @@
   "dataview",
   "obsidian-banners",
   "obsidian-external-embed",
-  "obsidian-full-calendar"
+  "obsidian-full-calendar",
+  "obsidian-sample-plugin"
 ]
