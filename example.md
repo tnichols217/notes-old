@@ -7,5 +7,3 @@ You can chain the paste command into the other commandblocks:
 ```
 
 As well 
-```
-```
