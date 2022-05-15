@@ -6,5 +6,6 @@ You can chain the paste command into the other commandblocks:
 !!!!paste fileToLoad.md .md
 ```
 
+As well 
 ```
 ```
