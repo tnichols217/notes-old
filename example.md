@@ -1,4 +1,4 @@
 # This is file example.md
 ```inline
-<h1></
+<h2>Hi</h2>
 ```
