@@ -5,5 +5,5 @@
 !!!!paste fileToLoad.md .md
 ```
 ```iframe
-/dist/index.html
+https://linux.die.net/man/1/curl true
 ```

@@ -2,9 +2,31 @@
 
 ### You can even put it in the middle **(!!!!inline clock.md )** of a paragraph:
 
-- !!!col
-	- 1
-	- 1
-	  a
+````col
+```col-md
+a
+```
+```col-md
+flexGrow=2
+===
+b
+```
+````
 
-!!!paste fileToLoad.md
+- !!!col
+	- a
+	  a
+	- 2
+	  b
+
+```import
+clock.md
+```
+
+```inline
+<h1>a</h1>
+```
+
+```iframe
+/dist/index.html
+```

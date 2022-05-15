@@ -3031,13 +3031,15 @@ var ERRORINLINE = "Obsidian-external-embed cannot use the inline command";
 var ERRORFILE = "This file does not exist";
 var IGNOREDTAGS = ["src", "sandbox"];
 var PREFIX = "!!!";
+var IMPORTNAME = "import";
 var IFRAMENAME = "iframe";
 var INLINENAME = "inline";
 var PASTENAME = "paste";
 var EMPTYCACHE = { value: { "true": {}, "false": {} }, time: { "true": {}, "false": {} } };
 var DEFAULT_SETTINGS = {
   allowInet: { value: false, name: "Access Internet", desc: "Allows this plugin to access the internet to render remote MD files." },
-  allowInline: { value: false, name: "Allows access to the inline command", desc: "Enables the !!!inline command, which allows arbitrary HTML code to run (insecure)" },
+  allowInline: { value: false, name: "Allows inline command", desc: "Enables the !!!inline command, which allows arbitrary HTML code to run (insecure)" },
+  allowOnload: { value: false, name: "Allow Onload", desc: "Runs the onload function inside inline command and import and inline commandblock" },
   recursionDepth: { value: 20, name: "Recusion Depth", desc: "Sets the amount of nested imports that can be called." },
   useCacheForFiles: { value: false, name: "Cache Local Files", desc: "Cache files instead of loading them on every rerender. (Remote Files will always be cached)" },
   cacheRefreshTime: { value: 3e4, name: "Cache Refresh Time (miliseconds)", desc: "Cached filed called over this time ago will be refreshed when rendered." }
@@ -3282,9 +3284,11 @@ var ObsidianExternalEmbed = class extends import_obsidian.Plugin {
                   el.innerHTML = el.innerHTML.replace(inline.URI, inline.string);
                 }
               }
-              for (let el of Array.from(newDiv.querySelectorAll("*"))) {
-                if ("onload" in el && el.onload != null) {
-                  el.onload(new Event("Loading Subelements"));
+              if (this.settings.allowOnload.value) {
+                for (let el of Array.from(newDiv.querySelectorAll("*"))) {
+                  if ("onload" in el && el.onload != null) {
+                    el.onload(new Event("Loading Subelements"));
+                  }
                 }
               }
             }
@@ -3311,6 +3315,13 @@ var ObsidianExternalEmbed = class extends import_obsidian.Plugin {
         let div = el.createEl("div");
         ctx.addChild(new import_obsidian.MarkdownRenderChild(div));
         div.innerHTML = source;
+        if (this.settings.allowOnload.value) {
+          for (let el2 of Array.from(div.querySelectorAll("*"))) {
+            if ("onload" in el2 && el2.onload != null) {
+              el2.onload(new Event("Loading Subelements"));
+            }
+          }
+        }
       });
       this.addCommand({
         id: "clear_cache",
@@ -3319,6 +3330,19 @@ var ObsidianExternalEmbed = class extends import_obsidian.Plugin {
           this.cache = EMPTYCACHE;
         }
       });
+      this.registerMarkdownCodeBlockProcessor(IMPORTNAME, (source, el, ctx) => __async(this, null, function* () {
+        let div = el.createEl("div");
+        ctx.addChild(new import_obsidian.MarkdownRenderChild(div));
+        source = source.split("\n")[0].split(" ")[0];
+        div.innerHTML = yield this.getURI(this.processURI(source, ctx.sourcePath, this.app.vault.adapter.getBasePath()), this.app.vault.adapter, false);
+        if (this.settings.allowOnload.value) {
+          for (let el2 of Array.from(div.querySelectorAll("*"))) {
+            if ("onload" in el2 && el2.onload != null) {
+              el2.onload(new Event("Loading Subelements"));
+            }
+          }
+        }
+      }));
     });
   }
   onunload() {

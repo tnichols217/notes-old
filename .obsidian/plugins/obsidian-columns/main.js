@@ -55,15 +55,39 @@ var import_obsidian = __toModule(require("obsidian"));
 var COLUMNNAME = "col";
 var COLUMNMD = COLUMNNAME + "-md";
 var TOKEN = "!!!";
+var SETTINGSDELIM = "\n===\n";
 var DEFAULT_SETTINGS = {
   wrapSize: { value: 100, name: "Minimum width of column", desc: "Columns will have this minimum width before wrapping to a new row. 0 disables column wrapping. Useful for smaller devices" },
   defaultSpan: { value: 1, name: "The default span of an item", desc: "The default width of a column. If the minimum width is specified, the width of the column will be multiplied by this setting." }
+};
+var parseSettings = (settings) => {
+  let o = {};
+  settings.split("\n").map((i) => {
+    return i.split(";");
+  }).reduce((a, b) => {
+    a.push(...b);
+    return a;
+  }).map((i) => {
+    return i.split("=").map((j) => {
+      return j.trim();
+    }).slice(0, 2);
+  }).forEach((i) => {
+    o[i[0]] = i[1];
+  });
+  return o;
 };
 var ObsidianColumns = class extends import_obsidian.Plugin {
   constructor() {
     super(...arguments);
     this.generateCssString = (span) => {
-      return "flex-grow:" + span.toString() + "; flex-basis:" + (this.settings.wrapSize.value * span).toString() + "px; width:" + (this.settings.wrapSize.value * span).toString() + "px";
+      let o = {};
+      o.flexGrow = span.toString();
+      o.flexBasis = (this.settings.wrapSize.value * span).toString() + "px";
+      o.width = (this.settings.wrapSize.value * span).toString() + "px";
+      return o;
+    };
+    this.applyStyle = (el, styles) => {
+      Object.assign(el.style, styles);
     };
     this.parseBoolean = (value) => {
       return value == "yes" || value == "true";
@@ -104,11 +128,23 @@ var ObsidianColumns = class extends import_obsidian.Plugin {
       yield this.loadSettings();
       this.addSettingTab(new ObsidianColumnsSettings(this.app, this));
       this.registerMarkdownCodeBlockProcessor(COLUMNMD, (source, el, ctx) => {
+        let split = source.split(SETTINGSDELIM);
+        let settings = {};
+        if (split.length > 1) {
+          source = split.slice(1).join(SETTINGSDELIM);
+          settings = parseSettings(split[0]);
+        }
         const sourcePath = ctx.sourcePath;
         let child = el.createDiv();
         let renderChild = new import_obsidian.MarkdownRenderChild(child);
         ctx.addChild(renderChild);
         import_obsidian.MarkdownRenderer.renderMarkdown(source, child, sourcePath, renderChild);
+        if ("flexGrow" in settings) {
+          let flexGrow = parseFloat(settings.flexGrow);
+          let CSS = this.generateCssString(flexGrow);
+          delete CSS.width;
+          this.applyStyle(child, CSS);
+        }
       });
       this.registerMarkdownCodeBlockProcessor(COLUMNNAME, (source, el, ctx) => {
         const sourcePath = ctx.sourcePath;
@@ -121,8 +157,13 @@ var ObsidianColumns = class extends import_obsidian.Plugin {
           let cc = parent.createEl("div", { cls: "columnChild" });
           let renderCc = new import_obsidian.MarkdownRenderChild(cc);
           ctx.addChild(renderCc);
-          cc.setAttribute("style", this.generateCssString(this.settings.defaultSpan.value));
+          this.applyStyle(cc, this.generateCssString(this.settings.defaultSpan.value));
           cc.appendChild(c);
+          if (c.classList.contains("block-language-" + COLUMNMD) && c.childNodes[0].style.flexGrow != "") {
+            cc.style.flexGrow = c.childNodes[0].style.flexGrow;
+            cc.style.flexBasis = c.childNodes[0].style.flexBasis;
+            cc.style.width = c.childNodes[0].style.flexBasis;
+          }
           this.processChild(c);
         });
       });
@@ -158,7 +199,7 @@ var ObsidianColumns = class extends import_obsidian.Plugin {
               if (isNaN(span)) {
                 span = this.settings.defaultSpan.value;
               }
-              childDiv.setAttribute("style", this.generateCssString(span));
+              this.applyStyle(childDiv, this.generateCssString(span));
               let afterText = false;
               processList(itemListItem, context);
               for (let itemListItemChild of Array.from(itemListItem.childNodes)) {
