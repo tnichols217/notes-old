@@ -1,4 +1,4 @@
 # This is file example.md
-```import
+```iframe
 clock.md
 ```
