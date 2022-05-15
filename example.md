@@ -1,2 +1,2 @@
 # This is file example.md
-Here i paste the contents of 
+Here I paste the contents of 
