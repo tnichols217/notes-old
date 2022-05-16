@@ -26,3 +26,5 @@ color blue
 
 `button-browser-table-converter`
 ````
+
+`button-browser-google-translate`
