@@ -11,7 +11,6 @@ name  📈Table Converter
 type link
 action https://tableconverter.com
 color blue
-
 ```
 ^button-browser-table-converter
 
