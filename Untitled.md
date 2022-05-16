@@ -14,3 +14,15 @@ color blue
 ```
 ^button-browser-table-converter
 
+````col
+```button
+name  🌳Google Translate
+type link
+action https://translate.google.com/?sl=en&tl=zh-TW&op=translate
+color blue
+```
+
+`button-browser-google-translate`
+
+`button-browser-table-converter`
+````
