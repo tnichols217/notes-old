@@ -1,7 +1,7 @@
 # This is file example.md
 
 ```desmos-graph
-width=100percent
+width=50percent
 ---
 x
 ```
