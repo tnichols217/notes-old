@@ -4,5 +4,3 @@
 - Personal Example (how linux changed my life)
 - Dis Windows
 - Conclusion
-
-P
