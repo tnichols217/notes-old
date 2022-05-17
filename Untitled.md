@@ -7,4 +7,3 @@ g(x)=x+1|green
 h(x)=4x-1.1|purple
 (0,1)|green|label:(0,1), gradient ~ 1
 ```
-```
