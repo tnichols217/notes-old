@@ -1,3 +1,4 @@
 - Philosophy
-	- Open Source Community
+- Technical Superiority
+- Open Source Community
 - 
