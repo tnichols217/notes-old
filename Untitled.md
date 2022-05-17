@@ -1,31 +1,9 @@
-```button
-name  🌳Google Translate
-type link
-action https://translate.google.com/?sl=en&tl=zh-TW&op=translate
-color red
+```demos-graph
+left=-7.5;right=7.5;
+top=9;bottom=-1;
+---
+f(x)=3^x
+g(x)=x+1|green
+h(x)=4x-1.1|purple
+(0,1)|green|label:(0,1), gradient ~ 1
 ```
-^button-browser-google-translate
-
-```button
-name  📈Table Converter
-type link
-action https://tableconverter.com
-color blue
-```
-^button-browser-table-converter
-
-````col
-```button
-name  🌳Google Translate
-type link
-action https://translate.google.com/?sl=en&tl=zh-TW&op=translate
-color blue
-```
-
-`button-browser-google-translate`
-
-`button-browser-table-converter`
-````
-
-`button-browser-google-translate`
-
