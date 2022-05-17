@@ -1,4 +1,4 @@
-```demos-graph
+```desmos-graph
 left=-7.5;right=7.5;
 top=9;bottom=-1;
 ---
