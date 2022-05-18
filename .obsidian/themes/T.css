@@ -325,7 +325,7 @@ ul > li > ul > li > ul > li > ul > li > ul > li > ul {
 
 /* Set axis colour */
 .desmos-graph .dcg-svg-axis-line {
-  stroke: var(--background-accent); 
+  stroke: var(--text-accent); 
 }
 
 /* Set axis text border colour */
