@@ -125,7 +125,7 @@ var ObsidianColumns = class extends import_obsidian.Plugin {
   }
   onload() {
     return __async(this, null, function* () {
-      let a = document.createDiv();
+      let a = createDiv();
       import_obsidian.MarkdownRenderer.renderMarkdown("```query\ntag:vocab\n```", a, "", null);
       console.log(a);
       yield this.loadSettings();
