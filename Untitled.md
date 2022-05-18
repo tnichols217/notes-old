@@ -5,6 +5,6 @@ x
 ```
 
 <svg width=100%>
-<rect?
-	   
+<rect>
+</rect>
 </svg>
