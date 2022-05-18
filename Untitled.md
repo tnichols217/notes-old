@@ -4,11 +4,9 @@ width=100percent
 x
 ```
 
-````
 ```query
-tag:<tagName>
+tag:vocab
 ```
-````
 
 <svg width=100%>
 <rect>
