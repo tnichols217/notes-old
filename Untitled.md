@@ -4,6 +4,12 @@ width=100percent
 x
 ```
 
+````
+```query
+tag:<tagName>
+```
+````
+
 <svg width=100%>
 <rect>
 </rect>
