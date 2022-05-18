@@ -4,4 +4,4 @@ width=100percent
 x
 ```
 
-<svg>
+<svg width=></svg>
