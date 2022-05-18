@@ -11,6 +11,6 @@ tag:vocab
 ````
 
 
-```query
+```query=
 tag:vocab
 ```
