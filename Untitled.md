@@ -9,7 +9,6 @@ x
 tag:vocab
 ```
 ````
-```
 
 <svg width=100%>
 <rect>
