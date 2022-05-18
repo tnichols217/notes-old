@@ -4,4 +4,7 @@ width=100percent
 x
 ```
 
-<svg width=></svg>
+<svg width=100%>
+<rect?
+	   
+</svg>
