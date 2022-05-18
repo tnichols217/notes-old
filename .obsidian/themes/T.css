@@ -320,7 +320,7 @@ ul > li > ul > li > ul > li > ul > li > ul > li > ul {
 
 /* Set gridline colour */
 .desmos-graph .dcg-svg-minor-gridline {
-  stroke: var(--background-modifier-border); 
+  stroke: var(--text-normal); 
 }
 
 /* Set axis colour */
