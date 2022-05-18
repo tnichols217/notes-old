@@ -335,7 +335,7 @@ ul > li > ul > li > ul > li > ul > li > ul > li > ul {
 
 /* Set axis text colour */
 .desmos-graph .dcg-svg-axis-value :nth-child(2) {
-  stroke: var(--text-accent);
+  stroke: var(--color-8);
 }
 
 /* Set label text colour */
