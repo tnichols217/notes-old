@@ -14,3 +14,6 @@ tag:vocab
 <rect>
 </rect>
 </svg>
+```query
+tag:vocab
+```
