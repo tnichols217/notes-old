@@ -1,5 +1,5 @@
 ```desmos-graph
-width=100percent; height=500
+width=100percent
 ---
 x
 ```
