@@ -313,3 +313,37 @@ ul > li > ul > li > ul > li > ul > li > ul > li > ul {
 .cm-s-obsidian div.HyperMD-codeblock-begin-bg, .cm-s-obsidian div.HyperMD-codeblock-bg {
   border-left: 0px
 }
+
+.desmos-graph .dcg-svg-background {
+  fill: var(--background-primary);
+}
+
+/* Set gridline colour */
+.desmos-graph .dcg-svg-minor-gridline {
+  stroke: var(--background-modifier-border); 
+}
+
+/* Set axis colour */
+.desmos-graph .dcg-svg-axis-line {
+  stroke: var(--background-accent); 
+}
+
+/* Set axis text border colour */
+.desmos-graph .dcg-svg-axis-value :nth-child(1) {
+  stroke: var(--background-primary);
+}
+
+/* Set axis text colour */
+.desmos-graph .dcg-svg-axis-value :nth-child(2) {
+  stroke: var(--text-accent);
+}
+
+/* Set label text colour */
+.desmos-graph .dcg-svg-label :nth-child(2) > * :nth-child(1) {
+  stroke: var(--text-accent);
+}
+
+/* Set label text border colour */
+.desmos-graph .dcg-svg-label :nth-child(1) > * :nth-child(1) {
+  stroke: var(--background-primary);
+}
