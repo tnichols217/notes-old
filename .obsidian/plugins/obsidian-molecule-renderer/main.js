@@ -55,10 +55,10 @@ var import_obsidian2 = __toModule(require("obsidian"));
 
 // obsidian-settings/settings.ts
 var import_obsidian = __toModule(require("obsidian"));
-function display(obj, DEFAULT_SETTINGS2) {
+function display(obj, DEFAULT_SETTINGS2, name) {
   const { containerEl } = obj;
   containerEl.empty();
-  containerEl.createEl("h2", { text: "Settings for obsidian-columns" });
+  containerEl.createEl("h2", { text: "Settings for " + name });
   let keyvals = Object.entries(DEFAULT_SETTINGS2);
   for (let keyval of keyvals) {
     let setting = new import_obsidian.Setting(containerEl).setName(keyval[1].name).setDesc(keyval[1].desc);
@@ -97,6 +97,7 @@ function saveSettings(obj, DEFAULT_SETTINGS2) {
 }
 
 // main.ts
+var NAME = "Obsidian Molecule Renderer";
 var DEFAULT_SETTINGS = {};
 var ObsidianColumns = class extends import_obsidian2.Plugin {
   onload() {
@@ -124,6 +125,6 @@ var ObsidianColumnsSettings = class extends import_obsidian2.PluginSettingTab {
     this.plugin = plugin;
   }
   display() {
-    display(this, DEFAULT_SETTINGS);
+    display(this, DEFAULT_SETTINGS, NAME);
   }
 };
