@@ -27,5 +27,6 @@
   "obsidian-full-calendar",
   "obsidian-sample-plugin",
   "obsidian-desmos",
-  "buttons"
+  "buttons",
+  "obsidian-molecule-renderer"
 ]
