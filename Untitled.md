@@ -4,7 +4,7 @@ width=100percent
 x
 ```
 
-````col
+````col-md
 ```query
 tag:vocab
 ```
