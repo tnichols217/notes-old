@@ -97,8 +97,6 @@ function saveSettings(obj, DEFAULT_SETTINGS2) {
 }
 
 // main.ts
-var COLUMNNAME = "col";
-var COLUMNMD = COLUMNNAME + "-md";
 var DEFAULT_SETTINGS = {};
 var ObsidianColumns = class extends import_obsidian2.Plugin {
   onload() {
