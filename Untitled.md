@@ -1,16 +1,3 @@
-```desmos-graph
-width=100percent
----
-x
-```
+````col
 
-````col-md
-```query
-tag:vocab
-```
-````
-
-
-```query
-tag:vocab
 ```
