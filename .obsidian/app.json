@@ -5,7 +5,7 @@
   "promptDelete": false,
   "foldHeading": true,
   "foldIndent": true,
-  "spellcheck": false,
+  "spellcheck": true,
   "vimMode": false,
   "pdfExportSettings": {
     "pageSize": "A4",

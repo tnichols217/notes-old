@@ -1,6 +1,72 @@
+````col
+```col-md
+flexGrow=1
+===
+```
+```col-md
+![[Pasted image 20220519132135.png]]
+```
+```col-md
+flexGrow=1
+===
+```
+````
+## Why I Use Linux
+and why Mac and Windows just kinda suck
+
+---
+### Philosophy
+Tech should be free and open
+
+- Bloat (ads)
+- Simplicity
+- Control
+- Transparency
+
+---
+### Technical Superiority
+How Linux is powerful yet lightweight
+
+````col
+```col-md
+MacOS Install size:
+12.5GB
+```
+```col-md
+Arch Linux Install size:
+5GB (800MB)
+```
+````
+
+- Optimised and modular architecture
+
+---
+### Open Source Community
+and why you should be a part of it
+
+- Security
+- Speedy Development
+
+---
+### How I came to know Linux
+and never looked back since
+
+---
+### Why Mac just isn't that good
+
+---
+### Why Windows kinda sucks
+
+---
+### Conclusion
+
+---
 - Philosophy
+	- The Arch Philosophy
 - Technical Superiority
+	- Alternatives
+	- Modularity
 - Open Source Community
-- Personal Example (how linux changed my life)
+- Personal Example (how Linux changed my life)
 - Dis Windows
 - Conclusion
