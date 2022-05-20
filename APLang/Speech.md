@@ -39,6 +39,7 @@ Arch Linux Install size:
 ````
 
 - Optimised and modular architecture
+- Industry Gold standard
 
 ---
 ### Open Source Community
