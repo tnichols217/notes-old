@@ -48,6 +48,7 @@ and why you should be a part of it
 
 - Security
 - Speedy Development
+- Clean and optimised code
 
 ---
 ### How I came to know Linux
@@ -55,6 +56,11 @@ and never looked back since
 
 ---
 ### Why Mac just isn't that good
+
+- Macs have a lot of bloat and features that you won't use
+	- Space
+	- Speed
+- 
 
 ---
 ### Why Windows kinda sucks
