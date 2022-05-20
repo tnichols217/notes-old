@@ -40,6 +40,7 @@ Arch Linux Install size:
 
 - Optimised and modular architecture
 - Industry Gold standard
+- (Windows isn't even on the list for obvious reasons)
 
 ---
 ### Open Source Community
