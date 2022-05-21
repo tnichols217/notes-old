@@ -11,7 +11,7 @@ flexGrow=1
 ===
 ```
 ````
-## Why I Use Linux
+## **Why I Use Linux**
 and why Mac and Windows just kinda suck
 
 %%
@@ -21,7 +21,7 @@ But first off, what is Linux? Linux is a kernel (the thing that connects your ha
 %%
 
 ---
-### Philosophy
+### **Philosophy**
 Tech should be free and open
 
 ````col
@@ -44,7 +44,7 @@ This principle also carries down into programs that you would use on your comput
 %%
 
 ---
-### Technical Superiority
+### **Technical Superiority**
 How Linux is powerful yet lightweight
 
 ````col
@@ -68,7 +68,7 @@ Next is simplicity. As I mentioned earlier, a modular approach is taken to handl
 %%
 
 ---
-### Open Source Community
+### **Open Source Community**
 and why you should be a part of it
 
 - Security
