@@ -24,6 +24,10 @@ Tech should be free and open
 
 ````col
 ```col-md
+
+```
+```col-md
+
 ```
 ````
 
