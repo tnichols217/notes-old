@@ -88,6 +88,10 @@ Open source code also promotes good coding procedures, like using code wisely an
 ### **How I came to know Linux**
 and never looked back since
 
+%%
+
+%%
+
 ---
 ### **Why Mac just isn't that good**
 
