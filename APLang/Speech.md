@@ -93,7 +93,8 @@ and never looked back since
 ### Why Mac just isn't that good
 
 - Macs have a lot of bloat and features that you won't use
-- There is a lack of customis
+- There is a lack of customisation
+- Requires expensive hardw
 
 ---
 ### Why Windows kinda sucks
