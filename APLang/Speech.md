@@ -24,7 +24,7 @@ Tech should be free and open
 
 ````col
 ```col-md
-
+- Small is b
 ```
 ```col-md
 - Bloat (ads)
