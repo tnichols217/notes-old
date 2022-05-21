@@ -55,7 +55,7 @@ MacOS Install size:
 ```
 ```col-md
 Arch Linux Install size:
-5GB (800MB)
+1-5GB
 ```
 ````
 
