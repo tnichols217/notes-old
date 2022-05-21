@@ -30,7 +30,7 @@ Tech should be free and open
 	- Everything is a file
 ```
 ```col-md
-- Simplicity
+- You should h
 - Control
 - Transparency
 ```
