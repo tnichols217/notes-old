@@ -112,7 +112,7 @@ So, why mac just isnt that good ahem david. For one, theres not a solid app stor
 ### **Why Windows really sucks**
 
 - Windows update?
-- Why does my storage just
+- Why does my storage just slowly fill up 
 
 ---
 ### **Conclusion**
