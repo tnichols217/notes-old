@@ -129,6 +129,6 @@ And like I cant even change the colors? What if I want to change the animation f
 
 - Mac is ok, but only if you have money to throw at apple
 - Windows sucks
-- Linux h
+- Linux is technologically superior
 
 ---
