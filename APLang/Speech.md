@@ -137,7 +137,7 @@ Mac is fine ig but only if you have a lot of money youre willing to spend, its n
 
 Windows just kinda sucks its slow and broken and just updates when youre in the middle of a comp
 
-Overall, lin
+Overall, linux is just better, its faster, easier, more capable, and 
 %%
 
 ---
