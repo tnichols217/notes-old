@@ -90,7 +90,7 @@ and never looked back since
 
 %%
 How I came to know Linux
-So this is weird actually cuz a long time ago I was tasked with setting up a minecraft server. 
+So this is weird actually cuz a long time ago I was tasked with setting up a minecraft server. And I had this old laptop l
 %%
 
 ---
