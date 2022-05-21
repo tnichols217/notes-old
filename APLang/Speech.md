@@ -58,9 +58,9 @@ Install: 16-35GB
 Boot time: 12s
 ```
 ```col-md
-Arch Linux Install size:
-1-5GB
-5-8s
+Arch Linux:
+Install: 1-5GB
+Boot time: 5-8s
 ```
 ```col-md
 Ubuntu Server Install size:
