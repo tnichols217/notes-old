@@ -30,7 +30,6 @@ Tech should be free and open
 	- Everything is a file
 ```
 ```col-md
-- Bloat (ads)
 - Simplicity
 - Control
 - Transparency
