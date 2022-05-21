@@ -39,7 +39,7 @@ Tech should be free and open
 
 %%
 Alright lets start off with what makes Linux different.
-Fundamentally in the Over
+Fundamentally in the overarching philosophy of Linux, 
 %%
 
 ---
