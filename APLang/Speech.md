@@ -38,7 +38,8 @@ Tech should be free and open
 ````
 
 %%
-Alright lets start off with 
+Alright lets start off with the why.
+Why would I 
 %%
 
 ---
