@@ -104,7 +104,7 @@ Then a few years passed and I started the get into programming and noticed that 
 - Limiting in terms of the variety of of things you can do with your system
 
 %%
-So l
+So lets get back to business
 %%
 
 ---
