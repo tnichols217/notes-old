@@ -95,6 +95,7 @@ and never looked back since
 - Macs have a lot of bloat and features that you won't use
 - There is a lack of customisation
 - Requires expensive hardware to even access
+- Limiting in terms of 
 
 ---
 ### Why Windows kinda sucks
