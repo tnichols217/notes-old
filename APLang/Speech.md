@@ -34,10 +34,8 @@ Tech should be free and open
 - Simplicity
 - Control
 - Transparency
-
 ```
 ````
-
 
 %%
 
