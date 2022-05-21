@@ -105,8 +105,7 @@ Then a few years passed and I started the get into programming and noticed that 
 
 %%
 So lets get back to business 🎵🎵
-
-
+W
 %%
 
 ---
