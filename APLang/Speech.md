@@ -105,7 +105,7 @@ Then a few years passed and I started the get into programming and noticed that 
 
 %%
 So lets get back to business to defeat the huns🎵🎵
-So, why mac just isnt that good ahem david. For one, theres 
+So, why mac just isnt that good ahem david. For one, theres not a solid app store
 %%
 
 ---
