@@ -114,7 +114,7 @@ So, why mac just isnt that good ahem david. For one, theres not a solid app stor
 - Windows update?
 - Why does my storage just slowly fill up and run out?
 - Random BSOD?
-- Why do they make it so hard to change the font in the start me
+- Why can I on
 
 ---
 ### **Conclusion**
