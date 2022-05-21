@@ -38,8 +38,8 @@ Tech should be free and open
 ````
 
 %%
-Alright lets start off with what make
-Whats
+Alright lets start off with what makes Linux different.
+Fund
 %%
 
 ---
