@@ -114,7 +114,12 @@ So, why mac just isnt that good ahem david. For one, theres not a solid app stor
 - Windows update?
 - Why does my storage just slowly fill up and run out?
 - Random BSOD?
-- Why can I only change like one color in the whol
+- Why can I only change like one color in the whole system?
+
+%%
+And
+
+%%
 
 ---
 ### **Conclusion**
