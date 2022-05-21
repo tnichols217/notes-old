@@ -60,6 +60,10 @@ MacOS Install size:
 Arch Linux Install size:
 1-5GB
 ```
+```col-md
+Linux Server Install size:
+1-5GB
+```
 ````
 
 - Optimised and modular architecture
