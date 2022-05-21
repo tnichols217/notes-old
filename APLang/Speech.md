@@ -38,7 +38,7 @@ Tech should be free and open
 ````
 
 %%
-
+Alright lets start off with 
 %%
 
 ---
