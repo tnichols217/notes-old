@@ -65,8 +65,6 @@ Boot time: 5-8s
 
 %%
 Next is simplicity. As I mentioned earlier, a modular approach is taken to handle portability. However, it too plays a role in simplicity as well. Each program should have one function and one function only. This allows that one program to get not only extremely good at that one thing, but also be small and optimised. This plays a large role in Linux's efficiency and speed in such a small package.
-
-Lastly, is control. In Linux, everything is under your own control if you want to. You could delete your whole computer in one command if you wanted to and nothing but yourself would stop you. But in Linux, everything is open sourced, this means that the original code is open for anyone to read and fix, contrary to how Mac has all of this hidden. Having open source code allows you to verify that what you want to be running is actually running and nothing extra, like data collection or ads.
 %%
 
 ---
@@ -76,6 +74,10 @@ and why you should be a part of it
 - Security
 - Speedy Development
 - Clean and optimised code
+
+%%
+Lastly, is control. In Linux, everything is under your own control if you want to. You could delete your whole computer in one command if you wanted to and nothing but yourself would stop you. But in Linux, everything is open sourced, this means that the original code is open for anyone to read and fix, contrary to how Mac has all of this hidden. Having open source code allows you to verify that what you want to be running is actually running and nothing extra, like data collection or ads.
+%%
 
 ---
 ### How I came to know Linux
