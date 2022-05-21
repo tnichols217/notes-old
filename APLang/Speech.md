@@ -103,10 +103,8 @@ Then a few years passed and I started the get into programming and noticed that 
 - Requires expensive hardware to even access
 - Limiting in terms of the variety of of things you can do with your system
 
-🎵
-
 %%
-So lets get back to business
+So lets get back to business 🎵🎵
 
 
 %%
