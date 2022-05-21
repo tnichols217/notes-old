@@ -32,6 +32,7 @@ Tech should be free and open
 ```
 ```col-md
 - Data should be **portable**
+
 	- Everything is a file
 ```
 ```col-md
