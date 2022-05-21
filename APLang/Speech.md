@@ -82,7 +82,7 @@ Lastly, is control. In Linux, everything is under your own control if you want t
 
 Other benefits of Open Source code include having a highly secure system, because all the code can be reviewed and fixed by anyone who wants to contribute. As compared to other operating systems where the code cannot be seen and will be hard to discover and fix a problem when it arises.
 
-Open source code also promotes good coding procedures, like using code wisely and make it work well. If no one ever sees the code, such as in a proprietary manner like Mac, once something works it will likely never get 
+Open source code also promotes good coding procedures, like using code wisely and make it work well. If no one ever sees the code, such as in a proprietary manner like Mac, once something works it will likely never get looked at again or made better, since they 
 %%
 
 ---
