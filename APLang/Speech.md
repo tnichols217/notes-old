@@ -31,8 +31,7 @@ Tech should be free and open
 ```
 ```col-md
 - You should have full control
-- Control
-- Transparency
+	- Data is transparent
 ```
 ````
 
