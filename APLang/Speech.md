@@ -14,6 +14,9 @@ flexGrow=1
 ## Why I Use Linux
 and why Mac and Windows just kinda suck
 
+%%
+
+
 ---
 ### Philosophy
 Tech should be free and open
