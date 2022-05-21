@@ -102,12 +102,3 @@ and never looked back since
 ### **Conclusion**
 
 ---
-- Philosophy
-	- The Arch Philosophy
-- Technical Superiority
-	- Alternatives
-	- Modularity
-- Open Source Community
-- Personal Example (how Linux changed my life)
-- Dis Windows
-- Conclusion
