@@ -105,7 +105,7 @@ Then a few years passed and I started the get into programming and noticed that 
 
 %%
 So lets get back to business to defeat the huns🎵🎵
-So, why mac just isnt that good ahem david. For one, theres not a solid app store, it doesnt allow you to customize much, takes up a lot of storage, is expensive, only runs on macs- like what if i want to run it on my own computer? Well i cant ohwell. And you simply do not get the freedom to do what you want with your computer as well as stopping me 
+So, why mac just isnt that good ahem david. For one, theres not a solid app store, it doesnt allow you to customize much, takes up a lot of storage, is expensive, only runs on macs- like what if i want to run it on my own computer? Well i cant ohwell. And you simply do not get the freedom to do what you want with your computer as well as stopping me from just removing things I dont like from 
 %%
 
 ---
