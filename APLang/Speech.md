@@ -39,7 +39,7 @@ Tech should be free and open
 
 %%
 Alright lets start off with what makes Linux different.
-Fund
+Fundamentally in the Over
 %%
 
 ---
