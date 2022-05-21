@@ -25,7 +25,8 @@ Tech should be free and open
 ````col
 ```col-md
 - Small is beautiful
-- Each thin
+- Each thing does **one** thing well
+- 
 ```
 ```col-md
 - Bloat (ads)
