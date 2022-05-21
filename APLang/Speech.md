@@ -118,7 +118,7 @@ So, why mac just isnt that good ahem david. For one, theres not a solid app stor
 
 %%
 And why windows reallllly sucks
-Well 
+Well for one: windows update, 
 
 %%
 
