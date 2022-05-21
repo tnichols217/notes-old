@@ -80,7 +80,7 @@ and why you should be a part of it
 %%
 Lastly, is control. In Linux, everything is under your own control if you want to. You could delete your whole computer in one command if you wanted to and nothing but yourself would stop you. But in Linux, everything is open sourced, this means that the original code is open for anyone to read and fix, contrary to how Mac has all of this hidden. Having open source code allows you to verify that what you want to be running is actually running and nothing extra, like data collection or ads.
 
-Other benefits of Open Source code include having a highly secure system, because all the code can be reviewed and fixed by anyone who wants to contribute. As compared to other opera
+Other benefits of Open Source code include having a highly secure system, because all the code can be reviewed and fixed by anyone who wants to contribute. As compared to other operating systems where the code cannot be seen
 %%
 
 ---
