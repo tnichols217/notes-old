@@ -84,11 +84,11 @@ Open source code also promotes good coding procedures, like using code wisely an
 %%
 
 ---
-### How I came to know Linux
+### **How I came to know Linux**
 and never looked back since
 
 ---
-### Why Mac just isn't that good
+### **Why Mac just isn't that good**
 
 - Macs have a lot of bloat and features that you won't use
 - There is a lack of customisation
@@ -96,10 +96,10 @@ and never looked back since
 - Limiting in terms of the variety of of things you can do with your system
 
 ---
-### Why Windows really sucks
+### **Why Windows really sucks**
 
 ---
-### Conclusion
+### **Conclusion**
 
 ---
 - Philosophy
