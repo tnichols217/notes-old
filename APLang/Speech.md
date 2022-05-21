@@ -132,7 +132,8 @@ And like I cant even change the colors? What if I want to change the animation f
 - Linux is technologically superior
 
 %%
-
+Alllright conclusion
+Mac is fine ig
 %%
 
 ---
