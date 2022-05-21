@@ -41,7 +41,7 @@ Fundamentally in the overarching philosophy of Linux, the main ideas are **porta
 Portability simply means that something can be taken from something and put into another. Practically, it means that everything works in a more modular type approach.
 This means that almost any part of the system can be swapped out for something else if you don't like it. Don't like the program that loads your computer when you turn it on? Just change it. Don't like how your desktop looks? Install one that looks like a Mac or make it look like windows if you want to. 
 This principle is best known in a popular quote in the Linux community "Everything is a file". In Linux, your physical hardware and whats in your computer are simply represented as files on your computer. Want to access something? Open the file. Not only does making everything a file allow ease of access to everything, but also functions as a way for completely different programs to communicate to each other: through files.
-This principle also carries down into programs that you would use on your computer. All data stored, with respect to the Linux philosophy, is **interchangeable** and **transferable** across **all** programs of its calibre. This means that any word processor (like google docs), of course following the Linux philosophy, would save the files in the same format.
+This principle also carries down into programs that you would use on your computer. All data stored, with respect to the Linux philosophy, is **interchangeable** and **transferable** across **all** programs of its calibre. This means that any word processor (like google docs for example), would save the files in the same format.
 %%
 
 ---
