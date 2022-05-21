@@ -15,7 +15,7 @@ flexGrow=1
 and why Mac and Windows just kinda suck
 
 %%
-Why I use Linux and who 
+Why I use Linux and why mac and windows just kinda suck in compariso
 %%
 
 ---
