@@ -28,12 +28,8 @@ Tech should be free and open
 ```col-md
 - **Small** is beautiful
 	- Each thing does one thing well
-```
-```col-md
 - Data should be **portable**
 	- "Everything is a file"
-```
-```col-md
 - You should have full **control**
 	- Data is transparent
 ```
