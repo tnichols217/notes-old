@@ -93,8 +93,6 @@ and never looked back since
 ### Why Mac just isn't that good
 
 - Macs have a lot of bloat and features that you won't use
-	- Space
-	- Speed
 - 
 
 ---
