@@ -120,6 +120,7 @@ So, why mac just isnt that good ahem david. For one, theres not a solid app stor
 And why windows reallllly sucks
 Well for one: windows update, need I say more?
 For two: why does my storage just slowly fill up even if I delete all my files then just run out? Like where did it all go?
+For three: 
 
 %%
 
