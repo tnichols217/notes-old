@@ -98,7 +98,7 @@ and never looked back since
 - Limiting in terms of the variety of of things you can do with your system
 
 ---
-### Why Windows kinda sucks
+### Why Windows really sucks
 
 ---
 ### Conclusion
