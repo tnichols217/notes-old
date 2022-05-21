@@ -90,7 +90,7 @@ and never looked back since
 
 %%
 How I came to know Linux
-So this is weird actually cuz a long time ago I was tasked with setting up a minecraft server. And I had this old laptop lying around and no one was using it cuz it was old and crappy. At this time it was running Windows, so I just installed the minecraft server and set it all up with my internet and everything. And you know how like websites have names and the name will point you to some server somewhere in the world? Well in the residential zones, when you connect to the internet, your IP is different every time you connect. This is bad for
+So this is weird actually cuz a long time ago I was tasked with setting up a minecraft server. And I had this old laptop lying around and no one was using it cuz it was old and crappy. At this time it was running Windows, so I just installed the minecraft server and set it all up with my internet and everything. And you know how like websites have names and the name will point you to some server somewhere in the world? Well in the residential zones, when you connect to the internet, your IP is different every time you connect. This is bad for a server because when you 
 %%
 
 ---
