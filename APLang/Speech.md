@@ -54,7 +54,8 @@ How Linux is powerful yet lightweight
 ````col
 ```col-md
 MacOS:
-16-35GB
+Install: 16-35GB
+Boot time: 
 ```
 ```col-md
 Arch Linux Install size:
