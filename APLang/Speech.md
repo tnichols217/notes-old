@@ -23,7 +23,10 @@ Tech should be free and open
 - Control
 - Transparency
 
-//a
+%%
+
+
+%%
 
 ---
 ### Technical Superiority
