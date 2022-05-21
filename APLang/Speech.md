@@ -38,8 +38,8 @@ Tech should be free and open
 ````
 
 %%
-Alright lets start off with the why.
-Why would I 
+Alright lets start off with what make
+Whats
 %%
 
 ---
