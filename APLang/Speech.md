@@ -61,8 +61,8 @@ Arch Linux Install size:
 1-5GB
 ```
 ```col-md
-Linux Server Install size:
-1-5GB
+Ubuntu Linux Server Install size:
+250MB
 ```
 ````
 
