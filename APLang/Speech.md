@@ -41,7 +41,7 @@ Fundamentally in the overarching philosophy of Linux, the main ideas are **porta
 Portability simply means that something can be taken from something and put into another. Practically, it means that everything works in a more modular type approach.
 This means that almost any part of the system can be swapped out for something else if you don't like it. Don't like the program that loads your computer when you turn it on? Just change it. Don't like how your desktop looks? Install one that looks like a Mac or make it look like windows if you want to. 
 This principle also carries down into programs that you would use on your computer. All data stored, with respect to the Linux philosophy, is interchangeable and transferable across all programs of its calibre. This means that any text editor, of course following the Linux philosophy, would save the files in the same format.
-Next is simplicity. As I mentioned earlier, a modular approach is taken to handle portability. However, it too plays a role in 
+Next is simplicity. As I mentioned earlier, a modular approach is taken to handle portability. However, it too plays a role in simplicity as well. Each program should have one func
 %%
 
 ---
