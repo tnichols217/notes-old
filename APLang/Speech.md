@@ -31,12 +31,10 @@ Tech should be free and open
 ```
 ```col-md
 - Data should be **portable**
-
-	- Everything is a file
+	- "Everything is a file"
 ```
 ```col-md
 - You should have full **control**
-
 	- Data is transparent
 ```
 ````
