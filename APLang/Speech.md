@@ -41,7 +41,7 @@ Tech should be free and open
 Alright lets start off with what makes Linux different.
 Fundamentally in the overarching philosophy of Linux, the main ideas are **portability** and **simplicity**.
 Portability simply means that something can be taken from something and put into another. Practically, it means that everything works in a more modular type approach.
-This means that almost any part of the system can be swapped o
+This means that almost any part of the system can be swapped out for something else if you don;t 
 %%
 
 ---
