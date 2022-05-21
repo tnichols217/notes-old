@@ -90,7 +90,7 @@ and never looked back since
 
 %%
 How I came to know Linux
-So 
+So this is weird actually cuz a long time ag
 %%
 
 ---
