@@ -43,6 +43,7 @@ This means that almost any part of the system can be swapped out for something e
 This principle also carries down into programs that you would use on your computer. All data stored, with respect to the Linux philosophy, is interchangeable and transferable across all programs of its calibre. This means that any text editor, of course following the Linux philosophy, would save the files in the same format.
 Next is simplicity. As I mentioned earlier, a modular approach is taken to handle portability. However, it too plays a role in simplicity as well. Each program should have one function and one function only. This allows that one program to get not only extremely good at that one thing, but also be small and optimised. This plays a large role in Linux's efficiency and speed in such a small package.
 
+Lastly, 
 %%
 
 ---
