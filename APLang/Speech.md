@@ -127,6 +127,6 @@ And like I cant even change the colors? What if I want to change the animation f
 ---
 ### **Conclusion**
 
-- Mac is 
+- Mac is ok, but only if you have money
 
 ---
