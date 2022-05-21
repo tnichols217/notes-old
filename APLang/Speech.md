@@ -117,7 +117,8 @@ So, why mac just isnt that good ahem david. For one, theres not a solid app stor
 - Why can I only change like one color in the whole system?
 
 %%
-And
+And why windows reallllly sucks
+Well 
 
 %%
 
