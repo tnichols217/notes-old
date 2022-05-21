@@ -62,10 +62,6 @@ Arch Linux:
 Install: 1-5GB
 Boot time: 5-8s
 ```
-```col-md
-Ubuntu Server Install size:
-250MB-1GB
-```
 ````
 
 - Optimised and modular architecture
