@@ -22,6 +22,11 @@ Why I use Linux and why mac and windows just kinda suck in comparison
 ### Philosophy
 Tech should be free and open
 
+````col
+```col-md
+```
+````
+
 - Bloat (ads)
 - Simplicity
 - Control
