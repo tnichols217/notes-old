@@ -133,7 +133,7 @@ And like I cant even change the colors? What if I want to change the animation f
 
 %%
 Alllright conclusion
-Mac is fine ig but only if you have a lot of money youre willing to spend, its not very customisable, but ig it is simple. It is big and getting bigger and slower 
+Mac is fine ig but only if you have a lot of money youre willing to spend, its not very customisable, but ig it is simple. It is big and getting bigger 
 %%
 
 ---
