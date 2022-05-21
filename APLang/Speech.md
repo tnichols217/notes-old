@@ -53,12 +53,12 @@ How Linux is powerful yet lightweight
 
 ````col
 ```col-md
-MacOS:
+#### MacOS
 Install: 16-35GB
 Boot time: 12s
 ```
 ```col-md
-Arch Linux:
+Arch Linux
 Install: 1-5GB
 Boot time: 5-8s
 ```
