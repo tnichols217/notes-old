@@ -90,7 +90,7 @@ and never looked back since
 
 %%
 How I came to know Linux
-So this is weird actually cuz a long time ag
+So this is weird actually cuz a long time ago I was tasked with 
 %%
 
 ---
