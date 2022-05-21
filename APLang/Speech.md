@@ -27,10 +27,10 @@ Tech should be free and open
 - Small is beautiful
 	- Each thing does **one** thing well
 - Data should be portable
-	- Everything is a file
+	- **Everything** is a file
 ```
 ```col-md
-- You should have full control
+- You should have full **control**
 	- Data is transparent
 ```
 ````
