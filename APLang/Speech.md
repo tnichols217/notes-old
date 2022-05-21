@@ -133,7 +133,7 @@ And like I cant even change the colors? What if I want to change the animation f
 
 %%
 Alllright conclusion
-Mac is fine ig
+Mac is fine ig but only if you have a lot of money youre willing to 
 %%
 
 ---
