@@ -25,9 +25,9 @@ Tech should be free and open
 ````col
 ```col-md
 - Small is beautiful
-- Each thing does **one** thing well
+	- Each thing does **one** thing well
 - Data should be portable
-- Everything is a file
+	- Everything is a file
 ```
 ```col-md
 - Bloat (ads)
