@@ -27,7 +27,7 @@ Tech should be free and open
 - Small is beautiful
 - Each thing does **one** thing well
 - Data should be portable
-- 
+- Everything is a file
 ```
 ```col-md
 - Bloat (ads)
