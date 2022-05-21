@@ -16,6 +16,8 @@ and why Mac and Windows just kinda suck
 
 %%
 Why I use Linux and why mac and windows just kinda suck in comparison
+
+But first off, wha
 %%
 
 ---
