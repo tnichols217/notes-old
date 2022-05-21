@@ -27,14 +27,14 @@ Tech should be free and open
 
 ```
 ```col-md
-
-```
-````
-
 - Bloat (ads)
 - Simplicity
 - Control
 - Transparency
+
+```
+````
+
 
 %%
 
