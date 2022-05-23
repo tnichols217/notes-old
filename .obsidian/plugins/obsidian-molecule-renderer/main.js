@@ -105,10 +105,10 @@ var ObsidianColumns = class extends import_obsidian2.Plugin {
     return __async(this, null, function* () {
       yield this.loadSettings();
       this.addSettingTab(new ObsidianColumnsSettings(this.app, this));
-      this.registerMarkdownCodeBlockProcessor(CODEBLOCK, (src, el, ctx) => {
-        let smiles = (0, import_obsidian2.request)({ url: "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/" + src + "/property/IsomericSMILES/JSON" });
+      this.registerMarkdownCodeBlockProcessor(CODEBLOCK, (src, el, ctx) => __async(this, null, function* () {
+        let smiles = yield (0, import_obsidian2.request)({ url: "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/" + src + "/property/IsomericSMILES/JSON" });
         console.log(smiles);
-      });
+      }));
     });
   }
   onunload() {
