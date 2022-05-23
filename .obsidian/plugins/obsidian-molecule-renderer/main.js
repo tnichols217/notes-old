@@ -111,7 +111,9 @@ var ObsidianColumns = class extends import_obsidian2.Plugin {
         let smiles = JSON.parse(yield (0, import_obsidian2.request)({ url: "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/" + src + "/property/IsomericSMILES/JSON" })).PropertyTable.Properties[0].IsomericSMILES;
         console.log(smiles);
         SmilesDrawer.parse(smiles, (tree) => {
-          smilesDrawer.draw(tree, "output-canvas", "light", false);
+          let a = el.createDiv();
+          a.id = "output-svg";
+          smilesDrawer.draw(tree, "output-svg", "light", false);
         }, (err) => {
           console.log(err);
         });
