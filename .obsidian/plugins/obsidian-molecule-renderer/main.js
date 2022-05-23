@@ -97,8 +97,10 @@ function saveSettings(obj, DEFAULT_SETTINGS2) {
 }
 
 // main.ts
+var SmilesDrawer = require("https://unpkg.com/smiles-drawer@1.2.0/dist/smiles-drawer.min.js");
 var NAME = "Obsidian Molecule Renderer";
 var CODEBLOCK = "molecule";
+var smilesDrawer = new SmilesDrawer.SvgDrawer();
 var DEFAULT_SETTINGS = {};
 var ObsidianColumns = class extends import_obsidian2.Plugin {
   onload() {
@@ -108,6 +110,11 @@ var ObsidianColumns = class extends import_obsidian2.Plugin {
       this.registerMarkdownCodeBlockProcessor(CODEBLOCK, (src, el, ctx) => __async(this, null, function* () {
         let smiles = JSON.parse(yield (0, import_obsidian2.request)({ url: "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/" + src + "/property/IsomericSMILES/JSON" })).PropertyTable.Properties[0].IsomericSMILES;
         console.log(smiles);
+        SmilesDrawer.parse(smiles, (tree) => {
+          smilesDrawer.draw(tree, "output-canvas", "light", false);
+        }, (err) => {
+          console.log(err);
+        });
       }));
     });
   }
