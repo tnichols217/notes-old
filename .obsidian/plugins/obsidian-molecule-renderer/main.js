@@ -106,7 +106,8 @@ var ObsidianColumns = class extends import_obsidian2.Plugin {
       yield this.loadSettings();
       this.addSettingTab(new ObsidianColumnsSettings(this.app, this));
       this.registerMarkdownCodeBlockProcessor(CODEBLOCK, (src, el, ctx) => {
-        console.log(src);
+        let smiles = (0, import_obsidian2.request)({ url: "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/" + src + "/property/IsomericSMILES/JSON" });
+        console.log(smiles);
       });
     });
   }
