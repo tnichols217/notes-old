@@ -98,12 +98,16 @@ function saveSettings(obj, DEFAULT_SETTINGS2) {
 
 // main.ts
 var NAME = "Obsidian Molecule Renderer";
+var CODEBLOCK = "molecule";
 var DEFAULT_SETTINGS = {};
 var ObsidianColumns = class extends import_obsidian2.Plugin {
   onload() {
     return __async(this, null, function* () {
       yield this.loadSettings();
       this.addSettingTab(new ObsidianColumnsSettings(this.app, this));
+      this.registerMarkdownCodeBlockProcessor(CODEBLOCK, (src, el, ctx) => {
+        console.log(src);
+      });
     });
   }
   onunload() {
