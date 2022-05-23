@@ -7145,12 +7145,12 @@ var require_app = __commonJS({
       return smiles.replace(/[^A-Za-z0-9@\.\+\-\?!\(\)\[\]\{\}/\\=#\$:\*]/g, "");
     };
     SmilesDrawer2.apply = function(options, selector = "canvas[data-smiles]", themeName = "light", onError = null) {
-      let smilesDrawer2 = new Drawer(options);
+      let smilesDrawer = new Drawer(options);
       let elements = document.querySelectorAll(selector);
       for (var i = 0; i < elements.length; i++) {
         let element = elements[i];
         SmilesDrawer2.parse(element.getAttribute("data-smiles"), function(tree) {
-          smilesDrawer2.draw(tree, element, themeName, false);
+          smilesDrawer.draw(tree, element, themeName, false);
         }, function(err) {
           if (onError) {
             onError(err);
@@ -7251,7 +7251,6 @@ function saveSettings(obj, DEFAULT_SETTINGS2) {
 var import_smiles_drawer = __toModule(require_app());
 var NAME = "Obsidian Molecule Renderer";
 var CODEBLOCK = "molecule";
-var smilesDrawer = new import_smiles_drawer.SmilesDrawer.SvgDrawer();
 var DEFAULT_SETTINGS = {};
 var ObsidianColumns = class extends import_obsidian2.Plugin {
   onload() {
@@ -7265,7 +7264,6 @@ var ObsidianColumns = class extends import_obsidian2.Plugin {
         import_smiles_drawer.SmilesDrawer.parse(smiles, (tree) => {
           let a = el.createDiv();
           a.id = "output-svg";
-          smilesDrawer.draw(tree, "output-svg", "light", false);
         }, (err) => {
           console.log(err);
         });
