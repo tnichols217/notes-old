@@ -7248,7 +7248,7 @@ function saveSettings(obj, DEFAULT_SETTINGS2) {
 }
 
 // main.ts
-var import_smiles_drawer = __toModule(require_app());
+var SmilesDrawer = __toModule(require_app());
 var NAME = "Obsidian Molecule Renderer";
 var CODEBLOCK = "molecule";
 var DEFAULT_SETTINGS = {};
@@ -7257,13 +7257,13 @@ var ObsidianColumns = class extends import_obsidian2.Plugin {
     return __async(this, null, function* () {
       yield this.loadSettings();
       this.addSettingTab(new ObsidianColumnsSettings(this.app, this));
-      console.log(import_smiles_drawer.SmilesDrawer);
+      console.log(SmilesDrawer);
       this.registerMarkdownCodeBlockProcessor(CODEBLOCK, (src, el, ctx) => __async(this, null, function* () {
         let smiles = JSON.parse(yield (0, import_obsidian2.request)({ url: "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/" + src + "/property/IsomericSMILES/JSON" })).PropertyTable.Properties[0].IsomericSMILES;
         console.log(smiles);
         let a = el.createEl("canvas");
         a.setAttribute("data-smiles", smiles);
-        import_smiles_drawer.SmilesDrawer.apply();
+        SmilesDrawer.apply();
       }));
     });
   }
