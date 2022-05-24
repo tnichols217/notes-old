@@ -7261,8 +7261,14 @@ var ObsidianColumns = class extends import_obsidian2.Plugin {
       this.registerMarkdownCodeBlockProcessor(CODEBLOCK, (src, el, ctx) => __async(this, null, function* () {
         let smiles = JSON.parse(yield (0, import_obsidian2.request)({ url: "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/" + src + "/property/IsomericSMILES/JSON" })).PropertyTable.Properties[0].IsomericSMILES;
         console.log(smiles);
+        let smilesDrawer = new SmilesDrawer.Drawer({});
         let a = el.createEl("canvas");
-        a.setAttribute("data-smiles", smiles);
+        a.id = smiles;
+        SmilesDrawer.parse(smiles, (tree) => {
+          smilesDrawer.draw(tree, smiles);
+        }, (err) => {
+          console.log(err);
+        });
         SmilesDrawer.apply();
       }));
     });
