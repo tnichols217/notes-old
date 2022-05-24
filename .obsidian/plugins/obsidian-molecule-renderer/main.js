@@ -7263,9 +7263,10 @@ var ObsidianColumns = class extends import_obsidian2.Plugin {
         console.log(smiles);
         let smilesDrawer = new SmilesDrawer.Drawer({});
         let a = el.createEl("canvas");
+        let id = smiles + Math.random() * 100;
         a.id = smiles;
         SmilesDrawer.parse(smiles, (tree) => {
-          smilesDrawer.draw(tree, smiles);
+          smilesDrawer.draw(tree, a);
         }, (err) => {
           console.log(err);
         });
