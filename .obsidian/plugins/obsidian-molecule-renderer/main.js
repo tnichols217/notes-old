@@ -7200,7 +7200,7 @@ var require_app = __commonJS({
 
 // main.ts
 __export(exports, {
-  default: () => ObsidianColumns
+  default: () => ObsidianMoleculeRenderer
 });
 var import_obsidian2 = __toModule(require("obsidian"));
 
@@ -7252,11 +7252,11 @@ var SmilesDrawer = __toModule(require_app());
 var NAME = "Obsidian Molecule Renderer";
 var CODEBLOCK = "molecule";
 var DEFAULT_SETTINGS = {};
-var ObsidianColumns = class extends import_obsidian2.Plugin {
+var ObsidianMoleculeRenderer = class extends import_obsidian2.Plugin {
   onload() {
     return __async(this, null, function* () {
       yield this.loadSettings();
-      this.addSettingTab(new ObsidianColumnsSettings(this.app, this));
+      this.addSettingTab(new ObsidianMoleculeRendererSettings(this.app, this));
       console.log(SmilesDrawer);
       this.registerMarkdownCodeBlockProcessor(CODEBLOCK, (src, el, ctx) => __async(this, null, function* () {
         let smiles = JSON.parse(yield (0, import_obsidian2.request)({ url: "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/" + src + "/property/IsomericSMILES/JSON" })).PropertyTable.Properties[0].IsomericSMILES;
@@ -7284,7 +7284,7 @@ var ObsidianColumns = class extends import_obsidian2.Plugin {
     });
   }
 };
-var ObsidianColumnsSettings = class extends import_obsidian2.PluginSettingTab {
+var ObsidianMoleculeRendererSettings = class extends import_obsidian2.PluginSettingTab {
   constructor(app, plugin) {
     super(app, plugin);
     this.plugin = plugin;

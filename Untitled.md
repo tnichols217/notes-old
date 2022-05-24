@@ -1,5 +1,5 @@
 ```molecule
-glucos
+glucose
 ```
 
 ```col
