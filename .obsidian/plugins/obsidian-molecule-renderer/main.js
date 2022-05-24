@@ -7261,11 +7261,8 @@ var ObsidianMoleculeRenderer = class extends import_obsidian2.Plugin {
       this.registerMarkdownCodeBlockProcessor(CODEBLOCK, (src, el, ctx) => __async(this, null, function* () {
         let smiles = JSON.parse(yield (0, import_obsidian2.request)({ url: "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/" + src + "/property/IsomericSMILES/JSON" })).PropertyTable.Properties[0].IsomericSMILES;
         console.log(smiles);
-        let smilesDrawer = new SmilesDrawer.SvgDrawer({});
-        let a = document.createElement("svg");
-        a.setAttribute("viewbox", "0 0 500 500");
-        a.setAttribute("xmlns", "http://www.w3.org/2000/svg");
-        el.appendChild(a);
+        let smilesDrawer = new SmilesDrawer.Drawer({});
+        let a = el.createEl("canvas");
         SmilesDrawer.parse(smiles, (tree) => {
           smilesDrawer.draw(tree, a);
         }, (err) => {
