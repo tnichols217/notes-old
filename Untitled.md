@@ -24,6 +24,6 @@ Guanosine Triphosphate
 ```
 ````
 
-| A       | B    | C                     | D      | F          | G          | H              |
-| ------- | ---- | --------------------- | ------ | ---------- | ---------- | -------------- |
-| Fitness | APCS | World Lit + Media Lit | AP Bio | CnC + Brit | CnC + Brit | Forens + SpirD |
+| A       | B    | C    | D                     | F      | G          | H              |
+| ------- | ---- | ---- | --------------------- | ------ | ---------- | -------------- |
+| Fitness | APCS | APCS | World Lit + Media Lit | AP Bio | CnC + Brit | Forens + SpirD |
