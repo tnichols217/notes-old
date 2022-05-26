@@ -7279,8 +7279,7 @@ var ObsidianMoleculeRenderer = class extends import_obsidian2.Plugin {
         let smiles = JSON.parse(yield (0, import_obsidian2.request)({ url: "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/" + src + "/property/IsomericSMILES/JSON" })).PropertyTable.Properties[0].IsomericSMILES;
         let a = el.createEl("canvas");
         a.style.width = "100%";
-        let ss = getComputedStyle(a);
-        let size = parseFloat(ss.width);
+        let size = parseFloat(getComputedStyle(a).width);
         let smilesDrawer = new SmilesDrawer.Drawer({
           width: size,
           themes: {
