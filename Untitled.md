@@ -7,9 +7,14 @@ Somatostatin 1-28
 ```
 ````
 
+````col
 ```molecule
-Teduglutide
+Adenosine Diphosphate
 ```
+```molecule
+Adenosine Triphosphate
+```
+````
 ````col
 ```molecule
 Adenosine Diphosphate
