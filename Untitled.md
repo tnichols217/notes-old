@@ -14,5 +14,5 @@ Teduglutide
 ```
 
 ```molecule
-Adenine Diphosphate
+Adenosine Diphosphate
 ```
