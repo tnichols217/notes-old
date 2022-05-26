@@ -7232,6 +7232,7 @@ function loadSettings(obj, DEFAULT_SETTINGS2) {
     if (data) {
       let items = Object.entries(data);
       items.forEach((item) => {
+        console.log(obj.settings);
         obj.settings[item[0]].value = item[1];
       });
     }
