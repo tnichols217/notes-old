@@ -7260,37 +7260,26 @@ var ObsidianMoleculeRenderer = class extends import_obsidian2.Plugin {
       let colors = {};
       let updateColor = () => __async(this, null, function* () {
         let s = getComputedStyle(document.body);
-        colors.backgroundPrimary = s.getPropertyValue("--background-primary");
-        colors.textNormal = s.getPropertyValue("--text-normal");
-        colors.textMuted = s.getPropertyValue("--text-muted");
-        colors.textAccent = s.getPropertyValue("--text-accent");
-        colors.textSelection = s.getPropertyValue("--text-selection").split(",").slice(0, 3).join(",") + ")";
-        colors.interactiveSuccess = s.getPropertyValue("--interactive-success");
-        colors.interactiveAccent = s.getPropertyValue("--interactive-accent");
-        colors.textError = s.getPropertyValue("--text-error");
-        colors.textErrorHover = s.getPropertyValue("--text-error-hover");
-        colors.textHighlightBg = s.getPropertyValue("--text-highlight-bg").split(",").slice(0, 3).join(",") + ")";
+        colors.C = s.getPropertyValue("--text-normal");
+        colors.O = s.getPropertyValue("--text-accent");
+        colors.N = s.getPropertyValue("--text-selection").split(",").slice(0, 3).join(",") + ")";
+        colors.F = s.getPropertyValue("--interactive-success");
+        colors.CL = colors.F;
+        colors.BR = s.getPropertyValue("--text-error");
+        colors.I = s.getPropertyValue("--interactive-accent");
+        colors.P = colors.BR;
+        colors.S = s.getPropertyValue("--text-highlight-bg").split(",").slice(0, 3).join(",") + ")";
+        colors.B = s.getPropertyValue("--text-error-hover");
+        colors.SI = colors.B;
+        colors.H = s.getPropertyValue("--text-muted");
+        colors.BACKGROUND = s.getPropertyValue("--background-primary");
       });
       updateColor();
       this.registerMarkdownCodeBlockProcessor(CODEBLOCK, (src, el, ctx) => __async(this, null, function* () {
         let smiles = JSON.parse(yield (0, import_obsidian2.request)({ url: "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/" + src + "/property/IsomericSMILES/JSON" })).PropertyTable.Properties[0].IsomericSMILES;
         let smilesDrawer = new SmilesDrawer.Drawer({
           themes: {
-            light: {
-              C: colors.textNormal,
-              O: colors.textAccent,
-              N: colors.textSelection,
-              F: colors.interactiveSuccess,
-              CL: colors.interactiveSuccess,
-              BR: colors.textError,
-              I: colors.interactiveAccent,
-              P: colors.textError,
-              S: colors.textHighlightBg,
-              B: colors.textErrorHover,
-              SI: colors.textErrorHover,
-              H: colors.textMuted,
-              BACKGROUND: colors.backgroundPrimary
-            }
+            light: colors
           }
         });
         let a = el.createEl("canvas");
