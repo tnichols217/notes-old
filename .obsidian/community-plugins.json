@@ -26,5 +26,6 @@
   "obsidian-external-embed",
   "obsidian-full-calendar",
   "obsidian-desmos",
-  "buttons"
+  "buttons",
+  "obsidian-molecule-renderer"
 ]
