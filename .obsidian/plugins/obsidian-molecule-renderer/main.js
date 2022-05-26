@@ -7268,7 +7268,7 @@ var ObsidianMoleculeRenderer = class extends import_obsidian2.Plugin {
         colors.textMuted = s.getPropertyValue("--text-muted");
         colors.textAccent = s.getPropertyValue("--text-accent");
         colors.textOnAccent = s.getPropertyValue("--text-on-accent");
-        colors.textSelection = s.getPropertyValue("--text-selection").slice(0, 6);
+        colors.textSelection = s.getPropertyValue("--text-selection").slice(0, 7);
         colors.interactiveSuccess = s.getPropertyValue("--interactive-success");
         colors.textError = s.getPropertyValue("--text-error");
         colors.textErrorHover = s.getPropertyValue("--text-error-hover");
@@ -7276,7 +7276,6 @@ var ObsidianMoleculeRenderer = class extends import_obsidian2.Plugin {
       updateColor();
       this.registerMarkdownCodeBlockProcessor(CODEBLOCK, (src, el, ctx) => __async(this, null, function* () {
         let smiles = JSON.parse(yield (0, import_obsidian2.request)({ url: "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/" + src + "/property/IsomericSMILES/JSON" })).PropertyTable.Properties[0].IsomericSMILES;
-        console.log(smiles);
         let smilesDrawer = new SmilesDrawer.Drawer({
           themes: {
             light: {
