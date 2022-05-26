@@ -1,5 +1,4 @@
 ````col
-
 ```molecule
 SOMATOSTATIN
 ```
