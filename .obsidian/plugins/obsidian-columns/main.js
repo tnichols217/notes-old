@@ -55,6 +55,20 @@ var import_obsidian2 = __toModule(require("obsidian"));
 
 // obsidian-settings/settings.ts
 var import_obsidian = __toModule(require("obsidian"));
+var parseBoolean = (value) => {
+  return value == "yes" || value == "true";
+};
+var parseObject = (value, typ) => {
+  if (typ == "string") {
+    return value;
+  }
+  if (typ == "boolean") {
+    return parseBoolean(value);
+  }
+  if (typ == "number") {
+    return parseFloat(value);
+  }
+};
 function display(obj, DEFAULT_SETTINGS2, name) {
   const { containerEl } = obj;
   containerEl.empty();
@@ -69,7 +83,7 @@ function display(obj, DEFAULT_SETTINGS2, name) {
       }));
     } else {
       setting.addText((text) => text.setPlaceholder(String(keyval[1].value)).setValue(String(obj.plugin.settings[keyval[0]].value)).onChange((value) => {
-        obj.plugin.settings[keyval[0]].value = obj.plugin.parseObject(value, typeof keyval[1].value);
+        obj.plugin.settings[keyval[0]].value = parseObject(value, typeof keyval[1].value);
         obj.plugin.saveSettings();
       }));
     }
@@ -134,20 +148,6 @@ var ObsidianColumns = class extends import_obsidian2.Plugin {
     };
     this.applyStyle = (el, styles) => {
       Object.assign(el.style, styles);
-    };
-    this.parseBoolean = (value) => {
-      return value == "yes" || value == "true";
-    };
-    this.parseObject = (value, typ) => {
-      if (typ == "string") {
-        return value;
-      }
-      if (typ == "boolean") {
-        return this.parseBoolean(value);
-      }
-      if (typ == "number") {
-        return parseFloat(value);
-      }
     };
     this.processChild = (c) => {
       if (c.firstChild != null && "tagName" in c.firstChild && c.firstChild.tagName == "BR") {
