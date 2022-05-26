@@ -7280,6 +7280,14 @@ var ObsidianMoleculeRenderer = class extends import_obsidian2.Plugin {
         if ("Fault" in req) {
           let a = el.createEl("h1");
           a.innerText = "Chemical Not found";
+          a = el.createEl("h2");
+          a.innerText = "Similar Chemicals include:";
+          let suggestions = JSON.parse(yield (0, import_obsidian2.request)({ url: "https://pubchem.ncbi.nlm.nih.gov/rest/autocomplete/compound/" + src })).dictionary_terms.compound;
+          let b = el.createEl("ol");
+          for (let i of suggestions) {
+            let c = b.createEl("li");
+            c.innerText = i;
+          }
         } else {
           let smiles = req.PropertyTable.Properties[0].IsomericSMILES;
           let a = el.createEl("canvas");
