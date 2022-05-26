@@ -3129,7 +3129,7 @@ var require_Drawer = __commonJS({
     var Graph = require_Graph();
     var SSSR = require_SSSR();
     var ThemeManager = require_ThemeManager();
-    var Drawer = class {
+    var Drawer2 = class {
       constructor(options) {
         this.graph = null;
         this.doubleBondConfigCount = 0;
@@ -5036,7 +5036,7 @@ var require_Drawer = __commonJS({
         }
       }
     };
-    module2.exports = Drawer;
+    module2.exports = Drawer2;
   }
 });
 
@@ -6927,15 +6927,15 @@ var require_SvgDrawer = __commonJS({
   "node_modules/smiles-drawer/src/SvgDrawer.js"(exports, module2) {
     var ArrayHelper = require_ArrayHelper();
     var Atom = require_Atom();
-    var Drawer = require_Drawer();
+    var Drawer2 = require_Drawer();
     var Graph = require_Graph();
     var Line = require_Line();
     var SvgWrapper = require_SvgWrapper();
     var ThemeManager = require_ThemeManager();
     var Vector2 = require_Vector2();
-    var SvgDrawer2 = class {
+    var SvgDrawer = class {
       constructor(options) {
-        this.preprocessor = new Drawer(options);
+        this.preprocessor = new Drawer2(options);
       }
       draw(data, target, themeName = "light", infoOnly = false) {
         let preprocessor = this.preprocessor;
@@ -7124,28 +7124,28 @@ var require_SvgDrawer = __commonJS({
         normals[1].multiplyScalar(spacing);
       }
     };
-    module2.exports = SvgDrawer2;
+    module2.exports = SvgDrawer;
   }
 });
 
 // node_modules/smiles-drawer/app.js
 var require_app = __commonJS({
   "node_modules/smiles-drawer/app.js"(exports, module2) {
-    var Drawer = require_Drawer();
+    var Drawer2 = require_Drawer();
     var Parser = require_Parser();
-    var SvgDrawer2 = require_SvgDrawer();
+    var SvgDrawer = require_SvgDrawer();
     var canUseDOM = !!(typeof window !== "undefined" && window.document && window.document.createElement);
     var SmilesDrawer2 = {
       Version: "1.0.0"
     };
-    SmilesDrawer2.Drawer = Drawer;
+    SmilesDrawer2.Drawer = Drawer2;
     SmilesDrawer2.Parser = Parser;
-    SmilesDrawer2.SvgDrawer = SvgDrawer2;
+    SmilesDrawer2.SvgDrawer = SvgDrawer;
     SmilesDrawer2.clean = function(smiles) {
       return smiles.replace(/[^A-Za-z0-9@\.\+\-\?!\(\)\[\]\{\}/\\=#\$:\*]/g, "");
     };
     SmilesDrawer2.apply = function(options, selector = "canvas[data-smiles]", themeName = "light", onError = null) {
-      let smilesDrawer = new Drawer(options);
+      let smilesDrawer = new Drawer2(options);
       let elements = document.querySelectorAll(selector);
       for (var i = 0; i < elements.length; i++) {
         let element = elements[i];
@@ -7306,10 +7306,10 @@ var ObsidianMoleculeRenderer = class extends import_obsidian2.Plugin {
           }
         } else {
           let smiles = req.PropertyTable.Properties[0].IsomericSMILES;
-          let canvas = el.createEl("svg");
+          let canvas = el.createEl("canvas");
           canvas.style.width = "100%";
           let size = Math.round(parseFloat(getComputedStyle(canvas).width));
-          let smilesDrawer = new SmilesDrawer.SvgDrawer({
+          let smilesDrawer = new SmilesDrawer.Drawer({
             width: size,
             height: size,
             themes: {
