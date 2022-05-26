@@ -7306,7 +7306,7 @@ var ObsidianMoleculeRenderer = class extends import_obsidian2.Plugin {
           }
         } else {
           let smiles = req.PropertyTable.Properties[0].IsomericSMILES;
-          let canvas = el.createEl("canvas");
+          let canvas = el.createEl("svg");
           canvas.style.width = "100%";
           let size = parseFloat(getComputedStyle(canvas).width);
           let smilesDrawer = new SmilesDrawer.SvgDrawer({
