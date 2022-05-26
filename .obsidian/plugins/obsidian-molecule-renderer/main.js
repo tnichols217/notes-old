@@ -7261,17 +7261,15 @@ var ObsidianMoleculeRenderer = class extends import_obsidian2.Plugin {
       let updateColor = () => __async(this, null, function* () {
         let s = getComputedStyle(document.body);
         colors.backgroundPrimary = s.getPropertyValue("--background-primary");
-        colors.backgroundPrimaryAlt = s.getPropertyValue("--background-primary-alt");
-        colors.backgroundSecondary = s.getPropertyValue("--background-secondary");
-        colors.backgroundSecondaryAlt = s.getPropertyValue("--background-secondary-alt");
         colors.textNormal = s.getPropertyValue("--text-normal");
         colors.textMuted = s.getPropertyValue("--text-muted");
         colors.textAccent = s.getPropertyValue("--text-accent");
-        colors.textOnAccent = s.getPropertyValue("--text-on-accent");
         colors.textSelection = s.getPropertyValue("--text-selection").split(",").slice(0, 3).join(",") + ")";
         colors.interactiveSuccess = s.getPropertyValue("--interactive-success");
+        colors.interactiveAccent = s.getPropertyValue("--interactive-accent");
         colors.textError = s.getPropertyValue("--text-error");
         colors.textErrorHover = s.getPropertyValue("--text-error-hover");
+        colors.textHighlightBg = s.getPropertyValue("--text-highlight-bg").split(",").slice(0, 3).join(",") + ")";
       });
       updateColor();
       this.registerMarkdownCodeBlockProcessor(CODEBLOCK, (src, el, ctx) => __async(this, null, function* () {
@@ -7285,9 +7283,9 @@ var ObsidianMoleculeRenderer = class extends import_obsidian2.Plugin {
               F: colors.interactiveSuccess,
               CL: colors.interactiveSuccess,
               BR: colors.textError,
-              I: "#8e44ad",
+              I: colors.interactiveAccent,
               P: colors.textError,
-              S: "#f1c40f",
+              S: colors.textHighlightBg,
               B: colors.textErrorHover,
               SI: colors.textErrorHover,
               H: colors.textMuted,
