@@ -7277,13 +7277,16 @@ var ObsidianMoleculeRenderer = class extends import_obsidian2.Plugin {
       updateColor();
       this.registerMarkdownCodeBlockProcessor(CODEBLOCK, (src, el, ctx) => __async(this, null, function* () {
         let smiles = JSON.parse(yield (0, import_obsidian2.request)({ url: "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/" + src + "/property/IsomericSMILES/JSON" })).PropertyTable.Properties[0].IsomericSMILES;
+        let a = el.createEl("canvas");
+        a.style.width = "100%";
+        let ss = getComputedStyle(a);
+        let size = ss.width;
         let smilesDrawer = new SmilesDrawer.Drawer({
+          width: size,
           themes: {
             light: colors
           }
         });
-        let a = el.createEl("canvas");
-        a.style.width = "100%";
         SmilesDrawer.parse(smiles, (tree) => {
           smilesDrawer.draw(tree, a);
         }, (err) => {
