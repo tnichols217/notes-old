@@ -7269,6 +7269,7 @@ var ObsidianMoleculeRenderer = class extends import_obsidian2.Plugin {
         colors.textAccent = s.getPropertyValue("--text-accent");
         colors.textOnAccent = s.getPropertyValue("--text-on-accent");
         colors.textSelection = s.getPropertyValue("--text-selection");
+        colors.interactiveSuccess = s.getPropertyValue("--interactive-success");
       });
       updateColor();
       this.registerMarkdownCodeBlockProcessor(CODEBLOCK, (src, el, ctx) => __async(this, null, function* () {
@@ -7279,7 +7280,9 @@ var ObsidianMoleculeRenderer = class extends import_obsidian2.Plugin {
             light: {
               C: colors.textNormal,
               O: colors.textAccent,
-              N: colors.textMuted
+              N: colors.textMuted,
+              H: colors.interactiveSuccess,
+              BACKGROUND: colors.backgroundPrimary
             }
           }
         });
