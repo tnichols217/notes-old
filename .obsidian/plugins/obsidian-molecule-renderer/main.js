@@ -7309,7 +7309,7 @@ var ObsidianMoleculeRenderer = class extends import_obsidian2.Plugin {
           let canvas = el.createEl("svg");
           canvas.style.width = "100%";
           canvas.id = smiles;
-          let size = parseFloat(getComputedStyle(canvas).width);
+          let size = Math.round(parseFloat(getComputedStyle(canvas).width));
           let smilesDrawer = new SmilesDrawer.SvgDrawer({
             width: size,
             height: size,
