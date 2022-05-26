@@ -7278,6 +7278,7 @@ var ObsidianMoleculeRenderer = class extends import_obsidian2.Plugin {
       this.registerMarkdownCodeBlockProcessor(CODEBLOCK, (src, el, ctx) => __async(this, null, function* () {
         let smiles = JSON.parse(yield (0, import_obsidian2.request)({ url: "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/" + src + "/property/IsomericSMILES/JSON" })).PropertyTable.Properties[0].IsomericSMILES;
         let smilesDrawer = new SmilesDrawer.Drawer({
+          width: "100%",
           themes: {
             light: colors
           }
