@@ -7295,6 +7295,7 @@ var ObsidianMoleculeRenderer = class extends import_obsidian2.Plugin {
           let size = parseFloat(getComputedStyle(a).width);
           let smilesDrawer = new SmilesDrawer.Drawer({
             width: size,
+            height: size,
             themes: {
               light: colors
             }
