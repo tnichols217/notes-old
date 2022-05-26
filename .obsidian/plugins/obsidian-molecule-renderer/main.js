@@ -7286,7 +7286,7 @@ var ObsidianMoleculeRenderer = class extends import_obsidian2.Plugin {
           let b = el.createEl("ol");
           for (let i of suggestions) {
             let c = b.createEl("li");
-            c.innerText = i;
+            c.innerText = i.toLowerCase();
           }
         } else {
           let smiles = req.PropertyTable.Properties[0].IsomericSMILES;
