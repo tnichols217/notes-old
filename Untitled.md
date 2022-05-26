@@ -24,5 +24,6 @@ Guanosine Triphosphate
 ```
 ````
 
-```molecul
+```molecule
+glucose
 ```
