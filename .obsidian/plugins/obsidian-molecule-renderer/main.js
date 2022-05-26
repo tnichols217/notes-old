@@ -7268,8 +7268,10 @@ var ObsidianMoleculeRenderer = class extends import_obsidian2.Plugin {
         colors.textMuted = s.getPropertyValue("--text-muted");
         colors.textAccent = s.getPropertyValue("--text-accent");
         colors.textOnAccent = s.getPropertyValue("--text-on-accent");
-        colors.textSelection = s.getPropertyValue("--text-selection");
+        colors.textSelection = s.getPropertyValue("--text-selection").slice(0, 6);
         colors.interactiveSuccess = s.getPropertyValue("--interactive-success");
+        colors.textError = s.getPropertyValue("--text-error");
+        colors.textErrorHover = s.getPropertyValue("--text-error-hover");
       });
       updateColor();
       this.registerMarkdownCodeBlockProcessor(CODEBLOCK, (src, el, ctx) => __async(this, null, function* () {
@@ -7280,8 +7282,16 @@ var ObsidianMoleculeRenderer = class extends import_obsidian2.Plugin {
             light: {
               C: colors.textNormal,
               O: colors.textAccent,
-              N: colors.textMuted,
-              H: colors.interactiveSuccess,
+              N: colors.textSelection,
+              F: colors.interactiveSuccess,
+              CL: colors.interactiveSuccess,
+              BR: colors.textError,
+              I: "#8e44ad",
+              P: colors.textError,
+              S: "#f1c40f",
+              B: colors.textErrorHover,
+              SI: colors.textErrorHover,
+              H: colors.textMuted,
               BACKGROUND: colors.backgroundPrimary
             }
           }
