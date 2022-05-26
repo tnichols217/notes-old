@@ -3129,7 +3129,7 @@ var require_Drawer = __commonJS({
     var Graph = require_Graph();
     var SSSR = require_SSSR();
     var ThemeManager = require_ThemeManager();
-    var Drawer = class {
+    var Drawer2 = class {
       constructor(options) {
         this.graph = null;
         this.doubleBondConfigCount = 0;
@@ -5036,7 +5036,7 @@ var require_Drawer = __commonJS({
         }
       }
     };
-    module2.exports = Drawer;
+    module2.exports = Drawer2;
   }
 });
 
@@ -6927,7 +6927,7 @@ var require_SvgDrawer = __commonJS({
   "node_modules/smiles-drawer/src/SvgDrawer.js"(exports, module2) {
     var ArrayHelper = require_ArrayHelper();
     var Atom = require_Atom();
-    var Drawer = require_Drawer();
+    var Drawer2 = require_Drawer();
     var Graph = require_Graph();
     var Line = require_Line();
     var SvgWrapper = require_SvgWrapper();
@@ -6935,7 +6935,7 @@ var require_SvgDrawer = __commonJS({
     var Vector2 = require_Vector2();
     var SvgDrawer = class {
       constructor(options) {
-        this.preprocessor = new Drawer(options);
+        this.preprocessor = new Drawer2(options);
       }
       draw(data, target, themeName = "light", infoOnly = false) {
         let preprocessor = this.preprocessor;
@@ -7131,21 +7131,21 @@ var require_SvgDrawer = __commonJS({
 // node_modules/smiles-drawer/app.js
 var require_app = __commonJS({
   "node_modules/smiles-drawer/app.js"(exports, module2) {
-    var Drawer = require_Drawer();
+    var Drawer2 = require_Drawer();
     var Parser = require_Parser();
     var SvgDrawer = require_SvgDrawer();
     var canUseDOM = !!(typeof window !== "undefined" && window.document && window.document.createElement);
     var SmilesDrawer2 = {
       Version: "1.0.0"
     };
-    SmilesDrawer2.Drawer = Drawer;
+    SmilesDrawer2.Drawer = Drawer2;
     SmilesDrawer2.Parser = Parser;
     SmilesDrawer2.SvgDrawer = SvgDrawer;
     SmilesDrawer2.clean = function(smiles) {
       return smiles.replace(/[^A-Za-z0-9@\.\+\-\?!\(\)\[\]\{\}/\\=#\$:\*]/g, "");
     };
     SmilesDrawer2.apply = function(options, selector = "canvas[data-smiles]", themeName = "light", onError = null) {
-      let smilesDrawer = new Drawer(options);
+      let smilesDrawer = new Drawer2(options);
       let elements = document.querySelectorAll(selector);
       for (var i = 0; i < elements.length; i++) {
         let element = elements[i];
@@ -7257,11 +7257,32 @@ var ObsidianMoleculeRenderer = class extends import_obsidian2.Plugin {
     return __async(this, null, function* () {
       yield this.loadSettings();
       this.addSettingTab(new ObsidianMoleculeRendererSettings(this.app, this));
-      console.log(SmilesDrawer);
+      let colors = {};
+      let updateColor = () => __async(this, null, function* () {
+        let s = getComputedStyle(document.body);
+        colors.backgroundPrimary = s.getPropertyValue("--background-primary");
+        colors.backgroundPrimaryAlt = s.getPropertyValue("--background-primary-alt");
+        colors.backgroundSecondary = s.getPropertyValue("--background-secondary");
+        colors.backgroundSecondaryAlt = s.getPropertyValue("--background-secondary-alt");
+        colors.textNormal = s.getPropertyValue("--text-normal");
+        colors.textMuted = s.getPropertyValue("--text-muted");
+        colors.textAccent = s.getPropertyValue("--text-accent");
+        colors.textOnAccent = s.getPropertyValue("--text-on-accent");
+        colors.textSelection = s.getPropertyValue("--text-selection");
+      });
+      updateColor();
       this.registerMarkdownCodeBlockProcessor(CODEBLOCK, (src, el, ctx) => __async(this, null, function* () {
         let smiles = JSON.parse(yield (0, import_obsidian2.request)({ url: "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/" + src + "/property/IsomericSMILES/JSON" })).PropertyTable.Properties[0].IsomericSMILES;
         console.log(smiles);
-        let smilesDrawer = new SmilesDrawer.Drawer({});
+        let smilesDrawer = new SmilesDrawer.Drawer({
+          themes: {
+            light: {
+              C: colors.textNormal,
+              O: colors.textAccent,
+              N: colors.textMuted
+            }
+          }
+        });
         let a = el.createEl("canvas");
         SmilesDrawer.parse(smiles, (tree) => {
           smilesDrawer.draw(tree, a);
