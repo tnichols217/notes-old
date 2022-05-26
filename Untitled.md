@@ -1,5 +1,5 @@
 ```molecule
-glucose
+Somatostatin 1-28
 ```
 
 ```col
