@@ -17,14 +17,6 @@ Adenosine Triphosphate
 ````
 ````col
 ```molecule
-Adenosine Diphosphate
-```
-```molecule
-Adenosine Triphosphate
-```
-````
-````col
-```molecule
 Guanosine Diphosphate
 ```
 ```molecule
