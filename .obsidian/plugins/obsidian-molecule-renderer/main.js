@@ -7278,21 +7278,21 @@ var ObsidianMoleculeRenderer = class extends import_obsidian2.Plugin {
       this.registerMarkdownCodeBlockProcessor(CODEBLOCK, (src, el, ctx) => __async(this, null, function* () {
         let req = JSON.parse(yield (0, import_obsidian2.request)({ url: "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/" + src + "/property/IsomericSMILES/JSON" }));
         if ("Fault" in req) {
-          let a = el.createEl("h1");
-          a.innerText = "Chemical Not found";
-          a = el.createEl("h2");
-          a.innerText = "Similar Chemicals include:";
+          let heading = el.createEl("h1");
+          heading.innerText = "Chemical Not found";
+          heading = el.createEl("h2");
+          heading.innerText = "Similar Chemicals include:";
           let suggestions = JSON.parse(yield (0, import_obsidian2.request)({ url: "https://pubchem.ncbi.nlm.nih.gov/rest/autocomplete/compound/" + src })).dictionary_terms.compound;
-          let b = el.createEl("ol");
+          let list = el.createEl("ol");
           for (let i of suggestions) {
-            let c = b.createEl("li");
-            c.innerText = i.toLowerCase();
+            let item = list.createEl("li");
+            item.innerText = i.toLowerCase();
           }
         } else {
           let smiles = req.PropertyTable.Properties[0].IsomericSMILES;
-          let a = el.createEl("canvas");
-          a.style.width = "100%";
-          let size = parseFloat(getComputedStyle(a).width);
+          let canvas = el.createEl("canvas");
+          canvas.style.width = "100%";
+          let size = parseFloat(getComputedStyle(canvas).width);
           let smilesDrawer = new SmilesDrawer.Drawer({
             width: size,
             height: size,
@@ -7301,7 +7301,7 @@ var ObsidianMoleculeRenderer = class extends import_obsidian2.Plugin {
             }
           });
           SmilesDrawer.parse(smiles, (tree) => {
-            smilesDrawer.draw(tree, a);
+            smilesDrawer.draw(tree, canvas);
           }, (err) => {
             console.log(err);
           });
