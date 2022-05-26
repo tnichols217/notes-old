@@ -23,7 +23,3 @@ Guanosine Diphosphate
 Guanosine Triphosphate
 ```
 ````
-
-```col-md
-- [ ] a
-```
