@@ -10,5 +10,5 @@ Somatostatin 1-28
 ```
 
 ```molecule
-# Teduglutide
+Teduglutide
 ```
