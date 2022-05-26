@@ -7252,7 +7252,7 @@ var SmilesDrawer = __toModule(require_app());
 var NAME = "Obsidian Molecule Renderer";
 var CODEBLOCK = "molecule";
 var DEFAULT_SETTINGS = {
-  a: { value: "a" }
+  a: { value: "a", name: "a", desc: "a" }
 };
 var ObsidianMoleculeRenderer = class extends import_obsidian2.Plugin {
   onload() {
