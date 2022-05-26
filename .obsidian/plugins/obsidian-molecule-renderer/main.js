@@ -7308,7 +7308,6 @@ var ObsidianMoleculeRenderer = class extends import_obsidian2.Plugin {
           let smiles = req.PropertyTable.Properties[0].IsomericSMILES;
           let canvas = el.createEl("svg");
           canvas.style.width = "100%";
-          canvas.id = smiles;
           let size = Math.round(parseFloat(getComputedStyle(canvas).width));
           let smilesDrawer = new SmilesDrawer.SvgDrawer({
             width: size,
@@ -7318,7 +7317,7 @@ var ObsidianMoleculeRenderer = class extends import_obsidian2.Plugin {
             }
           });
           SmilesDrawer.parse(smiles, (tree) => {
-            smilesDrawer.draw(tree, smiles);
+            smilesDrawer.draw(tree, canvas);
           }, (err) => {
             console.log(err);
           });
