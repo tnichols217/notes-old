@@ -9,7 +9,7 @@
   "vimMode": false,
   "pdfExportSettings": {
     "pageSize": "A4",
-    "landscape": true,
+    "landscape": false,
     "margin": "2",
     "downscalePercent": 100
   },
