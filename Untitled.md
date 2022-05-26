@@ -1,5 +1,5 @@
 ```molecule
-Somatost
+SOMATOSTATIN
 ```
 ```molecule
 Somatostatin 1-28
