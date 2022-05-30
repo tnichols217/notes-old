@@ -10,5 +10,6 @@
 C1Cc
 ```
 
-```molecu
+```molecule
+glucose
 ```
