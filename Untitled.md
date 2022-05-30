@@ -6,7 +6,7 @@
 | Study | Media Lit + Forens | Cap + SpirD | Fitness               | AP Bio        | CnC        | Adv C            |
 | Study | Media Lit + Forens |             |                       |               |            |                  |
 
-```smiles
+```moleculme
 C(CC(=O)O)[C@@H](C(=O)O)N
 ```
 

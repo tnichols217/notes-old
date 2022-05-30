@@ -7265,7 +7265,7 @@ function saveSettings(obj, DEFAULT_SETTINGS2) {
 var SmilesDrawer = __toModule(require_app());
 var NAME = "Obsidian Molecule Renderer";
 var CODEBLOCK = "molecule";
-var SMILES = "smiles";
+var SMILES = "mmolecule";
 var DEFAULT_SETTINGS = {
   a: { value: "a", name: "a", desc: "a" }
 };
