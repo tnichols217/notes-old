@@ -7270,10 +7270,6 @@ var DEFAULT_SETTINGS = {
   a: { value: "a", name: "a", desc: "a" }
 };
 var ObsidianMoleculeRenderer = class extends import_obsidian2.Plugin {
-  constructor() {
-    super(...arguments);
-    this.renderers = [];
-  }
   onload() {
     return __async(this, null, function* () {
       yield this.loadSettings();
