@@ -7,5 +7,8 @@
 | Study | Media Lit + Forens |             |                       |               |            |                  |
 
 ```smiles
-C1C
+C1Cc
+```
+
+```molecu
 ```
