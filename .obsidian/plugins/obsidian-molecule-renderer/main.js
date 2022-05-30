@@ -7265,6 +7265,7 @@ function saveSettings(obj, DEFAULT_SETTINGS2) {
 var SmilesDrawer = __toModule(require_app());
 var NAME = "Obsidian Molecule Renderer";
 var CODEBLOCK = "molecule";
+var SMILES = "smiles";
 var DEFAULT_SETTINGS = {
   a: { value: "a", name: "a", desc: "a" }
 };
@@ -7291,6 +7292,23 @@ var ObsidianMoleculeRenderer = class extends import_obsidian2.Plugin {
         colors.BACKGROUND = s.getPropertyValue("--background-primary");
       });
       updateColor();
+      let renderSMILES = (smiles, el) => {
+        let canvas = el.createEl("canvas");
+        canvas.style.width = "100%";
+        let size = Math.round(parseFloat(getComputedStyle(canvas).width));
+        let smilesDrawer = new SmilesDrawer.Drawer({
+          width: size,
+          height: size,
+          themes: {
+            light: colors
+          }
+        });
+        SmilesDrawer.parse(smiles, (tree) => {
+          smilesDrawer.draw(tree, canvas);
+        }, (err) => {
+          console.log(err);
+        });
+      };
       this.registerMarkdownCodeBlockProcessor(CODEBLOCK, (src, el, ctx) => __async(this, null, function* () {
         let req = JSON.parse(yield (0, import_obsidian2.request)({ url: "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/" + src + "/property/IsomericSMILES/JSON" }));
         if ("Fault" in req) {
@@ -7306,22 +7324,11 @@ var ObsidianMoleculeRenderer = class extends import_obsidian2.Plugin {
           }
         } else {
           let smiles = req.PropertyTable.Properties[0].IsomericSMILES;
-          let canvas = el.createEl("canvas");
-          canvas.style.width = "100%";
-          let size = Math.round(parseFloat(getComputedStyle(canvas).width));
-          let smilesDrawer = new SmilesDrawer.Drawer({
-            width: size,
-            height: size,
-            themes: {
-              light: colors
-            }
-          });
-          SmilesDrawer.parse(smiles, (tree) => {
-            smilesDrawer.draw(tree, canvas);
-          }, (err) => {
-            console.log(err);
-          });
+          renderSMILES(smiles, el);
         }
+      }));
+      this.registerMarkdownCodeBlockProcessor(SMILES, (smiles, el, ctx) => __async(this, null, function* () {
+        renderSMILES(smiles, el);
       }));
     });
   }
