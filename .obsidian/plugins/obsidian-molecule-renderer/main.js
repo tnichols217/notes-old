@@ -7335,12 +7335,13 @@ var ObsidianMoleculeRenderer = class extends import_obsidian2.Plugin {
                 item.innerText = i.toLowerCase();
               }
             }
+            resolve();
           } else {
             let smiles = req.PropertyTable.Properties[0].IsomericSMILES;
             console.log(smiles);
             smiles = "C(CC(=O)O)[C@@H](C(=O)O)N";
             this.lastRenderer = renderSMILES(smiles, el);
-            return this.lastRenderer;
+            this.lastRenderer.then(resolve).catch(reject);
           }
         }));
       }));
