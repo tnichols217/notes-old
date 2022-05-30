@@ -7292,7 +7292,7 @@ var ObsidianMoleculeRenderer = class extends import_obsidian2.Plugin {
         colors.BACKGROUND = s.getPropertyValue("--background-primary");
       });
       updateColor();
-      let renderSMILES = (smiles, el) => {
+      let renderSMILES = (smiles, el) => __async(this, null, function* () {
         console.log(colors);
         let canvas = el.createEl("canvas");
         canvas.style.width = "100%";
@@ -7304,12 +7304,12 @@ var ObsidianMoleculeRenderer = class extends import_obsidian2.Plugin {
             light: colors
           }
         });
-        SmilesDrawer.parse(smiles, (tree) => {
-          smilesDrawer.draw(tree, canvas);
-        }, (err) => {
+        SmilesDrawer.parse(smiles, (tree) => __async(this, null, function* () {
+          yield smilesDrawer.draw(tree, canvas);
+        }), (err) => {
           console.log(err);
         });
-      };
+      });
       this.registerMarkdownCodeBlockProcessor(CODEBLOCK, (src, el, ctx) => __async(this, null, function* () {
         let req = JSON.parse(yield (0, import_obsidian2.request)({ url: "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/" + src + "/property/IsomericSMILES/JSON" }));
         if ("Fault" in req) {
@@ -7330,7 +7330,7 @@ var ObsidianMoleculeRenderer = class extends import_obsidian2.Plugin {
           let smiles = req.PropertyTable.Properties[0].IsomericSMILES;
           console.log(smiles);
           smiles = "C(CC(=O)O)[C@@H](C(=O)O)N";
-          renderSMILES(smiles, el);
+          yield renderSMILES(smiles, el);
         }
       }));
       this.registerMarkdownCodeBlockProcessor("smiles", (src, el, ctx) => __async(this, null, function* () {
@@ -7353,7 +7353,7 @@ var ObsidianMoleculeRenderer = class extends import_obsidian2.Plugin {
           let smiles = req.PropertyTable.Properties[0].IsomericSMILES;
           console.log(smiles);
           smiles = "C(CC(=O)O)[C@@H](C(=O)O)N";
-          renderSMILES(smiles, el);
+          yield renderSMILES(smiles, el);
         }
       }));
       this.registerMarkdownCodeBlockProcessor(SMILES, (src, el, ctx) => __async(this, null, function* () {
