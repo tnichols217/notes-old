@@ -9,3 +9,10 @@
 ```smiles
 C(CC(=O)O)[C@@H](C(=O)O)N
 ```
+
+```smiles
+C(CC(=O)O)[C@@H](C(=O)O)N
+```
+
+```molecul
+```
