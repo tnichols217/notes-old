@@ -22,4 +22,4 @@ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 > - 2
 > - 3
 
-[googl]
+[google.com]
