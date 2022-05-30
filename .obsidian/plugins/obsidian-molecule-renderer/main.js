@@ -7311,7 +7311,10 @@ var ObsidianMoleculeRenderer = class extends import_obsidian2.Plugin {
           });
           SmilesDrawer.parse(smiles, (tree) => __async(this, null, function* () {
             yield this.lastRenderer;
-            yield smilesDrawer.draw(tree, canvas);
+            this.lastRenderer = new Promise((resolve2, reject2) => __async(this, null, function* () {
+              yield smilesDrawer.draw(tree, canvas);
+              resolve2();
+            }));
             resolve();
           }), (err) => {
             reject(err);
