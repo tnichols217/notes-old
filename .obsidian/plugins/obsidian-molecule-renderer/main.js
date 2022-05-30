@@ -7328,6 +7328,7 @@ var ObsidianMoleculeRenderer = class extends import_obsidian2.Plugin {
         } else {
           let smiles = req.PropertyTable.Properties[0].IsomericSMILES;
           console.log(smiles);
+          smiles = "C(CC(=O)O)[C@@H](C(=O)O)N";
           renderSMILES(smiles, el);
         }
       }));
