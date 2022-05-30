@@ -7334,7 +7334,6 @@ var ObsidianMoleculeRenderer = class extends import_obsidian2.Plugin {
         }
       }));
       this.registerMarkdownCodeBlockProcessor(SMILES, (src, el, ctx) => __async(this, null, function* () {
-        let req = JSON.parse(yield (0, import_obsidian2.request)({ url: "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/" + src + "/property/IsomericSMILES/JSON" }));
         let smiles = src.replace("\n", "");
         smiles = "C(CC(=O)O)[C@@H](C(=O)O)N";
         console.log(smiles);
