@@ -7265,15 +7265,11 @@ function saveSettings(obj, DEFAULT_SETTINGS2) {
 var SmilesDrawer = __toModule(require_app());
 var NAME = "Obsidian Molecule Renderer";
 var CODEBLOCK = "molecule";
-var SMILES = "mmolecule";
+var SMILES = "smiles";
 var DEFAULT_SETTINGS = {
   a: { value: "a", name: "a", desc: "a" }
 };
 var ObsidianMoleculeRenderer = class extends import_obsidian2.Plugin {
-  constructor() {
-    super(...arguments);
-    this.lastRenderer = Promise.resolve();
-  }
   onload() {
     return __async(this, null, function* () {
       yield this.loadSettings();
@@ -7309,13 +7305,9 @@ var ObsidianMoleculeRenderer = class extends import_obsidian2.Plugin {
           }
         });
         SmilesDrawer.parse(smiles, (tree) => __async(this, null, function* () {
-          console.log(this.lastRenderer);
-          this.lastRenderer = new Promise((resolve, reject) => __async(this, null, function* () {
-            smilesDrawer.draw(tree, canvas);
-            resolve();
-            return;
-          }));
+          yield smilesDrawer.draw(tree, canvas);
         }), (err) => {
+          console.log(err);
         });
       });
       this.registerMarkdownCodeBlockProcessor(CODEBLOCK, (src, el, ctx) => __async(this, null, function* () {
@@ -7338,14 +7330,15 @@ var ObsidianMoleculeRenderer = class extends import_obsidian2.Plugin {
           let smiles = req.PropertyTable.Properties[0].IsomericSMILES;
           console.log(smiles);
           smiles = "C(CC(=O)O)[C@@H](C(=O)O)N";
-          console.log(this.lastRenderer);
-          renderSMILES(smiles, el).catch(console.error);
+          yield renderSMILES(smiles, el);
         }
       }));
       this.registerMarkdownCodeBlockProcessor(SMILES, (src, el, ctx) => __async(this, null, function* () {
+        let req = JSON.parse(yield (0, import_obsidian2.request)({ url: "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/" + src + "/property/IsomericSMILES/JSON" }));
         let smiles = src.replace("\n", "");
         smiles = "C(CC(=O)O)[C@@H](C(=O)O)N";
-        renderSMILES(smiles, el).catch(console.error);
+        console.log(smiles);
+        yield renderSMILES(smiles, el);
       }));
     });
   }
