@@ -7318,7 +7318,7 @@ var ObsidianMoleculeRenderer = class extends import_obsidian2.Plugin {
           heading.innerText = "Similar Chemicals include:";
           let jsonGet = JSON.parse(yield (0, import_obsidian2.request)({ url: "https://pubchem.ncbi.nlm.nih.gov/rest/autocomplete/compound/" + src })).dictionary_terms;
           if (jsonGet && "compound" in jsonGet) {
-            let suggestions = JSON.parse(yield (0, import_obsidian2.request)({ url: "https://pubchem.ncbi.nlm.nih.gov/rest/autocomplete/compound/" + src })).dictionary_terms.compound;
+            let suggestions = jsonGet.compound;
             let list = el.createEl("ol");
             for (let i of suggestions) {
               let item = list.createEl("li");
@@ -7331,8 +7331,8 @@ var ObsidianMoleculeRenderer = class extends import_obsidian2.Plugin {
           renderSMILES(smiles, el);
         }
       }));
-      this.registerMarkdownCodeBlockProcessor(SMILES, (smiles, el, ctx) => __async(this, null, function* () {
-        smiles = smiles.replace("\n", "");
+      this.registerMarkdownCodeBlockProcessor(SMILES, (src, el, ctx) => __async(this, null, function* () {
+        let smiles = src.replace("\n", "");
         console.log(smiles);
         renderSMILES(smiles, el);
       }));
