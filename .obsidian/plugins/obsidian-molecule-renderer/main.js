@@ -7270,6 +7270,10 @@ var DEFAULT_SETTINGS = {
   a: { value: "a", name: "a", desc: "a" }
 };
 var ObsidianMoleculeRenderer = class extends import_obsidian2.Plugin {
+  constructor() {
+    super(...arguments);
+    this.renderers = [];
+  }
   onload() {
     return __async(this, null, function* () {
       yield this.loadSettings();
@@ -7333,34 +7337,11 @@ var ObsidianMoleculeRenderer = class extends import_obsidian2.Plugin {
           yield renderSMILES(smiles, el);
         }
       }));
-      this.registerMarkdownCodeBlockProcessor("smiles", (src, el, ctx) => __async(this, null, function* () {
-        let req = JSON.parse(yield (0, import_obsidian2.request)({ url: "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/" + src + "/property/IsomericSMILES/JSON" }));
-        if (false) {
-          let heading = el.createEl("h1");
-          heading.innerText = "Chemical Not found";
-          heading = el.createEl("h2");
-          heading.innerText = "Similar Chemicals include:";
-          let jsonGet = JSON.parse(yield (0, import_obsidian2.request)({ url: "https://pubchem.ncbi.nlm.nih.gov/rest/autocomplete/compound/" + src })).dictionary_terms;
-          if (jsonGet && "compound" in jsonGet) {
-            let suggestions = jsonGet.compound;
-            let list = el.createEl("ol");
-            for (let i of suggestions) {
-              let item = list.createEl("li");
-              item.innerText = i.toLowerCase();
-            }
-          }
-        } else {
-          let smiles = req.PropertyTable.Properties[0].IsomericSMILES;
-          console.log(smiles);
-          smiles = "C(CC(=O)O)[C@@H](C(=O)O)N";
-          yield renderSMILES(smiles, el);
-        }
-      }));
       this.registerMarkdownCodeBlockProcessor(SMILES, (src, el, ctx) => __async(this, null, function* () {
         let smiles = src.replace("\n", "");
         smiles = "C(CC(=O)O)[C@@H](C(=O)O)N";
         console.log(smiles);
-        renderSMILES(smiles, el);
+        yield renderSMILES(smiles, el);
       }));
     });
   }
