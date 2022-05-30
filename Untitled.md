@@ -7,7 +7,7 @@
 | Study | Media Lit + Forens |             |                       |               |            |                  |
 
 ```mmolecule
-C(CC(=O)O)[C@@H](C(=O)O)N
+C(CC(=O)O)[C@@H](C(=O)O)N 
 ```
 
 ```molecule
