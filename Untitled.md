@@ -7,7 +7,7 @@
 | Study | Media Lit + Forens |             |                       |               |            |                  |
 
 ```smiles
-C1Cc
+C(CC(=O)O)[C@@H](C(=O)O)N
 ```
 
 ```molecule
