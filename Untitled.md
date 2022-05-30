@@ -14,6 +14,6 @@ C(CC(=O)O)[C@@H](C(=O)O)N
 glu
 ```
 
-```smiles
+```molecule
 glu
 ```
