@@ -7,5 +7,5 @@
 | Study | Media Lit + Forens |             |                       |               |            |                  |
 
 ```smiles
-C1ccccc1
+C1C
 ```
