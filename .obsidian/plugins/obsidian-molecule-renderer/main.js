@@ -7333,6 +7333,7 @@ var ObsidianMoleculeRenderer = class extends import_obsidian2.Plugin {
       }));
       this.registerMarkdownCodeBlockProcessor(SMILES, (smiles, el, ctx) => __async(this, null, function* () {
         smiles = smiles.replace("\n", "");
+        console.log(smiles);
         renderSMILES(smiles, el);
       }));
     });
