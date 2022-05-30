@@ -14,5 +14,6 @@ C(CC(=O)O)[C@@H](C(=O)O)N
 C(CC(=O)O)[C@@H](C(=O)O)N
 ```
 
-```molecul
+```molecule
+glu
 ```
