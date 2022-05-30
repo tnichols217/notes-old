@@ -7293,6 +7293,7 @@ var ObsidianMoleculeRenderer = class extends import_obsidian2.Plugin {
       });
       updateColor();
       let renderSMILES = (smiles, el) => {
+        console.log(colors);
         let canvas = el.createEl("canvas");
         canvas.style.width = "100%";
         let size = Math.round(parseFloat(getComputedStyle(canvas).width));
