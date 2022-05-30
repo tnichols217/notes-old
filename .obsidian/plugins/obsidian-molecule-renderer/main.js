@@ -7297,29 +7297,25 @@ var ObsidianMoleculeRenderer = class extends import_obsidian2.Plugin {
       });
       updateColor();
       let renderSMILES = (smiles, el) => __async(this, null, function* () {
-        return new Promise((resolve, reject) => __async(this, null, function* () {
-          console.log(colors);
-          let canvas = el.createEl("canvas");
-          canvas.style.width = "100%";
-          let size = Math.round(parseFloat(getComputedStyle(canvas).width));
-          let smilesDrawer = new SmilesDrawer.Drawer({
-            width: size,
-            height: size,
-            themes: {
-              light: colors
-            }
-          });
-          SmilesDrawer.parse(smiles, (tree) => __async(this, null, function* () {
-            yield this.lastRenderer;
-            this.lastRenderer = new Promise((resolve2, reject2) => __async(this, null, function* () {
-              yield smilesDrawer.draw(tree, canvas);
-              resolve2();
-            }));
+        console.log(colors);
+        let canvas = el.createEl("canvas");
+        canvas.style.width = "100%";
+        let size = Math.round(parseFloat(getComputedStyle(canvas).width));
+        let smilesDrawer = new SmilesDrawer.Drawer({
+          width: size,
+          height: size,
+          themes: {
+            light: colors
+          }
+        });
+        SmilesDrawer.parse(smiles, (tree) => __async(this, null, function* () {
+          yield this.lastRenderer;
+          this.lastRenderer = new Promise((resolve, reject) => __async(this, null, function* () {
+            yield smilesDrawer.draw(tree, canvas);
             resolve();
-          }), (err) => {
-            reject(err);
-          });
-        }));
+          }));
+        }), (err) => {
+        });
       });
       this.registerMarkdownCodeBlockProcessor(CODEBLOCK, (src, el, ctx) => __async(this, null, function* () {
         let req = JSON.parse(yield (0, import_obsidian2.request)({ url: "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/" + src + "/property/IsomericSMILES/JSON" }));
