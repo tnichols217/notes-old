@@ -11,5 +11,5 @@ C1Cc
 ```
 
 ```molecule
-glucose
+gl
 ```
