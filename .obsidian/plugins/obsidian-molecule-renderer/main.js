@@ -7352,7 +7352,6 @@ var ObsidianMoleculeRenderer = class extends import_obsidian2.Plugin {
         let smiles = src.replace("\n", "");
         smiles = "C(CC(=O)O)[C@@H](C(=O)O)N";
         renderSMILES(smiles, el).catch(console.error);
-        return this.lastRenderer;
       }));
     });
   }
