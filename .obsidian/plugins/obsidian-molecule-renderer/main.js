@@ -7317,7 +7317,7 @@ var ObsidianMoleculeRenderer = class extends import_obsidian2.Plugin {
           heading = el.createEl("h2");
           heading.innerText = "Similar Chemicals include:";
           let jsonGet = JSON.parse(yield (0, import_obsidian2.request)({ url: "https://pubchem.ncbi.nlm.nih.gov/rest/autocomplete/compound/" + src })).dictionary_terms;
-          if ("compound" in jsonGet) {
+          if (jsonGet && "compound" in jsonGet) {
             let suggestions = JSON.parse(yield (0, import_obsidian2.request)({ url: "https://pubchem.ncbi.nlm.nih.gov/rest/autocomplete/compound/" + src })).dictionary_terms.compound;
             let list = el.createEl("ol");
             for (let i of suggestions) {
