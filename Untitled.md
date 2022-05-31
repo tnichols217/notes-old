@@ -21,7 +21,3 @@ C(CC(=O)O)[C@@H](C(=O)O)N
 ```molecule
 glu
 ```
-
-```import
-https://nix-community.github.io/home-manager/options.html
-```
