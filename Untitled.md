@@ -46,6 +46,10 @@ line2
 `````
 
 ```ad-note
+aa
+
+aa
+aa
 ```
 
 ````col
