@@ -5,7 +5,7 @@
     gap: 20px;
 }
 
-:not(.columnParent) .columnParent  {
+:not(.admonition-content) .columnParent  {
     white-space: normal
 }
 
