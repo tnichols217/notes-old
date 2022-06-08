@@ -6,23 +6,6 @@
 | Study | Media Lit + Forens | Cap + SpirD | Fitness               | AP Bio        | CnC        | Adv C            |
 | Study | Media Lit + Forens |             |                       |               |            |                  |
 
-```molecule
-glu
-```
-
-```smiles
-C(CC(=O)O)[C@@H](C(=O)O)N
-```
-
-```smiles
-C(CC(=O)O)[C@@H](C(=O)O)N
-```
-
-```molecule
-glu
-```
-
-
 
 > [!def] a
 > ```col
@@ -52,28 +35,3 @@ aa
 aa
 aa
 ```
-
-
-
-````col
-aa
-aa
-
-aa
-aa
-````
-
-`````ad-note
-````col
-```col-md
-line1
-
-line2
-```
-```col-md
-line1
-
-line2
-```
-````
-`````
