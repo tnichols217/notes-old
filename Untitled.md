@@ -37,3 +37,38 @@ aa
 ```
 
 # A
+<iframe srcdoc="
+    <html>
+    <head>
+    <script type='text/javascript'>
+    function load() {
+        let p = Array.from(parent.document.styleSheets)
+        p.unshift('')
+        let pSS = p.reduce(
+            (x, i) => {
+                let a = Array.from(i.cssRules)
+                if (a.length == 0) {
+                    return x
+                }
+                a.unshift('')
+                return x + a.reduce(
+                    (y, j) => {
+                        return y + j.cssText
+                    }
+                )
+            }
+        )
+        let style = document.createElement('style')
+        style.type = 'text/css'
+        style.innerHTML = pSS
+        document.head.appendChild(style)
+        console.log(style)
+    }
+    window.onload=load
+    </script>
+    </head>
+    <body>
+    <h1>A</h1>
+    </body>
+    </html>
+    "></iframe>
