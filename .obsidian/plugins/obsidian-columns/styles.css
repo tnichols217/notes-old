@@ -6,7 +6,10 @@
 }
 
 :not(.admonition-content .columnParent).columnParent {
-    white-space: normal
+    white-space: normal;
+    & p {
+        margin-bottom: -1em !important;
+    }
 }
 
 .columnChild {
