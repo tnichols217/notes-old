@@ -5,11 +5,9 @@
     gap: 20px;
 }
 
-:not(.admonition-content .columnParent).columnParent {
+:not(.admonition-content .columnParent).columnParent p {
     white-space: normal;
-    & p {
-        margin-bottom: -1em !important;
-    }
+    margin-bottom: -1em !important;
 }
 
 .columnChild {
