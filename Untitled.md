@@ -48,16 +48,13 @@ line2
 ````
 
 ```col
-````
-```col
-- Line1
-- Line2
-- Line3
+- a
+- b
+- c
+- d
 
-- Line4
-- Line5
-```
-````
+- e
+- f
 ```
 
 # A
