@@ -47,6 +47,10 @@ line2
 ```
 ````
 
+```col
+
+```
+
 # A
 <iframe srcdoc="
     <html>
