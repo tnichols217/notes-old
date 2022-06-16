@@ -5,13 +5,13 @@
     gap: 20px;
 }
 
-:not(.admonition-content .columnParent).columnParent p {
+/* :not(.admonition-content .columnParent).columnParent p {
     white-space: normal;
 }
 
 .cm-preview-code-block .columnParent p {
     margin-bottom: -1em !important;
-}
+} */
 
 .columnChild {
     flex-grow: 1;
