@@ -9,12 +9,12 @@
     white-space: normal;
 }
 
-.admonition-content .columnParent {
+.cm-preview-code-block .admonition-content .columnParent {
+    margin-bottom: -1em !important;
     white-space: pre-wrap;
 }
 
 /* .cm-preview-code-block .columnParent {
-    margin-bottom: -1em !important;
 } */
 
 .columnChild {
