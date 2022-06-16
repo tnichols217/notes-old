@@ -9,9 +9,9 @@
     white-space: normal;
 }
 
-.cm-preview-code-block .columnParent {
+/* .cm-preview-code-block .columnParent {
     margin-bottom: -1em !important;
-}
+} */
 
 .columnChild {
     flex-grow: 1;
