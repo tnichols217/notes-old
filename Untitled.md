@@ -35,6 +35,8 @@ line2
 
 line1
 - a
+- v
+- x
 ```
 ```col-md
 line1
