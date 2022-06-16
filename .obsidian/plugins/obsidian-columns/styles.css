@@ -11,7 +11,8 @@
 
 .cm-preview-code-block .admonition-content .columnParent {
     margin-bottom: -1em !important;
-    white-space: pre-wrap;
+    white-space: normal;
+    /* white-space: pre-wrap; */
 }
 
 /* .cm-preview-code-block .columnParent {
