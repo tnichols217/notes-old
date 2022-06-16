@@ -9,6 +9,10 @@
     white-space: normal;
 }
 
+.admonition-content .columnParent {
+    white-space: pre-wrap;
+}
+
 /* .cm-preview-code-block .columnParent {
     margin-bottom: -1em !important;
 } */
