@@ -95,7 +95,6 @@ line2
     "></iframe>
 
 `````col
-````
 ```col-md
 ==First Column==
 - Some Text
@@ -104,5 +103,4 @@ line2
 ==Second Column==
 - Some Text
 ```
-````
 `````
