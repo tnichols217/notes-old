@@ -96,7 +96,7 @@ line2
 
 `````col
 ```col-md
-a==First Column==
+==First Column==
 - Some Text
 ```
 ```col-md
