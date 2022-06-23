@@ -94,13 +94,6 @@ line2
     </html>
     "></iframe>
 
-````col-md
->[!tips]+ 123
->```vba
->=IFERROR(VLOOKUP(A2,春,2,FALSE),VLOOKUP(A2,夏,2,FALSE))
->```
-````
-
 ```vba
 =IFERROR(VLOOKUP(A2,春,2,FALSE),VLOOKUP(A2,夏,2,FALSE))
 ```
