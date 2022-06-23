@@ -96,6 +96,6 @@ line2
 
 `````col
 ```col-md
-col1
+==col1==
 ```
 `````
