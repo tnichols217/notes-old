@@ -95,7 +95,14 @@ line2
     "></iframe>
 
 `````col
+````
 ```col-md
-==col1==
+==First Column==
+- Some Text
 ```
+```col-md
+==Second Column==
+- Some Text
+```
+````
 `````
