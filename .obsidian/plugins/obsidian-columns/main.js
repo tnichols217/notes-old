@@ -219,14 +219,14 @@ var ObsidianColumns = class extends import_obsidian2.Plugin {
         editorCallback: (editor, view) => {
           console.log(editor.getSelection());
           editor.replaceSelection(`
-				\`\`\`\`col
-				\`\`\`col-md
-				# Column 1
-				\`\`\`
-				\`\`\`col-md
-				# Column 2
-				\`\`\`
-				\`\`\`\`
+\`\`\`\`col
+\`\`\`col-md
+# Column 1
+\`\`\`
+\`\`\`col-md
+# Column 2
+\`\`\`
+\`\`\`\`
 				`);
         }
       });
