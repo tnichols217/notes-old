@@ -218,7 +218,16 @@ var ObsidianColumns = class extends import_obsidian2.Plugin {
         name: "Insert column wrapper",
         editorCallback: (editor, view) => {
           console.log(editor.getSelection());
-          editor.replaceSelection("Sample Editor Command");
+          editor.replaceSelection(`
+				\`\`\`\`col
+				\`\`\`col-md
+				# Column 1
+				\`\`\`
+				\`\`\`col-md
+				# Column 2
+				\`\`\`
+				\`\`\`\`
+				`);
         }
       });
       let processList = (element, context) => {
