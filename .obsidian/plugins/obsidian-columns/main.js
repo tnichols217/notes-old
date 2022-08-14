@@ -213,6 +213,23 @@ var ObsidianColumns = class extends import_obsidian2.Plugin {
           this.processChild(c);
         });
       });
+      this.addCommand({
+        id: "insert-column-wrapper",
+        name: "Insert column wrapper",
+        editorCallback: (editor, view) => {
+          console.log(editor.getSelection());
+          editor.replaceSelection(`
+\`\`\`\`col
+\`\`\`col-md
+# Column 1
+\`\`\`
+\`\`\`col-md
+# Column 2
+\`\`\`
+\`\`\`\`
+				`);
+        }
+      });
       let processList = (element, context) => {
         for (let child of Array.from(element.children)) {
           if (child == null) {
