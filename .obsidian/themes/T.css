@@ -33,6 +33,14 @@
   --scrollbar-active-thumb-bg: rgba(255, 255, 255, 0.2);
   --scrollbar-bg: rgba(255, 255, 255, 0.05);
   --scrollbar-thumb-bg: rgba(255, 255, 255, 0.1);
+
+
+  --h1-color: var(--color-3);
+  --h2-color: var(--color-3-2);
+  --h3-color: var(--color-3-3);
+  --h4-color: var(--color-3-4);
+  --h5-color: var(--color-3-5);
+  --h6-color: var(--color-3-6);
 }
 
 .theme-light {
@@ -56,6 +64,13 @@
   --text-muted: var(--color-5);
   --text-accent: var(--color-3);
   --text-on-accent: var(--color-1);
+
+  --h1-color: var(--color-3);
+  --h2-color: var(--color-3-2);
+  --h3-color: var(--color-3-3);
+  --h4-color: var(--color-3-4);
+  --h5-color: var(--color-3-5);
+  --h6-color: var(--color-3-6);
 }
 
 /* 2. UI */
